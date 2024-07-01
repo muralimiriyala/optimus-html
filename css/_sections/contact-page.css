@@ -1,5 +1,8 @@
+.contact-featured-main{padding: 40px 0 80px;}
 .contact-featured-list{flex: 0 0 33.33%;}
-.contact-icon{width: 40px; height: 40px;}
+.contact-icon{display: block; margin-bottom: 22px;}
+.contact-icon img{width: 50px; height: 50px; }
+.contact-featured-list h2{font-size: 24px; margin-bottom: 20px;}
 .contact-featured-list p{color: var(--light-gray);}
 ul.mail-links{margin: 0;}
 ul.mail-links li{display: block; margin-bottom: 10px; width: 100%;}
@@ -10,7 +13,7 @@ ul.mail-links li a{line-height: 100%; font-family: "Blackbird";
     color: var(--Blue);
     padding-left: 34px;
     display: inline-block;}
-ul.mail-links li i{font-size: 20px; font-family: "Font Awesome 6 Pro";
+ul.mail-links li i{font-size: 20px; font-family: "Font Awesome 6 Pro"; content: "\f095";
     line-height: 100%;
     color: var(--light-blue);
     letter-spacing: normal;
