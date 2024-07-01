@@ -1,5 +1,5 @@
 
-header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 800;}
+header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 800;  background: var(--Blue);}
 .logo a{width: 100%; height: 100%; display: block;} 
 .logo a img{width: 100%; object-fit: cover;}
 
@@ -7,9 +7,14 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
 .header_btns .button.gray{color: var(--Navy);}
 .header_btns .button.gray:hover{color: var(--White);}
 
+.header-btn-link{padding: 8px 13px 8px; border-radius: 22.4px; border: 6.4px solid var(--Orange, #F17C23);color: var(--White); font-size: 16px; line-height: 100%; position: relative;}
+.header-btn-link:hover{color: var(--White);}
+.header-btn-link::after{width: 23px; height: 43px; top: 50%; transform: translateY(-50%); right: -32px; background-image: url('./images/pointer.svg'); background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
+
+
 /* media css starts here */
 @media screen and (min-width: 936px) {
-    .header{padding: 0 80px; gap: 16px; background: var(--Blue);  }
+    .header{padding: 0 80px; gap: 16px;  }
     .logo{flex: 0 0 198px;}
     .humburger-btn{display: none;}
     .mobile_header_btns{display: none;}
@@ -81,10 +86,10 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .header_btn{width: fit-content; gap: 16px;}
     .header_btn button{padding: 4px 12px; border: 6px solid var(--Orange); border-radius: 25px; font-weight: 600;}
     .header_btn button:hover{font-size: 1.25rem; background-color: transparent; padding: 8px 10px;} 
-    .header_btn:hover{padding-right: 8px; transition: all 0.5s ease;}
     .menu-icon{width: 40px; height: 40px;}
     ul.main_menu > li.nav-product > ul > li > ul > li.hide-menu-item {display: none;}
 
+    .site-main-cover{padding-top: 84px;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     ul.main_menu{padding-right: 22px; gap: 22px;}
