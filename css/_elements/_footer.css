@@ -1,3 +1,10 @@
 
 
 .site-footer{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), var(--Blue, #004C97);}
+.footer-mark{z-index: -1;}
+
+
+.footer-top{gap: 59px;}
+.footer-logo{width: 342px;}
+.footer-line{width: 1px; height: 136px;border-radius: 1px; background: var(--Light-Blue, #41B4FF);}
+.footer-work{padding-left: 10px; flex: 1; font-size: 104px; line-height: 104px;}
