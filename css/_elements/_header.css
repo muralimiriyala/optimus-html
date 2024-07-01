@@ -14,7 +14,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
 
 /* media css starts here */
 @media screen and (min-width: 936px) {
-    .header{padding: 0 80px; gap: 16px;  }
+    .header{ gap: 16px;  }
     .logo{flex: 0 0 198px;}
     .humburger-btn{display: none;}
     .mobile_header_btns{display: none;}
@@ -25,8 +25,8 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu li::before{display: none;}
     ul.main_menu > li{margin: 0;}
     ul.main_menu > li > a{padding: 30px 0 30px; display: block; color: var(--White); font-size: 15px; font-weight: 700; line-height: 100%; letter-spacing: 1.2px; position: relative;}
-    ul.main_menu > li > a::after{width: 0%; height: 4px; bottom: 0; left: 0; right: 0; opacity: 0; position: absolute; content: ""; display: block; border-radius: 2px; background: var(--Orange); transition: width 0.3s ease-in-out; margin-left: auto; margin-right: auto;}
-    ul.main_menu > li.current-menu-item > a::after, ul.main_menu > li:hover > a::after{opacity: 1; width: 100%;}
+    ul.main_menu > li > a::after{width: 0%; height: 8px; bottom: -4px; left: 0; right: 0; opacity: 0; position: absolute; content: ""; display: block; border-radius: 0; background: var(--Orange); transition: width 0.3s ease-in-out; margin-left: auto; margin-right: auto;}
+    ul.main_menu > li.current-menu-item > a::after, ul.main_menu > li:hover > a::after{opacity: 1; width: 64px;}
     /* ul.main_menu > li.current-page-ancestor > a, ul.main_menu > li.current-menu-item > a, ul.main_menu > li > a:hover{color: var(--Orange);} */
     ul.main_menu > li > ul{margin: 0; padding: 21px 32px 15px; min-width: 300px; border-radius: 0 0 8px 8px; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: all 0.4s ease; box-shadow: 0 6px 12px 0 rgba(24,42,84,.1);}
     ul.main_menu > li:hover > ul{opacity: 1; visibility: visible;}
