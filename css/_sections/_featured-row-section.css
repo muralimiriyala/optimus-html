@@ -1,0 +1,35 @@
+.featured-row-main{padding: 40px 0 80px;}
+.point-icon{display: block; margin-bottom: 22px; max-width: 40px; color: var(--Orange);}
+.point-icon-1{max-width: 50px;}
+.point-icon img{object-fit: contain;}
+.featured-point{color: var(--light-gray);}
+.featured-point h2{font-size: 24px; margin-bottom: 20px;}
+.featured-point p{margin-bottom: 13px;}
+ul.point-mail-links{margin: 0;}
+ul.point-mail-links > li{margin-bottom: 6px;}
+ul.point-mail-links > li:last-child{margin-bottom: 0;}
+ul.point-mail-links > li:before{display: none;}
+ul.point-mail-links > li > a{line-height: 100%; font-size: 16px; font-weight: 700; color: var(--Blue); padding-left: 34px; display: inline-block; position: relative;}
+ul.point-mail-links > li > a > span{font-size: 20px; line-height: 100%; color: var(--light-blue); position: absolute; left: 0; top: 0; width: 20px;}
+ul.point-mail-links > li > a:hover{color: var(--Orange);}
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .featured-rows{gap: 50px 42px;}
+    .point1-of-1{flex: 0 0 100%;}
+    .point1-of-2{flex: 0 0  calc(50% - 21px);}
+    .point1-of-3{flex: 0 0  calc(33.33333% - 28px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .featured-rows{gap: 0 30px;}
+    .featured-point{margin-bottom: 44px; flex: 0 0 calc(50% - 15px);}
+    .point-icon{margin-bottom: 20px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .featured-rows{display: block;}
+    .featured-point{margin-bottom: 44px;}
+    .point-icon{margin-bottom: 20px;}
+}
