@@ -6,7 +6,7 @@
 .contact-featured-list h2{font-size: 24px; margin-bottom: 20px;}
 .contact-featured-list p{color: var(--light-gray); font-size: 16px; margin-bottom: 13px; }
 ul.mail-links{margin: 0;}
-ul.mail-links li{display: block; margin-bottom: 10px; width: 100%;}
+ul.mail-links li{display: block; margin-bottom: 6px; width: 100%;}
 ul.mail-links li:before{display: none;}
 ul.mail-links li a{line-height: 100%; font-family: "Blackbird";font-size: 16px; font-weight: 700; color: var(--Blue); padding-left: 34px; display: inline-block;}
 ul.mail-links li i{font-size: 20px; font-family: "Font Awesome 6 Pro"; content: "\f095"; line-height: 100%; color: var(--light-blue); letter-spacing: normal; font-weight: 400; position: absolute; left: 0; top: 2px; width: 20px; text-align: center;}
