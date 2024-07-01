@@ -1,3 +1,7 @@
-.services-banner-row{padding: 40px 0 0 ;}
+.services-banner{background-color: var(--Blue);}
+.services-banner-row{padding: 80px 0 0 ; justify-content: center;}
+.services-banner-list{background-color: var(--White); border-radius: 24px; padding: 40px; }
 .services-banner-list:nth-child(4n+1) { margin-left: 0; }
-.services-banner-list{width: 21.8%; margin: 4.375% 0 4.375%;}
+.services-banner-list{width: 23.1%; margin: 2.5% 0 0 2.5%;}
+.services-banner-list h2{font-size: 24px;}
+.services-banner-icon span{width: 40px; height: 40px;}
