@@ -8,3 +8,12 @@
 .footer-logo{width: 342px;}
 .footer-line{width: 1px; height: 136px;border-radius: 1px; background: var(--Light-Blue, #41B4FF);}
 .footer-work{padding-left: 10px; flex: 1; font-size: 104px; line-height: 104px;}
+
+
+.copyrights-main { padding:40px 0 81px; }
+.copyright-text{flex: 1; font-size:.75rem; line-height:1.25rem; color: var(--White-60); }
+ul.copyright-links {flex: 1; margin:0; gap: 20px; justify-content: flex-end;} 
+ul.copyright-links > li { margin:0; font-size:.75rem; line-height:1.25rem; letter-spacing:0 } 
+ul.copyright-links > li::before { display:none } ul.copyright-links > li > a{ color: var(--White-60); }
+ul.copyright-links>li.current-menu-item>a, ul.copyright-links>li>a:hover { color:var(--navy) }
+  

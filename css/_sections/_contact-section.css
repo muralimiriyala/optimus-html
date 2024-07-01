@@ -8,7 +8,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .contact-main{gap: 80px; padding: 78px 0 0;}
+    .contact-main{gap: 80px; padding: 78px 0 78px;}
     .contact-text{flex: 0 0 352px;}
     .contact-form{flex: 1;}
 }
