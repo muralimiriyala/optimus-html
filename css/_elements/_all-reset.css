@@ -77,10 +77,12 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 .button, button, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{padding: 8px 12px 8px 12px; font-size: 1rem; font-weight: 600; line-height: 1.5rem; font-family: "Noto Sans", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: none; border-radius: 4px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
 .button:hover, button:hover, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit:hover, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit:hover{ background: var(--Orange); color: var( --White); }
 
+.text-btn-link{padding: 8px 13px 8px; border-radius: 22.4px; border: 6.4px solid var(--Orange, #F17C23);color: var(--White); font-size: 16px; line-height: 100%; position: relative;}
+.text-btn-link:hover{color: var(--White);}
+.text-btn-link::after{width: 23px; height: 43px; top: 50%; transform: translateY(-50%); right: -32px; background-image: url('./images/pointer.svg'); background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
 
 .transition{transition: all 0.5s ease;}
 
-.text-btn-link{color: var(--White);}
 
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
@@ -113,7 +115,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: "Noto Sans", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
+body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: "Blackbird", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 9px; font-size: 1.25rem; line-height: 1.563rem; font-weight: 600; display: block; text-transform: none;  font-family: "arboria", sans-serif; /* background-image: linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%);  */ background-image: linear-gradient(to top, #F9662D -50%, #FEC74D 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
