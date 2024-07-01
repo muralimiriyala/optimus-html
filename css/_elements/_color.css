@@ -1,0 +1,16 @@
+:root {
+    --black: #000;
+    --black-5: rgb(0 0 0 / 5%);
+    --black-10: rgb(0 0 0 / 10%);
+    --White-60: rgb(255 255 255 / 60%);
+    --White: #ffffff;
+    --body-text: #707372;
+    --Blue: #004C97;
+    --light-blue: #41B4FF;
+    --light-green: #0CEECC;
+    --light-pink: #FF599F;
+    --Orange: #F17C23;
+    --Foreground: #191D2A;
+    --gray: #19234C;
+    --light-gray: #707372;
+}
