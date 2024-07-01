@@ -80,6 +80,8 @@ hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; bo
 
 .transition{transition: all 0.5s ease;}
 
+.text-btn-link{color: var(--White);}
+
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
