@@ -5,13 +5,13 @@
 .featured-point{color: var(--light-gray);}
 .featured-point h2{font-size: 24px; margin-bottom: 20px;}
 .featured-point p{margin-bottom: 13px;}
-ul.mail-links{margin: 0;}
-ul.mail-links > li{margin-bottom: 6px;}
-ul.mail-links > li:last-child{margin-bottom: 0;}
-ul.mail-links > li:before{display: none;}
-ul.mail-links > li > a{line-height: 100%; font-size: 16px; font-weight: 700; color: var(--Blue); padding-left: 34px; display: inline-block; position: relative;}
-ul.mail-links > li > a > span{font-size: 20px; line-height: 100%; color: var(--light-blue); position: absolute; left: 0; top: 0; width: 20px;}
-ul.mail-links > li > a:hover{color: var(--Orange);}
+ul.point-mail-links{margin: 0;}
+ul.point-mail-links > li{margin-bottom: 6px;}
+ul.point-mail-links > li:last-child{margin-bottom: 0;}
+ul.point-mail-links > li:before{display: none;}
+ul.point-mail-links > li > a{line-height: 100%; font-size: 16px; font-weight: 700; color: var(--Blue); padding-left: 34px; display: inline-block; position: relative;}
+ul.point-mail-links > li > a > span{font-size: 20px; line-height: 100%; color: var(--light-blue); position: absolute; left: 0; top: 0; width: 20px;}
+ul.point-mail-links > li > a:hover{color: var(--Orange);}
 
 
 
@@ -25,11 +25,11 @@ ul.mail-links > li > a:hover{color: var(--Orange);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .featured-rows{gap: 0 30px;}
-    .contact-featured-list{margin-bottom: 44px; flex: 0 0 calc(50% - 15px);}
+    .featured-point{margin-bottom: 44px; flex: 0 0 calc(50% - 15px);}
     .point-icon{margin-bottom: 20px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .featured-rows{display: block;}
-    .contact-featured-list{margin-bottom: 44px;}
+    .featured-point{margin-bottom: 44px;}
     .point-icon{margin-bottom: 20px;}
 }
