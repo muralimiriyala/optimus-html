@@ -89,6 +89,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .menu-icon{width: 40px; height: 40px;}
     ul.main_menu > li.nav-product > ul > li > ul > li.hide-menu-item {display: none;}
 
+    .site-main-cover{padding-top: 84px;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     ul.main_menu{padding-right: 22px; gap: 22px;}
