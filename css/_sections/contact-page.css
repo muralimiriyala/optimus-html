@@ -31,13 +31,5 @@ ul.mail-links > li > a:hover{color: var(--Orange);}
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .featured-rows{display: block;}
     .contact-featured-list{margin-bottom: 44px;}
-<<<<<<< HEAD
-    .contact-icon{margin-bottom: 20px;}
-    .contact-featured-list p{margin-bottom: 18px;}
-
-
-
-=======
     .point-icon{margin-bottom: 20px;}
->>>>>>> 683dba70aa443ee0befc2a697c5b9785416302b3
 }
