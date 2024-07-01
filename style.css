@@ -25,6 +25,15 @@ Text Domain: ASMBL
 }
 @font-face {
     font-family: 'Blackbird';
+    src: url('./fonts/Blackbird-Demi.otf') format('opentype'), url('./fonts/Blackbird-Demi.woff2') format('woff2'),
+        url('./fonts/Blackbird-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blackbird';
     src: url('./fonts/Blackbird-Bold.otf') format('opentype'), url('./fonts/Blackbird-Bold.woff2') format('woff2'), url('./fonts/Blackbird-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;

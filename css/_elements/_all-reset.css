@@ -69,7 +69,7 @@ td:last-child{border-radius: 0 0 8px 0;}
 
 caption, td, th{text-align: left;}
 del {color: var(--Foreground);}
-hr{ margin: 0 0 32px; height: 2px; width: 64px; display: block; border: none; border-radius: 2px; background: var(--Gradient-Gold, linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%)); }
+hr{ margin: 0 0 32px; height: 4px; width: 96px; display: block; border: none; border-radius: 2px; background: var(--Orange, #F17C23);}
 ::selection {background-color: var(--Foreground); color: var( --White);}
 ::-moz-selection {background-color: var(--Foreground); color: var( --White);}
 
@@ -117,7 +117,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 /*-- custom css starts here --*/
 body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: "Blackbird", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 9px; font-size: 1.25rem; line-height: 1.563rem; font-weight: 600; display: block; text-transform: none;  font-family: "arboria", sans-serif; /* background-image: linear-gradient(315deg, #F9662D 0.31%, #FEC74D 82.24%, #FFDC54 100.31%);  */ background-image: linear-gradient(to top, #F9662D -50%, #FEC74D 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+span.optional-text{margin-bottom: 32px; font-size: 20px; line-height: 25px; font-weight: 600; color: var(--Gray, #707372); display: block; text-transform: none;}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.grey{color: var(--gray);-webkit-text-fill-color: var(--gray); opacity: 0.5; background: none; margin-bottom: 4px;}
 span.optional-text.large{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 23px;}
@@ -146,6 +146,7 @@ span.optional-text.md{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 
 .radius-8, .radius-img-8 img{border-radius: 8px;}
 .radius-12, .radius-img-12 img{border-radius: 12px;}
 .radius-16, .radius-img-16 img{border-radius: 16px;}
+.radius-24, .radius-img-24 img{border-radius: 24px;}
 .radius-50, .radius-img-50 img{border-radius: 50%;}
 
 .relative{position: relative; z-index: 1;}
