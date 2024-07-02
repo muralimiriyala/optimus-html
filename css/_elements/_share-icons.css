@@ -1,0 +1,29 @@
+
+
+.share-icons{margin: 0 0 40px; gap: 15px; position: relative; justify-content: flex-end;}
+.share-icons #st-1.st-animated{width: 100%; flex: 1; gap: 15px; justify-content: flex-end; display: flex; flex-wrap: nowrap; z-index: 1;}
+.share-icons #st-1.st-animated .st-btn{padding: 0; margin: 0; width: 48px; height: 48px; min-width: 48px; font-size: 1.25rem; line-height: 1.25rem; border-radius: 4px; background: var(--Blue, #1335AF); color: var(--White); position: relative; z-index: 1; font-family: "Font Awesome 6 Brands"; font-weight: 400; display: flex !important; align-items: center; justify-content: center;}
+.share-icons #st-1.st-animated .st-btn:hover{background: var(--Orange) !important; color: var( --White) !important; opacity: 1; top: 0; transition: all 0.45s ease-in-out;}
+.share-icons #st-1.st-animated span.st-label{display: none;}
+.share-icons #st-1.st-animated .st-btn[data-network="sharethis"]::after {content: "\f1e0"; font-family: "Font Awesome 6 Pro"; } 
+.share-icons #st-1.st-animated .st-btn[data-network="facebook"]::after {content: "\f39e"; } 
+.share-icons #st-1.st-animated .st-btn[data-network="twitter"]::after {content: "\e61b"; } 
+.share-icons #st-1.st-animated .st-btn[data-network="linkedin"]::after{content: "\f0e1"; }
+.share-icons #st-1.st-animated .st-btn[data-network="email"]::after{content: "\40"; font-family: "Font Awesome 6 Pro"; font-weight: 900;}
+.share-icons #st-1.st-animated img{display: none;}
+.share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 2rem;}
+
+
+/*-- media css starts here --*/
+@media screen and (min-width: 1024px){
+    .post-video-aside .share-icons{padding-top: 21px;}
+}
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .share-icons #st-1.st-animated{justify-content: flex-start;}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .share-icons #st-1.st-animated{justify-content: flex-start;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .share-icons #st-1.st-animated{justify-content: flex-start;}
+}

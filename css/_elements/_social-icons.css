@@ -1,0 +1,41 @@
+ul.social-icons {
+  gap:12px;
+  margin:0;
+  width: fit-content;
+  justify-content:flex-end
+}
+ul.social-icons li {
+  margin:0;
+  display:inline-block
+}
+ul.social-icons li::before {
+  display:none
+}
+ul.social-icons li a {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  font-size:20px;
+  line-height:1.5rem;
+  color:var(--White);
+  position:relative;
+  z-index:1
+}
+ul.social-icons li a::before {
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  content:"";
+  opacity: 0.25;
+  border-radius: 50%;
+  background-color: #19234C;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:-1
+}
+ul.social-icons li a:hover::before {
+opacity: 1;
+background-color: var(--Orange);
+}
+ul.social-icons li a:hover{color: var(--White);}
