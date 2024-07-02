@@ -8,7 +8,7 @@
 .footer-logo{width: 342px;}
 .footer-line{width: 1px; height: 136px;border-radius: 1px; background: var(--Light-Blue, #41B4FF);}
 .footer-work{padding-left: 6px; flex: 1; flex-direction: column;}
-.footer-work span.fs-104{display: block;}
+.footer-work span.f-fs-104{display: block;}
 .footer-btn{margin-top: 3px; justify-content: flex-end;}
 
 .footer-middle{padding: 0 40px 62px;}
@@ -26,6 +26,8 @@ ul.footer-links > li > a figure{width: 32px; height: 32px; top: -2px; position: 
 
 .footer-list{padding: 16px; gap: 12px; background: rgba(25, 35, 76, 0.40); flex-direction: column;}
 .footer-list i{color: var(--Light-Blue, #41B4FF);}
+.footer-list figure{width: 24px; height: 24px;}
+.footer-list figure img{object-fit: contain;}
 
 .copyrights-main{padding: 0 40px;}
 .copyright-text{flex: 1; font-size:.75rem; line-height:1.25rem; color: var(--White-60); }
@@ -44,4 +46,5 @@ ul.copyright-links>li.current-menu-item>a, ul.copyright-links>li>a:hover { color
     .footer-row{gap: 20px; padding: 20px 0 65px;}
     .footer-list{flex: 0 0 calc(14.3333% - 18px);}
     .footer-list:nth-child(7){margin-left: auto;}
+    .f-fs-104{ font-size: 104px; line-height: 100%;}
 }

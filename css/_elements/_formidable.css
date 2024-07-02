@@ -25,13 +25,13 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-i
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 500; font-family: "Blackbird", sans-serif; color: var(--Gray); font-size: 14px; line-height: 100%; bottom: -4px; position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; width: 100%; font-size: 1rem; line-height: 150%; letter-spacing: 0; box-shadow: none; padding: 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md);  color: var(--foreground); border-radius: 4px 4px 0px 0px; border-bottom: 2px solid var(--Blue); background: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); color: var(--Blue); font-family: 'Blackbird', sans-serif; -webkit-appearance: none; opacity: 0.5;}
+body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; width: 100%; font-size: 1rem; line-height: 150%; letter-spacing: 0; box-shadow: none; padding: 16px 16px 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md);  color: var(--foreground); border-radius: 4px 4px 0px 0px; border-bottom: 2px solid var(--Blue); background: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); color: var(--Blue); font-family: 'Blackbird', sans-serif; -webkit-appearance: none; opacity: 1;}
 body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, body .bg-elevated .frm_forms .frm_form_field textarea, body .bg-elevated .frm_forms .selectBox-dropdown{background-color: var(--white);}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 120px;} body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"], [type="checkbox"]):focus, textarea:focus{background-color: var(--Light-Blue-Tint,rgba(65,180,255,.15)); box-shadow: none; border-color: var(--Light-Blue-Tint,rgba(65,180,255,.15)); color: var(--Blue); opacity: 1;}
 body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--foreground); border: 1px solid var(--Aecon-Red, #DA1A32); background: rgba(218, 26, 50, 0.10);}
 body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif;}
-body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif; opacity: 1;}
+body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif; opacity: 0.5;}
 body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 36px; padding-bottom: 0; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; letter-spacing: normal; text-indent: 0; color: var(--Foreground, #191D2A); position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{width: 26px; height: 26px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none; border-radius: 50%; color: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); border: 1px solid var(--Blue, #004C97); opacity: 1;}
@@ -60,7 +60,7 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_checkbox
 	text-indent: 0;
 	color: var(--Foreground,#191d2a);
 }
-body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]{width: 24px; height: 24px; margin: 0; padding: 0; top: 4px; left: 0; border-radius: 0; border: 1px solid var(--Blue,#004c97); position: static; opacity: 1; cursor: pointer;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]{width: 24px; height: 24px; margin: 0; padding: 0; top: -2px; border-radius: 0; border: 1px solid var(--Blue,#004c97); position: relative; opacity: 1; cursor: pointer;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]:checked{background-color: var(--Blue); border-color: var(--navy); box-shadow: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 5px 0 0 5px; box-shadow: inset 8px 8px var(--White); top: auto; left: auto; transform: none;}
 body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked{background-color: var(--navy); border-color: var(--navy);}
@@ -83,7 +83,6 @@ body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox{margin: 0; positi
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block; padding: 0; background: none; border-radius: 0; border: none;}
 
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0 0 0 32px; position: relative; background-color: transparent;}
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: 3px; left: 0;}
 body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--white) !important;}
 body .with_frm_style .frm_loading_prev .frm_prev_page{opacity: 1 !important; color: var(--navy) !important;}
 body .frm_forms .frm_verify{display: none;}
