@@ -13,7 +13,7 @@ ul.point-mail-links > li > a{line-height: 100%; font-size: 16px; font-weight: 70
 ul.point-mail-links > li > a > span{font-size: 20px; line-height: 100%; color: var(--light-blue); position: absolute; left: 0; top: 0; width: 20px;}
 ul.point-mail-links > li > a:hover{color: var(--Orange);}
 
-
+ul.point-mail-links li a img{width: 20px; font-size: 20px; position: absolute; line-height: 100%; color: var(--light-blue); left: 0; top: 0; height: auto;}
 
 
 /*-- media css starts here --*/
