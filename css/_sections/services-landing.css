@@ -1,4 +1,12 @@
 .services-banner{background-color: var(--Blue);}
+.services-banner-main{gap: 80px;}
+.services-banner-lt{flex: 0 0 1;}
+.services-banner-rt{flex: 0 0 1;}
+.services-banner-lt span{color: var(--light-blue); margin-bottom: 20px;}
+.services-banner-lt h1{font-size: 48px; color: var(--White);}
+
+
+
 .services-banner-row{padding: 80px 0 0 ; justify-content: center;}
 .services-banner-list{background-color: var(--White); border-radius: 24px; padding: 40px; }
 .services-banner-list:nth-child(4n+1) { margin-left: 0; }
