@@ -19,4 +19,5 @@ ul.contact-links > li > a:hover{color: var(--Orange);}
     .contact-main{gap: 80px; padding: 78px 0 78px;}
     .contact-text{flex: 0 0 352px;}
     .contact-form{flex: 1;}
+    .no_contact_form.flex{display: block;}
 }

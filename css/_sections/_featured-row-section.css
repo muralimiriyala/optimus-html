@@ -2,7 +2,7 @@
 .point-icon{display: block; margin-bottom: 22px; max-width: 40px; color: var(--Orange);}
 .point-icon-1{max-width: 50px;}
 .point-icon img{object-fit: contain;}
-.featured-point{color: var(--light-gray);}
+.featured-point{color: var(--Gray);}
 .featured-point h2{font-size: 24px; margin-bottom: 20px;}
 .featured-point p{margin-bottom: 13px;}
 ul.point-mail-links{margin: 0;}

@@ -11,6 +11,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 body .white-popup-block .frm_forms h3.frm_form_title{display: none;}
 body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
 body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 33px; position: relative; clear: both;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 28px;}
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field#frm_field_21_container{margin-bottom: 24px;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px;}
 body .become-partner-form .frm_forms .frm_error_style{display: none;}
@@ -23,34 +24,21 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: blo
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 400; font-family: Univers,sans-serif; color: var(--foreground-light); font-size: 1rem; letter-spacing: -0.32px; }
-body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; box-shadow: none; padding: 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md);  color: var(--foreground); border-radius: 4px 4px 0px 0px;
-    border-bottom: 2px solid var(--Blue, #004C97);
-    background: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15));
-    font-family: 'Blackbird', sans-serif; -webkit-appearance: none;
-
-    
-}
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 500; font-family: "Blackbird", sans-serif; color: var(--Gray); font-size: 14px; line-height: 100%; bottom: -4px; position: relative;}
+body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; width: 100%; font-size: 1rem; line-height: 150%; letter-spacing: 0; box-shadow: none; padding: 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md);  color: var(--foreground); border-radius: 4px 4px 0px 0px; border-bottom: 2px solid var(--Blue); background: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); color: var(--Blue); font-family: 'Blackbird', sans-serif; -webkit-appearance: none; }
 body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, 
 body .bg-elevated .frm_forms .frm_form_field textarea, 
 body .bg-elevated .frm_forms .selectBox-dropdown{background-color: var(--white);}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 120px;}
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"], [type="checkbox"]):focus{background-color: var(--Light-Blue-Tint,rgba(65,180,255,.15)); box-shadow: none; border-color: var(--Light-Blue-Tint,rgba(65,180,255,.15)); color: var(--black-md);}
-body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--foreground); 
-border: 1px solid var(--Aecon-Red, #DA1A32);
-background: rgba(218, 26, 50, 0.10);}
-body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--foreground); font-family: 'Blackbird',sans-serif;}
-body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--foreground); font-family: 'Blackbird',sans-serif;}
-body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--foreground); font-family: 'Blackbird',sans-serif; opacity: 1;}
-body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder {color: var(--foreground); font-family: 'Blackbird',sans-serif;}
-.vertical_radio .frm_opt_container{margin-top: 0;}
+body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--foreground); border: 1px solid var(--Aecon-Red, #DA1A32); background: rgba(218, 26, 50, 0.10);}
+body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif;}
+body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif;}
+body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif; opacity: 0.5;}
+body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{flex: 0 0 calc(25% - 6px);}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 36px; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; letter-spacing: normal; text-indent: 0; color: var(--Foreground, #191D2A); position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{width: 28px; height: 28px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none;
-border-radius: 50%;
-    color: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15));
-    border: 1px solid var(--Blue, #004C97);
-}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 36px; padding-bottom: 0; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; letter-spacing: normal; text-indent: 0; color: var(--Foreground, #191D2A); position: relative;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{width: 26px; height: 26px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none; border-radius: 50%; color: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); border: 1px solid var(--Blue, #004C97); }
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 10px 13px 11px 35px; margin: 0; text-indent: 0; border-radius: 8px; background-color: var(--gray-lt); font-size: 1rem; line-height: 1.5rem; font-weight: normal; display: block; cursor: pointer; color: var(--foreground); font-family: "Univers", sans-serif; letter-spacing: -0.32px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: var(--accent-light);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{display: block;}
@@ -76,7 +64,7 @@ body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .fr
 body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--aecon-red); position: absolute;}
 body .frm_success_style, body .with_frm_style .frm_message {font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -.36px; font-weight: 400; font-family: Univers,sans-serif; color: var(--foreground); background: none; padding: 0; text-align: left; border: none; border-radius: 0;}
 body .with_frm_style .frm_message p{color: var(--foreground); letter-spacing: inherit;}
-body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{gap: 8px; display: flex; flex-wrap: wrap; width: 100%;}
+body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{margin-top: 8px; gap: 8px; display: flex; flex-wrap: wrap; width: 100%;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column;}
 body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block; padding: 0; background: none; border-radius: 0; border: none;}
