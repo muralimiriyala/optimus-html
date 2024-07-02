@@ -256,16 +256,16 @@ ul.slick-dots li button{display: none;}
 @media only screen and (max-width: 1359px) and (min-width: 1200px){
     .container:not(.sm){padding: 0 40px; max-width: 100%;}
 }
-@media only screen and (max-width: 1199px) and (min-width: 768px){
+@media only screen and (max-width: 1199px) and (min-width: 744px){
     .container{padding: 0 40px; max-width: 100%;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 768px){
+@media only screen and (max-width: 1023px) and (min-width: 744px){
     .hide-tablet{display: none;}
     div.slick-arrow{top: auto; transform: none; bottom: -48px;}
     div.slick-arrow.slick-next{left: auto; right: 0;}
     div.slick-arrow.slick-prev{right: auto; left: 0;}
 }
-@media only screen and (max-width: 767px) and (min-width: 200px){
+@media only screen and (max-width: 743px) and (min-width: 200px){
     .container{padding: 0 24px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
