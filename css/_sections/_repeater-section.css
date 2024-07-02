@@ -8,3 +8,8 @@
 .repeater-image img{border-radius: 24px;}
 .repeater-row{position: relative; height: auto; }
 .repeater-block{ width: 104px; height: 104px; color: var(--White); top: 50%; transform: translate(-50%, -50%); z-index: 2; display: block; left: auto; right: auto; margin-left: 50px; background: white; border-radius:0 50% 50% 0; position: absolute; }
+.repeater-block::before{position: absolute; content:""; display: block; width: 30px; height: 30px; transform: rotate(-45deg); border-top: 19px solid var(--White);
+    border-right:  19px solid transparent;
+    border-left: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-radius: 50%;}
