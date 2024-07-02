@@ -9,12 +9,12 @@ ul.point-mail-links{margin: 0;}
 ul.point-mail-links > li{margin-bottom: 6px;}
 ul.point-mail-links > li:last-child{margin-bottom: 0;}
 ul.point-mail-links > li:before{display: none;}
-ul.point-mail-links > li > a{line-height: 100%; font-size: 16px; font-weight: 700; color: var(--Blue); padding-left: 34px; display: inline-block; position: relative;}
-ul.point-mail-links > li > a > span{font-size: 20px; line-height: 100%; color: var(--light-blue); position: absolute; left: 0; top: 0; width: 20px;}
+ul.point-mail-links > li > a{line-height: 100%; font-size: 16px; font-weight: 700; color: var(--Blue); gap: 8px; flex-wrap: wrap; display: flex; align-items: center; position: relative;}
+ul.point-mail-links > li > a > span{font-size: 20px; line-height: 100%; color: var(--light-blue);}
 ul.point-mail-links > li > a:hover{color: var(--Orange);}
-
-ul.point-mail-links li a img{width: 20px; font-size: 20px; position: absolute; line-height: 100%; color: var(--light-blue); left: 0; top: 0; height: auto;}
-
+ul.point-mail-links li a figure{width: 20px;}
+ul.point-mail-links li:nth-child(2) figure{width: 24px;}
+ul.point-mail-links li a span{font-size: 20px; line-height: 100%; color: var(--light-blue);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

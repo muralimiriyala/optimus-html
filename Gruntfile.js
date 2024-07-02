@@ -58,5 +58,4 @@ module.exports = function(grunt) {
     // Default task(s).
     grunt.registerTask('default', ['validation', 'concat', 'uglify', 'cssmin', 'watch']);
 
-
   };
