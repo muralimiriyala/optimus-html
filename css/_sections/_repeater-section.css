@@ -1,7 +1,10 @@
 .repeater-section{position: relative; clear:both; width: 100%;}
 .repeater-main{padding: 40px 0;}
-
+.repeater-row{ border-radius: 24px; border-left: 1px solid var(--light-blue);}
 .repeater-txt{flex: 0 0 50%; padding: 0 80px;}
 .repeater-txt h2{font-size: 40px; line-height: 50px; font-weight: 600; margin-bottom: 26px;}
-.repeater-txt p{color: var(--Gray);font-weight: 400;}
+.repeater-txt p{color: var(--Gray);font-weight: 400; margin-bottom: 24px;}
 .repeater-image{flex: 0 0 50%;}
+.repeater-image img{border-radius: 24px;}
+.repeater-row{position: relative; height: auto; }
+.repeater-block{ width: 104px; height: 104px; color: var(--White); top: 50%; transform: translate(-50%, -50%); z-index: 2; display: block; left: auto; right: auto; margin-left: 50px; background: white; border-radius:0 50% 50% 0; position: absolute; }
