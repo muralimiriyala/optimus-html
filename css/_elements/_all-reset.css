@@ -74,13 +74,12 @@ hr{ margin: 0 0 32px; height: 4px; width: 96px; display: block; border: none; bo
 ::-moz-selection {background-color: var(--Foreground); color: var( --White);}
 
 /* Buttons */
-.button, button, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{padding: 8px 12px 8px 12px; font-size: 1rem; font-weight: 600; line-height: 1.5rem; font-family: "Noto Sans", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: none; border-radius: 4px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
-.button:hover, button:hover, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit:hover, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit:hover{ background: var(--Orange); color: var( --White); }
+.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 17px 16px 18px; font-size: 1rem; font-weight: 600; line-height: 100%; font-family: "Blackbird", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: none; border-radius: 24px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
+.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{ background: var(--Orange); color: var( --White); }
 
 .text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 20px; line-height: 100%;}
 .text-btn-link:hover{color: var(--White);}
 .text-btn-link > span{padding: 10px 16px 10px; border-radius: 28px; border: 8px solid var(--Orange, #F17C23); display: inline-block;}
-
 
 
 .transition{transition: all 0.5s ease;}
