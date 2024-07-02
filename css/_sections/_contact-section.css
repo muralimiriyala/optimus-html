@@ -2,20 +2,20 @@
 .contact-text span.optional-text{margin-bottom: 32px;}
 .contact-text h1{margin-bottom: 32px; font-size: 40px; line-height: 125%; font-weight: 600;}
 .contact-text hr{margin-bottom: 31px;}
-ul.contact-links{margin: 0;}
-ul.contact-links > li{margin-bottom: 6px;}
-ul.contact-links > li:last-child{margin-bottom: 0;}
+ul.contact-links{margin: 0; padding-top: 15px; gap: 8px; flex-direction: column;}
+ul.contact-links > li{margin: 0;}
 ul.contact-links > li:before{display: none;}
-ul.contact-links > li > a{line-height: 100%; font-size: 16px; font-weight: 700; color: var(--Blue); padding-left: 34px; display: inline-block; position: relative;}
-ul.contact-links > li > a > span{font-size: 20px; line-height: 100%; color: var(--light-blue); position: absolute; left: 0; top: 0; width: 20px;}
+ul.contact-links > li > a{font-size: 16px; line-height: 24px; font-weight: 700; color: var(--Blue); gap: 8px; display: flex; align-items: center; position: relative;}
+ul.contact-links > li > a > span{top: 2px; position: relative; font-size: 20px; line-height: 100%; color: var(--light-blue);}
 ul.contact-links > li > a:hover{color: var(--Orange);}
+
 .contact-form{padding: 50px 48px 48px; border: 1px solid rgba(65, 180, 255, 0.25); background: var(--Background, #FFF);}
-
-
-
 .no_contact_form.flex{display: block;}
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 740px){
+
+}
 @media only screen and (min-width: 1024px){
     .contact-main{gap: 80px; padding: 78px 0 78px;}
     .contact-text{flex: 0 0 352px;}
@@ -25,8 +25,9 @@ ul.contact-links > li > a:hover{color: var(--Orange);}
     .contact-main{padding: 78px 0 48px; display: block;}
     .contact-form{margin-top: 80px;}
 }
-@media only screen and (max-width: 740px) and (min-width: 200px){
-    .contact-main{padding: 40px 0 48px; display: block;}
-    .contact-form{margin-top: 80px;}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .contact-main{padding: 40px 0 40px; display: block;}
     .contact-text h1{font-size: 32px; line-height: 40px;}
+    ul.contact-links{gap: 19px;}
+    .contact-form{margin-top: 64px; padding: 23px 23px 23px;}
 }

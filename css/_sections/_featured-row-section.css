@@ -5,15 +5,14 @@
 .featured-point{color: var(--Gray);}
 .featured-point h2{font-size: 24px; margin-bottom: 20px;}
 .featured-point p{margin-bottom: 13px;}
-ul.point-mail-links{margin: 0;}
-ul.point-mail-links > li{margin-bottom: 6px;}
-ul.point-mail-links > li:last-child{margin-bottom: 0;}
+ul.point-mail-links{margin: 0; gap: 12px; padding-top: 9px; flex-direction: column;}
+ul.point-mail-links > li{margin: 0;}
 ul.point-mail-links > li:before{display: none;}
 ul.point-mail-links > li > a{line-height: 100%; font-size: 16px; font-weight: 700; color: var(--Blue); gap: 8px; flex-wrap: wrap; display: flex; align-items: center; position: relative;}
 ul.point-mail-links > li > a > span{font-size: 20px; line-height: 100%; color: var(--light-blue);}
 ul.point-mail-links > li > a:hover{color: var(--Orange);}
 ul.point-mail-links li a figure{width: 20px;}
-ul.point-mail-links li:nth-child(2) figure{width: 24px;}
+ul.point-mail-links li:nth-child(2) a figure{width: 24px;}
 ul.point-mail-links li a span{font-size: 20px; line-height: 100%; color: var(--light-blue);}
 
 /*-- media css starts here --*/
@@ -29,8 +28,9 @@ ul.point-mail-links li a span{font-size: 20px; line-height: 100%; color: var(--l
     .point-icon{margin-bottom: 20px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .featured-row-main{padding: 80px 0 44px;}
+    .featured-row-main{padding: 40px 0 44px;}
     .featured-rows{display: block;}
     .featured-point:not(:last-child){margin-bottom: 44px;}
     .point-icon{margin-bottom: 20px;}
+    ul.point-mail-links{gap: 13px; padding-top: 9px;}
 }
