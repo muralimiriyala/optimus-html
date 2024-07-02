@@ -24,13 +24,13 @@ ul.point-mail-links li a span{font-size: 20px; line-height: 100%; color: var(--l
     .point1-of-3{flex: 0 0  calc(33.33333% - 28px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .featured-rows{gap: 0 30px;}
-    .featured-point{margin-bottom: 44px; flex: 0 0 calc(50% - 15px);}
+    .featured-rows{gap: 44px 30px;}
+    .featured-point{flex: 0 0 calc(50% - 15px);}
     .point-icon{margin-bottom: 20px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .featured-row-main{padding: 80px 0 0;}
+    .featured-row-main{padding: 80px 0 44px;}
     .featured-rows{display: block;}
-    .featured-point{margin-bottom: 44px;}
+    .featured-point:not(:last-child){margin-bottom: 44px;}
     .point-icon{margin-bottom: 20px;}
 }

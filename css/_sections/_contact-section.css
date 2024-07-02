@@ -13,11 +13,20 @@ ul.contact-links > li > a:hover{color: var(--Orange);}
 
 
 
+.no_contact_form.flex{display: block;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .contact-main{gap: 80px; padding: 78px 0 78px;}
     .contact-text{flex: 0 0 352px;}
     .contact-form{flex: 1;}
-    .no_contact_form.flex{display: block;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .contact-main{padding: 78px 0 48px; display: block;}
+    .contact-form{margin-top: 80px;}
+}
+@media only screen and (max-width: 740px) and (min-width: 200px){
+    .contact-main{padding: 40px 0 48px; display: block;}
+    .contact-form{margin-top: 80px;}
+    .contact-text h1{font-size: 32px; line-height: 40px;}
 }
