@@ -24,8 +24,9 @@ ul.social-icons li a {
 ul.social-icons li a::before {
   width:100%;
   height:100%;
-  top:0;
-  left:0;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
   content:"";
   opacity: 0.25;
   border-radius: 50%;
@@ -36,6 +37,7 @@ ul.social-icons li a::before {
 }
 ul.social-icons li a:hover::before {
 opacity: 1;
-background-color: var(--Orange);
+width: 0;
+height: 0;
 }
-ul.social-icons li a:hover{color: var(--White);}
+ul.social-icons li a:hover{color: var(--White); background-color: var(--Orange);}
