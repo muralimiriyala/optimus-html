@@ -118,7 +118,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 /*-- custom css starts here --*/
 body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: "Blackbird", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 32px; font-size: 20px; line-height: 25px; font-weight: 600; color: var(--Gray, #707372); display: block; text-transform: none;}
+span.optional-text{margin-bottom: 24px; font-size: 20px; line-height: 25px; font-weight: 600; color: var(--Gray, #707372); display: block; text-transform: none;}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.grey{color: var(--gray);-webkit-text-fill-color: var(--gray); opacity: 0.5; background: none; margin-bottom: 4px;}
 span.optional-text.large{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 23px;}
