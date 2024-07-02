@@ -7,8 +7,13 @@
 .footer-top{gap: 59px;}
 .footer-logo{width: 342px;}
 .footer-line{width: 1px; height: 136px;border-radius: 1px; background: var(--Light-Blue, #41B4FF);}
-.footer-work{padding-left: 10px; flex: 1; font-size: 104px; line-height: 104px;}
+.footer-work{padding-left: 10px; flex: 1; flex-direction: column;}
+.footer-work span.fs-104{display: block;}
+.footer-btn{margin-top: 3px; justify-content: flex-end;}
 
+ul.footer-links{margin: 0; gap: 40px;}
+ul.footer-links > li::before{display: none;}
+ul.footer-links > li > a{font-size: 20px; line-height: 125%; color: var(--White, #FFF);}
 
 .copyrights-main { padding:40px 0 81px; }
 .copyright-text{flex: 1; font-size:.75rem; line-height:1.25rem; color: var(--White-60); }

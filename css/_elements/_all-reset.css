@@ -77,9 +77,11 @@ hr{ margin: 0 0 32px; height: 4px; width: 96px; display: block; border: none; bo
 .button, button, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{padding: 8px 12px 8px 12px; font-size: 1rem; font-weight: 600; line-height: 1.5rem; font-family: "Noto Sans", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: none; border-radius: 4px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
 .button:hover, button:hover, body .sidebar-cta-resource .frm_forms .frm_submit button.frm_button_submit:hover, body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit:hover{ background: var(--Orange); color: var( --White); }
 
-.text-btn-link{padding: 8px 13px 8px; border-radius: 22.4px; border: 6.4px solid var(--Orange, #F17C23);color: var(--White); font-size: 16px; line-height: 100%; position: relative;}
+.text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 20px; line-height: 100%;}
 .text-btn-link:hover{color: var(--White);}
-.text-btn-link::after{width: 23px; height: 43px; top: 50%; transform: translateY(-50%); right: -32px; background-image: url('./images/pointer.svg'); background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
+.text-btn-link > span{padding: 10px 16px 10px; border-radius: 28px; border: 8px solid var(--Orange, #F17C23); display: inline-block;}
+
+
 
 .transition{transition: all 0.5s ease;}
 
@@ -142,6 +144,7 @@ span.optional-text.md{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 
 .fs-20{font-size: 1.25rem; line-height: 1.875rem;}
 .fs-24{font-size: 1.5rem; line-height: 2.25rem;}
 .fs-40{ font-size: 40px; line-height: 100%;}
+.fs-104{ font-size: 104px; line-height: 100%;}
 
 .radius-4, .radius-img-4 img{border-radius: 4px;}
 .radius-6, .radius-img-6 img{border-radius: 6px;}
@@ -210,6 +213,8 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted dl dt::before{background-color: var( --White);}
 .inverted p a{color: var( --White);}
 .inverted p a:hover{color: var(--Orange);}
+.inverted ul > li > a{color: var( --White);}
+.inverted ul > li > a:hover{color: var(--Orange);}
 
 .line-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
 .clamp-3{ -webkit-line-clamp: 3; }
