@@ -1,0 +1,7 @@
+.secondary-section{width: 100%; clear: both;}
+.secondary-main{padding: 40px 0;}
+.secondary-row{gap: 32px;}
+.secondary-list{flex: 0 0 calc(33.33% - 22px);}
+.secondary-list h3{margin-bottom: 16px; font-weight: 600;} 
+.secondary-icon{display: block; margin-bottom: 20px; color: var(--Orange); max-width: 40px;}
+.secondary-list p{color: var(--Gray);}
