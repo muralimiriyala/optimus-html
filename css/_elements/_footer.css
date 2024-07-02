@@ -39,7 +39,7 @@ ul.copyright-links>li.current-menu-item>a, ul.copyright-links>li>a:hover { color
     .footer-top-wrap{padding: 172px 0;}
     .footer-logo{width: 342px;}
     .footer-line{width: 1px; height: 136px;}
-    .footer-btn{margin-top: 3px; justify-content: flex-end;}
+    .footer-btn{margin-top: 3px; padding-right: 12px; justify-content: flex-end;}
     .footer-middle{padding: 0 40px 62px;}
     .footer-text{padding: 0 40px;}
     .copyrights-main{padding: 0 40px; gap: 16px;}

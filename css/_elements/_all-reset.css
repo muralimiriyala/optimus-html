@@ -79,8 +79,9 @@ hr{ margin: 0 0 32px; height: 4px; width: 96px; display: block; border: none; bo
 
 .text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 20px; line-height: 100%;}
 .text-btn-link:hover{color: var(--White);}
-.text-btn-link > span{padding: 10px 16px 10px; border-radius: 28px; border: 8px solid var(--Orange, #F17C23); display: inline-block;}
-
+.text-btn-link > span{padding: 10px 16px 10px; flex: 1; border-radius: 28px; border: 8px solid var(--Orange, #F17C23); display: inline-block;}
+.text-btn-link svg{ transform: translate(0, 0); transition: all 0.5s ease; }
+.text-btn-link:hover svg{ transform: translate(12px, -0.15px); }
 
 .transition{transition: all 0.5s ease;}
 
