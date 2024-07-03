@@ -1,3 +1,14 @@
 .short-intro-section{width: 100%; clear: both;}
 .short-intro-main{padding: 40px 0;}
 .short-intro-row{gap: 48px;}
+.short-intro-title h2{font-size: 40px; font-weight: 600;}
+.short-intro-desc{color: var(--Foreground); padding: 0 0 0 25px;}
+
+.short-intro-info{padding: 40px 0 40px; gap: 32px;}
+@media screen and (min-width:1024px) {
+    .short-intro-title { flex: 0 0 400px; }
+    .short-arrow-img { flex: 0 0 104px; }
+    .short-intro-desc { flex: 0 0 calc(100% - 600px); }
+
+    .short-intro-list{flex: 0 0 calc(25% - 24px);}
+}
