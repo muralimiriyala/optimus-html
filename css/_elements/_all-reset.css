@@ -180,7 +180,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .object-fit img, .object-fit-img img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
 
 .play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; overflow: hidden; z-index: 1;}
-.play-btn-main .play-btn{width: 96px; height: 96px; z-index: 1;}
+.play-btn-main .play-btn{width: 104px; height: 104px; z-index: 1;}
 .play-btn-bg{width: 100%; height: 100%; font-size: 0; line-height: 0; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 .play-btn-bg img{margin-left: 3px; transform: scale(1); transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 .play-btn-bg:hover img{transform: scale(1.125);}

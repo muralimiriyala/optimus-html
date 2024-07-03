@@ -40,12 +40,6 @@
                     <span></span>
                     <span></span>
                 </div>
-                <div class="mobile_header_btns flex flex-end">
-                    <button
-                        onclick="Storylane.Play({type: 'popup', demo_type: 'image', width: 2560, height: 1448.9251700680272, scale: '0.95', demo_url: 'https://app.storylane.io/demo/i2ffbkgzhlun', padding_bottom: 'calc(56.60% + 27px)'})"
-                        class="sl-preview-cta button gray"><span>Take a</span> Tour</button>
-                    <a href="014-demo.html" class="button"><span>Book a</span> Demo</a>
-                </div>
                 <div class="header_right flex flex-vcenter">
                     <ul class="main_menu flex">
                         <li><a href="02-services-landing.html">Services</a></li>
@@ -55,7 +49,12 @@
                         <li><a href="">Careers</a></li>
                     </ul>
                     <div class="header_btn flex flex-end">
-                        <a class="header-btn-link" target="_blank" href="#">Let’s get to work</a>
+                        <a class="header-btn-link inline-flex f-600" target="_blank" href="#">
+                            <span>Let’s get to work</span>
+                            <svg width="23" height="43" viewBox="0 0 23 43" fill="none">
+                                <path d="M0 0.599998H8.25293L22.5755 21.2756L8.14757 42.2H0L13.9801 21.4L0 0.599998Z" fill="#F17C23"/>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -63,21 +62,53 @@
         </div>
     </header>
     <main class="site-main-cover">
+
+        <section class="start-managing-section relative">
+            <!-- <div class="start-managing-ovarlay gray-bg  absolute"></div> -->
+            <div class="container">
+                <div class="start-managing-wrap">
+                    <div class="start-managing-main flex inverted radius-8"><!-- if no start-managing-text add this class no_text  -->
+                        <div class="start-managing-icon">
+                            <i class="fa-sharp fa-thin fa-users"></i>
+                        </div>
+                        <div class="start-managing-text">
+                            <h2>Ready to take join the Optimus SBR team?</h2>
+                        </div>
+                        <div class="start-managing-btn">
+                            <a class="start-btn-link inline-flex f-600" target="_blank" href="#">
+                                <span>View open positions</span>
+                                <svg width="29" height="53" viewBox="0 0 29 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0.799988H10.3162L28.2194 26.6445L10.1845 52.8H0L17.4751 26.8L0 0.799988Z" fill="#F17C23"/>
+                                    </svg>
+                            </a>
+                            <!-- <a href="https://asmbl.kinsta.cloud/book-a-demo/" class="button transparent">View open positions</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="repeater-section">
             <div class="container">
                 <div class="repeater-main">
                     <div class="repeater-row flex flex-vcenter">
+                        <div class="repeater-border"></div>
+                        <div class="repeater-border-top"></div>
+                        <div class="repeater-border-bottom"></div>
                         <div class="repeater-txt fs-16">
                             <span class="optional-text">Who we are</span>
                             <h2>We built our ﬁrm to be everything typical consultancies are not.</h2>
                             <p>Image follower figjam selection figjam. Opacity prototype flatten component layer fill device opacity duplicate inspect. Undo effect library strikethrough hand library main boolean clip.</p>
                             <button class="">More about our culture</button>
                         </div>
-                        <div class="repeater-image">
+                        <div class="repeater-image relative">
                             <figure class="object-fit relative">
                                 <img src="images/careers-repeater-one@2x.jpg" alt="careers-repeater-one">
                             </figure>
                             <div class="repeater-block absolute"></div>
+                            <div class="repeater-icon absolute">
+                                <i class="fa-thin fa-rocket"></i>
+                            </div>
                         </div>
 
                     </div>
@@ -85,6 +116,7 @@
             </div>
         </section>
 
+       
         <section class="secondary-section relative">
             <div class="container">
                 <div class="secondary-main">
@@ -177,11 +209,14 @@
                             <p>Image follower figjam selection figjam. Opacity prototype flatten component layer fill device opacity duplicate inspect. Undo effect library strikethrough hand library main boolean clip.</p>
                             <button class="">More about our culture</button>
                         </div>
-                        <div class="repeater-image">
+                        <div class="repeater-image relative">
                             <figure class="object-fit relative">
                                 <img src="images/careers-repeater-one@2x.jpg" alt="careers-repeater-one">
                             </figure>
                             <div class="repeater-block absolute"></div>
+                            <div class="repeater-icon absolute">
+                                <i class="fa-sharp fa-thin fa-users"></i>
+                            </div>
                         </div>
 
                     </div>
@@ -189,6 +224,24 @@
             </div>
         </section>
 
+        <section class="short-intro-section">
+            <div class="container">
+                <div class="short-intro-main">
+                <div class="short-intro-row flex flex-vcenter">
+                    <div class="short-intro-title">
+                        <span class="optional-text">What’s in it for you?</span>
+                        <h2>A short intro about the total rewards program here</h2>
+                        <div class="short-arrow-img">
+                            <figure class="object-fit"><img src="images/short-arrow@2x.png" alt="short-arrow"></figure>
+                        </div>
+                    </div>
+                    <div class="short-intro-desc">
+                        <p>Image editor bullet inspect distribute duplicate main undo star editor. Vector undo scale share library undo. Ellipse prototype distribute edit star background scale prototype library. Content boolean shadow blur link. Project style bold ellipse scrolling layer. Layer frame flatten vector team shadow polygon. Comment outline stroke ellipse boolean.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="site-footer relative">
         <div class="footer-mark absolute">
