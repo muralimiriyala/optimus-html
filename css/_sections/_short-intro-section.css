@@ -4,7 +4,7 @@
 .short-intro-title h2{font-size: 40px; font-weight: 600;}
 .short-intro-desc{color: var(--Foreground); padding: 0 0 0 25px;}
 
-.short-intro-info{padding: 40px 0 80px; gap: 32px;}
+.short-intro-info{padding: 40px 0 40px; gap: 32px;}
 @media screen and (min-width:1024px) {
     .short-intro-title { flex: 0 0 400px; }
     .short-arrow-img { flex: 0 0 104px; }
