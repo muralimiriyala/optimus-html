@@ -10,11 +10,12 @@
 .service-tail-list h2{font-size: 24px; font-weight: 600; margin-bottom: 9px;}
 .service-tail-icon{margin-bottom: 17px;}
 .service-tail-icon i{color: var(--Light-Blue, #41B4FF); font-size: 40px; line-height: 40px;}
-.service-tail-icon figure{width: 40px; height: 40px;}
+.service-tail-icon figure{width: 50px; height: 50px;}
+.service-tail-icon figure img{object-fit: contain;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .service-tail-wrap{padding-top: 84px;}
+    .service-tail-wrap{padding: 84px 0 80px;}
     .service-tail-main{gap: 80px; padding: 54px 0 49px;}
     .service-tail-lt{flex: 0 0 550px;}
     .service-tail-rt{flex: 1;}
