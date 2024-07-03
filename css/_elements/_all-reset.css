@@ -77,6 +77,12 @@ hr{ margin: 0 0 32px; height: 4px; width: 96px; display: block; border: none; bo
 .button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 17px 16px 18px; font-size: 1rem; font-weight: 600; line-height: 100%; font-family: "Blackbird", sans-serif; display: inline-block; background: var(--Blue); color: var( --White); border: none; border-radius: 24px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{ background: var(--Orange); color: var( --White); }
 
+.button.btn-transparent{padding: 12px 13px 12px 12px; border-radius: 24px; border: 4px solid var(--Orange, #F17C23);}
+
+a.text-link{gap: 8px; font-size: 16px; line-height: 24px;}
+a.text-link i{top: 2px; position: relative; color: var(--Light-Blue, #41B4FF); font-size: 20px; line-height: 20px;}
+a.text-link.white{color: var(--White);}
+
 .text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 20px; line-height: 100%;}
 .text-btn-link:hover{color: var(--White);}
 .text-btn-link > span{padding: 10px 16px 10px; flex: 1; border-radius: 28px; border: 8px solid var(--Orange, #F17C23); display: inline-block;}
@@ -121,6 +127,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 /*-- custom css starts here --*/
 body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: "Blackbird", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
 .d-block{display: block;}
+span.optional-text.light-blue{color: var(--light-blue); }
 span.optional-text{margin-bottom: 24px; font-size: 20px; line-height: 25px; font-weight: 600; color: var(--Gray, #707372); display: block; text-transform: none;}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.grey{color: var(--gray);-webkit-text-fill-color: var(--gray); opacity: 0.5; background: none; margin-bottom: 4px;}
