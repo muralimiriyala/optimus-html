@@ -115,6 +115,8 @@ img.aligncenter{margin: 25px auto; clear: both;}
 .flex-end{align-items: flex-end;}
 .flex-start{align-items: flex-start;}
 .row-reverse{flex-direction: row-reverse;}
+.inline-flex { display: -webkit-inline-flex; display: -moz-inline-flex; display: -ms-inline-flexbox; display: -webkit-inline-flexbox; display: inline-flex; }
+  
 
 /*-- custom css starts here --*/
 body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: "Blackbird", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}

@@ -7,9 +7,11 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
 .header_btns .button.gray{color: var(--Navy);}
 .header_btns .button.gray:hover{color: var(--White);}
 
-.header-btn-link{padding: 8px 13px 8px; border-radius: 22.4px; border: 6.4px solid var(--Orange, #F17C23);color: var(--White); font-size: 16px; line-height: 100%; position: relative; display: inline-block;}
+.header-btn-link{gap: 2px;}
+.header-btn-link span{padding: 8px 13px 8px; border-radius: 22.4px; border: 6.4px solid var(--Orange, #F17C23);color: var(--White); font-size: 16px; line-height: 16px; position: relative; display: inline-block;}
 .header-btn-link:hover{color: var(--White);}
-.header-btn-link::after{width: 23px; height: 43px; top: 50%; transform: translateY(-50%); right: -32px; background-image: url('./images/pointer.svg'); background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
+.header-btn-link svg{width: 23px; height: 43px;}
+
 
 
 /* media css starts here */
@@ -21,7 +23,8 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
 
 
     .header_right{flex: 1;}
-    ul.main_menu{margin: 0; gap: 0 40px;  flex: 1; width: fit-content; position: relative; justify-content: center; text-transform: uppercase;}
+    body.home ul.main_menu{gap: 0 40px}
+    ul.main_menu{margin: 0; gap: 0 45px; padding-right: 26px; flex: 1; width: fit-content; position: relative; justify-content: center; text-transform: uppercase;}
     ul.main_menu li::before{display: none;}
     ul.main_menu > li{margin: 0;}
     ul.main_menu > li > a{padding: 34px 0 35px; display: block; color: var(--White); font-size: 15px; font-weight: 700; line-height: 100%; letter-spacing: 1.2px; position: relative;}
