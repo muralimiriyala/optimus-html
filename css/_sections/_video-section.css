@@ -1,0 +1,4 @@
+.video-thumb > img{border-radius: 24px;}
+.play-btn-main{width: 100%; height: 100%; position: absolute; z-index: 1;}
+.play-btn { width: 104px; height: 104px; border: 8px solid var(--Blue); background-color: var(--Blue); border-radius: 50%; position: relative; transition: 0.2s ease-in-out; }
+.play-btn img { width: 36px; height: 48px; bottom: 1px; left: 3px; position: relative; }
