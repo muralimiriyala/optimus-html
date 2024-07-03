@@ -1,0 +1,32 @@
+.start-managing-wrap{padding: 0 30px; }
+.start-managing-main { padding: 24px 34px 24px 24px; background-color: var(--Navy);}
+.start-managing-text h2 { font-size: 32px; margin-bottom:0 }
+.start-btn-link span{padding: 10px 13px 10px; border-radius: 28px; border: 8px solid var(--Orange); color: var(--White); font-size: 20px; line-height: 20px; position: relative; display: inline-block; }
+.start-managing-icon{width: 60px; height: 48px; color: var(--light-blue); font-size: 48px;}
+
+
+  @media screen and (min-width:1024px) {
+    body.page-template-solutions-usecase-detail .start-managing-section {
+      margin-bottom:40px
+    }
+    .start-managing-main { gap:24px; align-items:center;}
+    
+    .start-managing-text { flex:1 }
+    .start-managing-btn { width:fit-content }
+  }
+  @media screen and (max-width:1023px) and (min-width:768px) {
+    .start-managing-main {
+      gap:24px;
+      background-image:url("./images/mini-cta-buble-ipad@2x.jpg");
+      align-items:center
+    }
+    .start-managing-text {
+      flex:1
+    }
+    .start-managing-text h2 {
+      font-size:1.5rem;
+      line-height:1.875rem
+    }
+    .start-managing-btn {
+      width:fit-content
+    }}
