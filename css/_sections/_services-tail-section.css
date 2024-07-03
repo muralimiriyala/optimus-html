@@ -1,6 +1,5 @@
 .services-tail-section{background-color: var(--Blue);}
-
-
+.services-tail-decor{z-index: -1; opacity: 0.1;}
 .service-tail-lt span{margin-bottom: 19px;}
 .service-tail-lt h1{margin-bottom: 32px; font-size: 48px; line-height: 55px; color: var(--White);}
 .service-tail-btns{gap: 16px;}
@@ -15,9 +14,12 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .service-tail-main{gap: 80px; padding: 50px 0 49px;}
+    .service-tail-wrap{padding-top: 84px;}
+    .service-tail-main{gap: 80px; padding: 54px 0 49px;}
     .service-tail-lt{flex: 0 0 550px;}
     .service-tail-rt{flex: 1;}
+    .service-tail-rt svg{margin-left: auto; display: block;}
+    .services-tail-decor{top: 0; left: -315px;}
     
     .service-tail-row{gap: 32px; padding: 40px 0 0; justify-content: center;}
     .service-tail-list{flex: 0 0 calc(25% - 24px);}
