@@ -22,7 +22,21 @@
     .service-tail-rt svg{margin-left: auto; display: block;}
     .services-tail-decor{top: 0; left: -315px;}
     
-    .service-tail-row{gap: 32px; padding: 40px 0 0; justify-content: center;}
+    .service-tail-row{padding: 40px 0 0; justify-content: center;}
+}
+@media only screen and (min-width: 1300px){
+    .service-tail-row{gap: 32px;}
     .service-tail-list{flex: 0 0 calc(25% - 24px);}
-
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .service-tail-row{gap: 32px;}
+    .service-tail-list{flex: 0 0 calc(33.3333% - 22px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 744px){
+    .service-tail-row{gap: 32px;}
+    .service-tail-list{flex: 0 0 calc(50% - 16px);}
+}
+@media only screen and (max-width: 743px) and (min-width: 200px){
+    .service-tail-row{display: block;}
+    .service-tail-list:not(:last-child){margin-bottom: 32px;}
 }
