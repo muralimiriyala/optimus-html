@@ -14,13 +14,28 @@
   @media screen and (min-width:1024px) {
     
     .start-managing-main { gap:24px; align-items:center;}
-    
     .start-managing-text { flex:1 }
     .start-managing-btn { width:fit-content }
   }
-  @media screen and (max-width:1023px) and (min-width:768px) {
-    .start-managing-main { gap:24px; align-items:center }
-    .start-managing-text { flex:1 }
-    .start-managing-text h2 { font-size:1.5rem; line-height:1.875rem }
-    .start-managing-btn { width:fit-content }
+  @media screen and (max-width:1023px) and (min-width:200px) {
+    .start-managing-main {display: block; text-align: center;}
+    .start-managing-text h2 { font-size:24px; line-height: 30px; margin-bottom: 24px;}
+    .start-managing-icon{margin:  0 auto 24px;}
 }
+ @media screen and (max-width:743px) and (min-width:200px) {
+  .start-managing-wrap{padding: 16px;}
+  .start-managing-main{padding: 24px;}
+  .start-managing-bracket{border-bottom: 1px solid var(--light-blue); width: 48px;}
+  .start-managing-section .container{padding: 0 20px;}
+
+ }
+ @media screen and (max-width:389px) and (min-width:200px) {
+  .start-managing-btn span{padding: 8px;}
+
+
+
+ }
+
+
+
+
