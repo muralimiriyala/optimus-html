@@ -10,7 +10,7 @@ a:hover, a:active {outline: 0;}
 a:hover{color: var(--Orange);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Blue); font-weight: 700; font-family: 'Blackbird', sans-serif; text-transform: none;}
 .h1, h1{font-size: 64px; line-height: 3.75rem; margin-bottom: 33px;}
-.h2, h2{font-size: 48px; line-height: 3.125rem; margin-bottom: 30px;}
+.h2, h2{font-size: 48px; line-height: 55px; margin-bottom: 30px;}
 .h3, h3{font-size: 40px; line-height: 2.5rem; margin-bottom: 23px;}
 .h4, h4{font-size: 32px; line-height: 1.875rem; margin-bottom: 25px;}
 .h5, h5{font-size: 24px; line-height: 1.563rem; margin-bottom: 12px;}

@@ -11,10 +11,10 @@
 
 
 
-
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .primary-cta-text{flex: 0 0 480px; padding: 64px 64px;}
+    .primary-cta-text{flex: 0 0 544px; padding: 64px 64px;}
     .primary-cta-image{flex: 1;}
     .primary-cta-thumb img{border-radius: 0 16px 16px 0;}
+    .primary-cta-btns{margin-top: 37px;}
 }
