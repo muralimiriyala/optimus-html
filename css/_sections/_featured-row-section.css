@@ -9,11 +9,11 @@ ul.point-mail-links{margin: 0; gap: 12px; padding-top: 9px; flex-direction: colu
 ul.point-mail-links > li{margin: 0;}
 ul.point-mail-links > li:before{display: none;}
 ul.point-mail-links > li > a{line-height: 100%; font-size: 16px; font-weight: 700; color: var(--Blue); gap: 8px; flex-wrap: wrap; display: flex; align-items: center; position: relative;}
-ul.point-mail-links > li > a > span{font-size: 20px; line-height: 100%; color: var(--light-blue);}
+ul.point-mail-links > li > a > span{font-size: 20px; line-height: 100%; color: var(--Light-Blue);}
 ul.point-mail-links > li > a:hover{color: var(--Orange);}
 ul.point-mail-links li a figure{width: 20px;}
 ul.point-mail-links li:nth-child(2) a figure{width: 24px;}
-ul.point-mail-links li a span{font-size: 20px; line-height: 100%; color: var(--light-blue);}
+ul.point-mail-links li a span{font-size: 20px; line-height: 100%; color: var(--Light-Blue);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

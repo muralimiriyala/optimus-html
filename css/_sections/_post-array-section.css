@@ -1,0 +1,37 @@
+
+
+
+
+
+
+.post-array-image img{border-radius: 24px 24px 0 0;}
+.post-array-text{padding: 32px;}
+.post-array-cat{gap: 8px;}
+.post-array-icon{
+    color: var(--Light-Blue);
+
+font-size: 20px;
+line-height: 20px;
+}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .post-array-row{gap: 32px;}
+    .post-array-list{flex: 0 0 calc(25% - 30px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
