@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+.primary-cta-main{background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
+.primary-cta-wrap{padding: 78px 0;}
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .primary-cta-text{flex: 0 0 480px; padding: 64px 64px;}
+    .primary-cta-image{flex: 1;}
+    .primary-cta-thumb img{border-radius: 0 16px 16px 0;}
+}
