@@ -6,9 +6,11 @@
 
 
 
-.primary-cta-main{background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
+.primary-cta-row{background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
 .primary-cta-wrap{padding: 78px 0;}
-
+.primary-cta-main{padding: 32px;}
+.primary-cta-text span.optional-text{margin-bottom: 15px;}
+.primary-cta-text h2{margin-bottom: 16px;}
 
 
 /*-- media css starts here --*/
@@ -16,5 +18,8 @@
     .primary-cta-text{flex: 0 0 544px; padding: 64px 64px;}
     .primary-cta-image{flex: 1;}
     .primary-cta-thumb img{border-radius: 0 16px 16px 0;}
-    .primary-cta-btns{margin-top: 37px;}
+    .primary-cta-btns{margin-top: 47px;}
+    .primary-cta-bracket{width: 80px; height: 100%; top: 0; border: 1px solid var(--Orange, #F17C23); z-index: -1;}
+    .primary-cta-bracket.left{left: 0; border-right: none; border-top-right-radius: 0; border-bottom-right-radius: 0;}
+    .primary-cta-bracket.right{right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
 }
