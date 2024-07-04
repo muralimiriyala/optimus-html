@@ -127,7 +127,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 /*-- custom css starts here --*/
 body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: "Blackbird", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
 .d-block{display: block;}
-span.optional-text.light-blue{color: var(--light-blue); }
+span.optional-text.light-blue{color: var(--Light-Blue); }
 span.optional-text{margin-bottom: 24px; font-size: 20px; line-height: 25px; font-weight: 600; color: var(--Gray, #707372); display: block; text-transform: none;}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.grey{color: var(--gray);-webkit-text-fill-color: var(--gray); opacity: 0.5; background: none; margin-bottom: 4px;}
@@ -230,7 +230,8 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .clamp-3{ -webkit-line-clamp: 3; }
 
 .white-bg{background-color: var( --White);}
-.gray-bg{background: var(--Background, #F0F2FA);}
+.gray-bg{background: var(--Background);}
+.navy-bg{background: var(--Navy);}
 
 div.slick-arrow{width: 48px; height: 48px; padding: 0; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease; border-radius: 8px; background: linear-gradient(300deg, #182A54 0%, #1335AF 100%); }
 div.slick-arrow::after{width: 0%; height: 0%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background: linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%); content: ""; display: block; border-radius: 8px; position: absolute; transition: all 0.5s ease; z-index: -1;}
