@@ -1,4 +1,5 @@
-.start-managing-wrap{padding: 20px 30px; border-left: 1px solid var(--light-blue); border-radius: 24px;}
+.start-managing-block{margin-bottom: 40px;}
+.start-managing-wrap{padding: 20px 30px; }
 .start-managing-main { padding: 24px 34px 24px 24px; background-color: var(--Navy);}
 .start-managing-text h2 { font-size: 32px; margin-bottom:0 }
 .start-btn-link:hover svg{transform: translate(12px,-.15px);}
@@ -6,17 +7,35 @@
 .start-btn-link span{padding: 10px 13px 10px; border-radius: 28px; border: 8px solid var(--Orange); color: var(--White); font-size: 20px; line-height: 20px; position: relative; display: inline-block; }
 .start-managing-icon{width: 60px; height: 48px; color: var(--light-blue); font-size: 48px;}
 
+.start-managing-bracket.left{left: 0; border-right: none; border-top-right-radius: 0; border-bottom-right-radius: 0;}
+.start-managing-bracket{ width: 64px; height: 100%; top: 0; border: 1px solid var(--light-blue); z-index: -1; border-bottom: none;}
+.start-managing-bracket.right{right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
 
   @media screen and (min-width:1024px) {
     
     .start-managing-main { gap:24px; align-items:center;}
-    
     .start-managing-text { flex:1 }
     .start-managing-btn { width:fit-content }
   }
-  @media screen and (max-width:1023px) and (min-width:768px) {
-    .start-managing-main { gap:24px; align-items:center }
-    .start-managing-text { flex:1 }
-    .start-managing-text h2 { font-size:1.5rem; line-height:1.875rem }
-    .start-managing-btn { width:fit-content }
+  @media screen and (max-width:1023px) and (min-width:200px) {
+    .start-managing-main {display: block; text-align: center;}
+    .start-managing-text h2 { font-size:24px; line-height: 30px; margin-bottom: 24px;}
+    .start-managing-icon{margin:  0 auto 24px;}
 }
+ @media screen and (max-width:743px) and (min-width:200px) {
+  .start-managing-wrap{padding: 16px;}
+  .start-managing-main{padding: 24px;}
+  .start-managing-bracket{border-bottom: 1px solid var(--light-blue); width: 48px;}
+  .start-managing-section .container{padding: 0 20px;}
+
+ }
+ @media screen and (max-width:389px) and (min-width:200px) {
+  .start-managing-btn span{padding: 8px;}
+
+
+
+ }
+
+
+
+
