@@ -154,6 +154,8 @@ span.optional-text.md{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 
 .fs-24{font-size: 1.5rem; line-height: 2.25rem;}
 .fs-40{ font-size: 40px; line-height: 100%;}
 
+.font-graphic{font-family: 'Graphik-Regular';}
+
 .radius-4, .radius-img-4 img{border-radius: 4px;}
 .radius-6, .radius-img-6 img{border-radius: 6px;}
 .radius-8, .radius-img-8 img{border-radius: 8px;}
