@@ -232,6 +232,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .white-bg{background-color: var( --White);}
 .gray-bg{background: var(--Background);}
 .navy-bg{background: var(--Navy);}
+.blue-bg{background-color: var(--Blue);}
 
 div.slick-arrow{width: 48px; height: 48px; padding: 0; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease; border-radius: 8px; background: linear-gradient(300deg, #182A54 0%, #1335AF 100%); }
 div.slick-arrow::after{width: 0%; height: 0%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background: linear-gradient(315deg,#f9662d .31%,#fec74d 82.24%,#ffdc54 100.31%); content: ""; display: block; border-radius: 8px; position: absolute; transition: all 0.5s ease; z-index: -1;}
