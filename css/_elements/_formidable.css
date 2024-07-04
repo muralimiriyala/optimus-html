@@ -60,7 +60,7 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_checkbox
 	text-indent: 0;
 	color: var(--Foreground,#191d2a);
 }
-body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]{width: 24px; height: 24px; margin: 0; padding: 0; top: -2px; border-radius: 0; border: 1px solid var(--Blue,#004c97); position: relative; opacity: 1; cursor: pointer;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]{width: 24px; height: 24px; margin: 0; padding: 0; top: -2px; border-radius: 0; border: 1px solid var(--Blue); position: relative; opacity: 1; cursor: pointer;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]:checked{background-color: var(--Blue); border-color: var(--navy); box-shadow: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 5px 0 0 5px; box-shadow: inset 8px 8px var(--White); top: auto; left: auto; transform: none;}
 body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked{background-color: var(--navy); border-color: var(--navy);}
