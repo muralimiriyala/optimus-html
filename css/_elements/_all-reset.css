@@ -8,13 +8,13 @@ a{color: var(--Blue);text-decoration: none; transition: all 0.5s ease;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--Orange);}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Blue); font-weight: 700; font-family: 'Blackbird', sans-serif; text-transform: none;}
-.h1, h1{font-size: 64px; line-height: 3.75rem; margin-bottom: 33px;}
-.h2, h2{font-size: 48px; line-height: 55px; margin-bottom: 30px;}
-.h3, h3{font-size: 40px; line-height: 2.5rem; margin-bottom: 23px;}
-.h4, h4{font-size: 32px; line-height: 1.875rem; margin-bottom: 25px;}
-.h5, h5{font-size: 24px; line-height: 1.563rem; margin-bottom: 12px;}
-.h6, h6{font-size: 20px; line-height: 1.375rem; margin-bottom: 14px;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Blue); font-weight: 600; font-family: 'Blackbird', sans-serif; text-transform: none;}
+.h1, h1{font-size: 48px; line-height: 55px; margin-bottom: 25px; font-weight: 700;}
+.h2, h2{font-size: 40px; line-height: 50px; margin-bottom: 20px;}
+.h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 19px;}
+.h4, h4{font-size: 32px; line-height: 40px; margin-bottom: 19px;}
+.h5, h5{font-size: 24px; line-height: 30px; margin-bottom: 19px;}
+.h6, h6{font-size: 20px; line-height: 25px; margin-bottom: 18px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Blue);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--Orange);}
 address{font-size: 1.125rem; line-height: 1.5rem; margin-bottom: 24px;}
@@ -127,9 +127,9 @@ img.aligncenter{margin: 25px auto; clear: both;}
 /*-- custom css starts here --*/
 body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: "Blackbird", sans-serif; position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
 .d-block{display: block;}
-span.optional-text.light-blue{color: var(--Light-Blue); }
-span.optional-text{margin-bottom: 24px; font-size: 20px; line-height: 25px; font-weight: 600; color: var(--Gray, #707372); display: block; text-transform: none;}
+span.optional-text{margin-bottom: 24px; font-size: 20px; line-height: 25px; font-weight: 600; color: var(--Gray); display: block; text-transform: none;}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
+span.optional-text.light-blue{color: var(--Light-Blue); }
 span.optional-text.grey{color: var(--gray);-webkit-text-fill-color: var(--gray); opacity: 0.5; background: none; margin-bottom: 4px;}
 span.optional-text.large{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 23px;}
 span.optional-text.md{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 22px;}
