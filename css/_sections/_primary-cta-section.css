@@ -1,6 +1,6 @@
 
 
-.primary-cta-wrap{padding: 78px 0;}
+
 .primary-cta-main{padding: 32px;}
 .primary-cta-text span.optional-text{margin-bottom: 15px;}
 .primary-cta-text h2{margin-bottom: 16px;}
@@ -9,6 +9,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .primary-cta-wrap{padding: 78px 0;}
     .primary-cta-row{background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);}
     .primary-cta-text{flex: 0 0 480px; padding: 71px 0 71px 64px; z-index: 2;}
     .primary-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
@@ -31,6 +32,7 @@
     .primary-cta-circle{left: -164px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
+    .primary-cta-wrap{padding: 78px 0;}
     .primary-cta-row{display: block; text-align: center;}
     .primary-cta-text{padding: 40px 40px 0; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
     .primary-cta-text h2 br{display: none;}
@@ -51,6 +53,7 @@
 
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
+    .primary-cta-wrap{padding: 40px 0;}
     .primary-cta-row{display: block; text-align: center;}
     .primary-cta-main{padding: 20px;}
     .primary-cta-text{padding: 28px 20px 0; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97); font-size: 16px; line-height: 24px;}
