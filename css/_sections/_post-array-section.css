@@ -23,6 +23,7 @@
     .post-array-list.slick-slide{width: 296px; margin-right: 32px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
+    .post-array-main{padding: 40px 0 40px;}
     .post-array-head{display: block; padding-bottom: 4px;}
     .post-array-row .slick-list{overflow: inherit;}
     .post-array-list.slick-slide{width: 296px; margin-right: 32px;}
