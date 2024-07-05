@@ -13,6 +13,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .post-array-main{padding: 0 0 40px;}
     .post-array-row{gap: 32px;}
     .post-array-list{flex: 0 0 calc(25% - 24px);}
     .post-array-head{gap: 32px; padding-bottom: 39px;}
