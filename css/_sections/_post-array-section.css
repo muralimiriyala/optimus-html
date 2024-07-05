@@ -21,19 +21,28 @@
 
     .post-array-row .slick-list{overflow: inherit;}
     .post-array-list.slick-slide{width: 296px; margin-right: 32px;}
+    .post-array-btn{width: fit-content; gap: 16px;}
+    .post-array-btn div.slick-arrow{position: relative; left: auto; right: auto; transform: none; order: 2;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .post-array-main{padding: 40px 0 40px;}
-    .post-array-head{display: block; padding-bottom: 40px;}
+    .post-array-head{display: block; padding-bottom: 40px; padding-right: 120px; position: relative;}
+    .post-array-head div.slick-arrow.slick-prev{left: auto; right: 70px;}
+    .post-array-head div.slick-arrow{top: 10px; bottom: auto;}
+    .post-array-row  ul.slick-dots{display: none !important;}
     .post-array-title h2{margin: 0;}
     .post-array-row .slick-list{overflow: inherit;}
     .post-array-list.slick-slide{width: 296px; margin-right: 24px;}
+
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .post-array-main{padding: 40px 0 40px;}
     .post-array-head{display: block; padding-bottom: 4px;}
-    .post-array-row .slick-list{overflow: inherit;}
+    .post-array-row.slick-slider{width: calc(100% + 24px);}
     .post-array-list.slick-slide{width: 296px; margin-right: 38px;}
+    .post-array-row div.slick-arrow{background: var(--Navy); bottom: -18px;}
+    .post-array-row div.slick-arrow.slick-disabled{opacity: 0.25; background: var(--Navy);}
+    .post-array-row div.slick-arrow.slick-next{right: 24px;}
 }
 
 
