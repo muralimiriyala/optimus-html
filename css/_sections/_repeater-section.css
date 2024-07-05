@@ -35,17 +35,30 @@
 
 
 }
+
+@media screen and (max-width:1023px) and (min-width:200px) {
+  .repeater-row{flex-direction: column-reverse;}
+  .repeater-bracket.left{display: none;}
+  .repeater-bracket.right{display: none;}
+  .repeater-bracket.bottom{width: 100%; height: 48px; bottom: 0; top: inherit; border-top: 0; border-top-right-radius: 0; border-top-right-radius: 0; border-top-left-radius: 0;}
+  
+  
+  .repeater-icon{left: 30px;bottom: 30px; top:inherit; transform: inherit;}
+
+  .repeater-block { top: inherit; transform: inherit; margin-left: inherit; border-radius: 0; bottom: 0; border-top-right-radius: 50%; }
+  .repeater-block::before{ right: -88px; bottom: -30px; transform: rotate(220deg);top:inherit; left: inherit;}
+  .repeater-block::after{left: -29px;}
+}
 @media screen and (max-width:1023px) and (min-width:744px) {
-.repeater-row{flex-direction: column-reverse;}
-.repeater-bracket.bottom{width: 100%; height: 48px; bottom: 0; top: inherit; border-top: 0; border-top-right-radius: 0; border-top-right-radius: 0; border-top-left-radius: 0;}
-.repeater-bracket.left{display: none;}
-.repeater-bracket.right{display: none;}
-.repeater-txt{margin-bottom: 40px; padding: 0 32px;}
-.repeater-image{margin-bottom: 48px;}
-.repeater-block { top: inherit; transform: inherit; margin-left: inherit; border-radius: 0; bottom: 0; border-top-right-radius: 50%; }
-.repeater-block::before{ right: -88px; bottom: -30px; transform: rotate(220deg);top:inherit; left: inherit;}
-.repeater-block::after{left: -29px;}
-.repeater-icon{left: 30px;bottom: 30px; top:inherit; transform: inherit;}
- 
+  .repeater-image{margin-bottom: 48px;}
+  .repeater-txt{margin-bottom: 40px; padding: 0 32px;}
 }
 
+@media screen and (max-width: 743px) and (min-width: 200px) {
+  .repeater-block{width: 78px; height: 78px;}
+  .repeater-icon{left: 23px; bottom: 23px; width:30px; height: 30px; font-size: 30px;}
+  .repeater-image{margin-bottom: 40px;}
+  .repeater-txt{margin-bottom: 40px; padding: 0 24px;}
+  .repeater-txt h2{font-size: 24px; line-height: 30px; margin-bottom: 22px;}
+  .repeater-txt button{width: 100%;}
+}

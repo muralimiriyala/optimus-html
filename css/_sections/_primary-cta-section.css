@@ -55,6 +55,7 @@
     .primary-cta-bracket.left{left: 0; border-right: none; border-top-right-radius: 0; border-bottom-right-radius: 0;}
     .primary-cta-bracket.right{right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
 
+    body.page-template-careers .primary-cta-wrap { padding: 57px 0 40px; } 
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .primary-cta-wrap{padding: 40px 0;}
@@ -77,4 +78,5 @@
     .primary-cta-bracket.left{left: 0; border-bottom: none; border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
     .primary-cta-bracket.right{right: 0; top: auto; bottom: 0; border-top: none; border-top-left-radius: 0; border-top-right-radius: 0;}
 
+    
 }

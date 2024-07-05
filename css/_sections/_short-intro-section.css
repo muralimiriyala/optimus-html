@@ -39,3 +39,10 @@ body.page-template-careers .short-intro-main{padding: 40px 0 0;}
     .short-intro-list{flex: 0 0 calc(50% - 24px);}
 
 }
+
+@media screen and (max-width: 743px) and (min-width: 200px) {
+    .short-intro-title h2{font-size: 32px;}
+    .short-arrow-img{transform: rotate(90deg); order: 3;}
+
+    .short-intro-desc{padding-left: 0; order:2;}
+}

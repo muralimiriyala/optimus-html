@@ -27,6 +27,7 @@
   .start-managing-main{padding: 24px;}
   .start-managing-bracket{border-bottom: 1px solid var(--Light-Blue); width: 48px;}
   .start-managing-section .container{padding: 0 20px;}
+  .start-managing-block{padding-bottom: 0;}
 
  }
  @media screen and (max-width:389px) and (min-width:200px) {
