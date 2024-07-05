@@ -4,4 +4,5 @@
 
 
 @media screen and (max-width: 743px) and (min-width: 200px) {
+    .play-btn-bg i{font-size: 29px;}
 }
