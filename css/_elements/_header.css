@@ -22,7 +22,6 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .humburger-btn{display: none;}
     .mobile_header_btns{display: none;}
 
-
     .header_right{flex: 1; padding-right: 10px;}
     body.home ul.main_menu{gap: 0 40px}
     ul.main_menu{margin: 0; gap: 0 45px; padding-right: 18px; flex: 1; width: fit-content; position: relative; justify-content: center; text-transform: uppercase;}
