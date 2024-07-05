@@ -42,7 +42,7 @@ body.page-template-careers .short-intro-main{padding: 40px 0 0;}
 
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .short-intro-title h2{font-size: 32px;}
-    .short-arrow-img{transform: rotate(90deg); order: 3;}
+    .short-arrow-img{ order: 3; margin-left: -50px; flex: 0 0 208px;}
 
     .short-intro-desc{padding-left: 0; order:2;}
 }
