@@ -10,9 +10,8 @@
 .short-intro-icon{display: block; margin-bottom: 20px; color: var(--Orange); max-width: 40px; }
 .short-arrow-img { flex: 0 0 104px; }
 
-.short-intro-main{margin: 8px 0; width: 100%; border-bottom: 1px solid var(--body-text); }
-
-
+body.page-template-careers .short-intro-main::after { content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: 0.5; margin-top: 48px; }
+body.page-template-careers .short-intro-main{padding: 40px 0 0;}
 
 @media screen and (min-width:1200px) {
     .short-intro-title { flex: 0 0 400px; }
