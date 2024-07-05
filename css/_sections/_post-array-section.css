@@ -14,7 +14,10 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .post-array-row{gap: 32px;}
-    .post-array-list{flex: 0 0 calc(25% - 30px);}
+    .post-array-list{flex: 0 0 calc(25% - 24px);}
+    .post-array-head{gap: 32px; padding-bottom: 39px;}
+    .post-array-title{flex: 1;}
+    .post-array-head h2{margin-bottom: 0;}
 }
 
 
