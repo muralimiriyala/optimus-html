@@ -36,7 +36,7 @@ body.page-template-careers .primary-cta-wrap { padding: 78px 0; }
     .primary-cta-circle{left: -164px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
-    .primary-cta-wrap{padding: 78px 0;}
+    .primary-cta-wrap{padding: 78px 0 40px;}
     .primary-cta-row{display: block; text-align: center;}
     .primary-cta-text{padding: 40px 40px 0; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
     .primary-cta-text h2 br{display: none;}

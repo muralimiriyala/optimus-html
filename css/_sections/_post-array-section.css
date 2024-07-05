@@ -22,11 +22,18 @@
     .post-array-row .slick-list{overflow: inherit;}
     .post-array-list.slick-slide{width: 296px; margin-right: 32px;}
 }
+@media only screen and (max-width: 1023px) and (min-width: 744px){
+    .post-array-main{padding: 40px 0 40px;}
+    .post-array-head{display: block; padding-bottom: 40px;}
+    .post-array-title h2{margin: 0;}
+    .post-array-row .slick-list{overflow: inherit;}
+    .post-array-list.slick-slide{width: 296px; margin-right: 24px;}
+}
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .post-array-main{padding: 40px 0 40px;}
     .post-array-head{display: block; padding-bottom: 4px;}
     .post-array-row .slick-list{overflow: inherit;}
-    .post-array-list.slick-slide{width: 296px; margin-right: 32px;}
+    .post-array-list.slick-slide{width: 296px; margin-right: 38px;}
 }
 
 
