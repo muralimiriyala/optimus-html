@@ -6,7 +6,6 @@
 .primary-cta-text h2{margin-bottom: 16px;}
 .primary-cta-decs{z-index: 2;}
 
-body.page-template-careers .primary-cta-wrap { padding: 78px 0; }
 
 
 
@@ -17,7 +16,8 @@ body.page-template-careers .primary-cta-wrap { padding: 78px 0; }
     .primary-cta-text{flex: 0 0 480px; padding: 71px 0 71px 64px; z-index: 2;}
     .primary-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
     .primary-cta-circle svg{width: 499px; height: 500px;}
-
+    
+    body.page-template-careers .primary-cta-wrap { padding: 88px 0 40px; }
  
     
     .primary-cta-chevron{top: 0; left: -36px;}
