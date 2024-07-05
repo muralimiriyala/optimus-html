@@ -1,6 +1,6 @@
 
 
-.comments-type-list{padding: 16px; gap: 12px; background: rgba(25, 35, 76, 0.40); flex-direction: column;}
+.comments-type-list{padding: 16px; gap: 12px; background: rgba(25, 35, 76, 0.40); }
 .comments-type-list i{color: var(--Light-Blue, #41B4FF);}
 .comments-type-list figure{width: 24px; height: 24px;}
 .comments-type-list figure img{object-fit: contain;}
@@ -22,13 +22,39 @@ body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_butto
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover svg path{fill: var(--White);}
 .newsletter-disclaimer{padding: 24px 0 0; color: var(--White); text-align: center; opacity: 0.6;}
 
+.newsletter-bulb img{object-fit: contain;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .newsletter-main{padding: 40px 0 0; gap: 48px;}
+    .newsletter-main{padding: 40px 0 0;}
     .newsletter-lt{flex: 1;}
-    .comments-type-row{gap: 16px;}
-    .comments-type-list{flex: 0 0 calc(25% - 16px);}
     .newsletter-bulb{width: 160px;}
     .newsletter-rt{flex: 1;}
+}
+@media screen and (min-width: 1300px){
+    .newsletter-main{gap: 48px;}
+    .comments-type-row{gap: 16px;}
+    .comments-type-list{flex: 0 0 calc(25% - 16px); flex-direction: column;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .newsletter-main{gap: 24px;}
+    .comments-type-row{gap: 8px;}
+    .comments-type-list{flex: 0 0 calc(50% - 8px); padding-right: 40px;}
+    .newsletter-signup{padding-top: 14px;}
+    .newsletter-disclaimer{max-width: 276px; margin: auto;}
+    .comments-type-icon{flex: 0 0 auto;}
+    .comments-type-text{flex: 1;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 744px){
+
+}
+@media only screen and (max-width: 743px) and (min-width: 200px){
+    .newsletter-main{display: block; padding: 40px 0 40px;}
+    .newsletter-main h2{font-size: 28px; line-height: 32px;}
+    .comments-type-row{gap: 8px;}
+    .comments-type-list{flex: 0 0 calc(50% - 8px); padding-right: 40px;}
+    .comments-type-icon{flex: 0 0 auto;}
+    .comments-type-text{flex: 1;}
+    .newsletter-disclaimer{max-width: 260px; margin: auto;}
+    .newsletter-bulb{margin: 24px 0 26px;}
 }
