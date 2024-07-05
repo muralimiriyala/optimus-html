@@ -10,7 +10,7 @@
 .short-intro-icon{display: block; margin-bottom: 20px; color: var(--Orange); max-width: 40px; }
 .short-arrow-img { flex: 0 0 104px; }
 
-
+.short-intro-main{margin: 8px 0; width: 100%; border-bottom: 1px solid var(--body-text); }
 
 
 
