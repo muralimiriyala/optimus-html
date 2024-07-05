@@ -78,5 +78,5 @@
     .primary-cta-bracket.left{left: 0; border-bottom: none; border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
     .primary-cta-bracket.right{right: 0; top: auto; bottom: 0; border-top: none; border-top-left-radius: 0; border-top-right-radius: 0;}
 
-    
+    body.page-template-careers .primary-cta-wrap{padding: 48px 0 40px;}
 }

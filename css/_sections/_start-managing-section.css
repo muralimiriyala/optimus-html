@@ -1,7 +1,7 @@
 .start-managing-block{padding-bottom: 40px;}
 .start-managing-wrap{padding: 20px 30px; }
 .start-managing-main { padding: 24px 34px 24px 24px; background-color: var(--Navy);}
-.start-managing-text h2 { font-size: 32px; margin-bottom:0 }
+.start-managing-text h2 { margin-bottom:0 }
 .start-btn-link:hover svg{transform: translate(12px,-.15px);}
 .start-btn-link svg{transform: translate(0,0); transition: all .5s ease;}
 .start-btn-link span{padding: 10px 13px 10px; border-radius: 28px; border: 8px solid var(--Orange); color: var(--White); font-size: 20px; line-height: 20px; position: relative; display: inline-block; }

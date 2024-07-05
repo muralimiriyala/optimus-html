@@ -30,7 +30,13 @@
     .open-position-title{max-width: 348px; flex: 1}
     .open-position-left{flex: 1;}
 
+}
 
+@media only screen and (max-width: 743px) and (min-width: 200px){
+    .open-position-wrap{padding: 40px 0;}
+    .open-position-text{margin-bottom: 40px;}
+    .open-position-list{margin-bottom: 16px;}
+    .open-position-left{flex: 0 0 200px; gap: 10px;}
 
 }
 
