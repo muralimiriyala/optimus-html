@@ -18,6 +18,9 @@
     .post-array-head{gap: 32px; padding-bottom: 39px;}
     .post-array-title{flex: 1;}
     .post-array-head h2{margin-bottom: 0;}
+
+    .post-array-row .slick-list{overflow: inherit;}
+    .post-array-list.slick-slide{width: 296px; margin-right: 32px;}
 }
 
 

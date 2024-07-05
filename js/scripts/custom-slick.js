@@ -1,17 +1,12 @@
 jQuery(document).on("ready", function(){
-    const pageSlider = jQuery(".industry-slider");
+    const postSlider = jQuery(".post-array-row");
     function initializeSlider() {
-        pageSlider.each(function(){
-            const _this = jQuery(this);
-            const pageSlide = _this.children(".industry-slide").length;
-            const $status = _this.closest('.who-for-page').find(".industry-count");
+        postSlider.each(function(){
+            const $this = jQuery(this);
+            const postSlide = $this.children(".post-array-list").length;
             if(jQuery(window).width() <= 1024){
-                if (!_this.hasClass('slick-initialized')) {
-                    _this.on('init reInit afterChange', function(event, slick, currentSlide) {
-                        let i = (currentSlide ? currentSlide : 0) + 1;
-                        $status.text(i + '/' + slick.slideCount);
-                    });
-                    _this.slick({
+                if (!$this.hasClass('slick-initialized')) {
+                    $this.slick({
                         slidesToShow: 1,
                         slidesToScroll: 1,
                         arrows: true,
@@ -26,17 +21,13 @@ jQuery(document).on("ready", function(){
                 }
             }
             else {
-                if (pageSlide >= 5 && !_this.hasClass('slick-initialized')) {
-                    _this.on('init reInit afterChange', function(event, slick, currentSlide) {
-                        let i = (currentSlide ? currentSlide : 0) + 1;
-                        $status.text(i + '/' + slick.slideCount);
-                    });
-                    _this.slick({
+                if (postSlide >= 5 && !$this.hasClass('slick-initialized')) {
+                    $this.slick({
                         slidesToShow: 1,
                         slidesToScroll: 1,
                         arrows: true,
-                        prevArrow: '<div class="slick-arrow slick-prev flex flex-center"><span class="slick-arrows slick-prev-arrow"></span></div>',
-                        nextArrow: '<div class="slick-arrow slick-next flex flex-center"><span class="slick-arrows slick-next-arrow"></span></div>',
+                        prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+                        nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
                         dots: false,
                         speed: 1500,
                         infinite: false,
@@ -48,10 +39,10 @@ jQuery(document).on("ready", function(){
         });
     }
     function destroySlider() {
-        pageSlider.each(function(){
-            const _this = jQuery(this);
-            if(jQuery(window).width() >= 1024 && _this.hasClass('slick-initialized')) {
-                _this.slick('unslick');
+        postSlider.each(function(){
+            const $this = jQuery(this);
+            if(jQuery(window).width() >= 1024 && $this.hasClass('slick-initialized')) {
+                $this.slick('unslick');
             }
         });
     }
