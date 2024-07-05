@@ -183,16 +183,14 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 .play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; overflow: hidden; z-index: 1;}
 .play-btn-main .play-btn{width: 104px; height: 104px; z-index: 1;}
-.play-btn-bg{width: 100%; height: 100%; font-size: 0; line-height: 0; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
-.play-btn-bg img{margin-left: 3px; transform: scale(1); transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
-.play-btn-bg:hover img{transform: scale(1.125);}
-.play-btn-bg:hover::before{opacity: 1;}
-.play-btn-bg > span.btn-circle{background-color: rgba(255, 255, 255, 0.80); z-index: 1; }
+.play-btn-bg::before { width: calc(100% + 24px); height: calc(100% + 24px); background-color: var(--Blue); content: ""; position: absolute; border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.5; z-index: -1; }
+.play-btn-bg{width: 100%; height: 100%; color: var(--Light-Blue, #41B4FF); font-size: 0; line-height: 0; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), var(--Blue, #004C97); }
+.play-btn-bg:hover{color: var(--White);}
+.play-btn-bg i{font-size: 48px; line-height: 48px; }
+.play-btn-bg > span.btn-circle{background-color: var(--Blue); z-index: 1; }
 .play-btn-bg > span.btn-circle > svg{left: 2px; position: relative;}
-.play-btn-bg > span.btn-circle:hover{background-color: var(--White); transform: scale(1.15);}
-.play-btn-bg > span.btn-circle:hover::after{color: var( --White);}
-.play-btn-bg > span {transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 50%; bottom: 0; content: ""; left: 0; position: absolute; right: 0; top: 0; }
-.play-btn-bg > span:not(:first-child) { animation: 6s playBtnZooming infinite linear; transform: scale(1); filter: opacity(0.25); -webkit-filter: opacity(0.25); background-color: var( --White); }
+.play-btn-bg > span {transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 50%; bottom: 0; content: ""; left: 0; position: absolute; right: 0; top: 0; z-index: -1;}
+.play-btn-bg > span:not(:first-child) { animation: 6s playBtnZooming infinite linear; transform: scale(1); filter: opacity(0.1); -webkit-filter: opacity(0.1); background-color: var(--Blue);}
 .play-btn-bg > span:not(:first-child):nth-child(2) { -webkit-animation-delay: 2s; animation-delay: 2s; }
 .play-btn-bg > span:not(:first-child):nth-child(3) { -webkit-animation-delay: 4s; animation-delay: 4s; }
 @keyframes playBtnZooming { 0% { transform: scale(1); opacity: 1; } 100% { transform: scale(5); opacity: 0; } }
