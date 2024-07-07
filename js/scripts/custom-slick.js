@@ -6,7 +6,7 @@ jQuery(document).on("ready", function(){
             const postSlide = $this.children(".post-array-list").length;
             const postBtn = jQuery(".post-array-btn");
             const postHead = jQuery(".post-array-head");
-            if(jQuery(window).width() <= 1023){
+            if(window.matchMedia('(max-width: 1023px)').matches){
                 if (!$this.hasClass('slick-initialized')) {
                     $this.slick({
                         slidesToShow: 1,
@@ -19,7 +19,7 @@ jQuery(document).on("ready", function(){
                         infinite: false,
                         autoplay: false,
                         variableWidth: true,
-                        appendArrows: jQuery(postHead),
+                        appendArrows: postHead,
                         responsive: [
                             {
                                 breakpoint: 743,
