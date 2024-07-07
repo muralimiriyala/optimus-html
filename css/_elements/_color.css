@@ -13,8 +13,10 @@
     --light-pink: #FF599F;
     --Orange: #F17C23;
     --Foreground: #191D2A;
+    --Background: #F0F2FA;
     --Gray: #707372;
     --Light-Blue-Tint: rgba(65,180,255,.15);
     --Navy: #19234c;
     --Dark-Blue-50: rgb(25 35 76 / 50%);
+    
 }

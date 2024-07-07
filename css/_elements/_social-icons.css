@@ -30,7 +30,7 @@ ul.social-icons li a::before {
   content:"";
   opacity: 0.25;
   border-radius: 50%;
-  background-color: #19234C;
+  background-color: var(--Dark-Blue);
   position:absolute;
   transition:all .5s ease;
   z-index:-1
