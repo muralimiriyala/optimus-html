@@ -1,7 +1,7 @@
 
 
 /* Input fields */
-label{padding-bottom: 9px; display: block; font-size: 1.125rem; line-height: 1.375rem; letter-spacing: 0; font-weight: 800; font-family: "Blackbird", sans-serif;}
+label{padding-bottom: 9px; display: block; font-size: 1.125rem; line-height: 1.375rem; letter-spacing: 0; font-weight: 800; font-family: var(--base-font);}
 textarea {width: 100%; resize: none; height: 118px;}
 input:focus, textarea:focus{outline: 0;}
 input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 0.875rem; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--Blue); font-weight: bold; letter-spacing: normal; position: relative; text-transform: uppercase; text-align: center; color: var(--White); transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
@@ -20,11 +20,11 @@ body .frm_forms .frm_required{display: none;}
 body .contact-form .frm_forms .frm_required{display: inline;}
 body .frm_forms .frm_required{font-size: 1rem; line-height: 1; letter-spacing: -0.32px; font-weight: 800; color: var(--black-md); font-family: 'VisbyCF', sans-serif;}
 body .frm_forms .frm_form_fields .frm_fields_container{display: block; position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 18px; line-height: 18px; font-weight: 600; font-family: "Blackbird", sans-serif; color: var(--Blue); text-transform: none; padding: 0 0 8px;}
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 18px; line-height: 18px; font-weight: 600; font-family: var(--base-font); color: var(--Blue); text-transform: none; padding: 0 0 8px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 500; font-family: "Blackbird", sans-serif; color: var(--Gray); font-size: 14px; line-height: 100%; bottom: -4px; position: relative;}
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 500; font-family: var(--base-font); color: var(--Gray); font-size: 14px; line-height: 100%; bottom: -4px; position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; width: 100%; font-size: 1rem; line-height: 150%; letter-spacing: 0; box-shadow: none; padding: 16px 16px 14px; vertical-align: middle; height: auto; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md);  color: var(--foreground); border-radius: 4px 4px 0px 0px; border-bottom: 2px solid var(--Blue); background: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); color: var(--Blue); font-family: 'Blackbird', sans-serif; -webkit-appearance: none; opacity: 1;}
 body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, body .bg-elevated .frm_forms .frm_form_field textarea, body .bg-elevated .frm_forms .selectBox-dropdown{background-color: var(--white);}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 120px;} body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"], [type="checkbox"]):focus, textarea:focus{background-color: var(--Light-Blue-Tint); box-shadow: none; border-color: var(--Light-Blue-Tint,rgba(65,180,255,.15)); color: var(--Blue); opacity: 1;}
