@@ -80,7 +80,7 @@ hr{ margin: 0 0 32px; height: 4px; width: 96px; display: block; border: none; bo
 .button.btn-transparent{padding: 12px 13px 12px 12px; border-radius: 24px; border: 4px solid var(--Orange);}
 
 a.text-link{gap: 8px; font-size: 16px; line-height: 24px;}
-a.text-link i{top: 2px; position: relative; color: var(--Light-Blue); font-size: 20px; line-height: 20px; transition: var(--transition-1);}
+a.text-link i{top: 2px; left: 0; position: relative; color: var(--Light-Blue); font-size: 20px; line-height: 20px;}
 a.text-link.white{color: var(--White);}
 a.text-link:hover i{left: 6px;}
 
