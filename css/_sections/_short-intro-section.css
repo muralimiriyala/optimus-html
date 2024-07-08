@@ -10,6 +10,7 @@
 
 body.page-template-careers .short-intro-main::after { content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: 0.5; margin-top: 48px; }
 body.page-template-careers .short-intro-main{padding: 40px 0 0;}
+body.page-template-about-culture .short-intro-row{padding: 0;}
 
 .short-intro-head.no_intro_desc{display: block;}
 .no_intro_desc .short-arrow-img{display: none;}
