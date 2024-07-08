@@ -10,14 +10,15 @@
 
 body.page-template-careers .short-intro-main::after { content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: 0.5; margin-top: 48px; }
 body.page-template-careers .short-intro-main{padding: 40px 0 0;}
-body.page-template-about-culture .short-intro-row{padding: 0;}
 
+body.page-template-about-culture .short-intro-main::before { content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: 0.5; ; }
 .short-intro-head.no_intro_desc{display: block;}
 .no_intro_desc .short-arrow-img{display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .short-intro1-of-1 h3{max-width: 100%;}
+    body.page-template-about-culture .short-intro-row{padding: 80px 0 0;}
 }
 @media screen and (min-width:1200px){
     .short-intro-head{gap: 48px; margin-bottom: 40px;}
@@ -42,6 +43,7 @@ body.page-template-about-culture .short-intro-row{padding: 0;}
     .short-intro-desc { flex: 0 0 calc(100% - 152px); padding: 0;}
     .short-intro-row{gap: 32px; padding: 0;}
     .short-intro-list{flex: 0 0 calc(50% - 24px);}
+    body.page-template-about-culture .short-intro-row{padding: 80px 0 0;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .short-intro-head{gap: 0;}
@@ -50,4 +52,6 @@ body.page-template-about-culture .short-intro-row{padding: 0;}
     .short-intro-desc{padding-left: 0; order:2; margin-bottom: 17px;}
     .short-intro-icon img{margin-bottom: 3px;}
     body.page-template-careers .short-intro-main::after {margin-top: 10px;}
+    body.page-template-about-culture .short-intro-row{padding: 40px 0 0;}
+    body.page-template-about-culture .short-intro-main{padding: 10px 0 40px;}
 }
