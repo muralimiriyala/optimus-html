@@ -6,7 +6,7 @@ jQuery(document).on("ready", function(){
             const postSlide = $this.children(".post-array-list").length;
             const postBtn = jQuery(".post-array-btn");
             const postHead = jQuery(".post-array-head");
-            if(window.matchMedia('(max-width: 1023px)').matches){
+            if(window.matchMedia('(max-width: 1439px)').matches){
                 if (!$this.hasClass('slick-initialized')) {
                     $this.slick({
                         slidesToShow: 1,
@@ -19,8 +19,14 @@ jQuery(document).on("ready", function(){
                         infinite: false,
                         autoplay: false,
                         variableWidth: true,
-                        appendArrows: postHead,
+                        appendArrows: postBtn,
                         responsive: [
+                            {
+                                breakpoint: 1023,
+                                settings: {
+                                    appendArrows: postHead,
+                              }
+                            },
                             {
                                 breakpoint: 743,
                                 settings: {
@@ -55,7 +61,7 @@ jQuery(document).on("ready", function(){
     function destroySlider() {
         postSlider.each(function(){
             const $this = jQuery(this);
-            if(jQuery(window).width() >= 1023 && $this.hasClass('slick-initialized')) {
+            if(jQuery(window).width() >= 1440 && $this.hasClass('slick-initialized')) {
                 $this.slick('unslick');
             }
         });

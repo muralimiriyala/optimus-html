@@ -1,6 +1,8 @@
 :root{
     --transition: all 0.4s ease-in-out;
     --transition-1: all 0.3s ease-in;
+    --post-transition: all 0.5s linear;
+    --post-transition-1: all 0.75s linear;
 }
 .transition{transition: var(--transition);}
 .transition-1{transition: var(--transition-1);}
