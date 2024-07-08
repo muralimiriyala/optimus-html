@@ -3,6 +3,7 @@
 
 
 .post-array-list{overflow: hidden;}
+.post-array-bg{top: 296px; left: -100vw; width: 1000vw;}
 .post-array-bg{height: 100%; z-index: -1;}
 .post-array-image img{border-radius: 24px 24px 0 0;}
 .post-array-padd{padding: 32px 28px 32px 30px;}
@@ -15,7 +16,11 @@
 .post-array-list:hover .post-array-hover{opacity: 1;}
 .post-array-list:hover .post-array-text{opacity: 0;}
 .post-array-image img{transition: all 1s ease; overflow: hidden; height: 100%;}
+.post-array-thumb img{height: 296px; max-height: 296px; overflow: hidden;}
 .post-array-list:hover .post-array-image img{height: 0;}
+
+.post-array-hover{top: 296px;}
+.post-array-list:hover .post-array-hover{top: 0;}
 
 
 /*-- media css starts here --*/
@@ -26,12 +31,7 @@
     .post-array-head{gap: 32px; padding-bottom: 39px;}
     .post-array-title{flex: 1;}
     .post-array-head h2{margin-bottom: 0;}
-    .post-array-hover{top: 296px;}
-    .post-array-list:hover .post-array-hover{top: 0;}
 
-    
-    .post-array-bg{top: 296px; left: -100vw; width: 1000vw;}
-    .post-array-thumb img{height: 296px; max-height: 296px; overflow: hidden;}
 
     .post-array-row .slick-list{overflow: inherit;}
     .post-array-list.slick-slide{width: 296px; margin-right: 32px;}
@@ -52,6 +52,7 @@
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .post-array-main{padding: 40px 0 40px;}
     .post-array-head{display: block; padding-bottom: 4px;}
+
     .post-array-row.slick-slider{width: calc(100% + 24px);}
     .post-array-list.slick-slide{width: 296px; margin-right: 38px;}
     .post-array-row div.slick-arrow{background: var(--Navy); bottom: -18px;}

@@ -1,5 +1,6 @@
 
 
+.newsletter-main h2{margin-bottom: 24px;}
 .comments-type-list{padding: 16px; gap: 12px; background: rgba(25, 35, 76, 0.40); }
 .comments-type-list i{color: var(--Light-Blue);}
 .comments-type-list figure{width: 24px; height: 24px;}
@@ -46,7 +47,11 @@ body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_butto
     .comments-type-text{flex: 1;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
-
+    .newsletter-main{padding: 40px 0; display: block;}
+    .newsletter-lt{margin-bottom: 32px;}
+    .comments-type-row{gap: 16px;}
+    .comments-type-list{flex: 0 0 calc(25% - 12px); flex-direction: column;}
+    .newsletter-bulb{margin-bottom: 32px;}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .newsletter-main{display: block; padding: 40px 0 40px;}
