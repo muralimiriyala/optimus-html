@@ -213,7 +213,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted h1, .inverted h2, .inverted h3, .inverted h4, .inverted h5, .inverted h6{color: var( --White);}
 .inverted .h1, .inverted .h2, .inverted .h3, .inverted .h4, .inverted .h5, .inverted .h6{color: var( --White);}
 .inverted h1 a, .inverted h2 a, .inverted h3 a, .inverted h4 a{color: var( --White);}
-.inverted h1 a:hover, .inverted h2 a:hover, .inverted h3 a:hover, .inverted h4 a:hover{color: var(--Blue);}
+.inverted h1 a:hover, .inverted h2 a:hover, .inverted h3 a:hover, .inverted h4 a:hover{color: var(--Orange);}
 .inverted dl dt::before{background-color: var( --White);}
 .inverted p a{color: var( --White);}
 .inverted p a:hover{color: var(--Orange);}
