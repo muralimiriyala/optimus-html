@@ -1,0 +1,8 @@
+.people-main{padding: 40px 0;}
+.people-row{gap: 80px;}
+.people-txt{flex: 0 0 46.5%;}
+.people-thumb{flex: 0 0 46.5%;}
+.people-txt h2{font-size: 56px; line-height: 1.15; font-weight: 400; margin-bottom: 18px;}
+.people-icon{margin-right: 10px;}
+.people-cont span{font-size: 15px; color: var(--Blue);}
+.people-cont{margin-bottom: 14px;}
