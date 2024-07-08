@@ -1,9 +1,10 @@
 .services-tail-section{background-color: var(--Blue);}
 .services-tail-decor{z-index: -1; opacity: 0.1;}
-.service-tail-lt span{margin-bottom: 19px;}
-.service-tail-lt h1{margin-bottom: 32px; font-size: 48px; line-height: 55px; color: var(--White);}
+.service-tail-text span.optional-text{margin-bottom: 22px;}
+.service-tail-text h1{margin-bottom: 32px; color: var(--White);}
 .service-tail-btns{gap: 16px;}
 
+.service-tail-rt svg{width: 100%; height: 100%;}
 
 
 .service-tail-list{padding: 40px; color: var(--Gray);}
@@ -23,20 +24,29 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .service-tail-wrap{padding: 84px 0 80px;}
-    .service-tail-main{gap: 80px; padding: 54px 0 49px;}
-    .service-tail-lt{flex: 0 0 550px;}
+    .service-tail-main{padding: 54px 0 49px;}
+
     .service-tail-rt{flex: 1;}
-    .service-tail-rt svg{margin-left: auto; display: block;}
-    .services-tail-decor{top: 0; left: -315px;}
+    .service-tail-rt svg{max-width: 600px; margin-left: auto; display: block;}
+
     
     .service-tail-row{padding: 40px 0 0; justify-content: center;}
     .service-tail-list:hover{transform: translateY(-20px);}
 }
 @media only screen and (min-width: 1300px){
+    .service-tail-main{gap: 80px;}
+    .services-tail-decor{top: 0; left: -315px;}
+    .service-tail-text{flex: 0 0 550px;}
+
     .service-tail-row{gap: 32px;}
     .service-tail-list{flex: 0 0 calc(25% - 24px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .service-tail-main{gap: 40px;}
+    .services-tail-decor{top: 0; left: -315px;}
+    .service-tail-text{flex: 0 0 450px;}
+    .service-tail-text h1{font-size: 38px; line-height: 48px;}
+
     .service-tail-row{gap: 32px;}
     .service-tail-list{flex: 0 0 calc(33.3333% - 22px);}
 }
@@ -46,6 +56,8 @@
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .service-tail-wrap{padding: 40px 0 40px;}
+    .service-tail-main{display: block; padding: 0 0 40px;}
+    .service-tail-text h1{margin-bottom: 30px; font-size: 28px; line-height: 35px;}
     .service-tail-row{display: block; padding-top: 40px;}
     .service-tail-list:not(:last-child){margin-bottom: 32px;}
 }
