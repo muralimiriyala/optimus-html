@@ -17,7 +17,7 @@
     .open-position-title{flex: 1;}
     .open-position-posted{width: fit-content;}
     .open-position-btn{flex: 0 0 80px;}
-    .open-bracket{width: 48px; height: 100%; top: 0; border: 1px solid var(--Light-Blue, #41B4FF);}
+    .open-bracket{width: 48px; height: 100%; top: 0; border: 1px solid var(--Light-Blue);}
     .open-bracket.left{left: 0; border-right: none; border-top-right-radius: 0; border-bottom-right-radius: 0;}
     .open-bracket.right{right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
 }

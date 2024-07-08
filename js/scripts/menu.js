@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
     menu();
 });
 function desktopMenu(){
-    if(window.matchMedia('(min-width: 936px)').matches){
+    if(window.matchMedia('(min-width: 1024px)').matches){
         jQuery(".humburger-btn").removeClass("open");
         jQuery(".header_right").removeAttr("style");
         jQuery(".h_mobile_overlay").removeClass("open");
@@ -29,6 +29,4 @@ const observer = new MutationObserver(function(mutationsList) {
     }
 });
 observer.observe(document.body, { childList: true, subtree: true });
-
-
 
