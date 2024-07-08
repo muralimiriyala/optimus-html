@@ -1,4 +1,6 @@
 :root{
     --transition: all 0.4s ease-in-out;
+    --transition-1: all 0.4s ease-in-out 0.4s, visibility 0s;
 }
 .transition{transition: var(--transition);}
+.transition-1{transition: var(--transition-1);}

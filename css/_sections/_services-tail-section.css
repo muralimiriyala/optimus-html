@@ -18,6 +18,7 @@
 .service-tail-arrow a{color: var(--Orange);}
 .service-tail-arrow a:hover{color: var(--Blue);}
 .service-tail-list:hover figure, .service-tail-list:hover i.fa-service{transform: translateX(calc(100% + 10px)); opacity: 0;}
+.service-tail-list.no_tails_arrow:hover figure, .service-tail-list.no_tails_arrow:hover i.fa-service{opacity: 1; transform: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
