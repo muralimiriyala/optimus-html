@@ -82,7 +82,8 @@ hr{ margin: 0 0 32px; height: 4px; width: 96px; display: block; border: none; bo
 a.text-link{gap: 8px; font-size: 16px; line-height: 24px;}
 a.text-link i{top: 2px; left: 0; position: relative; color: var(--Light-Blue); font-size: 20px; line-height: 20px;}
 a.text-link.white{color: var(--White);}
-a.text-link:hover i{left: 6px;}
+a.text-link.blue{color: var(--Blue);}
+a.text-link:hover i{left: 8px;}
 
 .text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 20px; line-height: 100%;}
 .text-btn-link:hover{color: var(--White);}

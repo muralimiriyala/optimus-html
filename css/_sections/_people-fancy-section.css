@@ -1,42 +1,30 @@
-.people-fancy-main{padding: 40px 0;}
 .people-fancy-txt h2{font-size: 40px; line-height: 1.15; font-weight: 400; margin-bottom: 18px;}
 .people-fancy-icon{margin-right: 10px; color: var(--Light-Blue); font-size: 20px; line-height: 20px;}
 .people-fancy-cont span{font-size: 15px; color: var(--Blue);}
 .people-fancy-cont{margin-bottom: 14px;}
 .people-fancy-btns{gap: 16px;}
 .people-fancy-txt p{color: var(--Gray);}
-
-
+.people-fancy-row.no_fancy_images{display: block;}
+.people-fancy-row.no_fancy_text{justify-content: center;}
 
 /* media css starts here */
-
 @media screen and (min-width: 1024px){
+    .people-fancy-main{padding: 40px 0 90px;}
     .people-fancy-row{gap: 80px;}
     .people-fancy-txt{flex: 0 0 46.5%;}
     .people-fancy-images{flex: 0 0 46.5%;}
     .people-fancy-txt h2{font-size: 56px;}
-
-
-
 }
-
 @media screen and (max-width:1199px) and (min-width:1024px) {
     .people-fancy-row{gap: 60px}
-    
-
-
 }
 @media screen and (max-width:1023px) and (min-width: 200px) {
     .people-fancy-row{flex-direction: column-reverse; gap: 64px; text-align: center;}
     .people-fancy-cont{justify-content: center;}
     .people-fancy-btns{justify-content: center;}
     .people-fancy-txt h2{font-size: 32px;}
-
-
 }
-
 @media screen and (max-width:743px) and (min-width: 200px) {
     .people-fancy-btns .button{width: 100%;}
-
 }
 
