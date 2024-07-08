@@ -4,7 +4,7 @@ html.js{margin-top: 0 !important;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html{overflow-y: scroll; overflow-x: hidden; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
-a{color: var(--Blue);text-decoration: none; transition: all 0.5s ease;}
+a{color: var(--Blue);text-decoration: none; transition: var(--transition);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--Orange);}
@@ -74,7 +74,7 @@ hr{ margin: 0 0 32px; height: 4px; width: 96px; display: block; border: none; bo
 ::-moz-selection {background-color: var(--Foreground); color: var( --White);}
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 17px 16px 18px; font-size: 1rem; font-weight: 600; line-height: 100%; font-family: var(--base-font); display: inline-block; background: var(--Blue); color: var( --White); border: none; border-radius: 24px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0; }
+.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 17px 16px 18px; font-size: 1rem; font-weight: 600; line-height: 100%; font-family: var(--base-font); display: inline-block; background: var(--Blue); color: var( --White); border: none; border-radius: 24px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--transition); z-index: 1; margin: 0; }
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{ background: var(--Orange); color: var( --White); }
 
 .button.btn-transparent{padding: 12px 13px 12px 12px; border-radius: 24px; border: 4px solid var(--Orange);}
@@ -86,11 +86,8 @@ a.text-link.white{color: var(--White);}
 .text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 20px; line-height: 100%;}
 .text-btn-link:hover{color: var(--White);}
 .text-btn-link > span{padding: 10px 16px 10px; flex: 1; border-radius: 28px; border: 8px solid var(--Orange); display: inline-block;}
-.text-btn-link svg{ transform: translate(0, 0); transition: all 0.5s ease; }
+.text-btn-link svg{ transform: translate(0, 0); transition: var(--transition); }
 .text-btn-link:hover svg{ transform: translate(12px, -0.15px); }
-
-.transition{transition: all 0.5s ease;}
-
 
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
@@ -122,7 +119,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 .flex-start{align-items: flex-start;}
 .row-reverse{flex-direction: row-reverse;}
 .inline-flex { display: -webkit-inline-flex; display: -moz-inline-flex; display: -ms-inline-flexbox; display: -webkit-inline-flexbox; display: inline-flex; }
-  
+.no-wrap{flex-wrap: nowrap;}
 
 /*-- custom css starts here --*/
 body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--base-font); position: relative; color: var(--Foreground); background-color: transparent; overflow-x: clip;}
@@ -153,8 +150,6 @@ span.optional-text.md{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 
 .fs-20{font-size: 20px; line-height: 30px;}
 .fs-24{font-size: 1.5rem; line-height: 2.25rem;}
 .fs-40{ font-size: 40px; line-height: 100%;}
-
-.font-graphic{font-family: 'Graphik-Regular';}
 
 .radius-4, .radius-img-4 img{border-radius: 4px;}
 .radius-6, .radius-img-6 img{border-radius: 6px;}
@@ -232,8 +227,8 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .navy-bg{background: var(--Navy);}
 .blue-bg{background-color: var(--Blue);}
 
-div.slick-arrow{width: 56px; height: 56px; padding: 0; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease; background: var(--Blue); }
-div.slick-arrow::after{width: 0%; height: 0%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background: var(--Orange); content: ""; display: block; border-radius: 50%; position: absolute; transition: all 0.5s ease; z-index: -1;}
+div.slick-arrow{width: 56px; height: 56px; padding: 0; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1; cursor: pointer; transition: var(--transition); background: var(--Blue); }
+div.slick-arrow::after{width: 0%; height: 0%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background: var(--Orange); content: ""; display: block; border-radius: 50%; position: absolute; transition: var(--transition); z-index: -1;}
 div.slick-arrow:hover::after{opacity: 1; width: 100%; height: 100%;}
 div.slick-arrow.slick-disabled{opacity: 0.2; background-color: var(--Gray); pointer-events: none;}
 span.slick-arrows{color: var(--White);}

@@ -1,0 +1,72 @@
+
+
+
+.banner-text span.optional-text{margin-bottom: 23px;}
+.banner-text h2{margin-bottom: 16px;}
+.banner-decs{z-index: 2;}
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .banner-main{background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);}
+    .banner-text{z-index: 2;}
+    .banner-circle{top: 0; left: -145px; z-index: -1; opacity: 0.3;}
+    .banner-circle svg{width: 638px; height: 640px;}
+    
+    .banner-image::before{width: 217px; height: 100%; left: 0px; top: 0; content: ""; display: block; position: absolute; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); clip-path: polygon(0% 0%,0% 0,100% 50%,0% 100%,0% 100%); }
+
+
+    .banner-chevron{top: 0; left: -107px;}
+    .banner-chevron svg{width: 413px; height: 100%;}
+    
+    .banner-btns{margin-top: 47px;}
+}
+@media only screen and (min-width: 1440px){
+    .banner-text{flex: 0 0 50%; padding: 251px 0 171px;}
+    .banner-desc{max-width: 640px; padding-right: 100px; margin-left: auto;}
+    .banner-image{flex: 1; min-width: 840px; margin-left: -120px;}
+
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    /* .banner-text{padding: 56px 0 55px 48px; flex: 0 0 368px;}
+    .banner-circle{left: -164px;} */
+}
+@media only screen and (max-width: 1023px) and (min-width: 744px){
+    .banner-wrap{padding: 78px 0 40px;}
+    .banner-main{display: block; text-align: center;}
+    .banner-text{padding: 40px 40px 0; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);}
+    .banner-text h2 br{display: none;}
+    .banner-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
+    .banner-circle svg{width: 499px; height: 500px;}
+
+    .banner-chevron{top: -64px; left: 0; right: 0; margin: 0 auto; max-width: 518px; max-height: 334px;}
+    .banner-chevron svg{width: 100%; height: 100%;}
+    .banner-image{flex: 1;}
+    .banner-image::before{width: 100%; height: 203px; left: 0px; top: 0; content: ""; display: block; position: absolute; background: linear-gradient(to bottom, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); clip-path: polygon(0% 0%, 100% 0, 100% 0%, 48% 100%, 0 0%); }
+
+    .banner-thumb img{border-radius: 0 0 16px 16px;}
+    .banner-btns{margin-top: 32px;}
+
+
+}
+@media only screen and (max-width: 743px) and (min-width: 200px){
+    .banner-wrap{padding: 40px 0;}
+    .banner-main{display: block; text-align: center;}
+    .banner-main{padding: 20px;}
+    .banner-text{padding: 28px 20px 0; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 16px; line-height: 24px;}
+    .banner-text h2{font-size: 40px; line-height: 46px;}
+    .banner-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
+    .banner-circle svg{width: 499px; height: 500px;}
+
+    .banner-chevron{top: -58px; left: 0; right: 0; margin: 0 auto; max-width: 317px; max-height: 206px;}
+    .banner-chevron svg{width: 100%; height: 100%;}
+    .banner-image{flex: 1;}
+    .banner-image::before{width: 100%; height: 106px; left: 0px; top: 0; content: ""; display: block; position: absolute; background: linear-gradient(to bottom, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); clip-path: polygon(0% 0%, 100% 0, 100% 0%, 50% 100%, 0 0%); }
+
+    .banner-thumb img{border-radius: 0 0 16px 16px;}
+    .banner-btns{margin-top: 24px;}
+
+ 
+}

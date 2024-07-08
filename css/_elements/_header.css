@@ -28,15 +28,15 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     ul.main_menu li::before{display: none;}
     ul.main_menu > li{margin: 0;}
     ul.main_menu > li > a{padding: 34px 0 35px; display: block; color: var(--White); font-size: 15px; font-weight: 700; line-height: 100%; letter-spacing: 1.2px; position: relative;}
-    ul.main_menu > li > a::after{width: 0%; height: 8px; bottom: -4px; left: 0; right: 0; opacity: 0; position: absolute; content: ""; display: block; border-radius: 0; background: var(--Orange); transition: width 0.3s ease-in-out; margin-left: auto; margin-right: auto;}
+    ul.main_menu > li > a::after{width: 0%; height: 8px; bottom: -4px; left: 0; right: 0; opacity: 0; position: absolute; content: ""; display: block; border-radius: 0; background: var(--Orange); transition: var(--transition); margin-left: auto; margin-right: auto;}
     ul.main_menu > li.current-menu-item > a::after, ul.main_menu > li:hover > a::after{opacity: 1; width: 64px;}
     /* ul.main_menu > li.current-page-ancestor > a, ul.main_menu > li.current-menu-item > a, ul.main_menu > li > a:hover{color: var(--Orange);} */
-    ul.main_menu > li > ul{margin: 0; padding: 21px 32px 15px; min-width: 300px; border-radius: 0 0 8px 8px; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: all 0.4s ease; box-shadow: 0 6px 12px 0 rgba(24,42,84,.1);}
+    ul.main_menu > li > ul{margin: 0; padding: 21px 32px 15px; min-width: 300px; border-radius: 0 0 8px 8px; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: var(--transition); box-shadow: 0 6px 12px 0 rgba(24,42,84,.1);}
     ul.main_menu > li:hover > ul{opacity: 1; visibility: visible;}
     ul.main_menu > li > ul > li{margin: 0 0 11px;}
     ul.main_menu > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 500; display: block;}
 
-    ul.main_menu > li > ul > li > ul{margin: 0; padding: 21px 32px 15px; min-width: 300px; left: calc(100% + 32px); top: 0; border-radius: 0 8px 8px 8px; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: all 0.4s ease; box-shadow: 0 6px 12px 0 rgba(24,42,84,.1);}
+    ul.main_menu > li > ul > li > ul{margin: 0; padding: 21px 32px 15px; min-width: 300px; left: calc(100% + 32px); top: 0; border-radius: 0 8px 8px 8px; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: var(--transition); box-shadow: 0 6px 12px 0 rgba(24,42,84,.1);}
     ul.main_menu > li > ul > li:hover > ul{opacity: 1; visibility: visible;}
     ul.main_menu > li > ul > li > ul > li{margin: 0 0 11px;}
     ul.main_menu > li > ul > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 400; display: block;}
@@ -120,7 +120,7 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .humburger-btn.open span:nth-child(2) { transform: scale(0); }
     .humburger-btn.open span:nth-child(3) {top: 32px; transform:rotate(-45deg) }
 
-    .h_mobile_overlay{visibility: hidden; opacity: 0; top: 0; right: 0; transform: translateX(0); width: 100%; height: 100%; position: fixed; background: rgba(24, 42, 84, 0.85); backdrop-filter: blur(6px); transition: all 0.5s ease;} 
+    .h_mobile_overlay{visibility: hidden; opacity: 0; top: 0; right: 0; transform: translateX(0); width: 100%; height: 100%; position: fixed; background: rgba(24, 42, 84, 0.85); backdrop-filter: blur(6px); transition: var(--transition);} 
     .h_mobile_overlay.open{visibility: visible; opacity: 1;}
     .header_right{display: none; padding: 11px 16px 4px; top: calc(100% - 4px); left: 0; width: calc(100% + 2px); height: auto; position: absolute; background-color: var(--White); border-radius: 0 0 16px 16px; border: 1px solid var(--Blue-Tint,#d9dff2); border-top: none;}
 

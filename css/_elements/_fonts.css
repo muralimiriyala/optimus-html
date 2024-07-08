@@ -3,3 +3,4 @@
     --heading-font: "Blackbird", sans-serif;
     --graphic-font: "Graphik-Regular", sans-serif;
 }
+.font-graphic{font-family: var(--graphic-font), sans-serif;}

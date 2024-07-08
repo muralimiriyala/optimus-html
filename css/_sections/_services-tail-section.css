@@ -23,6 +23,7 @@
     .services-tail-decor{top: 0; left: -315px;}
     
     .service-tail-row{padding: 40px 0 0; justify-content: center;}
+    .service-tail-list:hover{transform: translateY(-20px);}
 }
 @media only screen and (min-width: 1300px){
     .service-tail-row{gap: 32px;}
