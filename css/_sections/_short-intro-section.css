@@ -38,7 +38,7 @@ body.page-template-about-culture .short-intro-row{padding: 0;}
     .short-intro1-of-2{flex: 0 0 calc(50% - 16px);}
 }
 @media screen and (max-width: 1023px) and (min-width: 744px) {
-    .short-intro-head{margin-bottom: 48px;}
+    .short-intro-head{margin-bottom: 48px; gap: 48px;}
     .short-intro-desc { flex: 0 0 calc(100% - 152px); padding: 0;}
     .short-intro-row{gap: 32px; padding: 0;}
     .short-intro-list{flex: 0 0 calc(50% - 24px);}
