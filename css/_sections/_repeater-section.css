@@ -48,6 +48,7 @@
 @media screen and (max-width:1023px) and (min-width:744px) {
   .repeater-image{margin-bottom: 48px;}
   .repeater-txt{padding: 0 32px 40px;}
+  .repeater-txt p{margin-bottom: 0;}
 }
 
 @media screen and (max-width: 743px) and (min-width: 200px) {
