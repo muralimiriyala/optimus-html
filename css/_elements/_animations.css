@@ -78,7 +78,7 @@
 .hand-anim{left: -10px; transform-origin: 50% 50%; animation: shakeHand 1s ease-in-out forwards alternate; position: relative; }
 @keyframes shakeHand{ 0% { transform: rotate(0deg); transform: translateX(0); } 50% { transform: rotate(2deg); } 100% { left: 1%; transform: translateX(-100%); transform: rotate(0deg); } }
 
-*[data-delighter]{transition: all 0.5s ease;}
+*[data-delighter]{transition: var(--transition);}
 
 
 
