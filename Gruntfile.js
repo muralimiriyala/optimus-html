@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     cssmin: {
       target: {
         files: {
-          'dist/core.bundle.css': ['css/**/*.css', 'css/*.css']
+          'core.bundle.css': ['css/**/*.css', 'css/*.css']
         }
       }
     },

@@ -12,6 +12,9 @@
 .repeater-icon img{object-fit: contain;}
 .repeater-bracket{ width: 80px; height: 100%; top: 0; border: 1px solid var(--Light-Blue); z-index: -1; }
 
+.repeater-row.no_repeater_image{display: block;}
+
+/* media css starts here */
 @media screen and (min-width:1200px) {
   .repeater-txt h2{font-size: 40px; line-height: 50px;}
 }
