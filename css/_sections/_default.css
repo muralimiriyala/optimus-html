@@ -1,3 +1,22 @@
 .default-main{gap: 80px;}
 .default-article{flex: 1;}
 .default-aside{flex: 0 0 300px;}
+
+
+
+
+
+.sticky-sidebar-inner h3{font-size: 24px; margin-bottom: 5px;}
+.sticky-sidebar-inner ul{margin:  0 0 20px;}
+.sticky-sidebar-inner ul > li::before{display: none;}
+.sticky-sidebar-inner ul > li i{margin-left: 10px;}
+.sticky-sidebar-inner ul > li{border-bottom: 1px solid var(--Light-Blue); padding: 8px 0 16px;}
+.sticky-sidebar-inner ul > li:last-child{border-bottom: none;}
+.sticky-sidebar-inner hr{margin: 0 0 23px; width: 100%;}
+
+
+
+.sidebar-block{background-color: var(--Blue); color: var(--White); border-radius: 24px;padding: 32px;}
+.sidebar-block h5{color: var(--White);}
+.sidebar-icon{font-size: 40px; width: 40px; margin-bottom: 20px; color: var(--Light-Blue);}
+.sidebar-block .button{width: 100%;}
