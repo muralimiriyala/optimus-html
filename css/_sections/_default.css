@@ -9,9 +9,12 @@
 .sticky-sidebar-inner h3{font-size: 24px; margin-bottom: 5px;}
 .sticky-sidebar-inner ul{margin:  0 0 20px;}
 .sticky-sidebar-inner ul > li::before{display: none;}
-.sticky-sidebar-inner ul > li i{margin-left: 10px;}
+.sticky-sidebar-inner ul > li i{margin-left: 10px; color: var(--Light-Blue); font-size: 20px; line-height: 25px; font-weight: 300; position: relative;} 
+/* .sticky-sidebar-inner ul > li a{line-height: 24px;} */
 .sticky-sidebar-inner ul > li{border-bottom: 1px solid var(--Light-Blue); padding: 8px 0 16px;}
 .sticky-sidebar-inner ul > li:last-child{border-bottom: none;}
+.sticky-sidebar-inner ul > li{position: relative;}
+.sticky-sidebar-inner ul > li a:hover i{left: 8px;}
 .sticky-sidebar-inner hr{margin: 0 0 23px; width: 100%;}
 
 
