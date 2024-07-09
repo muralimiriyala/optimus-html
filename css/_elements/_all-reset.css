@@ -239,6 +239,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .gray-bg{background: var(--Background);}
 .navy-bg{background: var(--Navy);}
 .blue-bg{background-color: var(--Blue);}
+.orange-tint-bg{background: var(--Orange-Tint-Bg);}
 
 div.slick-arrow{width: 56px; height: 56px; padding: 0; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1; cursor: pointer; transition: var(--transition); background: var(--Blue); }
 div.slick-arrow::after{width: 0%; height: 0%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background: var(--Orange); content: ""; display: block; border-radius: 50%; position: absolute; transition: var(--transition); z-index: -1;}
