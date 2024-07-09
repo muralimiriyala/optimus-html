@@ -22,7 +22,11 @@
     .start-managing-text h2 { font-size:24px; line-height: 30px; margin-bottom: 24px;}
     .start-managing-icon{margin:  0 auto 24px;}
 }
+@media screen and (max-width:1023px) and (min-width: 744px){
+  .start-managing-block{margin-top: -80px;}
+}
  @media screen and (max-width:743px) and (min-width:200px) {
+  .start-managing-block{margin-top: -64px;}
   .start-managing-wrap{padding: 16px;}
   .start-managing-main{padding: 24px;}
   .start-managing-bracket{border-bottom: 1px solid var(--Light-Blue); width: 48px;}
