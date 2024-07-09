@@ -32,7 +32,7 @@ ul.social-icons li a::before {
   border-radius: 50%;
   background-color: var(--Dark-Blue);
   position:absolute;
-  transition: var(--transition);
+  transition: var(--b-transition);
   z-index:-1
 }
 ul.social-icons li a:hover::before {

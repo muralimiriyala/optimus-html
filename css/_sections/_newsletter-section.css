@@ -19,7 +19,7 @@ body .newsletter-signup .frm_forms .frm_form_fields .frm_submit{ min-width: 120p
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; height: 100%; margin: 0; padding: 10px 14px 10px; font-size: 20px; line-height: 20px; border-radius: 28px; border: 8px solid var(--Orange); background: transparent;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--Orange);}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover svg{transform: translateX(4px);}
-body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit svg, body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit svg path{transition: var(--transition);}
+body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit svg, body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit svg path{transition: var(--b-transition);}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover svg path{fill: var(--White);}
 .newsletter-disclaimer{padding: 24px 0 0; color: var(--White); text-align: center; opacity: 0.6;}
 

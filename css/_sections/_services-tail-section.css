@@ -10,7 +10,7 @@
 .service-tail-list{padding: 40px; color: var(--Gray);}
 .service-tail-list h2{font-size: 24px; font-weight: 600; margin-bottom: 9px;}
 .service-tail-icon{margin-bottom: 17px;}
-.service-tail-icon figure, .service-tail-icon i.fa-service{transition: var(--transition);}
+.service-tail-icon figure, .service-tail-icon i.fa-service{transition: var(--b-transition);}
 .service-tail-icon i.fa-service{color: var(--Light-Blue); font-size: 40px; line-height: 40px;}
 .service-tail-icon figure{width: 50px; height: 50px;}
 .service-tail-icon figure img{object-fit: contain;}

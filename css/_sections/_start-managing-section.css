@@ -3,7 +3,7 @@
 .start-managing-main { padding: 24px 34px 24px 24px; background-color: var(--Navy);}
 .start-managing-text h2 { margin-bottom:0 }
 .start-btn-link:hover svg{transform: translate(12px,-.15px);}
-.start-btn-link svg{transform: translate(0,0); transition: var(--transition);}
+.start-btn-link svg{transform: translate(0,0); transition: var(--b-transition);}
 .start-btn-link span{padding: 10px 13px 10px; border-radius: 28px; border: 8px solid var(--Orange); color: var(--White); font-size: 20px; line-height: 20px; position: relative; display: inline-block; }
 .start-managing-icon{width: 60px; height: 48px; color: var(--Light-Blue); font-size: 48px;}
 
