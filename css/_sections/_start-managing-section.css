@@ -12,7 +12,7 @@
 .start-managing-bracket.right{right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
 
   @media screen and (min-width:1024px) {
-    
+    .start-managing-block{margin-top: -77px;}
     .start-managing-main { gap:24px; align-items:center;}
     .start-managing-text { flex:1 }
     .start-managing-btn { width:fit-content }
