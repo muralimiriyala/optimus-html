@@ -57,7 +57,7 @@ body.page-template-about-culture .short-intro-main::before { content: ""; displa
     .short-intro-head{display: block; padding: 0 0 61px;}
     .short-intro-title{margin-bottom: 15px;}
     .short-arrow-img{margin-left: -50px; max-width: 208px;}
-    .short-intro-text{padding-left: 0; order:2; margin-bottom: 17px;}
+    .short-intro-desc{margin-bottom: 17px;}
     .short-intro-icon img{margin-bottom: 3px;}
     .short-intro-row{display: block;}
     .short-intro-list:not(:last-child){margin-bottom: 40px;}
