@@ -65,7 +65,7 @@
 <main class="site-main-cover">
 <section class="banner-section relative o-hidden">
 <div class="banner-wrap">
-    <div class="banner-main flex no-wrap relative">
+    <div class="banner-main flex no-wrap relative"><!-- if no banner image add this no_banner_image -->
         <div class="banner-image relative">
             <div class="banner-pointer absolute"></div>
             <div class="banner-chevron absolute"></div>
@@ -287,19 +287,21 @@
     <section class="short-intro-section">
         <div class="container">
             <div class="short-intro-main">
-            <div class="short-intro-head flex flex-vcenter"><!-- if no short-intro-desc add this no_intro_desc -->
+            <div class="short-intro-head flex flex-vcenter"><!-- if no short-intro-text add this no_intro_desc -->
                 <div class="short-intro-title">
                     <span class="optional-text">What’s in it for you?</span>
                     <h2>A short intro about the total rewards program here</h2>
                 </div>
-                <div class="short-arrow-img">
-                    <picture class="object-fit">
-                        <source srcset="images/short-arrow@2x.png" media="(min-width: 744px)">
-                        <img src="images/short-arrow-mobile@2x.png" alt="short-arrow">
-                    </picture>
-                </div>
-                <div class="short-intro-desc fs-20">
-                    <p>Image editor bullet inspect distribute duplicate main undo star editor. Vector undo scale share library undo. Ellipse prototype distribute edit star background scale prototype library. Content boolean shadow blur link. Project style bold ellipse scrolling layer. Layer frame flatten vector team shadow polygon. Comment outline stroke ellipse boolean.</p>
+                <div class="short-intro-text fs-20 flex flex-vcenter">
+                    <div class="short-intro-desc">
+                        <p>Image editor bullet inspect distribute duplicate main undo star editor. Vector undo scale share library undo. Ellipse prototype distribute edit star background scale prototype library. Content boolean shadow blur link. Project style bold ellipse scrolling layer. Layer frame flatten vector team shadow polygon. Comment outline stroke ellipse boolean.</p>
+                    </div>
+                    <div class="short-arrow-img">
+                        <picture class="object-fit">
+                            <source srcset="images/short-arrow@2x.png" media="(min-width: 744px)">
+                            <img src="images/short-arrow-mobile@2x.png" alt="short-arrow">
+                        </picture>
+                    </div>
                 </div>
             </div>
             <div class="short-intro-row flex">
