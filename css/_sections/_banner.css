@@ -3,7 +3,6 @@
 
 .banner-text span.optional-text{margin-bottom: 23px;}
 .banner-decs{z-index: 2;}
-.banner-desc h1{margin-bottom: 16px;}
 .banner-circle{ z-index: -1; }
 .banner-circle svg{width: 100%; height: 100%;}
 .banner-chevron{ height: 100%; opacity: 0.3; background-color: #004c97; }

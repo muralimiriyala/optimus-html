@@ -1,4 +1,10 @@
 
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    body.page-template-about-culture .video-main{padding: 40px 0;}  
+}
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .play-btn-bg i{font-size: 29px;}
 }

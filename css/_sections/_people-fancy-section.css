@@ -19,6 +19,7 @@
     .people-fancy-row{gap: 60px}
 }
 @media screen and (max-width:1023px) and (min-width: 200px) {
+    .people-fancy-main{padding: 40px 0 40px;}
     .people-fancy-row{flex-direction: column-reverse; gap: 64px; text-align: center;}
     .people-fancy-cont{justify-content: center;}
     .people-fancy-btns{justify-content: center;}
