@@ -14,8 +14,13 @@ span.people-future-title a:hover{color: var(--Orange);}
    .people-future1-of-2{flex: 0 0 calc(50% - 20px);}
    .people-future1-of-1{max-width: 400px; margin: 0 auto;}
 }
+@media only screen and (max-width: 1023px) and (min-width: 744px){
 
-
+}
+@media only screen and (max-width: 743px) and (min-width: 200px){
+   .people-future-row{display: block;}
+   .people-future-list:not(:last-child){margin-bottom: 24px;}
+}
 
 
 

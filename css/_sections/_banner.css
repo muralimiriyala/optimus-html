@@ -2,71 +2,84 @@
 
 
 .banner-text span.optional-text{margin-bottom: 23px;}
-.banner-text h2{margin-bottom: 16px;}
 .banner-decs{z-index: 2;}
-
+.banner-desc h1{margin-bottom: 16px;}
+.banner-circle{ z-index: -1; }
+.banner-circle svg{width: 100%; height: 100%;}
+.banner-chevron{ height: 100%; opacity: 0.3; background-color: #004c97; }
 
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .banner-main{background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);}
-    .banner-text{z-index: 2;}
-    .banner-circle{top: 0; left: -145px; z-index: -1; opacity: 0.3;}
-    .banner-circle svg{width: 638px; height: 640px;}
-    
-    .banner-image::before{width: 217px; height: 100%; left: 0px; top: 0; content: ""; display: block; position: absolute; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); clip-path: polygon(0% 0%,0% 0,100% 50%,0% 100%,0% 100%); }
-
-
-    .banner-chevron{top: 0; left: -107px;}
-    .banner-chevron svg{width: 413px; height: 100%;}
-    
+    .banner-main{flex-direction: row-reverse; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);}
+    .banner-text{z-index: 2; flex: 0 0 50%; padding: 251px 0 171px;}
+    .banner-circle{top: -251px; left: -225px; opacity: 0.3; width: 638px; height: 640px;}
+    .banner-desc{max-width: 640px; padding-right: 100px; margin-left: auto; position: relative;}
+    .banner-image{flex: 1;}
+    .banner-pointer{width: 217px; height: 100%; left: 0px; top: 0; display: block; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); clip-path: polygon(0% 0%,0% 0,100% 50%,0% 100%,0% 100%); }
+    .banner-chevron{top: 0; left: -106px; width: 413px; clip-path: polygon(50% 50%, 0% 0%, 47% 0, 100% 50%, 47% 100%, 50% 100%, 0% 100%); }
     .banner-btns{margin-top: 47px;}
+    .banner-main.no_banner_image{display: block;}
+    .no_banner_image .banner-text{padding: 171px 0;}
+    .no_banner_image .banner-desc{max-width: 1360px; margin: 0 auto; padding: 0 40px;}
 }
 @media only screen and (min-width: 1440px){
-    .banner-text{flex: 0 0 50%; padding: 251px 0 171px;}
-    .banner-desc{max-width: 640px; padding-right: 100px; margin-left: auto;}
-    .banner-image{flex: 1; min-width: 840px; margin-left: -120px;}
-
+    .banner-image{min-width: 840px; margin-left: -120px;}
 }
-@media only screen and (max-width: 1299px) and (min-width: 1024px){
-    /* .banner-text{padding: 56px 0 55px 48px; flex: 0 0 368px;}
-    .banner-circle{left: -164px;} */
+@media only screen and (max-width: 1359px) and (min-width: 1024px){
+    .banner-desc{padding: 0 40px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
-    .banner-wrap{padding: 78px 0 40px;}
-    .banner-main{display: block; text-align: center;}
-    .banner-text{padding: 40px 40px 0; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);}
-    .banner-text h2 br{display: none;}
-    .banner-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
-    .banner-circle svg{width: 499px; height: 500px;}
-
-    .banner-chevron{top: -64px; left: 0; right: 0; margin: 0 auto; max-width: 518px; max-height: 334px;}
-    .banner-chevron svg{width: 100%; height: 100%;}
-    .banner-image{flex: 1;}
-    .banner-image::before{width: 100%; height: 203px; left: 0px; top: 0; content: ""; display: block; position: absolute; background: linear-gradient(to bottom, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); clip-path: polygon(0% 0%, 100% 0, 100% 0%, 48% 100%, 0 0%); }
-
-    .banner-thumb img{border-radius: 0 0 16px 16px;}
-    .banner-btns{margin-top: 32px;}
-
-
+    .banner-main{display: block;}
+    .no_banner_image .banner-text{padding-top: 80px;}
+    .banner-text{padding: 0 40px 160px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
+    .banner-circle{bottom: 0; left: 0; opacity: 0.5; width: 484px; height: 484px;}
+    .banner-pointer {
+        width: 100%;
+        height: 189px;
+        left: 0;
+        bottom: 0;
+        display: block;
+        background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);
+        clip-path: polygon(0 0, 48% 49%, 100% 100%, 0% 100%);
+    }
+    .banner-chevron{
+        width: 100%;
+        height: 253px;
+        left: 0;
+        bottom: 0;
+        display: block;
+        background: linear-gradient(270deg,rgba(25,35,76,0) 0,rgba(25,35,76,.5) 100%),var(--Blue,#004c97);
+        clip-path: polygon(0 0,50% 35%,132% 100%,0% 100%);
+    }
+  
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
-    .banner-wrap{padding: 40px 0;}
-    .banner-main{display: block; text-align: center;}
-    .banner-main{padding: 20px;}
-    .banner-text{padding: 28px 20px 0; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 16px; line-height: 24px;}
-    .banner-text h2{font-size: 40px; line-height: 46px;}
-    .banner-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
-    .banner-circle svg{width: 499px; height: 500px;}
-
-    .banner-chevron{top: -58px; left: 0; right: 0; margin: 0 auto; max-width: 317px; max-height: 206px;}
-    .banner-chevron svg{width: 100%; height: 100%;}
-    .banner-image{flex: 1;}
-    .banner-image::before{width: 100%; height: 106px; left: 0px; top: 0; content: ""; display: block; position: absolute; background: linear-gradient(to bottom, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); clip-path: polygon(0% 0%, 100% 0, 100% 0%, 50% 100%, 0 0%); }
-
-    .banner-thumb img{border-radius: 0 0 16px 16px;}
-    .banner-btns{margin-top: 24px;}
+    .banner-main{display: block;}
+    .no_banner_image .banner-text{padding-top: 40px;}
+    .banner-text{padding: 0 40px 104px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
+    .banner-desc{font-size: 18px; line-height: 27px;}
+    .banner-desc h1{margin-bottom: 25px; font-size: 32px; line-height: 36px;}
+    .banner-circle{bottom: 0; left: 0; opacity: 0.5; width: 254px; height: 254px;}
+    .banner-pointer {
+        width: 100%;
+        height: 99px;
+        left: 0;
+        bottom: 0;
+        display: block;
+        background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);
+        clip-path: polygon(0 0, 48% 49%, 100% 100%, 0% 100%);
+    }
+    .banner-chevron{
+        width: 100%;
+        height: 132px;
+        left: 0;
+        bottom: 0;
+        display: block;
+        background: linear-gradient(270deg,rgba(25,35,76,0) 0,rgba(25,35,76,.5) 100%),var(--Blue,#004c97);
+        clip-path: polygon(0 0,49% 40%,130% 100%,0% 100%);
+    }
 
  
 }
