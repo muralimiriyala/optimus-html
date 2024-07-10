@@ -43,7 +43,7 @@ blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 31px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before{top: 10px; left: -21px; width: 8px; height: 8px; border-radius: 50%; opacity: 1; background-color: var(--Orange); content: ""; position: absolute;} 
+ul > li:before{top: 10px; left: -21px; width: 6px; height: 6px; opacity: 1; background-color: var(--Foreground); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 31px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
