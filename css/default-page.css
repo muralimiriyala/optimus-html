@@ -12,6 +12,22 @@
 .default-aside h3{font-size: 24px; margin-bottom: 5px;}
 .default-article h3{padding-top: 34px;}
 
+.default-article ul{margin-bottom: 0;}
+.default-img{padding: 50px 0 22px;}
+.default-caption{padding-left: 48px; color: var(--Gray);}
+.default-caption p{border-left: 1px solid var(--Light-Blue); padding: 24px 0 8px 16px;}
+
+.default-article .default-img > h3{padding-top: 5px;}
+.default-article h4{padding-top: 25px;}
+
+.default-line-wrap{padding: 38px 0 50px; }
+.default-line-in{border-left: 8px solid var(--Orange);}
+.default-line-in p{ padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0;}
+.default-line-img span{border-radius: 50%; background-color: var(--Orange); width: 48px; height: 48px;}
+
+.default-article .accordion-main{padding: 40px 0 60px;}
+
+
 ul.aside-links{margin:  0 0 20px;}
 ul.aside-links > li::before{display: none;}
 ul.aside-links > li > a{gap: 10px; border-bottom: 1px solid var(--Light-Blue); padding: 8px 0 16px; font-weight: 600; }
