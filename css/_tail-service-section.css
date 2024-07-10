@@ -1,0 +1,15 @@
+
+
+.tail-service-list{padding: 40px 40px 38px; color: var(--Gray); border: 1px solid rgba(65, 180, 255, 0.20); background: var(--White); }
+.tail-service-icon{margin-bottom: 16px; max-width: 40px; color: var(--Light-Blue); font-size: 40px; line-height: 40px; }
+.tail-service-icon figure img{object-fit: contain;}
+.tail-service-list h2{margin-bottom: 14px;}
+.tail-service-list:hover {
+	transform: translateY(-16px);
+}
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .tail-service-main{padding: 40px 0 40px;}
+    .tail-service-row{gap: 32px; padding-top: 16px;}
+    .tail-service-list{flex: 0 0 calc(33.3333% - 22px);}
+}
