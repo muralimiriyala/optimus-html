@@ -1,9 +1,12 @@
-.default-main{gap: 80px;}
+.default-main{gap: 80px; padding: 80px 0 40px;}
 .default-article{flex: 1;}
 .default-aside{flex: 0 0 300px;}
 
+.default-block-con{margin-bottom: 60px;}
+.default-block-con span{color: var(--Gray); margin-bottom: 30px;}
+.default-block-con .h1{margin-bottom: 32px;}
 
-
+.default-article h2{margin-top: 55px;}
 
 
 .default-aside h3{font-size: 24px; margin-bottom: 5px;}
