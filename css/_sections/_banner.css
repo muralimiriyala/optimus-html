@@ -18,7 +18,7 @@
     .banner-image{flex: 1;}
     .banner-pointer{width: 217px; height: 100%; left: 0px; top: 0; display: block; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); clip-path: polygon(0% 0%,0% 0,100% 50%,0% 100%,0% 100%); }
     .banner-chevron{top: 0; left: -106px; width: 413px; clip-path: polygon(50% 50%, 0% 0%, 47% 0, 100% 50%, 47% 100%, 50% 100%, 0% 100%); }
-    .banner-btns{margin-top: 47px; gap: 10px;}
+    .banner-btns{margin-top: 32px; gap: 16px;}
     .banner-main.no_banner_image{display: block;}
     .no_banner_image .banner-text{padding: 171px 0;}
     .no_banner_image .banner-desc{max-width: 1360px; margin: 0 auto; padding: 0 40px;}
