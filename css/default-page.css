@@ -6,10 +6,11 @@
 .default-block-con span{color: var(--Gray); margin-bottom: 30px;}
 .default-block-con .h1{margin-bottom: 32px;}
 
-.default-article h2{margin-top: 55px;}
-
-
+.default-article h2{padding-top: 32px;}
+.default-article p:nth-child(3) span{font-size: 22px; line-height: 33px;}
+.default-article p span{font-size: 20px; line-height: 30px}
 .default-aside h3{font-size: 24px; margin-bottom: 5px;}
+.default-article h3{padding-top: 34px;}
 
 ul.aside-links{margin:  0 0 20px;}
 ul.aside-links > li::before{display: none;}
