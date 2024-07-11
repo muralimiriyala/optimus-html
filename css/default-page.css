@@ -22,8 +22,9 @@
 
 .default-line-wrap{padding: 38px 0 50px; }
 .default-line-in{border-left: 8px solid var(--Orange);}
-.default-line-in p{ padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0;}
-.default-line-img span{border-radius: 50%; background-color: var(--Orange); width: 48px; height: 48px;}
+.default-line-lt { padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0; flex: 1;}
+/* .default-line-img span{border-radius: 50%; background-color: var(--Orange); width: 48px; height: 48px;} */
+.default-line-img{flex: 1;}
 
 .default-article .accordion-main{padding: 40px 0 60px;}
 
