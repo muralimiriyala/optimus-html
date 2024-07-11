@@ -9,7 +9,7 @@ ul.contact-links > li > a{font-size: 16px; line-height: 24px; font-weight: 700; 
 ul.contact-links > li > a > span{top: 2px; position: relative; font-size: 20px; line-height: 100%; color: var(--Light-Blue);}
 ul.contact-links > li > a:hover{color: var(--Orange);}
 
-.contact-form{padding: 50px 48px 48px; border: 1px solid rgba(65, 180, 255, 0.25); background: var(--Background, #FFF);}
+.contact-form{padding: 50px 48px 48px; border: 1px solid rgba(65, 180, 255, 0.25); background: var(--White);}
 .no_contact_form.flex{display: block;}
 
 /*-- media css starts here --*/
