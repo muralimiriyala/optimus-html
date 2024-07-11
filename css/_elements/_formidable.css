@@ -20,7 +20,7 @@ body .frm_forms .frm_required{display: none;}
 body .contact-form .frm_forms .frm_required{display: inline;}
 body .frm_forms .frm_required{font-size: 1rem; line-height: 1; letter-spacing: -0.32px; font-weight: 800; color: var(--black-md); font-family: 'VisbyCF', sans-serif;}
 body .frm_forms .frm_form_fields .frm_fields_container{display: block; position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 18px; line-height: 18px; font-weight: 600; font-family: var(--base-font); color: var(--Blue); text-transform: none; padding: 0 0 8px;}
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 18px; line-height: 18px; font-weight: 600; font-family: var(--base-font); color: var(--Blue); text-transform: none; padding: 0 0 8px; visibility: visible;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
@@ -35,12 +35,7 @@ body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .
 body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-ms-input-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 36px; padding-bottom: 0; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; letter-spacing: normal; text-indent: 0; color: var(--Foreground); position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{width: 26px; height: 26px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none; border-radius: 50%; color: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); border: 1px solid var(--Blue); opacity: 1;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 10px 13px 11px 35px; margin: 0; text-indent: 0; border-radius: 8px; background-color: var(--gray-lt); font-size: 1rem; line-height: 1.5rem; font-weight: normal; display: block; cursor: pointer; color: var(--foreground); font-family: "Univers", sans-serif; letter-spacing: -0.32px;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: var(--accent-light);}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{display: block;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a{color: var(--accent); position: relative; display: inline-block;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a::after{width: 100%; height: 1px; left: 0; bottom: 1px; background-color: var(--accent); content: ""; display: block; position: absolute; b-transition: all .45s ease-in-out;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a:hover::after{background-color: transparent;}
+
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 12px; left: 8px; width: 20px; height: 20px; margin: 0; border-radius: 2px; border: 1px solid var(--accent); background-color: transparent; background-image: none; border: solid 1px var(--foreground-light); background-color: var(--white); background-image: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked{border-width: 8px;}
