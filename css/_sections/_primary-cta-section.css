@@ -6,8 +6,8 @@
 .primary-cta-text h2{margin-bottom: 16px;}
 .primary-cta-decs{z-index: 2;}
 .primary-cta-chevron{ height: 100%; opacity: .5; background-color: var(--Blue); }
-
-
+.no_primary_cta_image{display: block;}
+.no_primary_cta_image h2 br{display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -33,6 +33,9 @@
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .primary-cta-text{padding: 56px 0 55px 48px; flex: 0 0 368px;}
     .primary-cta-circle{left: -164px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+    .primary-cta-image{margin-top: -1px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .primary-cta-wrap{padding: 78px 0 40px;}

@@ -5,7 +5,7 @@ label{padding-bottom: 9px; display: block; font-size: 1.125rem; line-height: 1.3
 textarea {width: 100%; resize: none; height: 118px;}
 input:focus, textarea:focus{outline: 0;}
 input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 0.875rem; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--Blue); font-weight: bold; letter-spacing: normal; position: relative; text-transform: uppercase; text-align: center; color: var(--White); b-transition-duration: .75s; b-transition-property: all; b-transition-timing-function: cubic-bezier(.075,.82,.165,1);}
-input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {background-color: var(--black); color: var(--white);}
+input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {background-color: var(--black); color: var(--White);}
 input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {outline: none;}
 
 body .white-popup-block .frm_forms h3.frm_form_title{display: none;}
@@ -25,10 +25,10 @@ body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-i
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin-left: auto; float: right; font-weight: 500; font-family: var(--base-font); color: var(--Gray); font-size: 14px; line-height: 100%; bottom: -4px; position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; width: 100%; font-size: 1rem; line-height: 150%; letter-spacing: 0; box-shadow: none; padding: 16px 16px 14px; vertical-align: middle; height: auto; b-transition-duration: .75s; b-transition-property: all; b-transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md);  color: var(--foreground); border-radius: 4px 4px 0px 0px; border-bottom: 2px solid var(--Blue); background: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); color: var(--Blue); font-family: 'Blackbird', sans-serif; -webkit-appearance: none; opacity: 1;}
-body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, body .bg-elevated .frm_forms .frm_form_field textarea, body .bg-elevated .frm_forms .selectBox-dropdown{background-color: var(--white);}
+body .frm_forms .frm_form_fields .frm_form_field input, body .frm_forms .frm_form_fields .frm_form_field textarea, input, select, textarea{outline: 0; width: 100%; font-size: 1rem; line-height: 150%; letter-spacing: 0; box-shadow: none; padding: 16px 16px 14px; vertical-align: middle; height: auto; b-transition-duration: .75s; b-transition-property: all; b-transition-timing-function: cubic-bezier(.075,.82,.165,1); border: solid 1px var(--gray-md);  color: var(--Foreground); border-radius: 4px 4px 0px 0px; border-bottom: 2px solid var(--Blue); background: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); color: var(--Blue); font-family: 'Blackbird', sans-serif; -webkit-appearance: none; opacity: 1;}
+body .bg-elevated .frm_forms .frm_form_fields .frm_form_field input, body .bg-elevated .frm_forms .frm_form_field textarea, body .bg-elevated .frm_forms .selectBox-dropdown{background-color: var(--White);}
 body .frm_forms .frm_form_fields .frm_form_field textarea{height: 120px;} body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"], [type="checkbox"]):focus, textarea:focus{background-color: var(--Light-Blue-Tint); box-shadow: none; border-color: var(--Light-Blue-Tint,rgba(65,180,255,.15)); color: var(--Blue); opacity: 1;}
-body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--foreground); border: 1px solid var(--Aecon-Red, #DA1A32); background: rgba(218, 26, 50, 0.10);}
+body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--Foreground); border: 1px solid var(--Aecon-Red, #DA1A32); background: rgba(218, 26, 50, 0.10);}
 body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif;}
 body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--Blue); font-family: 'Blackbird',sans-serif; opacity: 0.5;}
@@ -36,33 +36,22 @@ body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, bo
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 36px; padding-bottom: 0; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; letter-spacing: normal; text-indent: 0; color: var(--Foreground); position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{width: 26px; height: 26px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none; border-radius: 50%; color: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); border: 1px solid var(--Blue); opacity: 1;}
 
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 12px; left: 8px; width: 20px; height: 20px; margin: 0; border-radius: 2px; border: 1px solid var(--accent); background-color: transparent; background-image: none; border: solid 1px var(--foreground-light); background-color: var(--white); background-image: none;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 12px; left: 8px; width: 20px; height: 20px; margin: 0; border-radius: 2px; border: 1px solid var(--accent); background-color: transparent; background-image: none; border: solid 1px var(--foreground-light); background-color: var(--White); background-image: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked{border-width: 8px;}
 
-
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin: 0;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_checkbox::after{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox::after{margin-top: 28px; width: 100%; height: 1px; content: ""; display: block; opacity: 0.25; background: var(--Light-Blue);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container{display: flex; gap: 20px 8px; margin-top: 13px; flex-wrap: wrap;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_checkbox label {
-    gap: 8px;
-    display: flex;
-	padding: 0;
-	cursor: pointer;
-	font-size: 1rem;
-	line-height: 20px;
-	letter-spacing: normal;
-	text-indent: 0;
-	color: var(--Foreground);
-}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_checkbox label { gap: 8px; display: flex; padding: 0; cursor: pointer; font-size: 1rem; line-height: 20px; letter-spacing: normal; text-indent: 0; color: var(--Foreground); }
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]{width: 24px; height: 24px; margin: 0; padding: 0; top: -2px; left: 0; border-radius: 0; border: 1px solid var(--Blue); position: relative; opacity: 1; cursor: pointer;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]:checked{background-color: var(--Blue); border-color: var(--navy); box-shadow: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 5px 0 0 5px; box-shadow: inset 8px 8px var(--White); top: auto; left: auto; transform: none;}
 body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked{background-color: var(--navy); border-color: var(--navy);}
-body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked::before {box-shadow: inset 8px 8px var(--white);}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before{box-shadow: inset 10px 10px var(--white);}
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--accent); border-color: var(--accent);}
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{box-shadow: inset 8px 8px var(--white);}
+body .frm_forms .frm_form_fields .last-checkbox.vertical_radio input[type="checkbox"]:checked::before {box-shadow: inset 8px 8px var(--White);}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before{box-shadow: inset 10px 10px var(--White);}
+
 body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body .contact-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{max-width: 88px; margin-left: auto;}
@@ -70,15 +59,15 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{dis
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background: url("./images/calendar-icon.svg") no-repeat 95% 19px; background-size: 14px 14px;}
 body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--aecon-red); position: absolute;}
-body .frm_success_style, body .with_frm_style .frm_message {font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -.36px; font-weight: 400; font-family: Univers,sans-serif; color: var(--foreground); background: none; padding: 0; text-align: left; border: none; border-radius: 0;}
-body .with_frm_style .frm_message p{color: var(--foreground); letter-spacing: inherit;}
+body .frm_success_style, body .with_frm_style .frm_message {font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -.36px; font-weight: 400; font-family: Univers,sans-serif; color: var(--Foreground); background: none; padding: 0; text-align: left; border: none; border-radius: 0;}
+body .with_frm_style .frm_message p{color: var(--Foreground); letter-spacing: inherit;}
 body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{margin-top: 8px; gap: 8px; display: flex; flex-wrap: wrap; width: 100%;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column;}
 body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block; padding: 0; background: none; border-radius: 0; border: none;}
 
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{position: relative; background-color: transparent;}
-body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--white) !important;}
+body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--White) !important;}
 body .with_frm_style .frm_loading_prev .frm_prev_page{opacity: 1 !important; color: var(--navy) !important;}
 body .frm_forms .frm_verify{display: none;}
 body .with_frm_style .frm_form_field.frm_html_container{font-size: 1.125rem; line-height: 1.5rem; letter-spacing: -.18px;}

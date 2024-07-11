@@ -1,4 +1,5 @@
 .services-tail-section{background-color: var(--Blue);}
+.no_service_tail_svg{display: block;}
 .services-tail-decor{z-index: -1; opacity: 0.1;}
 .service-tail-text span.optional-text{margin-bottom: 22px;}
 .service-tail-text h1{margin-bottom: 32px; color: var(--White);}
