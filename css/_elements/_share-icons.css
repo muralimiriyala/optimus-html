@@ -1,8 +1,8 @@
 
 
-.share-icons{margin: 0 0 40px; gap: 15px; position: relative; justify-content: flex-end;}
-.share-icons #st-1.st-animated{width: 100%; flex: 1; gap: 15px; justify-content: flex-end; display: flex; flex-wrap: nowrap; z-index: 1;}
-.share-icons #st-1.st-animated .st-btn{padding: 0; margin: 0; width: 48px; height: 48px; min-width: 48px; font-size: 1.25rem; line-height: 1.25rem; border-radius: 4px; background: var(--Blue); color: var(--White); position: relative; z-index: 1; font-family: "Font Awesome 6 Brands"; font-weight: 400; display: flex !important; align-items: center; justify-content: center;}
+.share-icons{margin: 40px 0 40px; gap: 15px; position: relative; justify-content: flex-start;}
+.share-icons #st-1.st-animated{gap: 15px; justify-content: flex-end; display: flex; flex-wrap: nowrap; z-index: 1;}
+.share-icons #st-1.st-animated .st-btn{padding: 0; margin: 0; width: 48px; height: 48px; min-width: 48px; font-size: 1.25rem; line-height: 1.25rem; border-radius: 50%; background: var(--Light-Blue-Tint); color: var(--Blue); position: relative; z-index: 1; font-family: "Font Awesome 6 Brands"; font-weight: 400; display: flex !important; align-items: center; justify-content: center;}
 .share-icons #st-1.st-animated .st-btn:hover{background: var(--Orange) !important; color: var(--White) !important; opacity: 1; top: 0; b-transition: all 0.45s ease-in-out;}
 .share-icons #st-1.st-animated span.st-label{display: none;}
 .share-icons #st-1.st-animated .st-btn[data-network="sharethis"]::after {content: "\f1e0"; font-family: "Font Awesome 6 Pro"; } 
@@ -13,6 +13,8 @@
 .share-icons #st-1.st-animated img{display: none;}
 .share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 2rem;}
 
+.share-icons .share-icon a{ font-size: 48px; color: var(--Orange); }
+.share-icons .default-line-img{justify-content:  flex-end;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){

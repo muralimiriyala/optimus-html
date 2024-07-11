@@ -60,9 +60,23 @@ ul.aside-links > li > a:hover i{left: 8px;}
 
     .sidebar-list:last-child{margin-bottom: 0;}
 
-    
 
 }
 
+@media screen and (max-width: 744px) and (min-width: 200px) {
+    .default-main{display: block; padding: 40px 0;}
+    .default-block-con .h1{font-size: 48px; line-height: 55px;}
+    .default-article h1{font-size: 48px; line-height: 60px;}
+    .default-article h2{font-size: 40px; line-height: 50px;}
 
+    .default-caption { padding-left: 25px;}
+    .default-caption p{padding: 24px 24px 8px;}
+
+    .default-line-in{display: block;}
+    .default-lin-lt{padding: 0 0 24px;}
+    .default-line-img{padding-left: 24px;}
+
+
+    .accordion-header span.ui-plus {left: 24px;}
+}
 
