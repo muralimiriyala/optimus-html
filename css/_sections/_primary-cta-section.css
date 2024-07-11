@@ -54,6 +54,7 @@
     .primary-cta-bracket.right{right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
 
     body.page-template-careers .primary-cta-wrap { padding: 57px 0 40px; } 
+    body.page-template-default .primary-cta-wrap{padding: 40px 0 40px;}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .primary-cta-wrap{padding: 40px 0;}
