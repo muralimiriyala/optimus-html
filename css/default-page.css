@@ -29,7 +29,7 @@
 .default-article .accordion-main{padding: 40px 0 60px;}
 
 
-ul.aside-links{margin:  0 0 20px;}
+ul.aside-links{margin:  0 0 20px; padding: 0;}
 ul.aside-links > li::before{display: none;}
 ul.aside-links > li > a{gap: 10px; border-bottom: 1px solid var(--Light-Blue); padding: 8px 0 16px; font-weight: 600; }
 ul.aside-links > li:last-child > a{border-bottom: none;}
