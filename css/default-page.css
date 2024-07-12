@@ -20,15 +20,17 @@
 .default-line-wrap{padding: 38px 0 50px; }
 .default-line-in{border-left: 8px solid var(--Orange);}
 .default-line-lt { padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0; flex: 1;}
-.default-line-img{flex: 0 0 114px}
+.share-inline-arrow{flex: 0 0 80px}
 
 .default-article .accordion-main{padding: 40px 0 60px;}
 
 .asidebar-nav h3{margin-bottom: 5px;}
+.asidebar-nav hr{margin-bottom: 9px;}
 
 ul.aside-links{margin:  0 0 20px; }
 ul.aside-links > li::before{display: none;}
-ul.aside-links > li > a{gap: 10px; border-bottom: 1px solid var(--Light-Blue); padding: 8px 0 16px; font-weight: 600; }
+ul.aside-links > li{margin: 0;}
+ul.aside-links > li > a{gap: 10px; border-bottom: 1px solid var(--Light-Blue); padding: 16px 0 16px; font-weight: 600; }
 ul.aside-links > li:last-child > a{border-bottom: none;}
 ul.aside-links > li > a i{left: 0; top: 2px; color: var(--Light-Blue); font-size: 20px; line-height: 25px; position: relative;} 
 ul.aside-links > li > a:hover i{left: 8px;}
@@ -36,13 +38,13 @@ ul.aside-links > li > a:hover i{left: 8px;}
 .sidebar-link{gap: 8px; margin-bottom: 20px;}
 .sidebar-link a{width: fit-content;}
 
-.sidebar-block{background-color: var(--Blue); color: var(--White); border-radius: 24px;padding: 32px; margin-bottom: 40px;}
+.sidebar-block{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), var(--Blue); color: var(--White); border-radius: 24px;padding: 32px; margin-bottom: 40px;}
 .sidebar-block h5{color: var(--White);}
 .sidebar-icon{font-size: 40px; width: 40px; margin-bottom: 20px; color: var(--Light-Blue);}
 .sidebar-block .button{width: 100%;}
 
-
-.sidebar-list{margin-bottom: 38px; gap: 15px;}
+.sidebar-row{gap: 38px 0;}
+.sidebar-list{gap: 15px;}
 .sidebar-img {width: 80px; height: 80px;}
 .sidebar-info span{display: block; font-size: 18px; font-weight: 700; color: var(--Navy); margin-bottom: 0; line-height: 22px;}
 .sidebar-info p{color: var(--Gray); opacity: 0.5; margin-bottom: 4px;}
@@ -71,7 +73,7 @@ ul.aside-links > li > a:hover i{left: 8px;}
 
     .default-line-in{display: block;}
     .default-lin-lt{padding: 0 0 24px;}
-    .default-line-img{padding-left: 24px;}
+    .share-inline-arrow{padding-left: 24px;}
     .accordion-header span.ui-plus {left: 24px;}
 }
 
