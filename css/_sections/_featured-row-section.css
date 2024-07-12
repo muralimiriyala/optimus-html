@@ -22,12 +22,12 @@ ul.point-mail-links li a span{font-size: 20px; line-height: 100%; color: var(--L
     .point1-of-2{flex: 0 0  calc(50% - 21px);}
     .point1-of-3{flex: 0 0  calc(33.33333% - 28px);}
 }
-@media only screen and (max-width: 1023px) and (min-width: 768px){
+@media only screen and (max-width: 1023px) and (min-width: 744px){
     .featured-rows{gap: 44px 30px;}
     .featured-point{flex: 0 0 calc(50% - 15px);}
     .point-icon{margin-bottom: 20px;}
 }
-@media only screen and (max-width: 767px) and (min-width: 200px){
+@media only screen and (max-width: 743px) and (min-width: 200px){
     .featured-row-main{padding: 40px 0 44px;}
     .featured-rows{display: block;}
     .featured-point:not(:last-child){margin-bottom: 44px;}
