@@ -29,7 +29,7 @@ ul.breadcrumbs li a i.fa-chevron-right{opacity: 0.5;}
 .default-line-wrap{padding: 38px 0 50px; }
 .default-line-in{border-left: 8px solid var(--Orange);}
 .default-line-text { padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0; flex: 1;}
-.share-inline-arrow{flex: 0 0 80px; opacity: 0.25;}
+.default-line-arrow{flex: 0 0 80px;}
 
 
 
@@ -90,9 +90,9 @@ ul.aside-links > li > a:hover i{left: 8px;}
     .default-lin-lt{padding: 0 0 24px;}
 
 
-    .share-inline-arrow{padding-left: 24px; opacity: 1;}
-    .share-inline-arrow svg{width: 32px; height: 32px;}
-    .share-inline-arrow svg:not(:first-child){width: 20px;}
+    .default-line-arrow{padding-left: 24px; opacity: 1;}
+    .default-line-arrow svg{width: 32px; height: 32px;}
+    .default-line-arrow svg:not(:first-child){width: 20px;}
 
 }
 
