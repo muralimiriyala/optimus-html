@@ -28,7 +28,7 @@ ul.breadcrumbs li a i.fa-chevron-right{opacity: 0.5;}
 
 .default-line-wrap{padding: 38px 0 50px; }
 .default-line-in{border-left: 8px solid var(--Orange);}
-.default-line-lt { padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0; flex: 1;}
+.default-line-text { padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0; flex: 1;}
 .share-inline-arrow{flex: 0 0 80px; opacity: 0.25;}
 
 
@@ -85,7 +85,7 @@ ul.aside-links > li > a:hover i{left: 8px;}
     .caption-desc{padding: 24px 24px 8px;}
     
     .default-line-wrap { padding: 32px 0 54px; }
-    .default-line-lt{padding: 0px 0 19px 24px;}
+    .default-line-text{padding: 0px 0 19px 24px;}
     .default-line-in{display: block;}
     .default-lin-lt{padding: 0 0 24px;}
 
