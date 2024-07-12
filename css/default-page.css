@@ -7,7 +7,7 @@ ul.breadcrumbs li a{gap: 12px;}
 ul.breadcrumbs li a i.fa-house-icon{color: var(--Light-Blue);}
 ul.breadcrumbs li a i.fa-chevron-right{opacity: 0.5;}
 
-.default-block-con{margin-bottom: 60px;}
+.default-block-con{margin-bottom: 60px; color: var(--Navy);}
 .default-block-con span{margin-bottom: 30px;}
 .default-block-con .h1{margin-bottom: 32px;}
 
@@ -31,7 +31,7 @@ ul.breadcrumbs li a i.fa-chevron-right{opacity: 0.5;}
 .default-line-lt { padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0; flex: 1;}
 .share-inline-arrow{flex: 0 0 80px; opacity: 0.25;}
 
-.default-article .accordion-main{padding: 40px 0 60px;}
+
 
 .asidebar-nav h3{margin-bottom: 5px;}
 .asidebar-nav hr{margin-bottom: 9px;}
@@ -73,18 +73,26 @@ ul.aside-links > li > a:hover i{left: 8px;}
 }
 @media screen and (max-width: 744px) and (min-width: 200px) {
     .default-main{display: block; padding: 40px 0;}
+    .default-block-con{margin-bottom: 57px;}
     .default-block-con .h1{font-size: 48px; line-height: 55px;}
     .default-article h1{font-size: 48px; line-height: 60px;}
     .default-article h2{font-size: 40px; line-height: 50px;}
 
+    
     ul.breadcrumbs{display: none;}
-
+    
     .default-caption { padding-left: 25px;}
     .caption-desc{padding: 24px 24px 8px;}
-
+    
+    .default-line-wrap { padding: 32px 0 54px; }
+    .default-line-lt{padding: 0px 0 19px 24px;}
     .default-line-in{display: block;}
     .default-lin-lt{padding: 0 0 24px;}
-    .share-inline-arrow{padding-left: 24px;}
-    .accordion-header span.ui-plus {left: 24px;}
+
+
+    .share-inline-arrow{padding-left: 24px; opacity: 1;}
+    .share-inline-arrow svg{width: 32px; height: 32px;}
+    .share-inline-arrow svg:not(:first-child){width: 20px;}
+
 }
 

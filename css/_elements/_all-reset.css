@@ -298,7 +298,8 @@ ul.slick-dots li button{display: none;}
     .hide-mobile{display: none;} 
 
     .h1, h1{font-size: 2.5rem; line-height: 3.125rem;}
-    .h2, h2{font-size: 2rem; line-height: 2.5rem;}/*-- some places h3 as 32px so i cant reduce in mobile --*/
+    .h2, h2{font-size: 2rem; line-height: 2.5rem;}
+    .h4, h4{font-size: 28px; line-height: 35px;}
 
     span.optional-text.md{margin-bottom: 6px;}
 
