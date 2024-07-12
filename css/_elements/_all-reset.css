@@ -31,7 +31,7 @@ blockquote p::before{content: "“";}
 blockquote p::after{content: "”";}
 blockquote cite, blockquote small {font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
-small{font-size: 0.75rem; line-height: 1.25rem; display: block;}
+small{font-size: 14px; line-height: 21px; display: block;}/*-- dont change fs --*/
 big {font-size: 125%;}
 sup, sub {font-size: 0.625rem; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
 sup {bottom: 1ex;}
@@ -137,6 +137,7 @@ span.optional-text.light-blue{color: var(--Light-Blue); }
 span.optional-text.grey{color: var(--Gray);-webkit-text-fill-color: var(--Gray); opacity: 0.5; background: none; margin-bottom: 4px;}
 span.optional-text.large{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 23px;}
 span.optional-text.md{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 22px;}
+span.optional-text.navy-50{color: rgb(25 35 76 / 50%);}
 .optional-blue{padding-left: 43px; margin-bottom: 31px; color: var(--Blue); font-size: 1rem; font-weight: 600; line-height: 1.25rem;}
 .optional-blue svg{left: 0; position: absolute;}
 .optional-blue span{opacity: 0.6; padding-top: 5px; display: block;}

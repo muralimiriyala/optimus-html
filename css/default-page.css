@@ -1,15 +1,24 @@
 
 
+ul.breadcrumbs{margin: 0 0 55px; gap: 12px;}
+ul.breadcrumbs li::before{display: none;}
+ul.breadcrumbs li{margin: 0; }
+ul.breadcrumbs li a{gap: 12px;}
+ul.breadcrumbs li a i.fa-house-icon{color: var(--Light-Blue);}
+ul.breadcrumbs li a i.fa-chevron-right{opacity: 0.5;}
+
 .default-block-con{margin-bottom: 60px;}
-.default-block-con span{color: var(--Gray); margin-bottom: 30px;}
+.default-block-con span{margin-bottom: 30px;}
 .default-block-con .h1{margin-bottom: 32px;}
 
 .default-article h2{padding-top: 32px;}
 .default-article p:nth-child(3) span{font-size: 22px; line-height: 33px;}
-.default-article p span{font-size: 20px; line-height: 30px}
+.default-article p span:not(.fs-16){font-size: 20px; line-height: 30px}
 .default-article h3{padding-top: 34px;}
+.default-article h6{padding-top: 33px;}
 
-.default-article ul{margin-bottom: 0;}
+
+.default-article ul:not(.breadcrumbs){margin-bottom: 0;}
 .default-image-caption{padding: 50px 0 22px;}
 .default-caption{padding-left: 48px; color: var(--Gray);}
 .caption-desc{border-left: 1px solid var(--Light-Blue); padding: 24px 0 8px 16px;}
@@ -67,6 +76,8 @@ ul.aside-links > li > a:hover i{left: 8px;}
     .default-block-con .h1{font-size: 48px; line-height: 55px;}
     .default-article h1{font-size: 48px; line-height: 60px;}
     .default-article h2{font-size: 40px; line-height: 50px;}
+
+    ul.breadcrumbs{display: none;}
 
     .default-caption { padding-left: 25px;}
     .caption-desc{padding: 24px 24px 8px;}
