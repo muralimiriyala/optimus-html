@@ -27,5 +27,7 @@
     .share-icons #st-1.st-animated{justify-content: flex-start;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
+    .share-icons{gap: 41px;}
+    .share-inline-arrow{flex: 1;}
     .share-icons #st-1.st-animated{justify-content: flex-start;}
 }

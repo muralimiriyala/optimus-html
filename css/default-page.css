@@ -72,7 +72,7 @@ ul.aside-links > li > a:hover i{left: 8px;}
     .sidebar-list:last-child{margin-bottom: 0;}
 }
 @media screen and (max-width: 744px) and (min-width: 200px) {
-    .default-main{display: block; padding: 40px 0;}
+    .default-main{display: block; padding: 40px 0 44px;}
     .default-block-con{margin-bottom: 57px;}
     .default-block-con .h1{font-size: 48px; line-height: 55px;}
     .default-article h1{font-size: 48px; line-height: 60px;}
@@ -80,6 +80,8 @@ ul.aside-links > li > a:hover i{left: 8px;}
 
     
     ul.breadcrumbs{display: none;}
+
+    .default-aside{padding-top: 80px;}
     
     .default-caption { padding-left: 25px;}
     .caption-desc{padding: 24px 24px 8px;}
@@ -88,6 +90,11 @@ ul.aside-links > li > a:hover i{left: 8px;}
     .default-line-text{padding: 0px 0 19px 24px;}
     .default-line-in{display: block;}
     .default-lin-lt{padding: 0 0 24px;}
+
+    .sidebar-block{margin-bottom: 43px;}
+
+    .sidebar-list{flex-direction: row;}
+    .sidebar-info{flex: 1;}
 
 
     .default-line-arrow{padding-left: 24px; opacity: 1;}
