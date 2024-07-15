@@ -14,7 +14,7 @@
 .share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 2rem;}
 
 .share-icons .share-icon{ font-size: 48px; color: var(--Orange); }
-.share-inline-arrow{flex: 0 0 80px; }
+.share-inline-arrow{flex: 0 0 80px; opacity: 0.25;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
