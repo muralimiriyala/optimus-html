@@ -10,7 +10,7 @@ body.page-template-insights-post .share-icons #st-1.st-animated{flex: inherit;}
 body.page-template-insights-post .share-icons{margin-bottom: 42px; padding: 0 40px 0 5px; gap: 20px}
 body.page-template-insights-post .default-block-con span { margin-bottom: 0; }
 
-.insights-post-block{padding: 35px 0 20px;}
+.insights-post-block{padding: 35px 0 55px;}
 .insights-post-image{padding: 10px 0 58px;}
 .insights-post-wrap{padding: 48px;}
 .insights-post-bracket { width: 48px; height: 100%; top: 0; border: 1px solid var(--Light-Blue); z-index: -1; }
