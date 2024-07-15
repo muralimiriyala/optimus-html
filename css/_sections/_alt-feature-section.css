@@ -2,20 +2,38 @@
 
 
 .alt-feature-text{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), var(--Blue, #004C97);}
-ul.alt-order{margin: 0;}
+ul.alt-order{margin: 35px 0 36px; gap: 30px;}
 ul.alt-order li::before{display: none;}
 ul.alt-order li{margin: 0;}
-ul.alt-order li a{}
-.alt-feature-btns{gap: 16px;}
+ul.alt-order li a{gap: 8px;}
+ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)}
+.alt-feature-btns{gap: 16px; padding-top: 10px;}
+
+.alt-feature-svg{left: -30px; top: 85px; width: 80px; height: 161px;}
+.alt-feature-svg svg{width: 100%; height: 100%;}
+.no_alt_feature_image{display: block;}
+.no_alt_feature_text{display: block;}
+.no_alt_feature_text .alt-feature-svg{display: none;}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1024px){
+    .no_alt_feature_image .alt-feature-desc{max-width: 1280px; margin: 0 auto; padding: 80px 0;}
+}
+@media only screen and (min-width: 1360px){
     .alt-feature-list{flex: 0 0 50%;}
     .alt-feature-desc{max-width: 720px; padding: 80px; margin-left: auto;}
 }
-
-
-
+@media screen and (max-width: 1359px) and (min-width: 1024px){
+    .no_alt_feature_image .alt-feature-desc{padding: 80px 40px;}
+    .alt-feature-list{flex: 0 0 50%;}
+    .alt-feature-desc{max-width: 720px; padding: 80px 80px 80px 40px;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 744px){
+    .no_alt_feature_image .alt-feature-desc{padding: 40px 40px 50px;}
+}
+@media only screen and (max-width: 743px) and (min-width: 200px){
+    .no_alt_feature_image .alt-feature-desc{padding: 40px 40px 50px;}
+}
 
 
 
