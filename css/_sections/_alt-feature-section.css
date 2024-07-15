@@ -1,0 +1,29 @@
+
+
+
+.alt-feature-text{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), var(--Blue, #004C97);}
+ul.alt-order{margin: 0;}
+ul.alt-order li::before{display: none;}
+ul.alt-order li{margin: 0;}
+ul.alt-order li a{}
+.alt-feature-btns{gap: 16px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1440px){
+    .alt-feature-list{flex: 0 0 50%;}
+    .alt-feature-desc{max-width: 720px; padding: 80px; margin-left: auto;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
