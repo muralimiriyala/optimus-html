@@ -12,7 +12,7 @@ ul.breadcrumbs li a{width: fit-content;}
 .default-block-con span{margin-bottom: 30px;}
 .default-block-con .h1{margin-bottom: 32px;}
 
-.default-article h2{padding-top: 32px;}
+.default-article h2:not(.micro-cta-text h2){padding-top: 32px;}
 .default-article p:nth-child(3) span{font-size: 22px; line-height: 33px;}
 .default-article p span:not(.fs-16){font-size: 20px; line-height: 30px}
 .default-article h3{padding-top: 34px;}

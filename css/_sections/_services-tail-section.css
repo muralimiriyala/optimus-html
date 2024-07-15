@@ -22,6 +22,8 @@
 .service-tail-list:hover figure, .service-tail-list:hover i.fa-service{transform: translateX(calc(100% + 10px)); opacity: 0;}
 .service-tail-list.no_tails_arrow:hover figure, .service-tail-list.no_tails_arrow:hover i.fa-service{opacity: 1; transform: none;}
 .service-tail-row::before{content: ""; display: block; width: 1000vw; height: 100%; top: 0; left: -100vw; background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), rgba(0, 76, 151, 0.75); position: absolute; z-index: -1;}
+.services-tail-decor svg{width: 100%; height: 100%;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -53,8 +55,12 @@
     .service-tail-list{flex: 0 0 calc(33.3333% - 22px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
-    .service-tail-row{gap: 32px;}
+    .service-tail-wrap{padding: 40px 0 0;}
+    .service-tail-main{display: block; padding: 0 0 36px;}
+    .service-tail-rt{margin-bottom: 20px;}
+    .service-tail-row{gap: 32px; padding: 40px 0 80px;}
     .service-tail-list{flex: 0 0 calc(50% - 16px);}
+    .services-tail-decor{width: 428px; height: 260px; left: -24px; opacity: 0.125;}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .service-tail-wrap{padding: 40px 0 0;}
