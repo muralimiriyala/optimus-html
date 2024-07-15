@@ -20,6 +20,8 @@ body.page-template-about-culture .short-intro-main::before { content: ""; displa
     .short-intro-head{gap: 48px; margin-bottom: 40px;}
     .short-intro1-of-1 h3{max-width: 100%;}
     body.page-template-about-culture .short-intro-row{padding: 80px 0 0;}
+
+    .intro-second-section .short-intro-main{padding: 87px 0 0; margin-top: 7px; border-top: 1px solid var(--Gray-50);}
 }
 @media screen and (min-width:1200px){
     .short-intro-title { flex: 0 0 400px; }
