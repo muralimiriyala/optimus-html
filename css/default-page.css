@@ -2,10 +2,11 @@
 
 ul.breadcrumbs{margin: 0 0 55px; gap: 12px;}
 ul.breadcrumbs li::before{display: none;}
-ul.breadcrumbs li{margin: 0; }
-ul.breadcrumbs li a{gap: 12px;}
+ul.breadcrumbs li{margin: 0; gap: 12px; width: fit-content;}
+ul.breadcrumbs li:first-child i.fa-chevron-right{display: none;}
+ul.breadcrumbs li > i.fa-chevron-right{opacity: 0.5; width: fit-content;}
 ul.breadcrumbs li a i.fa-house-icon{color: var(--Light-Blue);}
-ul.breadcrumbs li a i.fa-chevron-right{opacity: 0.5;}
+ul.breadcrumbs li a{width: fit-content;}
 
 .default-block-con{margin-bottom: 60px; color: var(--Navy);}
 .default-block-con span{margin-bottom: 30px;}
