@@ -265,7 +265,7 @@ ul.slick-dots li button{display: none;}
 
 .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
 .w-100{width: 100%;}
-
+.container.p-0{padding: 0;}
 
 
 /*-- media css starts here --*/
