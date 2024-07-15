@@ -25,7 +25,7 @@ span.ui-plus::after{ width: 2px; height: 24px;  }
     .accordion-main{padding: 40px 0 60px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 744px){
-
+    .accordion-main{padding: 40px 0 60px;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
     .accordion-main{padding: 40px 0 57px;}
