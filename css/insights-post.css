@@ -1,13 +1,13 @@
 .insights-post-main { gap: 80px; padding: 80px 0 40px; }
 .insights-row{gap: 14px; flex: 1; }
-.insights-list{flex: 0 0 31%; }
+.insights-list{flex: 0 0 32.5%; }
 .insights-icon{color: var(--Light-Blue); font-size: 20px;}
 .insights-txt{color: var(--Blue);}
 .insights-list{gap: 8px;}
 .insights-block-con{margin-bottom: 45px; color: var(--Navy);}
 
 body.page-template-insights-post .share-icons #st-1.st-animated{flex: inherit;}
-body.page-template-insights-post .share-icons{margin-bottom: 42px; padding: 0 45px 0 5px;}
+body.page-template-insights-post .share-icons{margin-bottom: 42px; padding: 0 40px 0 5px; gap: 20px}
 body.page-template-insights-post .default-block-con span { margin-bottom: 0; }
 
 .insights-post-image{padding: 10px 0 58px;}
