@@ -5,8 +5,8 @@
 .micro-cta-text h2{margin-bottom: 16px; font-size: 28px; line-height: 32px;}
 .micro-cta-decs{z-index: 2;}
 .micro-cta-chevron{ height: 100%; opacity: .5; background-color: var(--Blue); }
-.no_primary_cta_image{display: block;}
-.no_primary_cta_image h2 br{display: none;}
+.no_micro_cta_image{display: block;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -39,6 +39,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .micro-cta-main{padding: 40px 0;}
     .micro-cta-row{display: block; text-align: center;}
+    .no_micro_cta_image  .micro-cta-text{padding-top: 40px;}
     .micro-cta-text{padding: 0 40px 40px; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 16px; line-height: 24px;}
     .micro-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
     .micro-cta-circle svg{width: 499px; height: 500px;}
@@ -69,6 +70,7 @@
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .micro-cta-main{padding: 40px 0;}
     .micro-cta-row{display: block; text-align: center;}
+    .no_micro_cta_image  .micro-cta-text{padding-top: 20px;}
     .micro-cta-text{padding: 0 20px 28px;  background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 16px; line-height: 24px;}
     .micro-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
     .micro-cta-circle svg{width: 499px; height: 500px;}
