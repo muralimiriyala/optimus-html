@@ -19,7 +19,7 @@
     
     body.page-template-careers .primary-cta-wrap { padding: 88px 0 40px; }
     body.page-template-default .primary-cta-wrap{padding-top: 40px;}
- 
+    /* body.page-template-insights-post .primary-cta-wrap { padding: 45px 0; } */
     
     .primary-cta-chevron{top: 0; left: -36px; width: 323px; clip-path: polygon(50% 50%,0% 0%,47% 0,100% 50%,47% 100%,50% 100%,0% 100%); }
     .primary-cta-image{flex: 1;}
