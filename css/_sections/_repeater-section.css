@@ -35,7 +35,7 @@
 
 
   body.page-template-service-detail .repeater-main{padding-bottom: 80px;}
-  body.page-template-about-culture .repeater-section:nth-child(2) .repeater-main{padding: 79px 0 40px;}
+  body.page-template-our-culture .repeater-section:nth-child(2) .repeater-main{padding: 79px 0 40px;}
 }
 @media screen and (max-width:1199px) and (min-width:1024px) {
   .repeater-txt h2{line-height: 40px; margin-bottom: 24px;}
