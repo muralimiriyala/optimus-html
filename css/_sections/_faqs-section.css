@@ -19,6 +19,7 @@ span.ui-plus::after{ width: 2px; height: 24px;  }
 .accordion-content ul > li::before { top: 8px; left: -20px; width: 6px; height: 6px; }
 .accordion-content ol { margin: 0 0 28px 29px; }
 .accordion-content ol > li::before { top: 0; left: -20px; font-size: 0.875rem; line-height: 1.313rem; }
+.accordion-content.open{display: block;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
