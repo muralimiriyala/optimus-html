@@ -15,6 +15,9 @@ body.page-template-about-culture .short-intro-main::before { content: ""; displa
 .short-intro-head.no_intro_desc{display: block;}
 .no_intro_desc .short-arrow-img{display: none;}
 
+.short-intro-row.no_intro_desc .short-intro-title { flex: 100%; }
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .short-intro-head{gap: 48px; margin-bottom: 40px;}
