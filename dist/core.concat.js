@@ -4111,40 +4111,50 @@ return jquery_stickySidebar$1;
 
 //# sourceMappingURL=jquery.sticky-sidebar.js.map
 
-// jQuery(document).ready(function($){
-//     $('.accordion-header').on('click', function(e){
-//         e.preventDefault();
-//         $(this).parent().toggleClass('active');
-//         $(this).parent().siblings().removeClass('active');
-//         $(this).parent().siblings().find('.accordion-header').removeClass('open');
-//         $(this).toggleClass("open");
-//         $(this).siblings('.accordion-content').slideToggle(500);
-//         $(this).parent().siblings().find('.accordion-content').slideUp(500);
-//     });
-// });
-
-const accordion = function(e){
-    e.preventDefault();
-    const self = this;
-    const ele =  self.parentElement;
-    const content = self.nextElementSibling;
-    ele.classList.toggle("active");
-    if(content && content.classList.contains('accordion-content')) {
-        content.classList.toggle("open");
-    }
-    const eleList = document.querySelectorAll('.accordion-list');
-        eleList.forEach(item=>{
-        if (item !== ele) {
-            item.classList.remove("active");
-            const itemContent = item.querySelector('.accordion-content');
-            if(itemContent) {
-                itemContent.classList.remove("open");
+document.addEventListener('DOMContentLoaded', () => {
+    const accordions = (aList, aHeader, aContent) => {
+      const items = document.querySelectorAll(aList);
+      if (!items.length) return;
+  
+      items.forEach(el => {
+        const header = el.querySelector(aHeader);
+        const content = el.querySelector(aContent);
+  
+        header.addEventListener('click', () => {
+          if (el.dataset.open !== 'true') {
+            // Close all siblings
+            items.forEach(item => {
+              if (item !== el) {
+                item.dataset.open = 'false';
+                const itemContent = item.querySelector(aContent);
+                if (itemContent) {
+                  itemContent.style.maxHeight = '';
+                }
+              }
+            });
+  
+            // Open the clicked one
+            el.dataset.open = 'true';
+            content.style.maxHeight = `${content.scrollHeight}px`;
+          } else {
+            el.dataset.open = 'false';
+            content.style.maxHeight = '';
+          }
+        });
+  
+        const onResize = () => {
+          if (el.dataset.open === 'true') {
+            if (Number(content.style.maxHeight) !== content.scrollHeight) {
+              content.style.maxHeight = `${content.scrollHeight}px`;
             }
-        }
-    });
-}
-const accHeaders = document.querySelectorAll(".accordion-header");
-accHeaders.forEach(accHeader => { accHeader.addEventListener("click", accordion) });
+          }
+        };
+  
+        window.addEventListener('resize', onResize);
+      });
+    };
+    accordions('.accordion-list', '.accordion-header', '.accordion-content');
+  });
 var DrawSVGPlugin = DrawSVGPlugin || window.DrawSVGPlugin 
 var CountUp = CountUp || window.CountUp 
 
