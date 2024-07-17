@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const accordions = (aList, aHeader, aContent) => {
       const items = document.querySelectorAll(aList);
       if (!items.length) return;
-  
+
       items.forEach(el => {
         const header = el.querySelector(aHeader);
         const content = el.querySelector(aContent);

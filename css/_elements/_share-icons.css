@@ -15,11 +15,7 @@
 
 .share-icons .share-icon{ font-size: 48px; color: var(--Orange); }
 .share-inline-arrow{flex: 0 0 80px; opacity: 0.25;}
-<<<<<<< HEAD
-/* .share-icons #st-1.st-animated .st-btn.st-first{color: var(--Orange); background-color: none; font-size: 48px; font-weight: 100;} */
-=======
 .share-icons #st-1.st-animated .st-btn.st-first{color: var(--Orange); background: none; font-size: 48px; font-weight: 100;}
->>>>>>> 474ce20e65bbaa93627c476ef4a7165fcd3ad9ce
 
 body.page-template-insights-post .share-inline-arrow{padding: 35px 0 0 ;}
 /*-- media css starts here --*/
