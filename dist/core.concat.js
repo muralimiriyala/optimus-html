@@ -4126,6 +4126,10 @@ document.addEventListener('DOMContentLoaded', () => {
             items.forEach(item => {
               if (item !== el) {
                 item.dataset.open = 'false';
+                const itemHeader = item.querySelector(aHeader);
+                if (itemHeader) {
+                  itemHeader.classList.remove('open');
+                }
                 const itemContent = item.querySelector(aContent);
                 if (itemContent) {
                   itemContent.style.maxHeight = '';
@@ -4135,9 +4139,11 @@ document.addEventListener('DOMContentLoaded', () => {
   
             // Open the clicked one
             el.dataset.open = 'true';
+            header.classList.add("open");
             content.style.maxHeight = `${content.scrollHeight}px`;
           } else {
             el.dataset.open = 'false';
+            header.classList.remove("open");
             content.style.maxHeight = '';
           }
         });
