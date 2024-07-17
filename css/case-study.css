@@ -1,0 +1,8 @@
+.case-study-main{padding: 80px 0;}
+.case-study-main p:nth-child(2) span{ font-size: 22px; line-height: 2.063rem;}
+.case-study-row{gap: 40px;}
+.case-study-list{flex: 0 0 48%}
+.case-study-image-caption{padding: 50px 0 22px;}
+.case-study-caption{padding-left: 32px; color: var(--Gray);}
+.case-caption-desc{border-left: 1px solid var(--Light-Blue); padding: 24px 0 8px 16px;}
+.case-study-list:nth-child(even){}
