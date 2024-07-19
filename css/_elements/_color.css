@@ -4,6 +4,7 @@
     --black-10: rgb(0 0 0 / 10%);
     --White-60: rgb(255 255 255 / 60%);
     --White-90: rgb(255 255 255 / 90%);
+    --White-75: #F5F9FF;
     --White: #ffffff;
     --body-text: #707372;
     --Blue: #004C97;
@@ -20,5 +21,6 @@
     --Light-Blue-Tint: rgba(65,180,255,.15);
     --Navy: #19234c;
     --Dark-Blue-50: rgb(25 35 76 / 50%);
-    --Light-Blue-15: rgba(65, 180, 255, 0.15);    
+    --Light-Blue-15: rgba(65, 180, 255, 0.15); 
+
 }   
