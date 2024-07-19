@@ -73,16 +73,17 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
 
     .case-study-main{padding: 40px 0;}
     .case-study-main .fluid-container{padding: 0}
-    .case-study-row {display: block;}
+    .case-study-row {display: block; padding: 20px 0 40px;}
     .case-study-list:nth-child(even){flex-direction: inherit;}
     .case-study-list:nth-child(even) .case-caption-desc{padding: inherit; border-left: 1px solid var(--Light-Blue); border-right: inherit;}
     .case-study-list{margin-bottom: 40px;}
     .case-study-list:last-child{margin-bottom: 0;}
 
-    .case-study-data-block{padding: 40px 0;}
+    .case-study-data-block{padding: 35px 0 40px;}
+    .case-study-data-block:last-child{padding-bottom: 8px;}
     .case-study-data-main{display: block;}
     .case-study-icon{margin-bottom: 24px;}
     .case-study-main hr{margin-bottom: 40px; width: 100%; left: 0}
     .case-study-image{padding: 20px 0 40px;}
-
+    .case-study-main .insights-post-block {padding: 20px 0 40px;}
 }
