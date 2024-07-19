@@ -1,0 +1,8 @@
+.highlights-slider-row{gap: 80px;}
+.highlights-slider-image{flex: 0 0 390px;}
+.highlights-slider-rt{flex: 0 0 calc(100% - 470px);}
+.highlights-slider-wrap{gap: 40px;}
+.highlights-author-img{flex: 0 0 216px;}
+.highlights-author-cont{flex: 0 0 calc(100% - 256px);}
+.highlights-slider-rt .h1{font-weight: 400; margin-bottom: 40px;}
+.highlights-author-cont p{color: var(--Gray)}

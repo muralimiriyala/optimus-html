@@ -11,11 +11,15 @@
 .start-managing-bracket.left{left: 0; border-right: none; border-top-right-radius: 0; border-bottom-right-radius: 0;}
 .start-managing-bracket.right{right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
 
+body.page-template-about-people .start-managing-section hr{margin: 0; background: var(--Gray-50); height: 1px;  width: 100%;}
+
   @media screen and (min-width:1024px) {
     body.page-template-career .start-managing-block{margin-top: -77px;}
     .start-managing-main { gap:24px; align-items:center;}
     .start-managing-text { flex:1 }
     .start-managing-btn { width:fit-content }
+    body.page-template-about-people .start-managing-block{padding-bottom: 80px;}
+
   }
   @media screen and (max-width:1023px) and (min-width:200px) {
     .start-managing-main {display: block; text-align: center;}
