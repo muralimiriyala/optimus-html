@@ -59,7 +59,7 @@
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .banner-main{display: block;}
     .no_banner_image .banner-text{padding-top: 40px;}
-    .banner-text{padding: 0 40px 40px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
+    .banner-text{padding: 0 24px 40px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
     body.page-template-careers .banner-text{padding-bottom: 104px;}
 
     .banner-desc{font-size: 18px; line-height: 27px;}

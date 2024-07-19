@@ -1,3 +1,9 @@
+
+ul.case-alt-order{margin: 30px 0 30px; gap: 30px;}
+ul.case-alt-order li::before{display: none;}
+ul.case-alt-order li{margin: 0;}
+ul.case-alt-order li a{gap: 8px;}
+ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)}
 .case-study-action-section{background: var(--White-75);}
 .case-study-action-main{padding: 80px 0;}
 
