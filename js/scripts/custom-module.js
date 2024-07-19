@@ -1,16 +1,37 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
+  const header = document.querySelector("header.site-header");
+  const headerHeight = header.clientHeight;
+  window.onscroll = function () {
+    const scroll = window.scrollY;
+    scroll >= headerHeight
+      ? header.classList.add("sticky-header")
+      : header.classList.remove("sticky-header");
+  };
+
   /*-- menu starts here --*/
-   menu(humburgerBtn, menu) => {
-    const humburgerBtn = document.querySelector(humburgerBtn);
-    console.log(humburgerBtn);
+  const mobileMenu = (humburger, headerRight, ulMenu, lis) => {
+    const humburgerBtn = document.querySelector(humburger);
+    const hRight = document.querySelector(headerRight);
+    const ul = document.querySelector(ulMenu);
+    const liitems = ul.querySelectorAll(lis);
     humburgerBtn.addEventListener("click", function (e) {
       e.preventDefault();
-      alert("");
+      this.classList.toggle("open");
+      hRight.classList.toggle("open");
     });
-    const ulmenu = document.querySelector(menu);
-    console.log("menu");
-  }
-  menu(".humburger-btn, ul.main_menu");
+    liitems.forEach(function (li) {
+      atag = li.querySelector("a");
+      atag.addEventListener("click", function (e) {
+        e.preventDefault();
+      });
+    });
+  };
+  mobileMenu(
+    ".humburger-btn",
+    ".header_right",
+    "ul.main_menu",
+    "ul.main_menu > li"
+  );
   /*-- menu ends here --*/
 
   /*-- accordions starts here --*/

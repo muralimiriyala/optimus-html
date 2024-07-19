@@ -114,10 +114,10 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; 
     .humburger-btn span:first-child { top: 16px }
     .humburger-btn span:nth-child(2) { top: 24px }
     .humburger-btn span:nth-child(3) { top: 32px; }
-    .humburger-btn.open span{background-color: var(--Orange);}
-    .humburger-btn.open span:first-child {top: 32px; transform:rotate(45deg) }
+    .humburger-btn span{max-width: 22px;}
+    .humburger-btn.open span:first-child {top: 24px; transform:rotate(45deg) }
     .humburger-btn.open span:nth-child(2) { transform: scale(0); }
-    .humburger-btn.open span:nth-child(3) {top: 32px; transform:rotate(-45deg) }
+    .humburger-btn.open span:nth-child(3) {top: 24px; transform:rotate(-45deg) }
 
     .h_mobile_overlay{visibility: hidden; opacity: 0; top: 0; right: 0; transform: translateX(0); width: 100%; height: 100%; position: fixed; background: rgba(24, 42, 84, 0.85); backdrop-filter: blur(6px); transition: var(--b-transition);} 
     .h_mobile_overlay.open{visibility: visible; opacity: 1;}
