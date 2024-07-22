@@ -1,16 +1,19 @@
-jQuery(document).on("ready", function () {
-  $(".sbr-slider-for").slick({
+jQuery(document).ready(function () {
+  jQuery(".sbr-slider-nav").slick({
     slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
+    dots: false,
     fade: true,
-    asNavFor: ".sbr-slider-nav",
-  });
-  $(".sbr-slider-nav").slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: ".sbr-slider-for",
-    dots: true,
+    arrows: false,
+    speed: 1500,
     focusOnSelect: true,
+  });
+  jQuery(".sbr-slide-image").on("click", function (e) {
+    e.preventDefault();
+    let slideno = jQuery(this).data("sbr-slide");
+    jQuery(".sbr-slide-image").removeClass("sbr-active");
+    jQuery(`.sbr-slide-image[data-sbr-slide='${slideno}']`).addClass(
+      "sbr-active"
+    );
+    jQuery(".sbr-slider-nav").slick("slickGoTo", slideno - 1);
   });
 });
