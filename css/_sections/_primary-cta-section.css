@@ -18,7 +18,7 @@ body.page-template-case-study .primary-cta-section hr{width: 100%; height: 1px; 
     .primary-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
     .primary-cta-circle svg{width: 499px; height: 500px;}
     
-    body.page-template-careers .primary-cta-wrap { padding: 88px 0 40px; }
+    body.page-template-career .primary-cta-wrap { padding: 88px 0 40px; }
     body.page-template-default .primary-cta-wrap{padding-top: 40px;}
     /* body.single-post .primary-cta-wrap { padding: 45px 0; } */
     
@@ -58,7 +58,7 @@ body.page-template-case-study .primary-cta-section hr{width: 100%; height: 1px; 
     .primary-cta-bracket.left{left: 0; border-right: none; border-top-right-radius: 0; border-bottom-right-radius: 0;}
     .primary-cta-bracket.right{right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
 
-    body.page-template-careers .primary-cta-wrap { padding: 57px 0 40px; } 
+    body.page-template-career .primary-cta-wrap { padding: 57px 0 40px; } 
     body.page-template-default .primary-cta-wrap{padding: 40px 0 40px;}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
@@ -81,6 +81,6 @@ body.page-template-case-study .primary-cta-section hr{width: 100%; height: 1px; 
     .primary-cta-bracket.left{left: 0; border-bottom: none; border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
     .primary-cta-bracket.right{right: 0; top: auto; bottom: 0; border-top: none; border-top-left-radius: 0; border-top-right-radius: 0;}
 
-    body.page-template-careers .primary-cta-wrap{padding: 48px 0 40px;}
+    body.page-template-career .primary-cta-wrap{padding: 48px 0 40px;}
     body.page-template-case-study .primary-cta-wrap{padding: 48px 0 40px;}
 }
