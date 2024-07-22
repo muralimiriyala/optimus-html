@@ -4269,82 +4269,88 @@ jQuery(function(){
     });
     jQuery(".selectBox, .selectBox-dropdown .selectBox-label").removeAttr('style');
 });
-jQuery(document).on("ready", function(){
-    const postSlider = jQuery(".post-array-row");
-    function initializeSlider() {
-        postSlider.each(function(){
-            const $this = jQuery(this);
-            const postSlide = $this.children(".post-array-list").length;
-            const postBtn = jQuery(".post-array-btn");
-            const postHead = jQuery(".post-array-head");
-            if(window.matchMedia('(max-width: 1439px)').matches){
-                if (!$this.hasClass('slick-initialized')) {
-                    $this.slick({
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: true,
-                        prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-                        nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-                        dots: false,
-                        speed: 1000,
-                        infinite: false,
-                        autoplay: false,
-                        variableWidth: true,
-                        appendArrows: postBtn,
-                        responsive: [
-                            {
-                                breakpoint: 1023,
-                                settings: {
-                                    appendArrows: postHead,
-                              }
-                            },
-                            {
-                                breakpoint: 743,
-                                settings: {
-                                    adaptiveHeight: true,
-                                    appendArrows: $this,
-                                    dots: true,
-                              }
-                            },
-                        ], 
-                    });
-                }
-            }
-            else {
-                if (postSlide >= 5 && !$this.hasClass('slick-initialized')) {
-                    $this.slick({
-                        appendArrows: postBtn,
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: true,
-                        prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-                        nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-                        dots: false,
-                        speed: 1000,
-                        infinite: false,
-                        autoplay: false,
-                        variableWidth: true,
-                    });
-                }
-            }
-        });
-    }
-    function destroySlider() {
-        postSlider.each(function(){
-            const $this = jQuery(this);
-            if(jQuery(window).width() >= 1440 && $this.hasClass('slick-initialized')) {
-                $this.slick('unslick');
-            }
-        });
-    }
-
-    jQuery(window).on('resize', function() {
-        destroySlider();
-        initializeSlider();
+jQuery(document).ready(function () {
+  const postSlider = jQuery(".post-array-row");
+  function initializeSlider() {
+    postSlider.each(function () {
+      const $this = jQuery(this);
+      const postSlide = $this.children(".post-array-list").length;
+      const postBtn = jQuery(".post-array-btn");
+      const postHead = jQuery(".post-array-head");
+      if (window.matchMedia("(max-width: 1439px)").matches) {
+        if (!$this.hasClass("slick-initialized")) {
+          $this.slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow:
+              '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            nextArrow:
+              '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            dots: false,
+            speed: 1000,
+            infinite: false,
+            autoplay: false,
+            variableWidth: true,
+            appendArrows: postBtn,
+            responsive: [
+              {
+                breakpoint: 1023,
+                settings: {
+                  appendArrows: postHead,
+                },
+              },
+              {
+                breakpoint: 743,
+                settings: {
+                  adaptiveHeight: true,
+                  appendArrows: $this,
+                  dots: true,
+                },
+              },
+            ],
+          });
+        }
+      } else {
+        if (postSlide >= 5 && !$this.hasClass("slick-initialized")) {
+          $this.slick({
+            appendArrows: postBtn,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow:
+              '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            nextArrow:
+              '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            dots: false,
+            speed: 1000,
+            infinite: false,
+            autoplay: false,
+            variableWidth: true,
+          });
+        }
+      }
     });
+  }
+  function destroySlider() {
+    postSlider.each(function () {
+      const $this = jQuery(this);
+      if (
+        jQuery(window).width() >= 1440 &&
+        $this.hasClass("slick-initialized")
+      ) {
+        $this.slick("unslick");
+      }
+    });
+  }
 
-    // Initial call
+  jQuery(window).on("resize", function () {
+    destroySlider();
     initializeSlider();
+  });
+
+  // Initial call
+  initializeSlider();
 });
 
 jQuery(document).ready(function ($) {
@@ -4419,20 +4425,23 @@ const observer = new MutationObserver(function (mutationsList) {
 });
 observer.observe(document.body, { childList: true, subtree: true });
 
-jQuery(document).on("ready", function () {
-  $(".sbr-slider-for").slick({
+jQuery(document).ready(function () {
+  jQuery(".sbr-slider-nav").slick({
     slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
+    dots: false,
     fade: true,
-    asNavFor: ".sbr-slider-nav",
-  });
-  $(".sbr-slider-nav").slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: ".sbr-slider-for",
-    dots: true,
+    arrows: false,
+    speed: 1500,
     focusOnSelect: true,
+  });
+  jQuery(".sbr-slide-image").on("click", function (e) {
+    e.preventDefault();
+    let slideno = jQuery(this).data("sbr-slide");
+    jQuery(".sbr-slide-image").removeClass("sbr-active");
+    jQuery(`.sbr-slide-image[data-sbr-slide='${slideno}']`).addClass(
+      "sbr-active"
+    );
+    jQuery(".sbr-slider-nav").slick("slickGoTo", slideno - 1);
   });
 });
 
