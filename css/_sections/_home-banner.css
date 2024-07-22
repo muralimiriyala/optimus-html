@@ -1,0 +1,8 @@
+
+.home-banner-text{color: var(--White);}
+.home-banner-text h1{font-size: 64px; line-height: 64px; color: var(--White);}
+.home-banner-thumb{top: 0; left: 0; z-index: -1;}
+
+@media screen and (min-width: 1024px) {
+    .home-banner-text{max-width: 720px; padding: 400px 0 300px;}
+}
