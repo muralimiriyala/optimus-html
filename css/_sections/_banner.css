@@ -33,7 +33,7 @@
     .banner-main{display: block;}
     .no_banner_image .banner-text{padding-top: 80px;}
     .banner-text{padding: 0 40px 80px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
-    body.page-template-careers .banner-text{padding-bottom: 160px;}
+    body.page-template-career .banner-text{padding-bottom: 160px;}
 
     .banner-circle{bottom: 0; left: 0; opacity: 0.5; width: 484px; height: 484px;}
     .banner-pointer {
@@ -60,7 +60,7 @@
     .banner-main{display: block;}
     .no_banner_image .banner-text{padding-top: 40px;}
     .banner-text{padding: 0 24px 40px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue, #004C97);}
-    body.page-template-careers .banner-text{padding-bottom: 104px;}
+    body.page-template-career .banner-text{padding-bottom: 104px;}
 
     .banner-desc{font-size: 18px; line-height: 27px;}
     .banner-desc h1{margin-bottom: 25px; font-size: 32px; line-height: 36px;}

@@ -8,8 +8,8 @@
 .short-intro-icon{display: block; margin-bottom: 20px; color: var(--Orange); max-width: 40px; }
 
 
-body.page-template-careers .short-intro-main::after { content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: 0.5; margin-top: 48px; }
-body.page-template-careers .short-intro-main{padding: 40px 0 0;}
+body.page-template-career .short-intro-main::after { content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: 0.5; margin-top: 48px; }
+body.page-template-career .short-intro-main{padding: 40px 0 0;}
 
 body.page-template-our-culture .short-intro-main::before { content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: 0.5; ; }
 .short-intro-head.no_intro_desc{display: block;}
@@ -66,7 +66,7 @@ body.page-template-our-culture .short-intro-main::before { content: ""; display:
     .short-intro-icon img{margin-bottom: 3px;}
     .short-intro-row{display: block;}
     .short-intro-list:not(:last-child){margin-bottom: 40px;}
-    body.page-template-careers .short-intro-main::after {margin-top: 48px;}
+    body.page-template-career .short-intro-main::after {margin-top: 48px;}
     body.page-template-our-culture .short-intro-row{padding: 40px 0 0;}
     body.page-template-our-culture .short-intro-main{padding: 10px 0 40px;}
 }
