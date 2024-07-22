@@ -12,14 +12,15 @@
 .share-icons #st-1.st-animated .st-btn[data-network="email"]::after{content: "\40"; font-family: "Font Awesome 6 Pro"; font-weight: 900;}
 .share-icons #st-1.st-animated img{display: none;}
 .share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 2rem;}
-
-.share-icons .share-icon{ font-size: 48px; color: var(--Orange); }
 .share-inline-arrow{flex: 0 0 80px; opacity: 0.25;}
 
 
-body.page-template-insights-post .share-inline-arrow{padding: 35px 0 0 ;}
+body.single-post .share-inline-arrow{padding: 35px 0 0 ;}
 
-.share-icons #st-1.st-animated .st-btn[data-netowrk="sharethis"]{background: none; color: var(--Orange); font-size: 48px;}
+.share-icons #st-1.st-animated .st-btn[data-network="sharethis"]{background: none !important; color: var(--Orange) !important; font-size: 48px; line-height: 48px; font-weight: 100;}
+
+
+
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){

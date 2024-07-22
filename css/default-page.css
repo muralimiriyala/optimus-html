@@ -52,10 +52,10 @@ ul.aside-links > li > a:hover i{left: 8px;}
 .sidebar-block h5{color: var(--White);}
 .sidebar-icon{font-size: 40px; width: 40px; margin-bottom: 20px; color: var(--Light-Blue);}
 .sidebar-block .button{width: 100%;}
-body.page-template-insights-post .sidebar-icon{margin-bottom: 16px;}
-body.page-template-insights-post .sidebar-block h5{margin-bottom: 16px;}
-body.page-template-insights-post .sidebar-link{padding-right: 32px; margin-bottom: 16px;}
-body.page-template-insights-post .sidebar-block p{margin-bottom: 15px;}
+body.single-post .sidebar-icon{margin-bottom: 16px;}
+body.single-post .sidebar-block h5{margin-bottom: 16px;}
+body.single-post .sidebar-link{padding-right: 32px; margin-bottom: 16px;}
+body.single-post .sidebar-block p{margin-bottom: 15px;}
 
 .sidebar-row{gap: 38px 0;}
 .sidebar-list{gap: 15px;}
