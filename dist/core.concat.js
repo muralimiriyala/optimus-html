@@ -4425,8 +4425,10 @@ const observer = new MutationObserver(function (mutationsList) {
 });
 observer.observe(document.body, { childList: true, subtree: true });
 
-jQuery(document).ready(function () {
-  jQuery(".sbr-slider-nav").slick({
+jQuery(document).ready(function ($) {
+  let $sbrSlider = $(".sbr-slider-nav");
+  let $sbSlideImage = $(".sbr-slide-image");
+  $sbrSlider.slick({
     slidesToShow: 1,
     dots: false,
     fade: true,
@@ -4434,14 +4436,15 @@ jQuery(document).ready(function () {
     speed: 1500,
     focusOnSelect: true,
   });
-  jQuery(".sbr-slide-image").on("click", function (e) {
+  $sbSlideImage.on("click", function (e) {
     e.preventDefault();
-    let slideno = jQuery(this).data("sbr-slide");
-    jQuery(".sbr-slide-image").removeClass("sbr-active");
+    let $this = $(this);
+    let slideno = $this.data("sbr-slide");
+    $sbSlideImage.removeClass("sbr-active");
     jQuery(`.sbr-slide-image[data-sbr-slide='${slideno}']`).addClass(
       "sbr-active"
     );
-    jQuery(".sbr-slider-nav").slick("slickGoTo", slideno - 1);
+    $sbrSlider.slick("slickGoTo", slideno - 1);
   });
 });
 
