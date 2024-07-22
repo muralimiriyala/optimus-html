@@ -1,0 +1,17 @@
+.sbr-slider-main{padding: 40px 0;}
+.sbr-author-text{color: var(--Gray)}
+.sbr-slider-author{padding-top: 37px;}
+.sbr-author-btns{gap: 16px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .sbr-slider-row{gap: 80px;}
+    .sbr-slider-images{flex: 0 0 390px;}
+    .sbr-slider-text{flex: 1;}
+    .sbr-slide-text h2{line-height: 60px;}
+    /* .sbr-slide-text:not(:first-child){display: none;}
+    .sbr-slide-image:not(:first-child){display: none;} */
+    .sbr-slider-author{gap: 40px;}
+    .sbr-author-image{flex: 0 0 216px;}
+    .sbr-author-text{flex: 1;}
+}
