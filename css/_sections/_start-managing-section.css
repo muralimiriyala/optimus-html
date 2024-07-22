@@ -27,15 +27,15 @@ body.page-template-about-people .start-managing-section hr{margin: 0; background
     .start-managing-icon{margin:  0 auto 24px;}
 }
 @media screen and (max-width:1023px) and (min-width: 744px){
-  .start-managing-block{margin-top: -80px;}
+  body.page-template-career  .start-managing-block{margin-top: -80px;}
 }
  @media screen and (max-width:743px) and (min-width:200px) {
-  .start-managing-block{margin-top: -64px;}
+  body.page-template-career .start-managing-block{margin-top: -64px;}
   .start-managing-wrap{padding: 16px;}
   .start-managing-main{padding: 24px;}
   .start-managing-bracket{border-bottom: 1px solid var(--Light-Blue); width: 48px;}
   .start-managing-section .container{padding: 0 20px;}
-  .start-managing-block{padding-bottom: 0;}
+  body.page-template-career .start-managing-block{padding-bottom: 0;}
 
  }
  @media screen and (max-width:389px) and (min-width:200px) {

@@ -15,7 +15,7 @@ body.page-template-about-people .secondary-section hr{margin: 40px 0; background
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
-    .secondary-row{gap: 32px;}
+    .secondary-row{gap: 32px; justify-content: center;}
     .secondary-list{flex: 0 0 calc(50% - 22px);}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
@@ -23,4 +23,7 @@ body.page-template-about-people .secondary-section hr{margin: 40px 0; background
     .secondary-list{margin-bottom: 40px;}
     .secondary-list:last-child{margin-bottom: 0;}
     .secondary-icon{margin-bottom: 15px;}
+
+    body.page-template-about-people .secondary-section hr {margin: 10px 0;}
+
 }
