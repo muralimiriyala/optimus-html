@@ -1,10 +1,10 @@
 .insights-banner-section{background: linear-gradient(0deg,rgba(25,35,76,0) 0,rgba(25,35,76,.5) 100%),var(--Blue)}
-.insights-banner-row{gap: 80px; padding: 60px 0 40px; color: var(--White);}
-.insights-banner-lt{flex: 0 0 404px;}
+.insights-banner-row{gap: 88px; padding: 60px 0 40px; color: var(--White);}
+.insights-banner-lt{flex: 0 0 404px; padding-left: 16px;}
 .insights-banner-rt{flex: 0 0 calc(100% - 484px);}
 .insights-banner-lt h1{color: var(--White);}
 .insights-banner-lt span{font-weight: 900;}
-.insights-banner-rt{background-color: var(--Navy);}
+.insights-banner-rt{background-color: var(--Navy); flex: 1;}
 .insights-banner-rt-text{flex: 0 0 50%; padding: 40px 45px  40px 40px;}
 .insights-banner-rt-image{flex: 0 0 50%;}
 .insights-banner-rt-image img{border-radius: 0 24px 24px 0;}
@@ -12,3 +12,9 @@
 .insights-banner-list{gap: 8px; margin-bottom: 24px;}
 .insights-banner-icon{color: var(--Light-Blue); font-size: 20px;}
 
+  body .insights-signup .frm_forms .frm_form_fields .frm_form_field input { padding: 15px 120px 12px 24px; font-size: 18px; line-height: 27px; font-weight: 400; background-color: var(--Dark-Blue-50,rgb(25 35 76 / 50%)); color: var(--White); border-radius: 28px; border: none; }
+  body .insights-signup .frm_forms .frm_form_fields .frm_form_field.field_submit { min-width: 106px; right: 3px; top: 0; height: 56px; margin: 0; display: block; position: absolute; align-items: center; display: flex; }
+  body .insights-signup .frm_forms .frm_form_fields .frm_submit { display: block; }
+  body .insights-signup .frm_forms .frm_form_fields .frm_form_field label { display: none; }
+  body .insights-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit { width: 100%; height: 100%; margin: 0; padding: 10px 14px 10px; font-size: 20px; line-height: 20px; border-radius: 28px; border: 4px solid var(--Orange); background: 0 0; }
+  body .insights-field-wrap .frm_form_field{margin-bottom: 0!important; margin-top: 16px;}
