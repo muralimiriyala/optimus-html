@@ -3,7 +3,7 @@
 .accordion-list.white{background-color: var(--White);}
 .accordion-list{margin-bottom: 20px; border-left: 8px solid var(--Orange); transition: var(--b-transition);}
 .accordion-list:last-child{margin-bottom: 0;}
-.accordion-list:hover{transform: translateY(-10px); border-color: var(--Orange);}
+.accordion-list:hover{transform: translateY(-5px); border-color: var(--Orange);}
 .accordion-header{padding: 25px 24px 23px 80px; color: var(--Blue); font-size: 20px; line-height: 25px; cursor: pointer; position: relative; font-weight: 600;}
 .accordion-header.open{color: var(--Blue);}
 .accordion-header.open span.ui-plus{transform: rotate(45deg);}
