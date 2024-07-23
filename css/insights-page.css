@@ -59,8 +59,9 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     .resources-blog-row{gap: 32px; margin-bottom: 64px;}
     .resources-blog-list{flex: 0 0 calc(50% - 16px);}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 743px) and (min-width: 200px){
     .blog-post-main{padding: 40px 0 40px;}
+    .blog-post-banner{padding: 40px 0;}
 }
 
 
