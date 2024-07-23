@@ -273,7 +273,7 @@ ul.slick-dots li button{display: none;}
 .btn-center::before { position: absolute; display: block; content: ""; width: 100%; left: 0; right: auto; top: 50%; transform: translateY(-50%); background: var(--Light-Blue); background-position: center center; background-size: 8px 2px; background-repeat: repeat-x; height: 1px; z-index: -1; opacity: 0.5; }
 .btn-center .more-insights{ padding: 0 24px; background-color: #fff; position: relative; z-index: 1; display: inline-block; }
 .more-insights .button{color: var(--Blue);}
-
+.more-insights .button.btn-transparent:hover{color: var(--White);}
 
   /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

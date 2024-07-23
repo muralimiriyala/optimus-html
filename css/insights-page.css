@@ -1,7 +1,6 @@
 .blog-post-array-bg{top: 0; left: 0; position: absolute; width: 100%; height: calc(100% - 329px); z-index: -1;}
 .blog-post-banner{gap: 88px; padding: 60px 0 40px; color: var(--White);}
-.blog-post-lt{flex: 0 0 404px; padding-left: 16px;}
-.blog-post-rt{flex: 0 0 calc(100% - 484px);}
+
 .blog-post-lt h1{color: var(--White);}
 .blog-post-lt span{font-weight: 900;}
 .blog-post-rt{background-color: var(--Navy); flex: 1;}
@@ -28,6 +27,19 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px){
     
+}
+@media only screen and  (min-width: 1200px){
+.blog-post-lt{flex: 0 0 404px; padding-left: 16px;}
+.blog-post-rt{flex: 0 0 calc(100% - 484px);}
+
+}
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+    .blog-post-banner{gap: 64px;}
+    .blog-post-lt{flex: 0 0 300px; padding-left: 16px;}
+    .blog-post-rt{flex: 0 0 calc(100% - 364px);}
+
+    .blog-post-rt-text {padding: 20px;}
+
 }
 @media only screen and (min-width: 1024px){
     .blog-post-main{padding: 0 0 40px;}
