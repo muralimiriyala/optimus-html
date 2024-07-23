@@ -24,8 +24,6 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input:-moz-pla
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder{color: var(--White); font-family: "Blackbird", sans-serif;}
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{color: var(--White); font-family: "Blackbird", sans-serif;}
 
-
-
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px){
     
