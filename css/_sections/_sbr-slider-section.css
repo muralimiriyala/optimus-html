@@ -8,11 +8,45 @@
     .sbr-slider-row{gap: 80px;}
     .sbr-slider-images{width: 390px; gap: 7px; flex-direction: column;}
     .sbr-slider-text{width: calc(100% - 470px);}
+    .sbr-slide-text{display: none;}
     .sbr-slide-text h2{line-height: 60px;}
     .sbr-slide-image{height: 48px; cursor: pointer; transition: height 0.5s ease;}
     .sbr-slide-image:hover{height: 58px;}
     .sbr-slide-image.sbr-active{height: 512px;}
+    .sbr-slide-image.sbr-hover-active{height: calc(512px - 10px);}
     .sbr-slider-author{gap: 40px;}
     .sbr-author-image{flex: 0 0 216px;}
     .sbr-author-text{flex: 1;}
+    [data-sbr-text="1"]{display: block;}
+    .sbr-slide-mobile{display: none !important;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 744px){
+    .sbr-slider-row{gap: 32px; flex-direction: column;}
+    .sbr-slider-images{gap: 16px; flex-direction: row;}
+    .sbr-slide-text{display: none;}
+    .sbr-slide-text h2{font-size: 32px; line-height: 40px;}
+    .sbr-slide-image{flex: 1; cursor: pointer; transition: flex 0.5s ease;}
+    .sbr-slide-image.sbr-active{flex: 0 0 324px;}
+    .sbr-slide-image img{min-height: 224px; max-height: 224px; overflow: hidden;}
+    .sbr-slider-author{gap: 40px;}
+    .sbr-author-image{flex: 0 0 160px;}
+    .sbr-author-text{flex: 1;}
+    [data-sbr-text="1"]{display: block;}
+}
+@media only screen and (max-width: 743px) and (min-width: 200px){
+    .sbr-slider-row{display: block;}
+    .sbr-slider-images{gap: 16px; flex-direction: column;}
+    .sbr-slide-text{display: none;}
+    .sbr-slide-text h2{font-size: 32px; line-height: 40px;}
+    
+    .sbr-slide-image{height: 48px; overflow: hidden; cursor: pointer; transition: height 0.5s ease;}
+    /* .sbr-slide-image:hover{height: 58px;} */
+    .sbr-slide-image.sbr-active{height: 224px;}
+    /* .sbr-slide-image.sbr-hover-active{height: calc(224px - 10px);} */
+
+    .sbr-slider-author{gap: 40px;}
+    .sbr-author-image{display: none;}
+    .sbr-author-text{flex: 1;}
+    [data-sbr-text="1"]{display: block;}
+    .sbr-slider-text{display: none;}
 }

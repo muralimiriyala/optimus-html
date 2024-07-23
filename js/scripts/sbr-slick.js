@@ -1,22 +1,22 @@
 jQuery(document).ready(function ($) {
-  let $sbrSlider = $(".sbr-slider-nav");
   let $sbSlideImage = $(".sbr-slide-image");
-  $sbrSlider.slick({
-    slidesToShow: 1,
-    dots: false,
-    fade: true,
-    arrows: false,
-    speed: 1500,
-    focusOnSelect: true,
-  });
+  let sbrtext  =  $(".sbr-slide-text");
+  console.log(sbrtext)
   $sbSlideImage.on("click", function (e) {
     e.preventDefault();
     let $this = $(this);
-    let slideno = $this.data("sbr-slide");
-    $sbSlideImage.removeClass("sbr-active");
-    jQuery(`.sbr-slide-image[data-sbr-slide='${slideno}']`).addClass(
-      "sbr-active"
-    );
-    $sbrSlider.slick("slickGoTo", slideno - 1);
+    let slideno = $this.data("sbr-img");
+    console.log(slideno)
+    $sbSlideImage.removeClass("sbr-active sbr-hover-active");
+    $(`.sbr-slide-image[data-sbr-img='${slideno}']`).addClass( "sbr-active" );
+    $(`.sbr-slide-text`).hide();
+    $(`.sbr-slide-desktop[data-sbr-text='${slideno}']`).fadeIn(800);
+    sbrtext
+    .style.maxHeight = `${sbrtext.scrollHeight}px`;
+  });
+  $sbSlideImage.hover(function(){
+    let $sib = $(this).siblings();
+    $($sib).filter('.sbr-active').toggleClass("sbr-hover-active")
+    console.log($sib)
   });
 });
