@@ -73,8 +73,11 @@ body.single-post .insights-post-main{z-index: 810;}
   .insights-post-bracket.left { top: 0; transform: rotate(-180deg); }
   .insights-block-main > span {font-size: 20px;}
 }
-
-
+@media screen and (max-width: 389px) and (min-width: 200px) {
+.insights-post-main .share-icons #st-1.st-animated {
+  gap: 13px;
+}
+}
 
 
 

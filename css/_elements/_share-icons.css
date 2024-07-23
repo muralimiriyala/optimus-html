@@ -36,4 +36,6 @@ body.single-post .share-inline-arrow{padding: 35px 0 0 ;}
     .share-icons{gap: 41px;}
     .share-inline-arrow{flex: 1;}
     .share-icons #st-1.st-animated{justify-content: flex-start;}
+
+    .share-icons #st-1.st-animated .st-btn[data-network="sharethis"]  {  width: 42px; }
 }
