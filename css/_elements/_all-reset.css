@@ -130,8 +130,9 @@ img.aligncenter{margin: 25px auto; clear: both;}
 .no-wrap{flex-wrap: nowrap;}
 .flex-col{flex-direction: column;}
 
+
 /*-- custom css starts here --*/
-body{font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--base-font); position: relative; color: var(--Foreground); background-color: transparent; overflow-x: hidden;}
+body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--base-font); position: relative; color: var(--Foreground); background-color: transparent; overflow-x: hidden;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 24px; font-size: 20px; line-height: 25px; font-weight: 600; color: var(--Gray); display: block; text-transform: none;}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}

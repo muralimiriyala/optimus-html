@@ -1,18 +1,18 @@
-.insights-banner-section{background: linear-gradient(0deg,rgba(25,35,76,0) 0,rgba(25,35,76,.5) 100%),var(--Blue)}
-.insights-banner-row{gap: 88px; padding: 60px 0 40px; color: var(--White);}
-.insights-banner-lt{flex: 0 0 404px; padding-left: 16px;}
-.insights-banner-rt{flex: 0 0 calc(100% - 484px);}
-.insights-banner-lt h1{color: var(--White);}
-.insights-banner-lt span{font-weight: 900;}
-.insights-banner-rt{background-color: var(--Navy); flex: 1;}
-.insights-banner-rt-text{flex: 0 0 50%; padding: 40px 45px  40px 40px;}
-.insights-banner-rt-image{flex: 0 0 50%;}
-.insights-banner-rt-image img{border-radius: 0 24px 24px 0;}
-.insights-banner-rt-text h2{font-size: 28px; color: var(--White); line-height: 35px;}
-.insights-banner-rt-text h2 a{color: var(--White);}
-.insights-banner-list{gap: 8px; margin-bottom: 24px;}
-.insights-banner-icon{color: var(--Light-Blue); font-size: 20px;}
-.insights-banner-list span{font-weight: 400;}
+.blog-post-section{background: linear-gradient(0deg,rgba(25,35,76,0) 0,rgba(25,35,76,.5) 100%),var(--Blue)}
+.blog-post-banner{gap: 88px; padding: 60px 0 40px; color: var(--White);}
+.blog-post-lt{flex: 0 0 404px; padding-left: 16px;}
+.blog-post-rt{flex: 0 0 calc(100% - 484px);}
+.blog-post-lt h1{color: var(--White);}
+.blog-post-lt span{font-weight: 900;}
+.blog-post-rt{background-color: var(--Navy); flex: 1;}
+.blog-post-rt-text{flex: 0 0 50%; padding: 40px 45px  40px 40px;}
+.blog-post-rt-image{flex: 0 0 50%;}
+.blog-post-rt-image img{border-radius: 0 24px 24px 0;}
+.blog-post-rt-text h2{font-size: 28px; color: var(--White); line-height: 35px;}
+.blog-post-rt-text h2 a{color: var(--White);}
+.blog-post-list{gap: 8px; margin-bottom: 24px;}
+.blog-post-icon{color: var(--Light-Blue); font-size: 20px;}
+.blog-post-list span{font-weight: 400;}
 
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field input { padding: 15px 120px 12px 24px; font-size: 18px; line-height: 27px; font-weight: 400; background-color: var(--Dark-Blue-50,rgb(25 35 76 / 50%)); color: var(--White); border-radius: 28px; border: none; }
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field.field_submit { min-width: 106px; right: 3px; top: 0; height: 56px; margin: 0; display: block; position: absolute; align-items: center; display: flex; }
