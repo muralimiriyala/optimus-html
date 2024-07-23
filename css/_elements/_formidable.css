@@ -164,7 +164,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertica
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_left{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_right{margin-right: 0;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 740px){
+@media only screen and (max-width: 1023px) and (min-width: 744px){
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{flex: 0 0 calc(25% - 6px);}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container .frm_checkbox{flex: 0 0 calc(25% - 6px);} 
 
@@ -187,7 +187,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertica
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third{width: calc(33% - 4px); float: left; clear: none; margin-left: 9px;}
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third:nth-child(2){margin-left: 0;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 743px) and (min-width: 200px){
     .frm_form_field_wrapper{display: block;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 0; flex: 1;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 2px;}
@@ -211,4 +211,6 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertica
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container .frm_checkbox{flex: 0 0 calc(50% - 4px);} 
 
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin: 2px 0 5px; float: none; display: block;}
+
+    body .frm_forms form .vertical_radio.frm_required_field div.frm_error{position: static;}
 }
