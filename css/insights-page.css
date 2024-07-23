@@ -1,4 +1,4 @@
-.blog-post-section{background: linear-gradient(0deg,rgba(25,35,76,0) 0,rgba(25,35,76,.5) 100%),var(--Blue)}
+.blog-post-array-bg{top: 0; left: 0; position: absolute; width: 100%; height: calc(100% - 329px); z-index: -1;}
 .blog-post-banner{gap: 88px; padding: 60px 0 40px; color: var(--White);}
 .blog-post-lt{flex: 0 0 404px; padding-left: 16px;}
 .blog-post-rt{flex: 0 0 calc(100% - 484px);}
@@ -24,6 +24,7 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input:-moz-pla
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder{color: var(--White); font-family: "Blackbird", sans-serif;}
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{color: var(--White); font-family: "Blackbird", sans-serif;}
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px){
     
@@ -32,6 +33,9 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     .blog-post-main{padding: 0 0 40px;}
     .blog-post-row{gap: 32px;}
     .blog-post-list{flex: 0 0 calc(25% - 24px);}
+    
+    .resources-blog-row{gap: 32px; margin-bottom: 80px;}
+    .resources-blog-list{flex: 0 0 calc(25% - 24px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .blog-post-main{padding: 40px 0 40px;}
