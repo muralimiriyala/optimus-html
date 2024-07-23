@@ -14,7 +14,7 @@
 <!-- Favicons -->
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes=  "32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="150x150" href="images/mstile-150x150.png">
 <link rel="icon" type="image/png" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="images/android-chrome-192x192.png">
@@ -231,6 +231,7 @@
                   </div>
                 </div>
               </div>
+              
               <div class="blog-post-row flex">
                 <div class="blog-post-list">
                   <div class="post-array-card radius-24 relative">
@@ -398,6 +399,38 @@
       <section class="resources-blog-section relative">
         <div class="container">
           <div class="resources-blog-main">
+            <div class="res-srch-main flex flex-vcenter relative">
+              <form action="" class="res-srch-form relative">
+                  <div class="res-srch-field">
+                      <input type="text" placeholder="Search all resources">
+                  </div>
+                  <button class="res-expand-icon absolute">
+                      <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
+                  </button>
+                  <button class="res-srch-icon absolute" aria-label="Expand Resources">
+                      <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
+                  </button>
+              </form>
+              <div class="res-dropdown-main flex flex-vcenter">
+                  <div class="res-rule hide-mobile"></div>
+                  <div class="res-dropdown-pos">
+                      <div class="res-dropdown flex flex-vcenter relative" data-name="topic-1">
+                          <div class="res-category">Category <span>(2)</span></div>
+                          <span class="res-category-arrow fa-solid fa-chevron-down" aria-hidden="true"></span>
+                      </div>
+                      <div class="res-tags-list" data-value="topic-1" style="display: none;">
+                          <ul class="res-tags flex">
+                              <li><a href="">Topic or tag 1</a></li>
+                              <li><a href="">Topic or tag 1</a></li>
+                              <li><a href="">Topic or tag 1</a></li>
+                              <li><a href="">Topic or tag 1</a></li>
+                              <li><a href="">Topic or tag 1</a></li>
+                              <li><a href="">Topic or tag 1</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
             <div class="resources-blog-row flex">
               <div class="resources-blog-list">
                 <div class="blog-post-list">
