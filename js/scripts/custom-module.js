@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     liitems.forEach(function (li) {
       atag = li.querySelector("a");
       atag.addEventListener("click", function (e) {
-        e.preventDefault();
+        // e.preventDefault();
       });
     });
   };

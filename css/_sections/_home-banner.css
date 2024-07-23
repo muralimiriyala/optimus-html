@@ -1,0 +1,13 @@
+
+.home-banner-text{color: var(--White); line-height: 29px;}
+.home-banner-text h1{font-size: 64px; line-height: 75px; color: var(--White); margin-bottom: 18px;}
+.home-banner-text h1 > span { border-bottom: 4px solid var(--Orange); display: inline-block; line-height: 56px;}
+.home-banner-thumb{top: 0; left: 0; width: 100%; height: 100%; z-index: -1;}
+.home-banner-thumb picture::before{content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), rgba(0, 76, 151, 0.75);} 
+
+@media screen and (min-width: 1024px) {
+    .home-banner-main{padding-bottom: 80px;}
+    .home-banner-text{max-width: 720px; padding: 312px 0 177px;}
+    .home-banner-text p{max-width: 340px;}
+    .home-banner-svg{top: 0; left: -313px; z-index: -1; opacity: 0.7;}
+}
