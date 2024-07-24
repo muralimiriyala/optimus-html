@@ -4423,7 +4423,7 @@ function srchResize(){
 }
 jQuery(document).on("ready", function(){srchResize()});
 jQuery(document).on("load", function(){srchResize()});
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function($) {
   let sbrsplideImage = $(".sbr-slide-image");
   sbrsplideImage.on("click", function (e) {
     e.preventDefault();

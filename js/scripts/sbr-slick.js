@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function($) {
   let sbrsplideImage = $(".sbr-slide-image");
   sbrsplideImage.on("click", function (e) {
     e.preventDefault();
