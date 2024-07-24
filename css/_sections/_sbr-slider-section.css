@@ -2,6 +2,8 @@
 .sbr-author-text{color: var(--Gray)}
 .sbr-slider-author{padding-top: 37px;}
 .sbr-author-btns{gap: 16px;}
+.sbr-author-inf{ gap: 8px; color: var(--Blue); margin-bottom: 25px;}
+.sbr-author-inf i{color: var(--Light-Blue); font-size: 20px;}
 
 .sbr-active .sbr-block{width: 56px; height: 56px; color: var(--White); top: 50%; transform: translate(-50%,-50%); z-index: 2; display: block; left: auto; margin-left: 50px; background: #fff; border-radius: 0 50% 50% 0; position: absolute; right: -28px; transform: translate(-50%,-50%) rotate(-180deg);}
 .sbr-active .sbr-block::before, .sbr-block::after { position: absolute; content: ""; display: block; width: 40px; height: 40px; transform: rotate(-45deg); border-top: 28px solid var(--White); border-right: 28px solid transparent; border-left: 28px solid transparent; border-bottom: 28px solid transparent; border-radius: 50%; top: 28px; left: -27px; }
