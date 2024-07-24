@@ -16,7 +16,7 @@ jQuery(document).ready(function () {
               '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
             nextArrow:
               '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-            dots: false,
+            dots: true,
             speed: 1000,
             infinite: false,
             autoplay: false,
@@ -34,7 +34,6 @@ jQuery(document).ready(function () {
                 settings: {
                   adaptiveHeight: true,
                   appendArrows: $this,
-                  dots: true,
                 },
               },
             ],
@@ -51,7 +50,7 @@ jQuery(document).ready(function () {
               '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
             nextArrow:
               '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-            dots: false,
+            dots: true,
             speed: 1000,
             infinite: false,
             autoplay: false,
@@ -72,15 +71,12 @@ jQuery(document).ready(function () {
       }
     });
   }
-
-  jQuery(window).on("resize", function () {
-    destroySlider();
-    initializeSlider();
-  });
-
-  
   // Initial call
   initializeSlider();
+  jQuery(window).on("resize", function () { destroySlider(); initializeSlider(); });
+
+
+
 
   function recentSlider() {
     if ($(window).width() <= 743) {
