@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
     ".humburger-btn",
     ".header_right",
     "ul.main_menu",
-    "ul.main_menu > li"
   );
   /*-- menu ends here --*/
 

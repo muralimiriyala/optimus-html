@@ -4182,7 +4182,6 @@ document.addEventListener("DOMContentLoaded", function () {
     ".humburger-btn",
     ".header_right",
     "ul.main_menu",
-    "ul.main_menu > li"
   );
   /*-- menu ends here --*/
 
@@ -4404,26 +4403,47 @@ jQuery(document).ready(function ($) {
 });
 
 
+jQuery(document).ready(function(){
+    jQuery(".res-dropdown").on('click', function(e){
+        e.preventDefault();
+        jQuery(this).parent().siblings(".res-dropdown-pos").find(".res-dropdown").removeClass("open");
+        jQuery(this).toggleClass("open");
+        jQuery(this).parent().siblings(".res-dropdown-pos").find(".res-tags-list").fadeOut(500);
+        jQuery(this).siblings(".res-tags-list").fadeToggle(500);
+    });
+});
+function srchResize(){
+    if (window.matchMedia('(min-width: 768px)').matches) {
+        jQuery("button.res-srch-icon").on('click', function(e){
+            e.preventDefault();
+            jQuery(".res-dropdown-main").toggleClass('fade');
+            jQuery(".res-srch-form").toggleClass("open");
+        });
+    } 
+}
+jQuery(document).on("ready", function(){srchResize()});
+jQuery(document).on("load", function(){srchResize()});
 jQuery(document).ready(function ($) {
-  let $sbrSlider = $(".sbr-slider-nav");
   let $sbSlideImage = $(".sbr-slide-image");
-  $sbrSlider.slick({
-    slidesToShow: 1,
-    dots: false,
-    fade: true,
-    arrows: false,
-    speed: 1500,
-    focusOnSelect: true,
-  });
   $sbSlideImage.on("click", function (e) {
     e.preventDefault();
     let $this = $(this);
-    let slideno = $this.data("sbr-slide");
-    $sbSlideImage.removeClass("sbr-active");
-    jQuery(`.sbr-slide-image[data-sbr-slide='${slideno}']`).addClass(
-      "sbr-active"
-    );
-    $sbrSlider.slick("slickGoTo", slideno - 1);
+    let slideno = $this.data("sbr-img");
+    $sbSlideImage.removeClass("sbr-active sbr-hover-active");
+    $(`.sbr-slide-image[data-sbr-img='${slideno}']`).addClass( "sbr-active" );
+    $(`.sbr-slide-desktop`).hide();
+    $(`.sbr-slide-desktop[data-sbr-text='${slideno}']`).fadeIn(1000);
+
+    $(`.sbr-slide-mobile`).css({ "height": "0px", })
+    let $targetMobile = $(`.sbr-slide-mobile[data-sbr-text='${slideno}']`);
+    let scrollHeight = $targetMobile[0].scrollHeight;
+    $targetMobile.css({ "height": `${scrollHeight}px` });
+
+  });
+  $sbSlideImage.hover(function(){
+    let $sib = $(this).siblings();
+    $($sib).filter('.sbr-active').toggleClass("sbr-hover-active")
+    console.log($sib)
   });
 });
 
