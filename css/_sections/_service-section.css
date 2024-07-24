@@ -1,0 +1,16 @@
+
+.service-head h2{font-weight: 400; margin-bottom: 0;}
+.service-head h2 span{font-weight: 600;}
+ul.service-subtitle{margin: 0 0 40px 0; gap: 20px;}
+ul.service-subtitle > li{font-size: 24px; line-height: 24px; font-weight: 600; margin-bottom: 0;}
+ul.service-subtitle > li::before{display: none;}
+ul.service-subtitle > li a{color: var(--Gray);}
+ul.service-subtitle > li a.active{color: var(--Blue);}
+.service-item{width: 264px; padding: 32px; border: 1px solid #DBF5FF; border-radius: 24px;}
+.service-icon{margin-bottom: 16px;}
+.service-icon > i{font-size: 32px; color: var(--Light-Blue); line-height: 32px;}
+
+@media screen and (min-width: 1024px) {
+    .service-wrapper{padding: 80px 0;}
+    .service-head{max-width: 770px;}
+}
