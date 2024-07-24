@@ -28,10 +28,10 @@
     .sbr-slider-text{width: calc(100% - 470px); padding: 80px 0;}
     .sbr-slide-desktop{display: none;}
     .sbr-slide-desktop h2{line-height: 60px;}
-    .sbr-slide-image{height: 48px; cursor: pointer; transition: height 0.25s ease;}
-    .sbr-slide-image:hover{height: 58px;}
+    .sbr-slide-image{height: 48px; cursor: pointer; transition: height 0.3s ease;}
+    .sbr-slide-image:hover{height: 60px;}
     .sbr-active .sbr-slide-image{height: 512px;}
-    .sbr-slide-image.sbr-hover-active{height: calc(512px - 10px);}
+    .sbr-hover-active .sbr-slide-image{height: calc(512px - 10px);}
     .sbr-slider-author{gap: 40px;}
     .sbr-author-image{flex: 0 0 216px;}
     .sbr-author-text{flex: 1;}
@@ -45,14 +45,9 @@
     .sbr-slider-author { gap: 24px; }
     .sbr-author-image { flex: 0 0 160px; }
     .sbr-active .sbr-slide-image { height: 400px; }
-<<<<<<< HEAD
     .sbr-author-btns{display: none;}
     .sbr-author-1024{display: flex;}
-=======
-
->>>>>>> 105634dbba2bebd5902e9bb3a098be3fa9971f9e
 }
-
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .sbr-slider-row{gap: 32px; flex-direction: column;}
     .sbr-slider-images{gap: 16px; flex-direction: row;}
