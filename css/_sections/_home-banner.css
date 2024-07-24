@@ -1,4 +1,5 @@
 
+.home-banner-section{overflow: hidden;}
 .home-banner-text{color: var(--White); line-height: 29px;}
 .home-banner-text h1{font-size: 64px; line-height: 75px; color: var(--White); margin-bottom: 18px;}
 .home-banner-text h1 > span { border-bottom: 4px solid var(--Orange); display: inline-block; line-height: 56px;}
