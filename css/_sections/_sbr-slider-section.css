@@ -28,7 +28,7 @@
     .sbr-slider-text{width: calc(100% - 470px); padding: 80px 0;}
     .sbr-slide-desktop{display: none;}
     .sbr-slide-desktop h2{line-height: 60px;}
-    .sbr-slide-image{height: 48px; cursor: pointer; transition: height 0.3s ease;}
+    .sbr-slide-image{height: 49px; cursor: pointer; transition: height 0.3s ease;}
     .sbr-slide-image:hover{height: 60px;}
     .sbr-active .sbr-slide-image{height: 512px;}
     .sbr-hover-active .sbr-slide-image{height: calc(512px - 10px);}
@@ -37,6 +37,10 @@
     .sbr-author-text{flex: 1;}
     [data-sbr-text="1"]{display: block;}
     .sbr-slide-mobile{max-height: 0 !important;}
+}
+@media only screen and (min-width: 1440px){
+    .sbr-slider-main{min-height: 680px;}
+    .sbr-slider-text{align-items: center;}
 }
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .sbr-slider-row { gap: 40px; }
