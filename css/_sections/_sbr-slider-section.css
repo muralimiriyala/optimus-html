@@ -3,6 +3,20 @@
 .sbr-slider-author{padding-top: 37px;}
 .sbr-author-btns{gap: 16px;}
 
+.sbr-active .sbr-block{width: 56px; height: 56px; color: var(--White); top: 50%; transform: translate(-50%,-50%); z-index: 2; display: block; left: auto; margin-left: 50px; background: #fff; border-radius: 0 50% 50% 0; position: absolute; right: -28px; transform: translate(-50%,-50%) rotate(-180deg);}
+
+.sbr-active .sbr-block::before, .sbr-block::after { position: absolute; content: ""; display: block; width: 40px; height: 40px; transform: rotate(-45deg); border-top: 28px solid var(--White); border-right: 28px solid transparent; border-left: 28px solid transparent; border-bottom: 28px solid transparent; border-radius: 50%; top: 28px; left: -27px; }
+.sbr-active .sbr-block::after{ top: -68px; transform: rotate(-120deg); left: -28px; }
+
+.sbr-active .sbr-icon {  height: auto; top: 50%; transform: translate(-50%,-50%); left: auto; z-index: 2; color: var(--Light-Blue); object-fit: contain; font-size: 24px; display: flex; align-items: center; right: 4px; }
+
+.sbr-block{display: none;}
+.sbr-icon{display: none;}
+.sbr-slide-image.sbr-active:after{display: none;} 
+
+.sbr-slide-image::before{position: absolute; width: 40px; height: 40px; background: var(--White); color: var(--Blue); border-radius: 50%; left: auto; right: -16px; content:""; z-index: 2; top: 50%; transform: translate(-50%, -50%);}
+.sbr-slide-image:after{position: absolute; width: 24px; font-size: 24px; color: var(--Light-Blue); content: "\f178"; display: block; right: 0; left: auto; font-family: "Font Awesome 6 Sharp"; top: 50%; transform: translate(-50%, -50%); z-index: 2; font-weight: 100;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .sbr-slider-row{gap: 80px;}
