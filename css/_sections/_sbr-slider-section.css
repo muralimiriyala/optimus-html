@@ -36,17 +36,16 @@
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .sbr-slider-row{display: block;}
     .sbr-slider-images{gap: 16px; flex-direction: column;}
-    .sbr-slide-text{display: none;}
+    .sbr-slide-text.desktop{display: none;}
+    .sbr-slide-text{height: 0; overflow: hidden; transition: height 1s ease;}
     .sbr-slide-text h2{font-size: 32px; line-height: 40px;}
     
-    .sbr-slide-image{height: 48px; overflow: hidden; cursor: pointer; transition: height 0.5s ease;}
-    /* .sbr-slide-image:hover{height: 58px;} */
+    .sbr-slide-image{height: 48px; overflow: hidden; cursor: pointer; transition: height 1s ease;}
     .sbr-slide-image.sbr-active{height: 224px;}
-    /* .sbr-slide-image.sbr-hover-active{height: calc(224px - 10px);} */
 
     .sbr-slider-author{gap: 40px;}
     .sbr-author-image{display: none;}
     .sbr-author-text{flex: 1;}
-    [data-sbr-text="1"]{display: block;}
+    [data-sbr-text="1"]{display: block; height: auto;}
     .sbr-slider-text{display: none;}
 }
