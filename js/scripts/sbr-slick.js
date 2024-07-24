@@ -16,7 +16,7 @@ jQuery(document).ready(function ($) {
 
   });
   sbrsplideImage.hover(function(){
-    let $sib = $(this).siblings();
+    let $sib = $(this).parent().siblings();
     $($sib).children(".sbr-slide-image").filter('.sbr-active').toggleClass("sbr-hover-active")
   });
 });
