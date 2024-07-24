@@ -4348,6 +4348,39 @@ jQuery(document).ready(function () {
     }
   }
   recentSlider();
+  
+  function serviceSlider() {
+      if (!$('.service-lists').hasClass('slick-initialized')) {
+        $('.service-lists').slick({
+          slidesToShow: 1,
+          slidesToScroll: 4,
+          variableWidth: true,
+          arrows: true,
+          prevArrow: '<div class="slick-arrow slick-prev step-slick-arrow flex flex-center"><span class="fa-sharp fa-thin fa-arrow-left"></span></div>',
+          nextArrow: '<div class="slick-arrow slick-next step-slick-arrow flex flex-center"><span class="fa-sharp fa-thin fa-arrow-right"></span></div>',
+          dots: false,
+          speed: 1500,
+          infinite: false,
+          autoplay: false,
+          responsive: [
+            {
+              breakpoint: 743,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+              },
+            },
+          ],
+        });
+      }
+     else {
+      if ($('.service-lists').hasClass('slick-initialized')) {
+        $('.service-lists').slick('unslick');
+      }
+    }
+  }
+  serviceSlider();
 
 
 });

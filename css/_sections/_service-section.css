@@ -1,4 +1,5 @@
 
+.service-section{overflow: hidden;}
 .service-head h2{font-weight: 400; margin-bottom: 0;}
 .service-head h2 span{font-weight: 600;}
 ul.service-subtitle{margin: 0 0 40px 0; gap: 20px;}
@@ -6,11 +7,63 @@ ul.service-subtitle > li{font-size: 24px; line-height: 24px; font-weight: 600; m
 ul.service-subtitle > li::before{display: none;}
 ul.service-subtitle > li a{color: var(--Gray);}
 ul.service-subtitle > li a.active{color: var(--Blue);}
-.service-item{width: 264px; padding: 32px; border: 1px solid #DBF5FF; border-radius: 24px;}
-.service-icon{margin-bottom: 16px;}
-.service-icon > i{font-size: 32px; color: var(--Light-Blue); line-height: 32px;}
+.service-item{font-size: 16px; line-height: 24px; font-weight: 400; color: var(--Gray); padding: 32px 32px 39px; border: 1px solid #DBF5FF; border-radius: 24px; transition: all .5s ease;}
+.service-item:hover{box-shadow: 0px 15px 20px #dbf5ff; border-color: transparent; transform: translateY(-20px);}
+.service-item:hover .service-icon > i{left:30px; opacity: 0;}
+.service-item:hover .service-icon > i.fa-arrow-right{left:0; opacity: 1;}
+.service-icon{margin-bottom: 14px;}
+.service-icon > i{font-size: 32px; color: var(--Light-Blue); line-height: 32px; position: relative; left: -30px; transition: all .5s ease;}
+.service-icon > i.fa-arrow-right{color: var(--Orange); position: relative; left: -30px; opacity: 0; transition: all .5s ease;}
+.service-item h6{margin-bottom: 15px;}
+
+.service-lists .slick-list{overflow: inherit;}
+.service-lists div.slick-arrow{border-radius: 50%; color: var(--White);}
+.service-lists div.slick-arrow.slick-next{right: 0; top: -62px;}
+.service-lists  div.slick-arrow.slick-prev{left: auto; right: 72px; top: -62px;}
+
+/* .service-take-action{gap: 40px; align-items: center;}
+.service-take-action h3{font-weight: 400; margin-bottom: 0;}
+.service-take-action h3 span{font-weight: 600;}
+.service-btn{width: fit-content;}
+.service-btn .text-btn-link > span{color: var(--Blue);} */
+
+
 
 @media screen and (min-width: 1024px) {
     .service-wrapper{padding: 80px 0;}
-    .service-head{max-width: 770px;}
+    .service-svg{top: -25px; right: -104px;}
+    .service-head{max-width: 770px; margin-bottom: 84px;}
+    .service-main{margin-bottom: 56px;}
+    .service-item{width: 264px; margin-right: 32px;}
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .service-wrapper{padding: 64px 0;}
+    .service-head{max-width: 614px;}
+    .service-head h2{font-size: 32px; line-height: 40px;}
+    .service-svg{top: -16px; right: -63px;}
+    .service-svg svg{width: 434px; height: 249px;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 744px) {
+    .service-wrapper{padding: 80px 0;}
+    .service-svg{transform: rotate(-90deg); right: -134px; top: 56px;}
+    .service-svg svg{width: 370px; height: 212px;}
+    .service-head{max-width: 531px; margin-bottom: 56px;}
+    .service-head h2{font-size: 32px; line-height: 40px;}
+    ul.service-subtitle{margin: 0 0 40px 0; gap: 20px;}
+    .service-item{width: 264px; margin-right: 24px;}
+    .service-lists div.slick-arrow.slick-next{top: -80px;}
+    .service-lists  div.slick-arrow.slick-prev{top: -80px;}
+
+}
+@media screen and (max-width: 743px) and (min-width: 200px) {
+    .service-wrapper{padding: 96px 0 40px;}
+    .service-head{margin-bottom: 24px; padding-right: 36px;}
+    .service-head h2{font-size: 28px; line-height: 34px;}
+    ul.service-subtitle{margin: 0 0 24px 0; gap: 20px;}
+    .service-item{width: 288px; margin-right: 24px;}
+    .service-lists div.slick-arrow{color: var(--Light-Blue); background-color: var(--Navy);}
+    .service-lists ul.slick-dots li{background-color: rgba(25, 35, 76, .12);}
+    .service-lists ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}
 }
