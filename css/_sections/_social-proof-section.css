@@ -1,0 +1,23 @@
+
+.social-proof-section{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); }
+.social-proof-title h1{font-size: 64px; font-weight: 400; color: var(--White); line-height: 80px;}
+.social-proof-title h1 span{font-weight: 600; color: var(--Light-Blue);}
+.counter-num{font-size: 56px; line-height: 56px; color: var(--White);}
+.counter-desc{font-size: 16px; line-height: 24px; color: rgba(255, 255, 255, 0.6); padding-top: 20px; border-top: 1px solid var(--Light-Blue); margin-top: 20px;}
+
+.social-dot-circle{width: 40px; height: 40px; display: block; border: 9px solid var(--Light-Blue); border-radius: 50%; margin: 0 auto;}
+
+
+
+@media screen and (min-width: 1024px){
+    .social-proof-main{padding: 80px 0;}
+    .social-proof-dot{order: 2; padding: 209px 0; margin: 0 auto;}
+    .social-proof-title{order: 1;}
+    .social-proof-counter{gap: 64px; order: 3;}
+    .social-proof-counter-list{flex: 0 0 calc(25% - 48px);}
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .social-proof-counter{gap: 40px;}
+    .social-proof-counter-list{flex: 0 0 calc(25% - 30px);}
+}

@@ -4327,8 +4327,34 @@ jQuery(document).ready(function () {
     initializeSlider();
   });
 
+  
   // Initial call
   initializeSlider();
+
+  function recentSlider() {
+    if ($(window).width() <= 743) {
+      if (!$('.recent-insights-list').hasClass('slick-initialized')) {
+        $('.recent-insights-list').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          variableWidth: true,
+          arrows: false,
+          dots: true,
+          speed: 1500,
+          infinite: false,
+          autoplay: false,
+          adaptiveHeight: true,
+        });
+      }
+    } else {
+      if ($('.recent-insights-list').hasClass('slick-initialized')) {
+        $('.recent-insights-list').slick('unslick');
+      }
+    }
+  }
+  recentSlider();
+
+
 });
 
 jQuery(document).ready(function ($) {
