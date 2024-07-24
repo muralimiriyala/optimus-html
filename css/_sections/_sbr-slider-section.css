@@ -19,6 +19,7 @@
 .sbr-slide-image:after{position: absolute; width: 24px; font-size: 24px; color: var(--Light-Blue); content: "\f178"; display: block; right: 0; left: auto; font-family: "Font Awesome 6 Sharp"; top: 50%; transform: translate(-50%, -50%); z-index: 2; font-weight: 100;}
 .sbr-active .sbr-slide-image::after{display: none;}
 .sbr-slide-mobile{max-height: 0; overflow: hidden; transition: max-height 1s ease;}
+.sbr-author-1024{display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -44,6 +45,8 @@
     .sbr-slider-author { gap: 24px; }
     .sbr-author-image { flex: 0 0 160px; }
     .sbr-active .sbr-slide-image { height: 400px; }
+    .sbr-author-btns{display: none;}
+    .sbr-author-1024{display: flex;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 744px){
