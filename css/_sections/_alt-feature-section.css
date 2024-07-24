@@ -10,18 +10,13 @@ ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)
 .alt-feature-btns{gap: 16px; padding-top: 10px;}
 
 .alt-white .alt-feature-desc{color: var(--Gray);}
-.alt-feature-section.alt-feature-bg-white .alt-feature-btns .button{border: 4px solid var(--Blue); background: var(--Blue);}
-.alt-feature-section.alt-feature-bg-white .alt-feature-btns .button:hover{border: 4px solid var(--Orange); background: var(--Orange);}
+.alt-white .alt-feature-btns .button{border: 4px solid var(--Blue); background: var(--Blue);}
+.alt-white .alt-feature-btns .button:hover{border: 4px solid var(--Orange); background: var(--Orange);}
 
-.alt-feature-main.icon-teal ul.alt-order li a i {color: var(--Teal);}
-.alt-feature-main.icon-teal .alt-feature-svg path{stroke: var(--Teal);}
-.alt-feature-main.icon-pink ul.alt-order li a i {color: var(--light-pink);}
-.alt-feature-main.icon-pink .alt-feature-svg path{stroke: var(--light-pink);}
-
-.alt-feature-svg{right: -30px; top: 85px; width: 80px; transform: rotate(-180deg);}
-.alt-feature-main.row-reverse .alt-feature-svg{left: -30px; right: auto; height: 161px; transform:none;}
-
-
+.teal ul.alt-order li a i {color: var(--Teal);}
+.teal .alt-feature-svg path{stroke: var(--Teal);}
+.pink ul.alt-order li a i {color: var(--light-pink);}
+.pink .alt-feature-svg path{stroke: var(--light-pink);}
 
 .alt-feature-svg svg{width: 100%; height: 100%;}
 .no_alt_feature_image{display: block;}
@@ -32,6 +27,8 @@ ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)
 @media only screen and (min-width: 1024px){
     .alt-feature-main{flex-wrap: nowrap;}
     .no_alt_feature_image .alt-feature-desc{max-width: 1280px; margin: 0 auto; padding: 80px 0;}
+    .alt-feature-svg{right: -30px; top: 85px; width: 80px; transform: rotate(-180deg);}
+    .row-reverse .alt-feature-svg{left: -30px; right: auto; height: 161px; transform:none;}
 }
 @media only screen and (min-width: 1360px){
     .alt-feature-list{flex: 0 0 50%;}
@@ -42,15 +39,28 @@ ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)
 @media screen and (max-width: 1359px) and (min-width: 1024px){
     .no_alt_feature_image .alt-feature-desc{padding: 80px 40px;}
     .alt-feature-list{flex: 0 0 50%;}
-    .alt-feature-image{flex: 0 0 calc(50% + 40px);}
-    .alt-feature-desc{max-width: 640px; padding: 80px 80px 80px 40px;}
-    .row-reverse .alt-feature-desc{ padding: 80px 40px 80px 80px;}
+    .alt-feature-image{flex: 0 0 calc(50%);}
+    .alt-feature-desc{max-width: 640px; padding: 64px;}
+    .row-reverse .alt-feature-desc{ padding: 64px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .no_alt_feature_image .alt-feature-desc{padding: 40px 40px 50px;}
+    .alt-feature-image{max-height: 496px;}
+    .alt-feature-thumb img{object-position: top;}
+    .alt-feature-svg{left: 104px; transform: rotate(-90deg); bottom: -71px; width: 80px; height: 160px;}
+    .alt-feature-desc{padding: 64px;}
+    .alt-feature-desc h3{font-size: 34px; line-height: 40px;}
+    ul.alt-order{margin: 37px 0;}
+    .alt-feature-btns{padding-top: 10px;}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .no_alt_feature_image .alt-feature-desc{padding: 40px 40px 50px;}
+    .alt-feature-svg{left: 48px; transform: rotate(-90deg); bottom: -47px; width: 40px;}
+    .alt-feature-svg svg path{stroke-width: 3;}
+    .alt-feature-desc{padding: 40px 24px;}
+    .alt-feature-desc h3{font-size: 24px; line-height: 30px;}
+    ul.alt-order{margin: 28px 0;}
+    .alt-feature-btns{padding-top: 2px;}
 }
 
 
