@@ -27,6 +27,7 @@
     .post-array-row .slick-track{display: flex; flex-wrap: nowrap;}
     .post-array-row .slick-list{overflow: inherit;}
     .post-array-list.slick-slide{width: 296px; margin-right: 32px; flex: 0 0 296px; height: auto;}
+    .post-array-row ul.slick-dots{height: 0; opacity: 0; margin: 0;}
 }
 @media only screen and (min-width: 1024px){
     .post-array-main{padding: 0 0 40px;}
