@@ -4424,12 +4424,12 @@ function srchResize(){
 jQuery(document).on("ready", function(){srchResize()});
 jQuery(document).on("load", function(){srchResize()});
 jQuery(document).ready(function ($) {
-  let $sbSlideImage = $(".sbr-slide-image");
-  $sbSlideImage.on("click", function (e) {
+  let sbrforSlide = $(".sbr-slide-image");
+  sbrforSlide.on("click", function (e) {
     e.preventDefault();
     let $this = $(this);
     let slideno = $this.data("sbr-img");
-    $sbSlideImage.removeClass("sbr-active sbr-hover-active");
+    sbrforSlide.removeClass("sbr-active sbr-hover-active");
     $(`.sbr-slide-image[data-sbr-img='${slideno}']`).addClass( "sbr-active" );
     $(`.sbr-slide-desktop`).hide();
     $(`.sbr-slide-desktop[data-sbr-text='${slideno}']`).fadeIn(1000);
@@ -4440,10 +4440,9 @@ jQuery(document).ready(function ($) {
     $targetMobile.css({ "height": `${scrollHeight}px` });
 
   });
-  $sbSlideImage.hover(function(){
+  sbrforSlide.hover(function(){
     let $sib = $(this).siblings();
-    $($sib).filter('.sbr-active').toggleClass("sbr-hover-active")
-    console.log($sib)
+    $($sib).children(".sbr-slide-image").filter('.sbr-active').toggleClass("sbr-hover-active")
   });
 });
 
