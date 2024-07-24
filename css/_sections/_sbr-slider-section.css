@@ -10,6 +10,13 @@
 
 .sbr-active .sbr-icon {  height: auto; top: 50%; transform: translate(-50%,-50%); left: auto; z-index: 2; color: var(--Light-Blue); object-fit: contain; font-size: 24px; display: flex; align-items: center; right: 4px; }
 
+.sbr-block{display: none;}
+.sbr-icon{display: none;}
+.sbr-slide-image.sbr-active:after{display: none;} 
+
+.sbr-slide-image::before{position: absolute; width: 40px; height: 40px; background: var(--White); color: var(--Blue); border-radius: 50%; left: auto; right: -16px; content:""; z-index: 2; top: 50%; transform: translate(-50%, -50%);}
+.sbr-slide-image:after{position: absolute; width: 24px; font-size: 24px; color: var(--Light-Blue); content: "\f178"; display: block; right: 0; left: auto; font-family: "Font Awesome 6 Sharp"; top: 50%; transform: translate(-50%, -50%); z-index: 2; font-weight: 100;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .sbr-slider-row{gap: 80px;}
