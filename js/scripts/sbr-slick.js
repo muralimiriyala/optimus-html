@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function($) {
   let sbrsplideImage = $(".sbr-slide-image");
   sbrsplideImage.on("click", function (e) {
     e.preventDefault();
@@ -16,7 +16,7 @@ jQuery(document).ready(function ($) {
 
   });
   sbrsplideImage.hover(function(){
-    let $sib = $(this).siblings();
-    $($sib).children(".sbr-slide-image").filter('.sbr-active').toggleClass("sbr-hover-active")
+    let $sib = $(this).parent().siblings();
+    $($sib).filter('.sbr-active').toggleClass("sbr-hover-active")
   });
 });

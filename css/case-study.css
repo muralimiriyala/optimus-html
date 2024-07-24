@@ -73,7 +73,7 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
     .case-article-main .fluid-container{padding: 0}
     .inline-images-row {display: block; padding: 20px 0 40px;}
     .inline-images-list:nth-child(even){flex-direction: inherit;}
-    .inline-images-list:nth-child(even) .inline-caption-desc{padding: inherit; border-left: 1px solid var(--Light-Blue); border-right: inherit;}
+    .inline-images-list:nth-child(even) .inline-caption-desc{padding: 24px 40px 8px 24px; border-left: 1px solid var(--Light-Blue); border-right: inherit;}
     .inline-images-list{margin-bottom: 40px;}
     .inline-images-list:last-child{margin-bottom: 0;}
 
