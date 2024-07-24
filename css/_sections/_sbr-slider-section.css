@@ -37,6 +37,15 @@
     [data-sbr-text="1"]{display: block;}
     .sbr-slide-mobile{max-height: 0 !important;}
 }
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+    .sbr-slider-row { gap: 40px; }
+    .sbr-slide-desktop h2{font-size: 32px; line-height: 40px; margin-bottom: 0;}
+    .sbr-slider-text {padding: 40px 0; width: calc(100% - 430px);}
+    .sbr-slider-author { gap: 24px; }
+    .sbr-author-image { flex: 0 0 160px; }
+    .sbr-active .sbr-slide-image { height: 400px; }
+}
+
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .sbr-slider-row{gap: 32px; flex-direction: column;}
     .sbr-slider-images{gap: 16px; flex-direction: row;}
