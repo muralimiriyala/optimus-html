@@ -51,6 +51,7 @@
     .sbr-active .sbr-slide-image { height: 400px; }
     .sbr-author-btns{display: none;}
     .sbr-author-1024{display: flex;}
+    .sbr-author-inf {margin-bottom: 17px};
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .sbr-slider-row{gap: 32px; flex-direction: column;}
