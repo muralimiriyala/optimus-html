@@ -1,5 +1,5 @@
-.subhead-help-main{padding: 40px 0;}
-.subhead-help-row { gap: 80px; }
+.subhead-help-main{padding: 10px 0 40px;}
+.subhead-help-row { gap: 78px; }
 .subhead-help-lt { flex: 0 0 27.4%; }
 .subhead-help-lt h2{font-size: 48px; margin-bottom: 32px;}
 .subhead-help-lt p{margin-bottom: 32px;}
