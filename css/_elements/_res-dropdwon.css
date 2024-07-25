@@ -96,7 +96,7 @@ ul.blog_list{margin: 0; width: 100%;}
     body.page-template-integrations .res-srch-form{margin-bottom: 17px;}
     .res-srch-field { padding: 2px; transition: all .5s ease-in-out;  }
     button.res-srch-icon{display: none;}
-    button.res-expand-icon{font-size: 24px; right: 18px; top: calc(50% - 1px);}
+    button.res-expand-icon{font-size: 24px; right: 24px; top: calc(50% - 1px);}
     button.res-expand-icon:hover{color: var(--Orange);}
     .resources-row{display: block;}
     .resources-list{margin-bottom: 24px;}
