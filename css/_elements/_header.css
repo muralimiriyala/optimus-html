@@ -52,7 +52,7 @@ header.sticky-header{z-index: 850; background: var(--Blue);}
     ul.main_menu > li > ul > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 400; display: block;}
     
     
-    ul.main_menu > li.nav-services > ul {width: 100vw; max-height: 0; overflow: hidden; padding: 0; max-width: 855px; left: -178px; gap: 56px; display: flex; flex-wrap: wrap; z-index: 10; border-radius: 0 0 8px 8px; box-shadow: none;}
+    ul.main_menu > li.nav-services > ul {width: 100vw; max-height: 0; overflow: hidden; padding: 0; max-width: 1031px; left: -227px; gap: 56px; display: flex; flex-wrap: wrap; z-index: 10; border-radius: 0 0 8px 8px; box-shadow: none;}
     ul.main_menu > li.nav-services:hover > ul{max-height: inherit;}
     ul.main_menu > li.nav-services > ul > li{margin: 0; width: 100%; display: block;}
     ul.main_menu > li.nav-services > ul > li > a{padding: 24px 32px; gap: 20px; display: flex; flex-wrap: wrap; align-items: center; background: transparent; color: var(--Blue); font-size: 1.25rem; font-weight: 700; line-height: 1.563rem; font-family: var(--base-font); }
