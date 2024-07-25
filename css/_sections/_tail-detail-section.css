@@ -12,10 +12,12 @@
 .tail-detail-list:not(.no_hover_tail):hover figure, .tail-detail-list:not(.no_hover_tail):hover i.fa-tail{transform: translateX(calc(100% + 10px)); opacity: 0;}
 .tail-detail-icon figure, .tail-detail-icon i.fa-tail { transition: var(--b-transition); }
 
-
+body.page-template-service-detail-sub .tail-detail-main::after{content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: 0.5; margin-top: 86px; margin-bottom: 6px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .tail-detail-main{padding: 40px 0 40px;}
     .tail-detail-row{gap: 32px; padding-top: 16px;}
     .tail-detail-list{flex: 0 0 calc(33.3333% - 22px);}
+
+    body.page-template-service-detail-sub .tail-detail-main { padding: 40px 0 0; }
 }

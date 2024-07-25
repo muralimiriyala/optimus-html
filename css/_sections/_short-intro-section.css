@@ -19,7 +19,7 @@ body.page-template-our-culture .short-intro-main::before { content: ""; display:
 
 body.page-template-service-detail-sub .short-intro-main{padding: 80px 0 0px;}
 body.page-template-service-detail-sub .short-intro-main::after{content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: .5; margin-top: 40px;}
-
+body.page-template-service-detail-sub .intro-second-section .short-intro-main::after{display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

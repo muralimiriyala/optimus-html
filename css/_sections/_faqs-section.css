@@ -4,17 +4,17 @@
 .accordion-list{margin-bottom: 20px; border-left: 8px solid var(--Orange); transition: var(--b-transition);}
 .accordion-list:last-child{margin-bottom: 0;}
 .accordion-list:hover{transform: translateY(-5px); border-color: var(--Orange);}
-.accordion-header{padding: 25px 24px 23px 80px; color: var(--Blue); font-size: 20px; line-height: 25px; cursor: pointer; position: relative; font-weight: 600;}
+.accordion-header{padding: 25px 24px 23px 75px; color: var(--Blue); font-size: 20px; line-height: 25px; cursor: pointer; position: relative; font-weight: 600;}
 .accordion-header.open{color: var(--Blue);}
 .accordion-header.open span.ui-plus{transform: rotate(45deg);}
 
-span.ui-plus{width: 24px; height: 24px; left: 30px;}
+span.ui-plus{width: 24px; height: 24px; left: 27px;}
 span.ui-plus::after, span.ui-plus::before{top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: var(--Blue); content: ""; display: block; position: absolute; z-index: -1; }
 span.ui-plus::before{ width: 24px; height: 2px; }
 span.ui-plus::after{ width: 2px; height: 24px;  }
 
 .accordion-content{max-height: 0; transition: max-height 0.9s; overflow: hidden;}
-.accordion-desc{padding: 1px 24px 24px 80px; font-size: 16px; line-height: 24px;}
+.accordion-desc{padding: 1px 24px 24px 75px; font-size: 16px; line-height: 24px;}
 .accordion-desc ul > li::before { top: 8px; left: -20px; width: 6px; height: 6px; }
 .accordion-desc ol { margin: 0 0 28px 29px; }
 .accordion-desc ol > li::before { top: 0; left: -20px; font-size: 0.875rem; line-height: 1.313rem; }
