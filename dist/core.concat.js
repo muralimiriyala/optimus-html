@@ -4153,6 +4153,7 @@ $window.trigger("scroll load");
 
 jQuery(document).ready(function () {
     const blogSlider = jQuery(".blog-post-row");
+    const $slickappend = jQuery(".blog-append-arrows");
     function blogSlickSlider() {
         blogSlider.each(function () {
         const $this = jQuery(this);
@@ -4175,7 +4176,8 @@ jQuery(document).ready(function () {
                   breakpoint: 743,
                   settings: {
                     adaptiveHeight: true,
-                    appendArrows: $this,
+                    appendArrows: $slickappend,
+                    appendDots: $slickappend,
                   },
                 },
               ],
