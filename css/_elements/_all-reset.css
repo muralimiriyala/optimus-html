@@ -162,6 +162,7 @@ span.optional-text.navy-50{color: rgb(25 35 76 / 50%);}
 .fs-20{font-size: 20px; line-height: 30px;}
 .fs-22{font-size: 22px; line-height: 33px;}
 .fs-24{font-size: 1.5rem; line-height: 2.25rem;}
+.fs-32{ font-size: 32px; line-height: 32px; }
 .fs-40{ font-size: 40px; line-height: 40px;}
 
 .radius-4, .radius-img-4 img{border-radius: 4px;}
@@ -169,6 +170,7 @@ span.optional-text.navy-50{color: rgb(25 35 76 / 50%);}
 .radius-8, .radius-img-8 img{border-radius: 8px;}
 .radius-12, .radius-img-12 img{border-radius: 12px;}
 .radius-16, .radius-img-16 img{border-radius: 16px;}
+.radius-20, .radius-img-20 img{border-radius: 24px;}
 .radius-24, .radius-img-24 img{border-radius: 24px;}
 .radius-50, .radius-img-50 img{border-radius: 50%;}
 
@@ -259,7 +261,7 @@ div.slick-arrow.slick-disabled{opacity: 0.2; background-color: var(--Gray); poin
 span.slick-arrows{color: var(--White);}
 span.slick-prev-arrow{ transform: scaleX(-1); }
 
-ul.slick-dots{margin: 42px 0; gap: 12px; align-items: center; justify-content: center; display: flex; flex-wrap: wrap;}
+ul.slick-dots{margin: 42px 0; gap: 12px; align-items: center; justify-content: center; display: flex; flex-wrap: wrap; position: relative;}
 ul.slick-dots li{margin: 0; width: 20px; height: 20px; border-radius: 50%; background-color: var(--White); cursor: pointer;}
 ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}
 ul.slick-dots li::before{display: none;}
@@ -328,4 +330,6 @@ ul.slick-dots li button{display: none;}
     blockquote{margin: 32px 0 16px; padding: 24px; font-size: 1.25rem; line-height: 2rem;}
 
     img.alignnone, img.alignleft, img.alignright, img.aligncenter{margin: 25px auto; clear: both; float: none; display: block;}
+    .btn-center .more-insights{margin-top: 24px;}
+    ul.slick-dots{padding: 0 70px; left: -10px;}
 }

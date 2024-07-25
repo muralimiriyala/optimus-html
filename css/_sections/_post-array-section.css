@@ -46,7 +46,7 @@
     .post-array-head div.slick-arrow{top: 10px; bottom: auto;}
     .post-array-title h2{margin: 0;}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 743px) and (min-width: 200px){
     .post-array-main{padding: 40px 0 40px;}
     .post-array-head{display: block; padding-bottom: 4px;}
 

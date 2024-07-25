@@ -1,0 +1,6 @@
+.subhead-help-row { gap: 80px; }
+.subhead-help-lt { flex: 0 0 27.4%; }
+.subhead-help-rt { flex: 0 0 calc(100% - 33.7%); }
+.subhead-help-grid { flex: 0 0 50%; padding: 32px; border: 1px soild var(--Light-Blue); color: var(--Gray);}
+.subhead-help-grid h3{font-size: 24px;}
+ 

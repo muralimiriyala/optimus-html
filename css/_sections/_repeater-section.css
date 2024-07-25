@@ -17,7 +17,7 @@
 .repeater-row.no_repeater_txt{justify-content: center;}
 .repeater-btns{gap: 16px;}
 
-
+body.page-template-service-detail-sub .repeater-main::after{content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: .5; margin-top: 80px;}
 /* media css starts here */
 @media screen and (min-width:1200px) {
   .repeater-txt h2{font-size: 40px; line-height: 50px;}
@@ -37,6 +37,9 @@
   body.page-template-service-detail .repeater-main{padding-bottom: 80px;}
   body.page-template-our-culture .repeater-section:nth-child(2) .repeater-main{padding: 79px 0 40px;}
   body.page-template-about-people .repeater-main{padding: 80px 0 40px;}
+  body.page-template-service-detail-sub .repeater-main{padding: 80px 0 80px;}
+  body.page-template-service-detail-sub .repeater-row:first-child{margin-bottom: 80px;}
+  body.page-template-service-detail-sub .repeater-txt h2{font-size: 32px; line-height: 40px;}
 }
 @media screen and (max-width:1199px) and (min-width:1024px) {
   .repeater-txt h2{line-height: 40px; margin-bottom: 24px;}
