@@ -1,4 +1,4 @@
-.blog-post-array-bg{top: 0; left: 0; position: absolute; width: 100%; height: calc(100% - 329px); z-index: -1;}
+.blog-post-array-bg{top: 0; left: 0; position: absolute; width: 100%; height: calc(100% - 337px); z-index: -1;}
 .blog-post-banner{ padding: 60px 0 40px; color: var(--White);}
 .blog-post-decor{z-index: -1; opacity: 0.1;}
 .blog-post-decor svg{width: 100%; height: 100%;}
