@@ -63,8 +63,9 @@ body .newsletter-signup .with_frm_style .frm_message p{color: var(--White); lett
     .comments-type-list{flex: 0 0 calc(50% - 8px); padding-right: 40px;}
     .comments-type-icon{flex: 0 0 auto;}
     .comments-type-text{flex: 1;}
-    .newsletter-disclaimer{max-width: 260px; margin: auto;}
+    .newsletter-disclaimer{max-width: 260px; margin: auto; padding-top: 19px;}
     .newsletter-bulb{margin: 24px 0 26px;}
+    body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field.field_submit{display: block; position: static; margin-top: 20px;}
 }
 @media only screen and (max-width: 389px) and (min-width: 200px){
     .comments-type-list{padding-right: 16px;}

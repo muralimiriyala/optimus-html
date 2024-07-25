@@ -321,9 +321,9 @@ ul.slick-dots li button{display: none;}
     .m-clamp-3{ -webkit-line-clamp: 3; }
 
 
-    div.slick-arrow{top: auto; transform: none; bottom: -48px;}
-    div.slick-arrow.slick-next{left: auto; right: 0;}
-    div.slick-arrow.slick-prev{right: auto; left: 0;}
+    div.slick-arrow{top: auto; transform: none; position: relative; background-color: var(--Navy);}
+ 
+    
 
     .play-btn-main .play-btn{width: 64px; height: 64px;}
     .play-btn img { width: 24px; height: 30px;}

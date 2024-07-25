@@ -1,6 +1,7 @@
 
 jQuery(document).ready(function () {
     const blogSlider = jQuery(".blog-post-row");
+    const $slickappend = jQuery(".blog-append-arrows");
     function blogSlickSlider() {
         blogSlider.each(function () {
         const $this = jQuery(this);
@@ -23,7 +24,8 @@ jQuery(document).ready(function () {
                   breakpoint: 743,
                   settings: {
                     adaptiveHeight: true,
-                    appendArrows: $this,
+                    appendArrows: $slickappend,
+                    appendDots: $slickappend,
                   },
                 },
               ],
@@ -47,7 +49,7 @@ jQuery(document).ready(function () {
         }
       });
     }
-    function destroySlick() {
+    function destroyblogSlick() {
         blogSlider.each(function () {
         const $this = jQuery(this);
         if (
@@ -58,7 +60,6 @@ jQuery(document).ready(function () {
         }
       });
     }
-    // Initial call
     blogSlickSlider();
-    jQuery(window).on("resize", function () { destroySlick(); blogSlickSlider(); });
+    jQuery(window).on("resize", function () { destroyblogSlick(); blogSlickSlider(); });
 });  
