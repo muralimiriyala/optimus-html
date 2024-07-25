@@ -4,7 +4,7 @@
 .post-array-card{height: 100%; overflow: hidden; background-color: var(--Navy);}
 .post-array-bg{top: 296px; left: -100vw; width: 1000vw; height: 100%; z-index: -1;}
 .post-array-text{opacity: 0;}
-.post-array-padd{padding: 32px 28px 32px 30px;}
+.post-array-padd{padding: 32px 28px 21px 30px;}
 .post-array-cat{gap: 8px; margin-bottom: 25px;}
 .post-array-icon{font-size: 20px; line-height: 20px; }
 .post-array-icon i{top: -2px; position: relative; color: var(--Light-Blue);}
