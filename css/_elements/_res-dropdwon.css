@@ -29,9 +29,9 @@ button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px);
 .res-dropdown.open::after{opacity: 1;}
 .open .res-category-arrow{color: var(--Orange);}
 .open .res-category-arrow::before{content: "\f077";}
-.res-category{color: var(--Navy, #182A54); font-family: "arboria", sans-serif; font-size: 28px; font-weight: 700; line-height: 38px;}
+.res-category{color: var(--Navy); font-family: "arboria", sans-serif; font-size: 28px; font-weight: 700; line-height: 38px;}
 .res-category span{font-weight: 400;}
-.res-category-arrow{ top: 3px; color: var(--Blue, #1335AF); font-size: 20px; line-height: 20px; position: relative; }
+.res-category-arrow{ top: 3px; color: var(--Blue); font-size: 20px; line-height: 20px; position: relative; }
 
 .res-tags-list{display: none; width: 100%; top: 100%; left: 0; height: auto; position: absolute; z-index: 1;}
 ul.res-tags{margin: 0; gap: 10px;}
@@ -90,13 +90,13 @@ ul.blog_list{margin: 0; width: 100%;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .resources-wrap{padding: 38px 0 80px;}
-    .res-srch-main{display: block; padding: 0 0 64px;}
+    .res-srch-main{display: block; padding: 0 0 66px;}
     .res-srch-form{margin-bottom: 16px;}
     body.page-template-integrations .res-srch-main{padding-bottom: 64px;}
     body.page-template-integrations .res-srch-form{margin-bottom: 17px;}
-    .res-srch-field { padding: 2px; transition: all .5s ease-in-out; background-image: linear-gradient(to top,#f9662d,#fec74d); border-radius: 8px; }
+    .res-srch-field { padding: 2px; transition: all .5s ease-in-out;  }
     button.res-srch-icon{display: none;}
-    button.res-expand-icon{font-size: 24px; right: 18px; top: calc(50% - 1px);}
+    button.res-expand-icon{font-size: 24px; right: 24px; top: calc(50% - 1px);}
     button.res-expand-icon:hover{color: var(--Orange);}
     .resources-row{display: block;}
     .resources-list{margin-bottom: 24px;}
@@ -105,6 +105,8 @@ ul.blog_list{margin: 0; width: 100%;}
     .res-rule{height: 34px;}
     .res-dropdown-main{position: relative;}
     ul.res-tags{padding-top: 10px;}
+    .res-srch-field{border: 4px solid var(--Orange); border-radius: 32px;}
+    .res-srch-field input{border-radius: 32px; padding: 15px 48px 14px 16px;}
 }
 
 
