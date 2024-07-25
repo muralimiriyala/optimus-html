@@ -1,4 +1,3 @@
-body.page-template-service-landing header.site-header:not(.sticky-header){background-color: transparent;}
 
 
 header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 800; background: var(--Blue);}
@@ -20,6 +19,7 @@ header.sticky-header{z-index: 850; background: var(--Blue);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
+    body.page-template-service-landing header.site-header:not(.sticky-header){background-color: transparent;}
     body.home header.site-header:not(.sticky-header){background: transparent;}
     body.page-template-insights header.site-header:not(.sticky-header){background-color: transparent;}
     body.page-template-insights .site-main-cover{padding-top: 0;}

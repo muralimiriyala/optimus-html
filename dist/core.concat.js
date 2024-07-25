@@ -4318,16 +4318,15 @@ jQuery(document).ready(function ($) {
       const postSlide = $this.children(".post-array-list").length;
       const postBtn = $(".post-array-btn");
       const postHead = $(".post-array-head");
+      const postAppend = $(".post-array-appends");
       if (window.matchMedia("(max-width: 1439px)").matches) {
         if (!$this.hasClass("slick-initialized")) {
           $this.slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
-            prevArrow:
-              '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-            nextArrow:
-              '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
             dots: true,
             speed: 1000,
             infinite: false,
@@ -4345,7 +4344,8 @@ jQuery(document).ready(function ($) {
                 breakpoint: 743,
                 settings: {
                   adaptiveHeight: true,
-                  appendArrows: $this,
+                  appendArrows: postAppend,
+                  appendDots: postAppend,
                 },
               },
             ],
@@ -4358,10 +4358,8 @@ jQuery(document).ready(function ($) {
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
-            prevArrow:
-              '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-            nextArrow:
-              '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
             dots: true,
             speed: 1000,
             infinite: false,
@@ -4386,9 +4384,6 @@ jQuery(document).ready(function ($) {
   // Initial call
   initializeSlider();
   $(window).on("resize", function () { destroySlider(); initializeSlider(); });
-
-
-
 
   function recentSlider() {
     if ($(window).width() <= 743) {
