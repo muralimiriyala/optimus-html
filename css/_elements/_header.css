@@ -53,7 +53,7 @@ header.sticky-header{z-index: 850; background: var(--Blue);}
     ul.main_menu > li.nav-services > ul {width: 100vw; max-height: 0; overflow: hidden; padding: 0; max-width: 855px; left: -178px; gap: 56px; display: flex; flex-wrap: wrap; z-index: 10; border-radius: 0 0 8px 8px; box-shadow: none;}
     ul.main_menu > li.nav-services:hover > ul{max-height: inherit;}
     ul.main_menu > li.nav-services > ul > li{margin: 0; width: 100%; display: block;}
-    ul.main_menu > li.nav-services > ul > li > a{padding: 24px 32px; gap: 20px; display: flex; flex-wrap: wrap; align-items: center; background: var(--Background); color: var(--Blue); font-size: 1.25rem; font-weight: 700; line-height: 1.563rem; font-family: var(--base-font); }
+    ul.main_menu > li.nav-services > ul > li > a{padding: 24px 32px; gap: 20px; display: flex; flex-wrap: wrap; align-items: center; background: transparent; color: var(--Blue); font-size: 1.25rem; font-weight: 700; line-height: 1.563rem; font-family: var(--base-font); }
     ul.main_menu > li.nav-services > ul > li > a img.menu-image{padding: 0;}
     ul.main_menu > li.nav-services > ul > li > a span.menu-image-title-after{padding: 0;}
     ul.main_menu > li.nav-services > ul > li > a span p{ color: var(--Foreground); font-family: "Noto Sans",sans-serif; font-size: 1rem; font-weight: 400; }
