@@ -1,11 +1,11 @@
-jQuery(document).ready(function () {
+jQuery(document).ready(function ($) {
   const postSlider = jQuery(".post-array-row");
   function initializeSlider() {
     postSlider.each(function () {
-      const $this = jQuery(this);
+      const $this = $(this);
       const postSlide = $this.children(".post-array-list").length;
-      const postBtn = jQuery(".post-array-btn");
-      const postHead = jQuery(".post-array-head");
+      const postBtn = $(".post-array-btn");
+      const postHead = $(".post-array-head");
       if (window.matchMedia("(max-width: 1439px)").matches) {
         if (!$this.hasClass("slick-initialized")) {
           $this.slick({
@@ -73,7 +73,7 @@ jQuery(document).ready(function () {
   }
   // Initial call
   initializeSlider();
-  jQuery(window).on("resize", function () { destroySlider(); initializeSlider(); });
+  $(window).on("resize", function () { destroySlider(); initializeSlider(); });
 
 
 
