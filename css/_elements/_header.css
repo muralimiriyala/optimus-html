@@ -179,7 +179,7 @@ header.sticky-header{z-index: 850; background: var(--Blue);}
     .mobile_header_btns{flex: 0 0 150px; gap: 12px; top: 2px; position: relative; justify-content: flex-end; margin-left: auto; margin-right: 74px;}
     .mobile_header_btns .button span{display: none;}
 }
-@media screen and (max-width: 739px) and (min-width: 200px){
+@media screen and (max-width: 743px) and (min-width: 200px){
     .site-main-cover{padding-top: 64px;}
 }
 @media screen and (max-width: 370px) and (min-width: 200px){
