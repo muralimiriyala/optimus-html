@@ -90,7 +90,7 @@ ul.blog_list{margin: 0; width: 100%;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .resources-wrap{padding: 38px 0 80px;}
-    .res-srch-main{display: block; padding: 0 0 64px;}
+    .res-srch-main{display: block; padding: 0 0 66px;}
     .res-srch-form{margin-bottom: 16px;}
     body.page-template-integrations .res-srch-main{padding-bottom: 64px;}
     body.page-template-integrations .res-srch-form{margin-bottom: 17px;}

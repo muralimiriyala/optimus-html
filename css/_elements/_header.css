@@ -110,7 +110,7 @@ header.sticky-header{z-index: 850; background: var(--Blue);}
     ul.main_menu > li.nav-solutions > ul{left: -399px; max-width: 940px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
-    .site-main-cover{padding-top: 84px;}
+    .site-main-cover{padding-top: 64px;}
 
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
