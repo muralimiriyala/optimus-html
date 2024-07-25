@@ -1,8 +1,8 @@
-
 body.page-template-service-landing header.site-header:not(.sticky-header){background-color: transparent;}
 
-header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 800;  background: var(--Blue);}
-header.sticky-header{z-index: 850;}
+
+header.site-header{top: 0; left: 0; width: 100%; height: auto; position: fixed; z-index: 800; background: var(--Blue);}
+header.sticky-header{z-index: 850; background: var(--Blue);}
 
 .logo a{width: 100%; height: 100%; display: block;} 
 .logo a img{width: 100%; object-fit: cover;}
@@ -20,7 +20,9 @@ header.sticky-header{z-index: 850;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-    body.home header.site-header{background: transparent;}
+    body.home header.site-header:not(.sticky-header){background: transparent;}
+    body.page-template-insights header.site-header:not(.sticky-header){background-color: transparent;}
+    body.page-template-insights .site-main-cover{padding-top: 0;}
 }
 @media screen and (min-width: 936px) {
     .header{ gap: 16px;  }

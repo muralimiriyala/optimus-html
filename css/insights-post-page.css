@@ -1,7 +1,7 @@
 
 
 
-
+body.single-post.postid-74 .header::after{display: none;}
 body.single-post .header::after { content: ""; display: block; background-image: url('images/insights-decor.svg'); position: absolute; top: 0; left: 0; width: 1578px; height: 960px; z-index: -1; opacity: 0.1; background-size: cover; background-repeat: no-repeat; transition: all 1s ease-in;}
 body.single-post header.sticky-header .header::after{opacity: 0; visibility: hidden;}
 body.single-post .insights-post-main{z-index: 810;}
@@ -31,8 +31,16 @@ body.single-post .insights-post-main{z-index: 810;}
 
 .insights-post-main:after{content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: .5; }
 
+.blog-post-row ul.slick-dots li{background-color: var(--Navy-25);}
+.blog-post-row ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 744px){
+  .blog-post-row .slick-track{display: flex; flex-wrap: nowrap;}
+  .blog-post-row .slick-list{overflow: inherit;}
+  .blog-post-row .slick-slide{width: 296px; margin-right: 32px; flex: 0 0 296px; height: auto;}
+  .blog-post-row ul.slick-dots{height: 0; opacity: 0; margin: 0;}
+}
 @media only screen and (min-width: 1024px){
   body.single-post .header::after{top: -84px; left: -313px;}
   .insights-post-bracket { width: 48px; height: 100%; top: 0; border: 1px solid var(--Light-Blue); z-index: -1; }
@@ -72,11 +80,11 @@ body.single-post .insights-post-main{z-index: 810;}
   .insights-post-bracket{width: 100%; height: 48px; bottom: 0; left: 0; top: auto; border: 1px solid var(--Light-Blue); z-index: -1; border-top: 0; border-top-right-radius: 0; border-top-left-radius: 0;}
   .insights-post-bracket.left { top: 0; transform: rotate(-180deg); }
   .insights-block-main > span {font-size: 20px;}
+
+
 }
 @media screen and (max-width: 389px) and (min-width: 200px) {
-.insights-post-main .share-icons #st-1.st-animated {
-  gap: 13px;
-}
+  .insights-post-main .share-icons #st-1.st-animated { gap: 13px; }
 }
 
 
