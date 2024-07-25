@@ -16,18 +16,20 @@ ul.service-subtitle > li a.active{color: var(--Blue);}
 .service-icon > i.fa-arrow-right{color: var(--Orange); position: relative; left: -30px; opacity: 0; transition: all .5s ease;}
 .service-item h6{margin-bottom: 15px;}
 
-.service-item:last-child{text-align: center; border: 1px solid var(--Orange);}
+.service-item:last-child{text-align: center; border: 1px solid var(--Orange); display: flex !important; justify-content: center; align-items: center; flex-direction: column;}
 .service-item:last-child .service-icon > i.fa-arrow-right{font-size: 70px; text-align: center; color: var(--Blue); opacity: 1; left: 0;}
 .service-item:last-child:hover{box-shadow: none; border-color: var(--Orange); transform: none;}
 
 .service-lists .slick-list{overflow: inherit;}
+.service-lists .slick-track{display: flex;}
+.service-lists .service-item.slick-slide{height: auto;}
 .service-lists div.slick-arrow{border-radius: 50%; color: var(--White);}
 .service-lists div.slick-arrow.slick-next{right: 0; top: -62px;}
 .service-lists  div.slick-arrow.slick-prev{left: auto; right: 72px; top: -62px;}
 
 @media screen and (min-width: 1024px) {
     .service-wrapper{padding: 80px 0 56px;}
-    .service-svg{top: -25px; right: -104px;}
+    .service-svg{top: -25px; right: -104px; z-index: 0;}
     .service-head{max-width: 770px; margin-bottom: 84px;}
     .service-item{width: 264px; margin-right: 32px;}
 }
@@ -42,7 +44,7 @@ ul.service-subtitle > li a.active{color: var(--Blue);}
 
 @media screen and (max-width: 1023px) and (min-width: 744px) {
     .service-wrapper{padding: 80px 0;}
-    .service-svg{right: -40px; top: 0;}
+    .service-svg{right: -40px; top: 0; z-index: 0;}
     .service-head{max-width: 531px; margin-bottom: 56px;}
     .service-head h2{font-size: 32px; line-height: 40px;}
     ul.service-subtitle{margin: 0 0 40px 0; gap: 20px;}
@@ -53,7 +55,7 @@ ul.service-subtitle > li a.active{color: var(--Blue);}
 }
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .service-wrapper{padding: 96px 0 40px;}
-    .service-svg{top: -39px; right: -24px;}
+    .service-svg{top: -39px; right: -24px; z-index: 0;}
     .service-head{margin-bottom: 24px; padding-right: 36px;}
     .service-head h2{font-size: 28px; line-height: 34px;}
     ul.service-subtitle{margin: 0 0 24px 0; gap: 20px;}

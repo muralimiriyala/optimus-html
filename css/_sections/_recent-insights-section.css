@@ -37,7 +37,7 @@
     .recent-insights-item{width: 342px; font-size: 20px; line-height: 25px; padding: 0; margin-right: 30px;}
     .recent-insights-item::before{display: none;}
     .recent-insights-list .slick-list{overflow: inherit;}
-    .recent-insights-list ul.slick-dots{margin: 24px 0 0;}
-    .recent-insights-list ul.slick-dots li{background-color: var(--Light-Blue-Tint);}
+    .recent-insights-list ul.slick-dots{margin: 24px 0 0; gap: 8px;}
+    .recent-insights-list ul.slick-dots li{flex: 1; height: 8px; border-radius: 4px; background-color: var(--Light-Blue-Tint);}
     .recent-insights-list ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}
 }
