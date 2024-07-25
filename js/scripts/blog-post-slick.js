@@ -47,7 +47,7 @@ jQuery(document).ready(function () {
         }
       });
     }
-    function destroySlick() {
+    function destroyblogSlick() {
         blogSlider.each(function () {
         const $this = jQuery(this);
         if (
@@ -58,7 +58,6 @@ jQuery(document).ready(function () {
         }
       });
     }
-    // Initial call
     blogSlickSlider();
-    jQuery(window).on("resize", function () { destroySlick(); blogSlickSlider(); });
+    jQuery(window).on("resize", function () { destroyblogSlick(); blogSlickSlider(); });
 });  
