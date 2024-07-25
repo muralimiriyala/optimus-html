@@ -260,7 +260,7 @@ div.slick-arrow.slick-disabled{opacity: 0.2; background-color: var(--Gray); poin
 span.slick-arrows{color: var(--White);}
 span.slick-prev-arrow{ transform: scaleX(-1); }
 
-ul.slick-dots{margin: 42px 0; gap: 12px; align-items: center; justify-content: center; display: flex; flex-wrap: wrap;}
+ul.slick-dots{margin: 42px 0; gap: 12px; align-items: center; justify-content: center; display: flex; flex-wrap: wrap; position: relative;}
 ul.slick-dots li{margin: 0; width: 20px; height: 20px; border-radius: 50%; background-color: var(--White); cursor: pointer;}
 ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}
 ul.slick-dots li::before{display: none;}
@@ -330,4 +330,5 @@ ul.slick-dots li button{display: none;}
 
     img.alignnone, img.alignleft, img.alignright, img.aligncenter{margin: 25px auto; clear: both; float: none; display: block;}
     .btn-center .more-insights{margin-top: 24px;}
+    ul.slick-dots{padding: 0 70px; left: -10px;}
 }
