@@ -10,7 +10,7 @@
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .people-fancy-main{padding: 40px 0 90px;}
-    .people-fancy-row{gap: 80px;}
+    .people-fancy-row{gap: 78px;}
     .people-fancy-txt{flex: 0 0 46.5%;}
     .people-fancy-images{flex: 0 0 46.5%;}
     .people-fancy-txt h2{font-size: 56px;}

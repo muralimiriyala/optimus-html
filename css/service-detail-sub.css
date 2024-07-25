@@ -1,14 +1,20 @@
-.subhead-help-main{padding: 10px 0 40px;}
+.subhead-help-main{padding: 10px 0 80px;}
 .subhead-help-row { gap: 78px; }
 .subhead-help-lt { flex: 0 0 27.4%; }
 .subhead-help-lt h2{font-size: 48px; margin-bottom: 32px;}
 .subhead-help-lt p{margin-bottom: 32px;}
 .subhead-help-rt { flex: 1; }
 .subhead-help-grid { flex: 0 0 50%; padding: 32px; border: 1px solid var(--Light-Blue-Tint); color: var(--Gray);}
-.subhead-help-grid h3{font-size: 24px;}
+.subhead-help-grid h3{font-size: 24px; margin-bottom: 11px; line-height: 30px;}
 .subhead-help-grid{border-bottom: none; border-left: 0;}
 .subhead-help-grid:nth-child(2n){border-right: none;}
 .subhead-help-grid:first-child{border-top: none;}
 .subhead-help-grid:nth-child(2){border-top:none}
 .subhead-help-icon{width: 60px; height: 48px; font-size: 48px; color: var(--Light-Blue); margin-bottom: 32px;}
- 
+
+.service-detail-sub-default-main{padding: 80px 0;}
+.service-detail-sub-default-main ul{margin-bottom: 0;}
+.service-detail-sub-default-main p span{font-size: 22px; line-height: 33px;}
+.sub-detail-line-wrap{padding: 55px 0 0;}
+.sub-detail-line-wrap .default-line-text { padding: 6px 0 6px 24px;}
+.sub-detail-line-wrap .default-line-in {padding: 0 50px 0 0;}
