@@ -228,11 +228,7 @@
         align-items: center;
     }
 
-    .post-array-appends div.slick-arrow {
-        background: var(--Navy);
-        bottom: auto;
-        position: relative;
-    }
+
 
     .post-array-appends div.slick-arrow.slick-disabled {
         opacity: 0.25;
