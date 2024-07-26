@@ -286,6 +286,7 @@ ul.slick-dots li button{display: none;}
     .container.md{max-width: 1200px;}
     .container.msd{max-width: 1080px;}
     .container.sm{max-width: 960px;}
+    .container.ssm{max-width: 900px;}
 
     .hide-desktop{display: none;}
     span.hide-desktop{display: none;}
