@@ -254,11 +254,10 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .blue-bg{background-color: var(--Blue);}
 .orange-tint-bg{background: var(--Orange-Tint-Bg);}
 
-div.slick-arrow{width: 56px; height: 56px; padding: 0; top: 50%; transform: translateY(-50%); font-size: 24px; line-height: 24px; position: absolute; z-index: 1; cursor: pointer; transition: var(--b-transition); background: var(--Blue); }
+div.slick-arrow{width: 56px; height: 56px; padding: 0; top: 50%; transform: translateY(-50%); font-size: 24px; line-height: 24px; position: absolute; z-index: 1; cursor: pointer; transition: var(--b-transition); background: var(--Blue); color: var(--White);}
 div.slick-arrow::after{width: 0%; height: 0%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background: var(--Orange); content: ""; display: block; border-radius: 50%; position: absolute; transition: var(--b-transition); z-index: -1;}
 div.slick-arrow:hover::after{opacity: 1; width: 100%; height: 100%;}
 div.slick-arrow.slick-disabled{opacity: 0.2; background-color: var(--Gray); pointer-events: none;}
-span.slick-arrows{color: var(--White);}
 span.slick-prev-arrow{ transform: scaleX(-1); }
 
 ul.slick-dots{margin: 0; gap: 12px; align-items: center; justify-content: center; display: flex; flex-wrap: wrap;}
