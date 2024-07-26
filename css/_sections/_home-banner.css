@@ -4,33 +4,34 @@
 .home-banner-text{color: var(--White); line-height: 29px;}
 .home-banner-text h1{font-size: 64px; line-height: 75px; color: var(--White); margin-bottom: 18px;}
 .home-banner-text h1 > span { border-bottom: 4px solid var(--Orange); display: inline-block; line-height: 56px;}
-.home-banner-thumb{top: 0; left: 0; width: 100%; height: 100%; z-index: -1;}
+.home-banner-image{top: 0; left: 0; width: 100%; height: 100%; z-index: -1;}
+.home-banner-image img{object-position: top center;}
 
 @media screen and (min-width: 1024px) {
     .home-banner-main{padding-bottom: 80px;}
     .home-banner-text{max-width: 720px; padding: 312px 0 177px;}
-    .home-banner-text p{max-width: 340px;}
-    .home-banner-svg{top: 0; left: -313px; z-index: -1; opacity: .4; mix-blend-mode: multiply;}
+    .home-banner-desc{max-width: 370px;}
+    .home-banner-svg{top: 0; left: -644px; right: 0; opacity: .28; mix-blend-mode: multiply;}
+    .home-banner-svg svg{margin: auto;}
 }
-
 @media screen and (max-width: 1023px) and (min-width: 744px){
-    .home-banner-main{padding: 64px 24px 40px; left: -40px; width: calc(100% + 80px); position: relative; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);}
-    .home-banner-thumb{left: -40px; width: calc(100% + 80px); position: relative; z-index: 1;}
-    .home-banner-thumb picture::after{content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 99%, 100% 100%, 0% 100%); }
-    .home-banner-thumb picture::before{content: ""; position: absolute; top: auto; bottom: 0; left: 0; width: 100%; height: 133px; background: var(--Blue); opacity: 0.3; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 75%, 100% 100%, 0% 100%); }
+    .home-banner-main{padding: 0 24px 40px; left: -40px; width: calc(100% + 80px); position: relative; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); z-index: 1;}
+    .home-banner-image{left: -40px; width: calc(100% + 80px); position: relative; z-index: 1;}
+    .home-banner-image picture::after{content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 99%, 100% 100%, 0% 100%); }
+    .home-banner-image picture::before{content: ""; position: absolute; top: auto; bottom: 0; left: 0; width: 100%; height: 133px; background: var(--Blue); opacity: 0.3; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 75%, 100% 100%, 0% 100%); }
     .home-banner-mob-svg{z-index: -1; top: -46px; left: -24px;}
-    .home-banner-text{line-height: 30px; font-size: 20px; font-weight: 400; margin-bottom: 24px; z-index: 0;}
+    .home-banner-text{line-height: 30px; font-size: 20px; font-weight: 400; margin-bottom:24px; z-index: 0;}
     .home-banner-text h1{font-size: 40px; line-height: 52px; margin-top: -7px;}
     .home-banner-text h1 > span {line-height: 33px;}
     .home-banner-text h1 > br{display: none;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
-    .home-banner-main{padding: 64px 24px 40px; left: -24px; width: calc(100% + 48px); position: relative; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);}
-    .home-banner-thumb{left: -24px; width: calc(100% + 48px); position: relative; z-index: 1;}
-    .home-banner-thumb picture::after{content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 99%, 100% 100%, 0% 100%); }
-    .home-banner-thumb picture::before{content: ""; position: absolute; top: auto; bottom: 0; left: 0; width: 100%; height: 133px; background: var(--Blue); opacity: 0.3; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 75%, 100% 100%, 0% 100%); }
+    .home-banner-main{padding: 0 24px 40px; left: -24px; width: calc(100% + 48px); position: relative; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); z-index: 1;}
+    .home-banner-image{left: -24px; width: calc(100% + 48px); position: relative; z-index: 1;}
+    .home-banner-image picture::after{content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 99%, 100% 100%, 0% 100%); }
+    .home-banner-image picture::before{content: ""; position: absolute; top: auto; bottom: 0; left: 0; width: 100%; height: 133px; background: var(--Blue); opacity: 0.3; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 75%, 100% 100%, 0% 100%); }
     .home-banner-mob-svg{z-index: -1; top: -46px; left: -24px;}
-    .home-banner-text{line-height: 30px; font-size: 20px; font-weight: 400; margin-bottom: 24px; z-index: 0;}
+    .home-banner-text{line-height: 30px; font-size: 20px; font-weight: 400; margin:-10px 0 24px; z-index: 0;}
     .home-banner-text h1{font-size: 40px; line-height: 52px; margin-top: -7px;}
     .home-banner-text h1 > span {line-height: 33px;}
     .home-banner-text h1 > br{display: none;}

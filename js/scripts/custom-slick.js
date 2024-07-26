@@ -97,14 +97,15 @@ jQuery(document).ready(function ($) {
   recentSlider();
   
   function serviceSlider() {
+    const serviceAppend = $(".service-append-arrows");
       if (!$('.service-lists').hasClass('slick-initialized')) {
         $('.service-lists').slick({
           slidesToShow: 1,
           slidesToScroll: 4,
           variableWidth: true,
           arrows: true,
-          prevArrow: '<div class="slick-arrow slick-prev step-slick-arrow flex flex-center"><span class="fa-sharp fa-thin fa-arrow-left"></span></div>',
-          nextArrow: '<div class="slick-arrow slick-next step-slick-arrow flex flex-center"><span class="fa-sharp fa-thin fa-arrow-right"></span></div>',
+          prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+          nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
           dots: false,
           speed: 1500,
           infinite: false,
@@ -123,6 +124,8 @@ jQuery(document).ready(function ($) {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 dots: true,
+                appendArrows: serviceAppend,
+                appendDots: serviceAppend,
               },
             },
           ],

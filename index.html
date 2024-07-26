@@ -45,9 +45,6 @@
                 <li><a href="">About</a></li>
                 <li><a href="13-careers.html">Careers</a></li>
             </ul>
-            <div class="header_btn flex flex-end">
-                <a class="header-btn-link" target="_blank" href="#">Let’s get to work</a> 
-            </div>
         </div>
     </div>
     <div class="h_mobile_overlay"></div>
@@ -55,26 +52,25 @@
 </header>
 <main class="site-main-cover">
 <section class="home-banner-section relative">
-    <div class="home-banner-bg absolute">
-        <div class="home-banner-svg absolute hide-mobile hide-tablet">
+    <div class="home-banner-image absolute">
+        <div class="home-banner-bg hide-tablet hide-mobile absolute"></div>
+        <div class="home-banner-svg container absolute hide-mobile hide-tablet">
             <svg width="1578" height="960" viewBox="0 0 1578 960" fill="none">
                 <g style="mix-blend-mode:multiply">
-                <path d="M747.625 480C747.625 330.993 627.188 210.19 478.632 210.19C330.076 210.19 209.639 330.993 209.639 480C209.639 629.007 330.076 749.81 478.632 749.81C627.188 749.81 747.625 629.007 747.625 480ZM957.177 480C957.177 745.037 742.866 960 478.545 960C214.225 960 0 745.037 0 480C0 214.963 214.312 0 478.545 0C742.779 0 957.091 214.963 957.091 480" fill="#19234C"/>
+                <path d="M747.625 480C747.625 330.993 627.188 210.19 478.632 210.19C330.076 210.19 209.639 330.993 209.639 480C209.639 629.007 330.076 749.81 478.632 749.81C627.188 749.81 747.625 629.007 747.625 480ZM957.177 480C957.177 745.037 742.866 960 478.545 960C214.225 960 0 745.037 0 480C0 214.963 214.312 0 478.545 0C742.779 0 957.091 214.963 957.091 480" fill="#004C97"/>
                 </g>
                 <g style="mix-blend-mode:multiply">
-                <path d="M1251.18 0H957.177L1283.18 480L957.177 960H1251.18L1577.18 480L1251.18 0Z" fill="#19234C"/>
+                <path d="M1251.18 0H957.177L1283.18 480L957.177 960H1251.18L1577.18 480L1251.18 0Z" fill="#004C97"/>
                 </g>
             </svg> 
         </div>
+        <picture class="object-fit">
+            <source srcset="images/home-banner-new@2x.jpg" media="(min-width: 744px)">
+            <img src="images/home-banner-mobile-new@2x.jpg" alt="home-banner">
+        </picture>
     </div>
     <div class="container">
         <div class="home-banner-main">
-            <div class="home-banner-thumb absolute">
-                <picture class="object-fit">
-                    <source srcset="images/home-banner-new@2x.jpg" media="(min-width: 744px;)">
-                    <img src="images/home-banner-mobile-new@2x.jpg" alt="home-banner">
-                </picture>
-            </div>
             <div class="home-banner-text relative">
                 <div class="home-banner-mob-svg absolute hide-desktop">
                     <svg width="390" height="255" viewBox="0 0 390 255" fill="none">
@@ -93,7 +89,9 @@
                     </svg>
                 </div>
                 <h1>Our people <br>help <span>your people</span> <br>get done what isn’t.</h1>
-                <p>Our team of dedicated consultants help clients hit the ground running and deliver game‑changing results.</p>
+                <div class="home-banner-desc fs-20 f-300">
+                    <p>Our team of dedicated consultants help clients hit the ground running and deliver game‑changing results.</p>
+                </div>
             </div>
             <div class="home-banner-btn flex relative">
                 <a href="#" class="text-btn-link inline-flex f-600"><span>Start right now</span><svg xmlns="http://www.w3.org/2000/svg" width="29" height="53" viewBox="0 0 29 53" fill="none"> <path d="M0 0.800049H10.3162L28.2194 26.6446L10.1845 52.8H0L17.4751 26.8L0 0.800049Z" fill="#F17C23"/></svg></a>
@@ -492,6 +490,7 @@
                         <h6>All Services</h6>
                     </div>
                 </div>
+                <div class="service-append-arrows flex"></div>
             </div>
         </div>
     </div>
