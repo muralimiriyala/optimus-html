@@ -15,18 +15,17 @@
  */
 
 
-[data-count-to="100"]{min-width: 98px;}
-[data-count-to="286"]{min-width: 101px;}
-[data-count-to="4500"]{min-width: 145px;}
-[data-count-to="300"]{min-width: 100px;}
-
-
 @media screen and (min-width: 1024px){
     .social-proof-main{padding: 80px 0;}
     .social-proof-dot{order: 2; padding: 220px 0 209px; margin: 0 auto;}
     .social-proof-title{order: 1;}
     .social-proof-counter{gap: 64px; order: 3;}
     .social-proof-counter-list{flex: 0 0 calc(25% - 48px);}
+
+    [data-count-to="100"]{min-width: 98px;}
+    [data-count-to="286"]{min-width: 101px;}
+    [data-count-to="4500"]{min-width: 145px;}
+    [data-count-to="300"]{min-width: 100px;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px){
@@ -58,4 +57,9 @@
     .social-proof-counter-list:last-child{margin-bottom: 0;}
     .counter-num{font-size: 40px; line-height: 40px;}
     .counter-desc{padding-top: 8px; margin-top: 6px;}
+
+    [data-count-to="100"]{min-width: 71px;}
+    [data-count-to="286"]{min-width: 72px;}
+    [data-count-to="4500"]{min-width: 104px;}
+    [data-count-to="300"]{min-width: 78px;}
 }
