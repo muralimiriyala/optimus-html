@@ -1,7 +1,7 @@
 
 .social-proof-section{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); }
 .social-proof-title h1{font-size: 64px; font-weight: 400; color: var(--White); line-height: 80px; margin-bottom: 0;}
-.social-proof-title h1 span{font-weight: 600; color: var(--Light-Blue);}
+.social-proof-title h1 strong{font-weight: 600; color: var(--Light-Blue);}
 .counter-num{font-size: 56px; line-height: 56px; color: var(--White);}
 .counter-desc{font-size: 16px; line-height: 24px; color: rgba(255, 255, 255, 0.6); padding-top: 20px; border-top: 1px solid var(--Light-Blue); margin-top: 20px;}
 
