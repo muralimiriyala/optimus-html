@@ -53,7 +53,10 @@
         .subhead-help-grid{padding: 24px 0; border-right: none;}
         .subhead-help-grid:last-child{padding-bottom: 0;}
         .subhead-help-main { padding: 10px 0 60px; }
-        .service-detail-sub-default-main { padding: 40px 0; }
+        .service-detail-sub-default-main { padding: 40px 0 48px; }
+        .sub-detail-line-wrap .default-line-in { padding: 0 }
+        .sub-detail-line-wrap .default-line-text { padding: 6px 0 18px 24px; line-height: 30px;}
+        .service-detail-sub-default::after {width: calc(100% - 40px);}
 
         
 
