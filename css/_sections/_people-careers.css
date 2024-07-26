@@ -15,23 +15,21 @@
     .people-careers-txt{flex: 0 0 50%;}
     .people-careers-images{flex: 0 0 50%;}
     .people-careers-desc{max-width: 560px;}
-    .people-careers-row{flex-wrap: nowrap;}
-    .people-careers-inner{left: -120px; min-width: 1066px; max-width: 1066px; min-height: 1066px;}
+
+    
 }
 @media screen and (min-width: 1440px){
     .people-careers-main{padding: 0 0 90px; margin: -24px 0 -121px;}
     .people-careers-row{flex-wrap: nowrap;}
+    .people-careers-inner{left: -120px; min-width: 1066px; max-width: 1066px; min-height: 1066px;}
     .people-careers-main::before{top: 32px;}
 }
 @media screen and (max-width:1439px) and (min-width:1024px){
 
 }
-@media screen and (max-width:1199px) and (min-width:1024px) {
-    .people-careers-row{gap: 60px}
-}
 @media screen and (max-width:1023px) and (min-width: 200px) {
     .people-careers-main{padding: 40px 0 40px;}
-    .people-careers-row{display: block; text-align: center; padding: 40px 0;}
+    .people-careers-row{flex-direction: column-reverse; text-align: center; padding: 40px 0;}
     .people-careers-cont{justify-content: center; margin-bottom: 11px;}
     .people-careers-btns{justify-content: center;}
     .people-careers-txt h2{font-size: 32px; line-height: 37px; margin-bottom: 16px;}
@@ -39,6 +37,6 @@
 @media screen and (max-width:743px) and (min-width: 200px) {
     .people-careers-main{padding: 40px 0 0;}
     .people-careers-btns .button{width: 100%;}
-    .people-careers-images{width: calc(100% + 154px); left: -77px; margin-bottom: 20px;} 
+    .people-careers-inner {width: calc(100% + 154px); left: -77px; margin-bottom: 20px;} 
 }
 

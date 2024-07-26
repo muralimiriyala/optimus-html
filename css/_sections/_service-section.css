@@ -1,5 +1,6 @@
 
 .service-section{overflow: hidden;}
+.service-wrapper::after{content: ""; position: absolute; width: 100%; height: 1px; background-color: var(--Gray); bottom: 0; left: 0; opacity: 0.5;}
 .service-head h2{font-weight: 400; margin-bottom: 0;}
 .service-head h2 strong{font-weight: 600;}
 ul.service-subtitle{margin: 0 0 40px 0; gap: 20px;}
@@ -27,10 +28,17 @@ ul.service-subtitle > li a.active{color: var(--Blue);}
 .service-lists div.slick-arrow.slick-next{right: 0; top: -62px;}
 .service-lists  div.slick-arrow.slick-prev{left: auto; right: 72px; top: -62px;}
 
+.take-action-main{gap: 40px; align-items: center;}
+.take-action-main h3{font-weight: 400; margin-bottom: 0;}
+.take-action-main h3 strong{font-weight: 600;}
+.take-action-btn{width: fit-content;}
+.take-action-btn .text-btn-link > span{color: var(--Blue);}
+
 @media screen and (min-width: 1024px) {
-    .service-wrapper{padding: 80px 0 56px;}
+    .service-wrapper{padding: 80px 0 90px;}
     .service-svg{top: -25px; right: -104px; z-index: 0;}
     .service-head{max-width: 770px; margin-bottom: 84px;}
+    .service-main{margin-bottom: 56px;}
     .service-item{width: 264px; margin-right: 32px;}
 }
 
@@ -43,7 +51,7 @@ ul.service-subtitle > li a.active{color: var(--Blue);}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 744px) {
-    .service-wrapper{padding: 80px 0;}
+    .service-wrapper{padding: 80px 0 60px;}
     .service-svg{right: -40px; top: 0; z-index: 0;}
     .service-head{max-width: 531px; margin-bottom: 56px;}
     .service-head h2{font-size: 32px; line-height: 40px;}
@@ -52,12 +60,15 @@ ul.service-subtitle > li a.active{color: var(--Blue);}
     .service-lists div.slick-arrow.slick-next{top: -80px;}
     .service-lists  div.slick-arrow.slick-prev{top: -80px;}
 
+    .take-action-main{gap: 20px;}
+
 }
 @media screen and (max-width: 743px) and (min-width: 200px) {
-    .service-wrapper{padding: 96px 0 21px;}
+    .service-wrapper{padding: 96px 0 40px;}
     .service-svg{top: -39px; right: -24px; z-index: 0;}
     .service-head{margin-bottom: 24px; padding-right: 36px;}
     .service-head h2{font-size: 28px; line-height: 34px;}
+    .service-main{margin-bottom: 75px;}
     ul.service-subtitle{margin: 0 0 24px 0; gap: 20px;}
     .service-item{width: 288px; margin-right: 24px;}
     .service-append-arrows{margin: 24px 0 0; gap: 8px; align-items: center;}
@@ -67,4 +78,7 @@ ul.service-subtitle > li a.active{color: var(--Blue);}
     .service-append-arrows ul.slick-dots{order: 2; flex: 1;}
     .service-append-arrows ul.slick-dots li{background-color: rgba(25, 35, 76, .12);}
     .service-append-arrows ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}
+
+    .take-action-main{gap: 20px;}
+    .take-action-main h3{line-height: 32px;}
 }
