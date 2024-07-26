@@ -4,9 +4,8 @@
 .social-proof-title h1 strong{font-weight: 600; color: var(--Light-Blue);}
 .counter-num{font-size: 56px; line-height: 56px; color: var(--White);}
 .counter-desc{font-size: 16px; line-height: 24px; color: rgba(255, 255, 255, 0.6); padding-top: 20px; border-top: 1px solid var(--Light-Blue); margin-top: 20px;}
-
 .social-dot-circle{width: 40px; height: 40px; display: block; border: 9px solid var(--Light-Blue); border-radius: 50%;}
-
+[data-count-to="100"]{min-width: 98px;}
 
 
 @media screen and (min-width: 1024px){

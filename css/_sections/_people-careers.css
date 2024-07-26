@@ -6,14 +6,22 @@
 .people-careers-txt p{color: var(--Gray);}
 .people-careers-row.no_careers_images{display: block;}
 .people-careers-row.no_careers_text{justify-content: center;}
+.people-careers-main::before{width: 100%; height: 1px; position: relative; background-color: rgba(112,115,114,.5); display: block; content: "";}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .people-careers-main{padding: 40px 0 90px;}
-    /* .people-careers-row{gap: 78px;} */
     .people-careers-txt{flex: 0 0 50%;}
     .people-careers-images{flex: 0 0 50%;}
     .people-careers-txt h2{font-size: 56px;}
+}
+@media screen and (min-width: 1440px){
+    .people-careers-main{padding: 0 0 90px; margin: -24px 0 -121px;}
+    .people-careers-row{flex-wrap: nowrap;}
+    .people-careers-inner{left: -120px; min-width: 1066px; max-width: 1066px; min-height: 1066px;}
+    .people-careers-main::before{top: 32px;}
+}
+@media screen and (max-width:1439px) and (min-width:1024px){
+
 }
 @media screen and (max-width:1199px) and (min-width:1024px) {
     .people-careers-row{gap: 60px}
