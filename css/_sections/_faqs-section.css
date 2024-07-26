@@ -19,6 +19,9 @@ span.ui-plus::after{ width: 2px; height: 24px;  }
 .accordion-desc ol { margin: 0 0 28px 29px; }
 .accordion-desc ol > li::before { top: 0; left: -20px; font-size: 0.875rem; line-height: 1.313rem; }
 
+.accordion-wrap{padding: 90px 0 20px;}
+.accordion-head{justify-content: space-between; gap: 20px;}
+.accordion-head-lt h3{margin-bottom: 0;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .accordion-main{padding: 40px 0 60px;}
