@@ -35,7 +35,7 @@
     .people-careers-txt h2{font-size: 32px; line-height: 37px; margin-bottom: 16px;}
 }
 @media screen and (max-width:743px) and (min-width: 200px) {
-    .people-careers-main{padding: 40px 0 0;}
+    .people-careers-main{padding: 0;}
     .people-careers-btns .button{width: 100%;}
     .people-careers-inner {width: calc(100% + 154px); left: -77px; margin-bottom: 20px;} 
 }
