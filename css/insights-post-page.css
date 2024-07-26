@@ -57,6 +57,8 @@ body.single-post .insights-post-main{z-index: 810;}
   .insights-post-main .share-icons{display: block;}
   .insights-post-main .insights-row{margin-bottom: 40px;}
   .blog-post-row  div.slick-arrow{bottom: -14px;}
+  .insights-post-bracket{width: 100%; height: 48px; bottom: 0; left: 0; top: auto; border: 1px solid var(--Light-Blue); z-index: -1; border-top: 0; border-top-right-radius: 0; border-top-left-radius: 0;}
+  .insights-post-bracket.left { top: 0; transform: rotate(-180deg); }
 }
 @media screen and (max-width: 743px) and (min-width: 200px) {
   body.single-post .header::after{top: 84px; left: -100px; width: 519px; height: 316px; background-image: url("images/insights-decor-mobile.svg");}
