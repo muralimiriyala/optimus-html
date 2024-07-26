@@ -72,9 +72,8 @@ ul.service-subtitle > li a.active{color: var(--Blue);}
     ul.service-subtitle{margin: 0 0 24px 0; gap: 20px;}
     .service-item{width: 288px; margin-right: 24px;}
     .service-append-arrows{margin: 24px 0 0; gap: 8px; align-items: center;}
-    .service-append-arrows div.slick-arrow.slick-disabled{opacity: 0.25; background: var(--Navy); color: var(--Light-Blue);}
+    .service-append-arrows div.slick-arrow.slick-disabled{opacity: 0.25; background: var(--Navy);}
     .service-append-arrows div.slick-arrow.slick-next{order: 3;}
-    .service-append-arrows div.slick-arrow span.slick-arrows{color: var(--Light-Blue);}
     .service-append-arrows ul.slick-dots{order: 2; flex: 1;}
     .service-append-arrows ul.slick-dots li{background-color: rgba(25, 35, 76, .12);}
     .service-append-arrows ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}
