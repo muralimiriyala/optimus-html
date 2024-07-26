@@ -1,0 +1,9 @@
+.building-main-slider{padding: 40px 0;}
+.building-head{margin-bottom: 48px;}
+.building-head h3{font-size: 40px;}
+
+.building-row{gap: 32px;}
+.building-list{flex: 0 0 calc(25% - 24px); border: 1px solid var(--Light-Blue-Tint); padding: 32px; border-radius: 24px;}
+.building-list .num{font-size: 48px; color: var(--Blue); font-weight: 700; margin-bottom: 16px; display: block; line-height: 55px;}
+.building-list p{color: var(--Gray);}
+

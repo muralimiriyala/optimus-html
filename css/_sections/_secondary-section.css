@@ -1,39 +1,11 @@
-.secondary-section {
-    width: 100%;
-    clear: both;
-}
+.secondary-section { width: 100%; clear: both; }
 
-.secondary-main {
-    padding: 40px 0;
-}
-
-.secondary-list h3 {
-    margin-bottom: 16px;
-    font-weight: 600;
-}
-
-.secondary-icon {
-    display: block;
-    margin-bottom: 20px;
-    color: var(--Orange);
-    max-width: 40px;
-}
-
-.secondary-icon img {
-    object-fit: contain;
-    margin-top: -10px;
-}
-
-.secondary-list p {
-    color: var(--Gray);
-}
-
-body.page-template-our-people .secondary-section hr {
-    margin: 40px 0;
-    background: var(--Gray-50);
-    height: 1px;
-    width: 100%;
-}
+.secondary-main { padding: 40px 0; }
+.secondary-list h3 { margin-bottom: 16px; font-weight: 600; }
+.secondary-icon { display: block; margin-bottom: 20px; color: var(--Orange); max-width: 40px; }
+.secondary-icon img { object-fit: contain; margin-top: -10px; }
+.secondary-list p { color: var(--Gray); }
+body.page-template-our-people , body.page-template-about .secondary-section hr { margin: 40px 0; background: var(--Gray-50); height: 1px; width: 100%; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
