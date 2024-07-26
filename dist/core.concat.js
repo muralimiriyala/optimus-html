@@ -5298,7 +5298,6 @@ function check_if_view() {
         let $this = jQuery(this);
         let countTo = parseInt($this.attr("data-count-to"));
         let countDuration = parseInt($this.attr("data-count-duration"));
-console.log(countDuration*2)
         jQuery({ counter: 0 }).animate(
           {
             counter: countTo

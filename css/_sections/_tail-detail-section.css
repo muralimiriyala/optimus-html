@@ -21,3 +21,14 @@ body.page-template-service-detail-sub .tail-detail-main::after{content: ""; disp
 
     body.page-template-service-detail-sub .tail-detail-main { padding: 40px 0 0; }
 }
+
+@media screen and (max-width: 1023px) and (min-width: 744px) {
+    .tail-detail-row{gap: 32px;}
+    .tail-detail-list{flex: 0 0 calc(50% - 22px);}
+
+}
+
+@media screen and (max-width: 743px) and (min-width: 200px) {
+    .tail-detail-list {margin-bottom: 32px;}
+    body.page-template-service-detail-sub .tail-detail-main::after {margin-top: 16px;}
+}
