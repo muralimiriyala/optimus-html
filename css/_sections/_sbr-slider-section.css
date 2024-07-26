@@ -74,7 +74,7 @@ body.home .sbr-slider-main{padding: 80px 0;}
     .sbr-slide-image::after {left: 28px; right: auto; top: inherit;  bottom: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-    body.home .sbr-slider-main{padding: 40px 0;}
+    body.home .sbr-slider-main{padding: 48px 0;}
     .sbr-active .sbr-block::after { top: -50px; transform: rotate(-126deg); left: -10px; }
     .sbr-active .sbr-block::before, .sbr-block::after {border-top: 10px solid var(--White); border-right: 10px solid transparent; border-left: 10px solid transparent; border-bottom: 10px solid transparent;}
     .sbr-active .sbr-block::before{ top: 7px; left: 46px; transform: rotate(-135deg);}
