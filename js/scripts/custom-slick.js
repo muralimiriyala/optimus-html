@@ -95,7 +95,8 @@ jQuery(document).ready(function ($) {
     }
   }
   recentSlider();
-  
+  $(window).on("resize", function () { recentSlider(); });
+
   function serviceSlider() {
     const serviceAppend = $(".service-append-arrows");
       if (!$('.service-lists').hasClass('slick-initialized')) {

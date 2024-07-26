@@ -12,14 +12,12 @@
     .insights-list-2{flex: 0 0 calc(50% - 21px);}
     .insights-list-1{flex: 1;}
 }
-
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .recent-insights-list{gap: 32px;}
     .recent-insights-item{padding-left: 32px;}
     .insights-list-3{flex: 0 0 calc(33.33333% - 22px);}
     .insights-list-2{flex: 0 0 calc(50% - 16px);}
     .insights-list-1{flex: 1;}
-
 }
 @media screen and (max-width: 1023px) and (min-width: 744px){
     .recent-insights-main{padding: 32px 0; align-items: center;}
@@ -29,7 +27,6 @@
     .insights-list-3{flex: 0 0 calc(33.33333% - 22px);}
     .insights-list-2{flex: 0 0 calc(50% - 16px);}
     .insights-list-1{flex: 1;}
-
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
     .recent-insights-main{padding: 24px 0; align-items: center;}
