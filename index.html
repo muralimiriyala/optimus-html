@@ -64,10 +64,12 @@
                 </g>
             </svg> 
         </div>
+
         <picture class="object-fit">
             <source srcset="images/home-banner-new@2x.jpg" media="(min-width: 744px)">
             <img src="images/home-banner-mobile-new@2x.jpg" alt="home-banner">
         </picture>
+        <!-- <div class="banner-bg background-bg home-banner-iframe" data-ytbg-fade-in="true" data-youtube="https://www.youtube.com/watch?v=feJWOrqn8VI"> </div> -->
     </div>
     <div class="container">
         <div class="home-banner-main">
@@ -112,6 +114,9 @@
                     </div>
                     <div class="recent-insights-item relative insights-list-3 flex flex-center">
                         <p>4 Essential Steps to Enhance Your Organization’s Data Capabilities: A Roadmap for Success</p>
+                    </div>
+                    <div class="recent-insights-item relative insights-list-3 flex flex-center">
+                        <p>Navigating the Future: How Canadian Leaders Can Forge Resilient Strategies in the ESG Landscape</p>
                     </div>
                     <div class="recent-insights-item relative insights-list-3 flex flex-center">
                         <p>Navigating the Future: How Canadian Leaders Can Forge Resilient Strategies in the ESG Landscape</p>
@@ -217,9 +222,12 @@
             <div class="social-proof-title">
                 <h1>Social <span>proof</span> section that highlights our <span>impact</span> in key industry verticals.</h1>
             </div>
-            <div class="social-proof-counter flex">
+            <div class="social-proof-counter flex" data-counter-main="counter-main">
                 <div class="social-proof-counter-list">
-                    <span class="counter-num">100+</span>
+                    <div class="counter-num flex">
+                        <span class="counter" data-count-duration="2000" data-count-to="100">100</span>
+                        <span>+</span>
+                    </div>
                     <div class="counter-desc">
                         <p>Undo rotate boolean strikethrough overflow background text auto. Star list pixel group rectangle shadow.</p>
                     </div>
@@ -234,6 +242,12 @@
                     <span class="counter-num">4500+</span>
                     <div class="counter-desc">
                         <p>Thumbnail asset figma library vector overflow line ellipse component image polygon star font follower.</p>
+                    </div>
+                </div>
+                <div class="social-proof-counter-list">
+                    <span class="counter-num">$300B</span>
+                    <div class="counter-desc">
+                        <p>Connection boolean align selection comment bullet shadow distribute resizing duplicate polygon fill.</p>
                     </div>
                 </div>
                 <div class="social-proof-counter-list">
@@ -505,11 +519,6 @@
         </div>
     </div>
 </section> 
-<section class="divider-section">
-    <div class="container">
-        <hr class="divider-line">
-    </div>
-</section>    
 <section class="sbr-slider-section">
     <div class="container">
     <div class="sbr-slider-main">
@@ -747,11 +756,6 @@
     </div>
     </div>
 </section>
-<section class="divider-section">
-    <div class="container">
-        <hr class="divider-line">
-    </div>
-</section> 
 <section class="people-careers-section">
     <div class="container">
       <div class="people-careers-main">
@@ -780,7 +784,7 @@
             </div>
           </div>
           <div class="people-careers-images relative">
-            <div class="people-careers-inner">
+            <div class="people-careers-inner relative">
                 <picture class="people-careers-thumb object-fit">
                     <source srcset="images/people-img-new@2x.png" media="(min-width: 744px)" />
                     <img src="images/people-img-mobile@2x.png" alt="" />
@@ -1247,6 +1251,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/daf2e8de71.js" crossorigin="anonymous"></script>
-<script src="./dist/core.bundle.js"></script>
+<script src="./dist/core.concat.js"></script>
 </body>
 </html>
