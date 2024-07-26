@@ -1,6 +1,6 @@
 
 .recent-insights-lt h5{margin-bottom: 0;}
-.recent-insights-item{font-size: 16px; line-height: 20px; font-weight: 400; font-family: 'Blackbird'; padding-left: 40px; height: 100%;}
+.recent-insights-item{font-size: 16px; line-height: 20px; font-weight: 400; padding-left: 40px;}
 .recent-insights-item::before{content: ""; position: absolute; top: 0; left: 0; height: 100%; width: 1px; background-color: var(--Light-Blue);}
 
 @media screen and (min-width: 1024px) {
