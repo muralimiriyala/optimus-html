@@ -1,8 +1,10 @@
-.people-careers-txt h2{font-size: 40px; line-height: 1.15; font-weight: 400; margin-bottom: 18px;}
+.people-careers-desc{font-size: 16px; line-height: 28px;}
+.people-careers-txt h2{font-size: 48px; line-height: 60px; font-weight: 400; margin-bottom: 32px;}
+.people-careers-txt h2 strong{font-weight: 600;}
 .people-careers-icon{margin-right: 10px; color: var(--Light-Blue); font-size: 20px; line-height: 20px;}
 .people-careers-cont span{font-size: 15px; color: var(--Blue);}
-.people-careers-cont{margin-bottom: 14px;}
-.people-careers-btns{gap: 16px;}
+.people-careers-cont{margin-bottom: 27px;}
+.people-careers-btns{gap: 16px; margin-top: 32px;}
 .people-careers-txt p{color: var(--Gray);}
 .people-careers-row.no_careers_images{display: block;}
 .people-careers-row.no_careers_text{justify-content: center;}
@@ -12,12 +14,13 @@
 @media screen and (min-width: 1024px){
     .people-careers-txt{flex: 0 0 50%;}
     .people-careers-images{flex: 0 0 50%;}
-    .people-careers-txt h2{font-size: 56px;}
+    .people-careers-desc{max-width: 560px;}
+    .people-careers-row{flex-wrap: nowrap;}
+    .people-careers-inner{left: -120px; min-width: 1066px; max-width: 1066px; min-height: 1066px;}
 }
 @media screen and (min-width: 1440px){
     .people-careers-main{padding: 0 0 90px; margin: -24px 0 -121px;}
     .people-careers-row{flex-wrap: nowrap;}
-    .people-careers-inner{left: -120px; min-width: 1066px; max-width: 1066px; min-height: 1066px;}
     .people-careers-main::before{top: 32px;}
 }
 @media screen and (max-width:1439px) and (min-width:1024px){
@@ -28,14 +31,14 @@
 }
 @media screen and (max-width:1023px) and (min-width: 200px) {
     .people-careers-main{padding: 40px 0 40px;}
-    .people-careers-row{flex-direction: column-reverse; gap: 64px; text-align: center;}
-    .people-careers-cont{justify-content: center;}
+    .people-careers-row{display: block; text-align: center; padding: 40px 0;}
+    .people-careers-cont{justify-content: center; margin-bottom: 11px;}
     .people-careers-btns{justify-content: center;}
-    .people-careers-txt h2{font-size: 32px;}
+    .people-careers-txt h2{font-size: 32px; line-height: 37px; margin-bottom: 16px;}
 }
 @media screen and (max-width:743px) and (min-width: 200px) {
-    .people-careers-main{padding: 40px 0 40px;}
-    .people-careers-main::after{margin-top: 47px; width: 100%; height: 1px; opacity: 0.5; background-color: var(--Gray); content: ""; display: block;}
+    .people-careers-main{padding: 40px 0 0;}
     .people-careers-btns .button{width: 100%;}
+    .people-careers-images{width: calc(100% + 154px); left: -77px; margin-bottom: 20px;} 
 }
 
