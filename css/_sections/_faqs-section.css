@@ -21,7 +21,7 @@ span.ui-plus::after{ width: 2px; height: 24px;  }
 
 .accordion-wrap{padding: 90px 0 20px;}
 .accordion-head{justify-content: space-between; gap: 20px;}
-.accordion-head-lt h3{margin-bottom: 0;}
+.accordion-head-lt h3{margin-bottom: 0; font-size: 40px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .accordion-main{padding: 40px 0 60px;}

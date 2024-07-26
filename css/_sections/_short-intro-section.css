@@ -20,14 +20,14 @@ body.page-template-our-culture .short-intro-main::before { content: ""; display:
 body.page-template-service-detail-sub .short-intro-main{padding: 80px 0 0px;}
 body.page-template-service-detail-sub .short-intro-main::after{content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: .5; margin-top: 40px;}
 body.page-template-service-detail-sub .intro-second-section .short-intro-main::after{display: none;}
-
+.intro-second-section .short-intro-main{border-top: 1px solid var(--Gray-50);}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .short-intro-head{gap: 48px; margin-bottom: 40px;}
     .short-intro1-of-1 h3{max-width: 100%;}
     body.page-template-our-culture .short-intro-row{padding: 80px 0 0;}
 
-    .intro-second-section .short-intro-main{padding: 87px 0 0; margin-top: 7px; border-top: 1px solid var(--Gray-50);}
+    .intro-second-section .short-intro-main{padding: 87px 0 0; margin-top: 7px; }
 }
 @media screen and (min-width:1200px){
     .short-intro-title { flex: 0 0 400px; }
@@ -50,6 +50,8 @@ body.page-template-service-detail-sub .intro-second-section .short-intro-main::a
     .short-intro1-of-4{flex: 0 0 calc(25% - 24px);}
     .short-intro1-of-3{flex: 0 0 calc(33.333333% - 29px);}
     .short-intro1-of-2{flex: 0 0 calc(50% - 16px);}
+
+    body.page-template-service-detail-sub .short-intro-main::after {margin-top: 80px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 744px) {
     .short-intro-head{padding: 0 0 80px; display: block;}
@@ -60,6 +62,7 @@ body.page-template-service-detail-sub .intro-second-section .short-intro-main::a
     .short-intro-row{gap: 32px; padding: 0;}
     .short-intro-list{flex: 0 0 calc(50% - 24px);}
     body.page-template-our-culture .short-intro-row{padding: 80px 0 0;}
+    body.page-template-service-detail-sub .short-intro-main::after {margin-top: 80px;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .short-intro-head{display: block; padding: 0 0 61px;}
@@ -72,4 +75,6 @@ body.page-template-service-detail-sub .intro-second-section .short-intro-main::a
     body.page-template-career .short-intro-main::after {margin-top: 48px;}
     body.page-template-our-culture .short-intro-row{padding: 40px 0 0;}
     body.page-template-our-culture .short-intro-main{padding: 10px 0 40px;}
+    body.page-template-service-detail-sub .short-intro-main { padding: 40px 0 0; }
+    body.page-template-service-detail-sub .short-intro-main:after{margin-top: 48px;}
 }
