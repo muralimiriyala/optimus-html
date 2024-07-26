@@ -5,6 +5,14 @@
 .counter-num{font-size: 56px; line-height: 56px; color: var(--White);}
 .counter-desc{font-size: 16px; line-height: 24px; color: rgba(255, 255, 255, 0.6); padding-top: 20px; border-top: 1px solid var(--Light-Blue); margin-top: 20px;}
 .social-dot-circle{width: 40px; height: 40px; display: block; border: 9px solid var(--Light-Blue); border-radius: 50%;}
+
+/* .social-dot-circle > span{ animation: 5s socialZooming infinite linear; transform: scale(1); filter: opacity(0.1); -webkit-filter: opacity(0.1); background-color: var(--Blue);}
+.social-dot-circle > span:nth-child(2) { -webkit-animation-delay: 2s; animation-delay: 2s; }
+.social-dot-circle > span:nth-child(3) { -webkit-animation-delay: 4s; animation-delay: 4s; }
+@keyframes socialZooming { 0% { transform: scale(1); opacity: 1; } 100% { transform: scale(5); opacity: 0; } }
+ */
+
+
 [data-count-to="100"]{min-width: 98px;}
 
 
