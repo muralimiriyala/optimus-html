@@ -16,6 +16,7 @@ body.home .sbr-slider-main{padding: 80px 0;}
 .sbr-icon{display: none;}
 .sbr-slide-image.sbr-active:after{display: none;} 
 
+
 .sbr-slide-image::before{position: absolute; width: 40px; height: 40px; background: var(--White); color: var(--Blue); border-radius: 50%; left: auto; right: -16px; content:""; z-index: 2; top: 50%; transform: translate(-50%, -50%);}
 .sbr-slide-image:after{position: absolute; width: 24px; font-size: 24px; color: var(--Light-Blue); content: "\f178"; display: block; right: 0; left: auto; font-family: "Font Awesome 6 Sharp"; top: 50%; transform: translate(-50%, -50%); z-index: 2; font-weight: 100;}
 .sbr-active .sbr-slide-image::after{display: none;}
@@ -30,10 +31,10 @@ body.home .sbr-slider-main{padding: 80px 0;}
     body.home .sbr-slider-text{padding: 80px 0 22px;}
     .sbr-slide-desktop{display: none;}
     .sbr-slide-desktop h2{line-height: 60px;}
-    .sbr-slide-image{height: 49px; cursor: pointer; transition: height 0.3s ease;}
-    .sbr-slide-image:hover{height: 60px;}
-    .sbr-active .sbr-slide-image{height: 512px;}
-    .sbr-hover-active .sbr-slide-image{height: calc(512px - 10px);}
+    .sbr-slide-image img{height: 49px; cursor: pointer; transform-origin: 50% 50%; transition: height 0.3s ease;}
+    .sbr-slide-image:hover img{height: 59px; }
+    .sbr-active .sbr-slide-image img{height: 512px;}
+    .sbr-hover-active .sbr-slide-image img{height: calc(512px - 10px);}
     .sbr-slider-author{gap: 40px;}
     .sbr-author-image{flex: 0 0 216px;}
     .sbr-author-text{flex: 1;}
