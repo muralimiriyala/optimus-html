@@ -8,7 +8,13 @@
 .social-dot-circle {width: 100px; height: 100px;}
 .s-blue-circle{width: 40px; height: 40px; display: block; border: 9px solid var(--Light-Blue); border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 .s-blue-gradient{ width: 100px; height: 100px; z-index: -1;}
-.s-blue-gradient span{width: 100px; height: 100px; top: 50%; left: 50%; position: absolute; animation: 5s socialZooming infinite linear; transform: scale(1); border-radius: 50%;  animation-delay: 1s;  background-image: linear-gradient(to left, rgba(25, 35, 76, 0), #19234c), linear-gradient(to bottom, #004c97, #004c97); display: block;}
+.s-blue-gradient span{width: 100px; height: 100px; top: 50%; left: 50%; position: absolute; 
+    animation-duration: 5s;
+    animation-name: socialZooming;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+   transform: scale(1); border-radius: 50%;  animation-delay: 1s;  background-image: linear-gradient(to left, rgba(25, 35, 76, 0), #19234c), linear-gradient(to bottom, #004c97, #004c97); display: block;}
 .s-blue-gradient span:nth-child(2) {  animation-delay: 2s; }
 .s-blue-gradient span:nth-child(3) { animation-delay: 3s; }
 .s-blue-gradient span:nth-child(4){animation-delay: 4s;}
