@@ -31,7 +31,7 @@ body.home .sbr-slider-main{padding: 80px 0;}
     body.home .sbr-slider-text{padding: 80px 0 22px;}
     .sbr-slide-desktop{display: none;}
     .sbr-slide-desktop h2{line-height: 60px;}
-    .sbr-slide-image img{height: 49px; cursor: pointer; transform-origin: 50% 50%; transition: height 0.3s ease;}
+    .sbr-slide-image img{height: 49px; cursor: pointer;  transform-origin: 50% 50%; transition: height 0.3s ease;}
     .sbr-slide-image:hover img{height: 59px; }
     .sbr-active .sbr-slide-image img{height: 512px;}
     .sbr-hover-active .sbr-slide-image img{height: calc(512px - 10px);}
