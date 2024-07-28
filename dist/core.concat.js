@@ -4433,7 +4433,6 @@ $.magnificPopup.registerModule(RETINA_NS, {
     ],
 
     dom: {
-      observer: $('<div class="stickme_observer">'),
       holder: $('<div class="stickme-holder">'),
     },
 
@@ -4480,9 +4479,6 @@ $.magnificPopup.registerModule(RETINA_NS, {
         // Attach options
         obj.options = plugin.setup.options(params);
 
-        // Create observer
-        obj.createObserver();
-
         // Set initial width and position
         obj.setPosition();
 
@@ -4497,7 +4493,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
       },
 
       getPosition: function () {
-        return $(this.observer).offset().top - $(document).scrollTop();
+        return $(this).offset().top - $(document).scrollTop();
       },
 
       setPosition: function () {
@@ -4513,25 +4509,16 @@ $.magnificPopup.registerModule(RETINA_NS, {
         return obj;
       },
 
-      createObserver: function () {
-        var obj = this;
-
-        obj.observer = plugin.dom.observer.clone();
-        obj.before(obj.observer);
-
-        return obj;
-      },
-
       setStyles: function () {
         var obj = this;
         obj.css({
-          width: obj.observer.width(),
+          width: obj.parent().width(),
           position: "fixed",
-          left: obj.observer.offset().left,
+          left: obj.parent().offset().left,
           top: obj.options.top,
         });
 
-        obj.observer.height(obj.height());
+        obj.parent().height(obj.height());
 
         return obj;
       },
@@ -4541,7 +4528,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
 
         obj.children().trigger("onStick", [obj.children()]);
         obj.stickmeMode = "sticked";
-        obj.observer.height(obj.height());
+        obj.parent().height(obj.height());
         obj.setStyles();
 
         return obj;
@@ -4552,7 +4539,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
 
         obj.children().trigger("onUnstick", [obj.children()]);
         obj.stickmeMode = "unsticked";
-        obj.observer.height(0);
+        obj.parent().height(0);
         obj.removeAttr("style");
 
         return obj;
@@ -4594,9 +4581,6 @@ $.magnificPopup.registerModule(RETINA_NS, {
           if (obj.stickmeMode === "sticked") {
             obj.unstick();
           }
-
-          // Remove the observer HTML from the DOM
-          obj.observer.remove();
 
           // Unbind provided events
           (function () {
