@@ -1,0 +1,8 @@
+
+
+
+@media screen and (min-width: 1024px) {
+    .service-details-article{padding: 88px 0;}
+    body.page-template-service-detail .video-main{padding: 64px 0;}
+    body.page-template-service-detail .inline-images-row{margin: 64px 0;}
+}

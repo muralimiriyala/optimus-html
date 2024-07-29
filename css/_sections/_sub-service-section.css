@@ -1,0 +1,30 @@
+
+.sub-service-main::before{content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background-color: var(--Gray); opacity: 0.5;}
+.sub-service-inner{background: var(--Light-Blue-Tint); padding: 64px 0 64px 48px; border-radius: 24px;}
+
+.sub-service-menu{margin: 0;}
+.sub-service-menu > li{margin-bottom: 12px; line-height: normal;}
+.sub-service-menu > li:last-child{margin-bottom: 0;}
+.sub-service-menu > li::before{content: ""; position: absolute; top: 18px; left: 18px; width: 4px; height: 4px; opacity: 1; background-color: var(--Light-Blue); border-radius: 50%; z-index: 1;}
+.sub-service-menu > li::after{content: ""; position: absolute; top: 12px; left: 12px; width: 16px; height: 16px; border-radius: 16px; background-color: var(--White);}
+.sub-service-menu > li > a{padding: 9px 0 8px 36px; display: block;}
+.sub-service-menu > li.active{border-radius: 20px 0px 0px 20px; background-color: var(--White);}
+.sub-service-menu > li.active::before{top: 16px; left: 16px; width: 8px; height: 8px; background-color: var(--Orange);}
+.sub-service-menu > li.active::after{background-color: rgba(241, 124, 35, 0.50); animation: ripple 0.7s linear infinite;}
+
+@keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(241, 124, 35, 0.50),
+                  0 0 0 1em rgba(241, 124, 35, 0.50),
+    }
+    100% {
+      box-shadow: 0 0 0 1em rgba(241, 124, 35, 0.50),
+                  0 0 0 2em rgba(241, 124, 35, 0),
+    }
+  }
+
+@media screen and (min-width: 1024px) {
+    .sub-service-main{padding: 80px 0 88px; gap: 80px;}
+    .sub-service-title{flex: 0 0 400px;}
+    .sub-service-content{flex: 0 0 calc(100% - 480px); padding-top: 71px;}
+}
