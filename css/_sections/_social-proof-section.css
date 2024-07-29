@@ -1,5 +1,5 @@
 
-.social-proof-section{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); }
+.social-proof-bg{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); }
 .social-proof-title{z-index: 2;}
 .social-proof-title h1{font-size: 64px; font-weight: 400; color: var(--White); line-height: 80px; margin-bottom: 0;}
 .social-proof-title h1 strong{font-weight: 600; color: var(--Light-Blue);}
@@ -7,12 +7,86 @@
 .counter-desc{font-size: 16px; line-height: 24px; color: rgba(255, 255, 255, 0.6); padding-top: 20px; border-top: 1px solid var(--Light-Blue); margin-top: 20px;}
 .social-dot-circle {width: 100px; height: 100px;}
 .s-blue-circle{width: 40px; height: 40px; display: block; border: 9px solid var(--Light-Blue); border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%);}
-.s-blue-gradient{ width: 100px; height: 100px; z-index: -1; position: relative;}
-.s-blue-gradient span{width: 100px; height: 100px; top: 50%; left: 50%; position: absolute; animation: 5s socialZooming infinite linear; transform: scale(1); border-radius: 50%;  animation-delay: 1s;  background-image: linear-gradient(to left, rgba(25, 35, 76, 0), #19234c), linear-gradient(to bottom, #004c97, #004c97); display: block;}
-.s-blue-gradient span:nth-child(2) {  animation-delay: 2s; }
-.s-blue-gradient span:nth-child(3) { animation-delay: 3s; }
-.s-blue-gradient span:nth-child(4){animation-delay: 4s;}
-@keyframes socialZooming { 0% { transform: scale(1); } 100% { transform: scale(10);} }
+.s-blue-gradient{ width: 0px; height: 0px; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; }
+.s-blue-gradient > span {
+    transition-duration: .75s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.075, .82, .165, 1);
+    z-index: -1;
+    position: absolute; 
+}
+
+.s-blue-gradient span {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    filter: opacity(0.5);
+    -webkit-filter: opacity(0.5);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: translate(-50%, -50%) scale(1);
+    animation-duration: 2s;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, rgba(25, 35, 76, 0), #19234c), linear-gradient(to bottom, #004c97, #004c97);
+    display: block;
+}
+
+.s-blue-gradient span:nth-child(1) {
+    animation-name: socialZooming1;
+}
+.s-blue-gradient span:nth-child(2) {
+    animation-name: socialZooming2;
+}
+/* .s-blue-gradient span:nth-child(3) {
+    animation-duration: 5s;
+    animation-name: socialZooming3;
+}
+.s-blue-gradient span:nth-child(4) {
+    animation-duration: 4s;
+    animation-name: socialZooming4;
+}
+.s-blue-gradient span:nth-child(5) {
+    animation-duration: 3s;
+    animation-name: socialZooming5;
+}
+.s-blue-gradient span:nth-child(6) {
+    animation-duration: 2s;
+    animation-name: socialZooming6;
+}
+.s-blue-gradient span:nth-child(7) {
+    animation-duration: 1s;
+    animation-name: socialZooming7;
+} */
+
+/* @keyframes socialZooming1 {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    100% { transform: translate(-50%, -50%) scale(7); opacity: 0; }
+}
+@keyframes socialZooming2 {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    100% { transform: translate(-50%, -50%) scale(6); opacity: 0; }
+}
+@keyframes socialZooming3 {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    100% { transform: translate(-50%, -50%) scale(5); opacity: 0; }
+}
+@keyframes socialZooming4 {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    100% { transform: translate(-50%, -50%) scale(4); opacity: 0; }
+}
+@keyframes socialZooming5 {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    100% { transform: translate(-50%, -50%) scale(3); opacity: 0; }
+}
+@keyframes socialZooming6 {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    100% { transform: translate(-50%, -50%) scale(2); opacity: 0; }
+}
+@keyframes socialZooming7 {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    100% { transform: translate(-50%, -50%) scale(1); opacity: 0; }
+} */
 
 
 
