@@ -14,6 +14,7 @@ body.page-template-career .short-intro-main{padding: 40px 0 0;}
 body.page-template-our-culture .short-intro-main::before { content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: 0.5; ; }
 .short-intro-head.no_intro_desc{display: block;}
 .no_intro_desc .short-arrow-img{display: none;}
+.no_intro_head .short-arrow-img{display: none;}
 
 .short-intro-row.no_intro_desc .short-intro-title { flex: 100%; }
 
@@ -29,7 +30,7 @@ body.page-template-service-detail-sub .intro-second-section .short-intro-main::a
     body.page-template-our-culture .short-intro-row{padding: 80px 0 0;}
 
     .intro-second-section .short-intro-main{padding: 87px 0 0; margin-top: 7px; }
-    
+    .no_intro_head .short-intro-desc{padding-left: 0;}
 }
 @media screen and (min-width:1200px){
     .short-intro-title { flex: 0 0 400px; }
