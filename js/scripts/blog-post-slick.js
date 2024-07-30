@@ -14,21 +14,14 @@ jQuery(document).ready(function () {
               arrows: true,
               prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
               nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+              appendArrows: $slickappend,
               dots: true,
+              appendDots: $slickappend,
               speed: 1000,
               infinite: false,
               autoplay: false,
               variableWidth: true,
-              responsive: [
-                {
-                  breakpoint: 743,
-                  settings: {
-                    adaptiveHeight: true,
-                    appendArrows: $slickappend,
-                    appendDots: $slickappend,
-                  },
-                },
-              ],
+              adaptiveHeight: false,
             });
           }
         } else {
@@ -39,7 +32,9 @@ jQuery(document).ready(function () {
               arrows: true,
               prevArrow:'<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
               nextArrow:'<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+              appendArrows: $slickappend,
               dots: true,
+              appendDots: $slickappend,
               speed: 1000,
               infinite: false,
               autoplay: false,

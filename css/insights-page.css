@@ -27,6 +27,13 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-webkit
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{font-size: 16px; color: var(--White); font-family: "Blackbird", sans-serif; opacity: 1;}
 
 
+.blog-append-arrows{ margin: 24px 0; gap: 8px; align-items: center; }
+.blog-append-arrows div.slick-arrow.slick-next { order: 3; }
+.blog-append-arrows ul.slick-dots { order: 2; flex: 1; }
+.blog-append-arrows ul.slick-dots li{background-color: var(--Navy-25);}
+.blog-append-arrows ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px){
     .blog-post-row.slick-slider .blog-post-list{width: 296px; margin-right: 32px;}
@@ -38,7 +45,7 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     .blog-post-row{gap: 32px;}
     .blog-post-list{flex: 0 0 calc(25% - 24px);}
 
-    .blog-post-rt-text{flex: 0 0 50%;}
+    .blog-post-rt-text{flex: 0 0 50%; display: flex; align-items: center; flex-wrap: wrap;}
     .blog-post-rt-image{flex: 0 0 50%;}
     
     .resources-blog-main{padding: 54px 0 79px;}
@@ -68,8 +75,10 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     .blog-post-rt{display: none;}
 
     .resources-blog-main{padding: 24px 0 64px;}
-    .resources-blog-row{gap: 32px; margin-bottom: 64px;}
+    .resources-blog-row{gap: 32px; padding: 61px 0 63px;}
     .resources-blog-list{flex: 0 0 calc(50% - 16px);}
+
+
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     
@@ -92,10 +101,5 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     .slick-slider .blog-post-list{width: 296px; margin-right: 38px; height: auto;}
 
 
-    .blog-append-arrows{ margin: 24px 0; gap: 8px; align-items: center; }
-    .blog-append-arrows div.slick-arrow.slick-next { order: 3; }
-    .blog-append-arrows ul.slick-dots { order: 2; flex: 1; }
-    .blog-append-arrows ul.slick-dots li{background-color: var(--Navy-25);}
-    .blog-append-arrows ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}
 
 }

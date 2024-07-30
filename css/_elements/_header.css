@@ -21,9 +21,9 @@ header.sticky-header{z-index: 850; background: var(--Blue);}
 @media screen and (min-width: 1024px) {
     body.page-template-service-landing header.site-header:not(.sticky-header){background-color: transparent;}
     body.home header.site-header:not(.sticky-header){background: transparent;}
-    body.page-template-insights header.site-header:not(.sticky-header){background-color: transparent;}
+    body.category-insights header.site-header:not(.sticky-header){background-color: transparent;}
     body.home .site-main-cover,
-    body.page-template-insights .site-main-cover{padding-top: 0;}
+    body.category-insights .site-main-cover{padding-top: 0;}
 }
 @media screen and (min-width: 936px) {
     .header{ gap: 16px;  }
