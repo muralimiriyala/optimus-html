@@ -23,7 +23,7 @@ button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px);
 .res-scroll-top .res-dropdown{transform: translateY(-30px);}
 .res-scroll-top .res-srch-form{transform: translateY(-30px);}
 
-.res-srch-main{z-index: 2;}
+
 .res-category{color: var(--Navy); font-family: "arboria", sans-serif; font-size: 28px; font-weight: 700; line-height: 38px;}
 .res-category span{font-weight: 400;}
 .res-category-arrow{ top: 3px; color: var(--Blue); font-size: 20px; line-height: 20px; position: relative; }
@@ -43,7 +43,6 @@ ul.blog_list{margin: 0; width: 100%;}
 
 /* media css starts here */
 @media screen and (min-width: 744px){
-    .res-srch-main{z-index: 2;}
     .res-dropdown-pos{width: fit-content;}
     .res-srch-form.open .res-srch-field{width: 436px; opacity: 1;}
     .res-srch-field{padding: 2px; width: 0; opacity: 0; transition: all 0.5s ease-in-out; border: 4px solid var(--Orange);}
@@ -69,7 +68,7 @@ ul.blog_list{margin: 0; width: 100%;}
 }
 @media screen and (max-width: 1023px) and (min-width: 744px){
     .res-dropdown-main{gap: 32px;}
-    .res-srch-main{gap: 32px;}
+    .res-srch-main{gap: 32px 72px;}
     .res-srch-form.open .res-srch-field{width: 309px;}
     .resources-wrap{padding: 32px 0 62px;}
     .resources-blogs{padding: 42px 0 0;}
@@ -86,7 +85,7 @@ ul.blog_list{margin: 0; width: 100%;}
     body.page-template-integrations .res-srch-form{margin-bottom: 17px;}
     .res-srch-field { padding: 2px; transition: all .5s ease-in-out;  }
     button.res-srch-icon{display: none;}
-    button.res-expand-icon{font-size: 24px; right: 24px; top: calc(50% - 1px);}
+    button.res-expand-icon{font-size: 24px; right: 24px; top: calc(50% + 1px);}
     button.res-expand-icon:hover{color: var(--Orange);}
     .resources-row{display: block;}
     .resources-list{margin-bottom: 24px;}
