@@ -2,16 +2,9 @@
 .post-array-bg { top: 296px; left: -100vw; width: 1000vw; height: 100%; z-index: -1; }
 .post-array-text { opacity: 0; }
 
-.post-array-padd {
-    padding: 32px 28px 21px 30px;
-}
-.post-array-cat-main{
-
-    margin-bottom: 25px;
-}
-.post-array-cat {
-    gap: 8px;
-}
+.post-array-padd { padding: 32px 28px 21px 30px; }
+.post-array-cat-main{ gap: 8px; margin-bottom: 25px; display: flex; flex-wrap: wrap; }
+.post-array-cat { gap: 8px; width: fit-content;}
 
 .post-array-icon {
     font-size: 20px;

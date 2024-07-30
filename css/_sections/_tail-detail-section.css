@@ -18,7 +18,6 @@ body.page-template-service-detail-sub .tail-detail-main::after{content: ""; disp
     .tail-detail-main{padding: 40px 0 40px;}
     .tail-detail-row{gap: 32px; padding-top: 16px;}
     .tail-detail-list{flex: 0 0 calc(33.3333% - 22px);}
-
     body.page-template-service-detail-sub .tail-detail-main { padding: 40px 0 0; }
 }
 
