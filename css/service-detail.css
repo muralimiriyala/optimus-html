@@ -1,8 +1,17 @@
 
-.blue-line{width: 100%; height: 2px; margin: 64px 0; background-color: var(--Gray); opacity: 0.5;}
+.blue-line{width: 100%; height: 2px; margin: 64px 0; background-color: var(--Light-Blue); opacity: 0.5;}
 
 @media screen and (min-width: 1024px) {
     .service-details-article{padding: 88px 0;}
     body.page-template-service-detail .video-main{padding: 64px 0;}
     body.page-template-service-detail .inline-images-row{margin: 64px 0;}
+}
+
+@media screen and (max-width: 1023px)  and (min-width: 200px){
+    .service-details-article{padding: 48px 0;}
+    .service-details-article h2{font-size: 40px; line-height: 50px;}
+    body.page-template-service-detail .video-main{margin: 56px 0;}
+    body.page-template-service-detail .sub-detail-line-wrap{padding: 30px 0 0;}
+    .blue-line{ margin: 56px 0;}
+    body.page-template-service-detail .inline-images-row{margin: 56px 0; padding: 0;}
 }

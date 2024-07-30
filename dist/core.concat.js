@@ -6149,6 +6149,29 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   accordions(".accordion-list", ".accordion-header", ".accordion-content");
   /*-- accordions ends here --*/
+
+  if ($(window).width() >= 744) {
+    jQuery(".sub-service-menu > li, .sub-service-menu > li a").click(function (e) {
+      e.preventDefault;
+      jQuery(".sub-service-menu > li").removeClass("active");
+      jQuery(this).addClass("active");   
+    });
+  }
+  
+  if ($(window).width() <= 743) {
+    jQuery(".sub-service-navigation").click(function (e) {
+      e.preventDefault;
+      jQuery(".sub-service-navigation").toggleClass("open");
+      jQuery(".sub-service-menu").toggle(500);   
+    });
+  
+    jQuery(".sub-service-menu > li").click(function (e) {
+      e.preventDefault;
+      jQuery(".sub-service-menu").slideUp(500);   
+    });
+  }
+  
+
 });
 
 jQuery(function(){
