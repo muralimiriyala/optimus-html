@@ -6152,7 +6152,6 @@ document.addEventListener("DOMContentLoaded", function () {
   accordions(".accordion-list", ".accordion-header", ".accordion-content");
   /*-- accordions ends here --*/
 
-<<<<<<< HEAD
   /*-- expand search starts here --*/
   const srcBtn = document.querySelector("button.res-srch-icon");
   if(srcBtn){
@@ -6161,10 +6160,13 @@ document.addEventListener("DOMContentLoaded", function () {
           document.querySelector(".res-srch-form").classList.toggle("open");
       });
   }
-    /*-- expand search ends here --*/
-=======
+  /*-- expand search ends here --*/
+
+  let asx = document.querySelectorAll("ul.sub-service-menu > li a")[0];
+  console.log(asx, "asx")
+
   if ($(window).width() >= 744) {
-    jQuery(".sub-service-menu > li, .sub-service-menu > li a").click(function (e) {
+    jQuery(".sub-service-menu > li, ").click(function (e) {
       e.preventDefault;
       jQuery(".sub-service-menu > li").removeClass("active");
       jQuery(this).addClass("active");   
@@ -6184,7 +6186,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
   
->>>>>>> 0b46f411e31e6ebfefa6305700128d5b612fdc3b
 
 });
 

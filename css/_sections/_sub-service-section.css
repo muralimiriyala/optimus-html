@@ -54,7 +54,8 @@ ul.sub-service-menu > li.active span::after{background-color: var(--Orange); wid
   .sub-service-navigation::after{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; color: var(--Light-Blue); font-size: 20px; top: 12px; right: 12px; line-height: normal;}
   .sub-service-navigation.open ul.sub-service-menu{display: block;}
 
-  ul.sub-service-menu{display: none; margin: 10px 0 0; padding: 24px 0 27px; background: var(--White); border-radius: 20px; position: absolute; box-shadow: 0px 5px 40px rgba(0, 17, 51, .15); width: 100%;}
+  .sub-service-mobile{display: none;  box-shadow: 0px 5px 40px rgba(0, 17, 51, .15);  background: var(--White); border-radius: 20px; position: absolute;}
+  ul.sub-service-menu{ margin: 10px 0 0; padding: 24px 0 27px; width: 100%;}
   ul.sub-service-menu > li{margin-bottom: 0;}
   ul.sub-service-menu > li span{background-color: #e2f4ff;}
   ul.sub-service-menu > li > a {padding: 9px 29px 8px 36px;}
