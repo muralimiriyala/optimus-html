@@ -40,11 +40,12 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     .blog-post-row.slick-slider .blog-post-list{width: 296px; margin-right: 32px;}
 }
 @media only screen and (min-width: 1024px){
-    .blog-post-wrap{padding: 84px 0 40px;}
+    .blog-post-wrap{padding: 84px 0 16px;}
     .blog-post-decor{top: 0; left: -320px; max-width: 1578px; max-height: 960px;}
     .blog-post-main{padding: 0 0 40px;}
     .blog-post-row{gap: 32px;}
     .blog-post-list{flex: 0 0 calc(25% - 24px);}
+    .blog-append-arrows{ margin: 24px 0 0;}
 
     .blog-post-rt-text{flex: 0 0 50%; display: flex; align-items: center; flex-wrap: wrap;}
     .blog-post-rt-image{flex: 0 0 50%;}
