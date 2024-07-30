@@ -1,3 +1,5 @@
+"use strict";
+
 document.addEventListener("DOMContentLoaded", function () {
   const header = document.querySelector("header.site-header");
   const headerHeight = header.clientHeight;
@@ -83,4 +85,40 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   accordions(".accordion-list", ".accordion-header", ".accordion-content");
   /*-- accordions ends here --*/
+
+  /*-- expand search starts here --*/
+  const srcBtn = document.querySelector("button.res-srch-icon");
+  if(srcBtn){
+      srcBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector(".res-srch-form").classList.toggle("open");
+      });
+  }
+  /*-- expand search ends here --*/
+
+  let asx = document.querySelectorAll("ul.sub-service-menu > li a")[0];
+  console.log(asx, "asx")
+
+  if ($(window).width() >= 744) {
+    jQuery(".sub-service-menu > li, ").click(function (e) {
+      e.preventDefault;
+      jQuery(".sub-service-menu > li").removeClass("active");
+      jQuery(this).addClass("active");   
+    });
+  }
+  
+  if ($(window).width() <= 743) {
+    jQuery(".sub-service-navigation").click(function (e) {
+      e.preventDefault;
+      jQuery(".sub-service-navigation").toggleClass("open");
+      jQuery(".sub-service-menu").toggle(500);   
+    });
+  
+    jQuery(".sub-service-menu > li").click(function (e) {
+      e.preventDefault;
+      jQuery(".sub-service-menu").slideUp(500);   
+    });
+  }
+  
+
 });

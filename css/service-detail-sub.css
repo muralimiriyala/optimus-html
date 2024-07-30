@@ -19,9 +19,8 @@
 .sub-detail-line-wrap .default-line-text { padding: 6px 0 6px 24px;}
 .sub-detail-line-wrap .default-line-in {padding: 0 50px 0 0;}
 
-.service-detail-sub-default::after{content: ""; display: block; background-color: var(--body-text);  height: 1px; opacity: 0.5; max-width: 1280px;
-    margin: 0 auto; width: calc(100% - 80px);}
-
+.service-detail-sub-default::after{content: ""; display: block; background-color: var(--body-text);  height: 1px; opacity: 0.5; max-width: 1280px; margin: 0 auto; width: calc(100% - 80px);}
+.subhead-help-row.no_help_rt{display: block;}
 
 /*-- media css starts here --*/
     @media only screen and (min-width: 1200px){
