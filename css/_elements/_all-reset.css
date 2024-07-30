@@ -171,7 +171,7 @@ span.optional-text.navy-50{color: rgb(25 35 76 / 50%);}
 .radius-16, .radius-img-16 img{border-radius: 16px;}
 .radius-20, .radius-img-20 img{border-radius: 24px;}
 .radius-24, .radius-img-24 img{border-radius: 24px;}
-.radius-32, .radius-img-32 img{border-radius: 24px;}
+.radius-32, .radius-img-32 img{border-radius: 32px;}
 .radius-50, .radius-img-50 img{border-radius: 50%;}
 
 .relative{position: relative; z-index: 1;}
