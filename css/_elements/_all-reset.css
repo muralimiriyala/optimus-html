@@ -254,7 +254,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .blue-bg{background-color: var(--Blue);}
 .orange-tint-bg{background: var(--Orange-Tint-Bg);}
 
-div.slick-arrow{width: 56px; height: 56px; padding: 0; top: 50%; transform: translateY(-50%); font-size: 24px; line-height: 24px; position: absolute; z-index: 1; cursor: pointer; transition: var(--b-transition); background: var(--Blue); color: var(--White);}
+div.slick-arrow{width: 56px; height: 56px; padding: 0; font-size: 24px; line-height: 24px; position: relative; z-index: 1; cursor: pointer; transition: var(--b-transition); background: var(--Blue); color: var(--White);}
 div.slick-arrow::after{width: 0%; height: 0%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background: var(--Orange); content: ""; display: block; border-radius: 50%; position: absolute; transition: var(--b-transition); z-index: -1;}
 div.slick-arrow:hover::after{opacity: 1; width: 100%; height: 100%;}
 div.slick-arrow.slick-disabled{opacity: 0.2; background-color: var(--Gray); pointer-events: none;}
@@ -289,9 +289,6 @@ ul.slick-dots li button{display: none;}
     .hide-desktop{display: none;}
     span.hide-desktop{display: none;}
     .text-md-right{text-align: right;}
-
-    div.slick-arrow.slick-next{left: auto; right: -24px;}
-    div.slick-arrow.slick-prev{right: auto; left: -24px;}
 }
 @media only screen and (max-width: 1359px) and (min-width: 1200px){
     .container:not(.sm){padding: 0 40px; max-width: 100%;}
@@ -301,9 +298,6 @@ ul.slick-dots li button{display: none;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .hide-tablet{display: none;}
-    div.slick-arrow{top: auto; transform: none; bottom: -48px;}
-    div.slick-arrow.slick-next{left: auto; right: 0;}
-    div.slick-arrow.slick-prev{right: auto; left: 0;}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .container{padding: 0 24px;}
@@ -323,7 +317,6 @@ ul.slick-dots li button{display: none;}
     div.slick-arrow{top: auto; transform: none; position: relative; background-color: var(--Navy);}
  
     
-
     .play-btn-main .play-btn{width: 64px; height: 64px;}
     .play-btn img { width: 24px; height: 30px;}
 

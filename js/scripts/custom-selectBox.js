@@ -1,9 +1,10 @@
 jQuery(function(){
     jQuery('select').selectBox({
         keepInViewport: false,
-        menuSpeed: 'slow',
-        mobile:  true,
+        menuSpeed: "normal",
+        mobile: true,
         hideOnWindowScroll: true,
+        menuTransition: "slide",
     });
     jQuery(".selectBox, .selectBox-dropdown .selectBox-label").removeAttr('style');
 });
