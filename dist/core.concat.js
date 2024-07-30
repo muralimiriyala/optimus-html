@@ -6152,6 +6152,7 @@ document.addEventListener("DOMContentLoaded", function () {
   accordions(".accordion-list", ".accordion-header", ".accordion-content");
   /*-- accordions ends here --*/
 
+<<<<<<< HEAD
   /*-- expand search starts here --*/
   const srcBtn = document.querySelector("button.res-srch-icon");
   if(srcBtn){
@@ -6161,6 +6162,29 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   }
     /*-- expand search ends here --*/
+=======
+  if ($(window).width() >= 744) {
+    jQuery(".sub-service-menu > li, .sub-service-menu > li a").click(function (e) {
+      e.preventDefault;
+      jQuery(".sub-service-menu > li").removeClass("active");
+      jQuery(this).addClass("active");   
+    });
+  }
+  
+  if ($(window).width() <= 743) {
+    jQuery(".sub-service-navigation").click(function (e) {
+      e.preventDefault;
+      jQuery(".sub-service-navigation").toggleClass("open");
+      jQuery(".sub-service-menu").toggle(500);   
+    });
+  
+    jQuery(".sub-service-menu > li").click(function (e) {
+      e.preventDefault;
+      jQuery(".sub-service-menu").slideUp(500);   
+    });
+  }
+  
+>>>>>>> 0b46f411e31e6ebfefa6305700128d5b612fdc3b
 
 });
 
