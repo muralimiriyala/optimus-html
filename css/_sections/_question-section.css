@@ -4,9 +4,12 @@
 .need-more-answer h4{color: var(--White);}
 .need-more-answer .button{width: 100%;}
 
+.question-head{justify-content: space-between; gap: 20px;}
+.question-head-lt h3{margin-bottom: 0; font-size: 40px;}
+
 @media screen and (min-width: 1024px) {
-    body.page-template-service-detail .accordion-wrap{gap: 80px; padding: 88px 0; border:1px solid rgba(112,115,114,.5); border-right: none; border-left: none;}
+    .question-wrap{gap: 80px; padding: 88px 0; border:1px solid rgba(112,115,114,.5); border-right: none; border-left: none;}
     body.page-template-service-detail .accordion-main{padding-bottom: 0;}
-    .accordion-lt{flex: 0 0 900px;}
-    .accordion-rt{flex: 0 0 calc(100% - 980px); padding-top: 80px;}
+    .question-lt{flex: 0 0 900px;}
+    .question-rt{flex: 0 0 calc(100% - 980px); padding-top: 80px;}
 }
