@@ -33,12 +33,6 @@ button.res-srch-icon, button.res-expand-icon{right: -40px; top: calc(50% + 1px);
 .res-category span{font-weight: 400;}
 .res-category-arrow{ top: 3px; color: var(--Blue); font-size: 20px; line-height: 20px; position: relative; }
 
-.res-tags-list{display: none; width: 100%; top: 100%; left: 0; height: auto; position: absolute; z-index: 1;}
-ul.res-tags{margin: 0; gap: 10px;}
-ul.res-tags li{margin: 0;}
-ul.res-tags li::before{display: none;}
-ul.res-tags li a{font-size: 12px; line-height: 18px; padding: 4px 8px 3px; border-radius: 8px; background-color: var(--Navy); color: var(--White);}
-ul.res-tags li a:hover{background-color: var(--Orange);}
 
 .load-more-resources{gap: 16px;}
 .load-more-resources::before, .load-more-resources::after{height: 1px; content: ""; display: block; opacity: 0.2; background: var(--Foreground, #313031); }
