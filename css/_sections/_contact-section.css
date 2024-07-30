@@ -22,7 +22,7 @@ ul.contact-links > li > a:hover{color: var(--Orange);}
     .contact-main{gap: 64px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
-    .contact-main{padding: 78px 0 48px; display: block;}
+    .contact-main{padding: 78px 0 40px; display: block;}
     .contact-form{margin-top: 80px;}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
