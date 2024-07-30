@@ -1,3 +1,5 @@
+"use strict";
+
 document.addEventListener("DOMContentLoaded", function () {
   const header = document.querySelector("header.site-header");
   const headerHeight = header.clientHeight;
@@ -83,4 +85,15 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   accordions(".accordion-list", ".accordion-header", ".accordion-content");
   /*-- accordions ends here --*/
+
+  /*-- expand search starts here --*/
+  const srcBtn = document.querySelector("button.res-srch-icon");
+  if(srcBtn){
+      srcBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector(".res-srch-form").classList.toggle("open");
+      });
+  }
+    /*-- expand search ends here --*/
+
 });
