@@ -28,3 +28,10 @@
     .sub-service-title{flex: 0 0 400px;}
     .sub-service-content{flex: 0 0 calc(100% - 480px); padding-top: 71px;}
 }
+
+@media screen and (max-width: 743px) and (min-width: 200px){
+  .sub-service-main{padding: 40px 0 48px; gap: 32px;}
+  .sub-service-inner{padding: 16px;}
+  .sub-service-inner span.optional-text{margin-bottom: 12px; font-size: 16px; line-height: 20px;}
+  .sub-service-inner h3{font-size: 24px; line-height: 30px;}
+}
