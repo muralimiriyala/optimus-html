@@ -2,35 +2,24 @@
 .sub-service-main::before{content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background-color: var(--Gray); opacity: 0.5;}
 .sub-service-inner{background: var(--Light-Blue-Tint); padding: 64px 0 64px 48px; border-radius: 24px;}
 
-.sub-service-menu{margin: 0;}
-.sub-service-menu > li{margin-bottom: 12px; line-height: normal;}
-.sub-service-menu > li:last-child{margin-bottom: 0;}
-.sub-service-menu > li::before{display: none;}
-.sub-service-menu > li span{position: absolute; top: 12px; left: 12px; width: 16px; height: 16px; border-radius: 16px; background-color: var(--White); }
-.sub-service-menu > li span::after{content: ""; position: absolute; top: 6px; left: 6px; width: 4px; height: 4px; opacity: 1; background-color: var(--Light-Blue); border-radius: 50%; z-index: 1;}
-.sub-service-menu > li > a{padding: 9px 0 8px 36px; display: block;}
-.sub-service-menu > li.active{border-radius: 20px 0px 0px 20px; background-color: var(--White);}
-.sub-service-menu > li.active a{color: var(--Navy);}
-.sub-service-menu > li.active span{top: 12px; left: 12px; width: 16px; height: 16px; background-color: rgba(241, 124, 35, 0.50);}
-.sub-service-menu > li.active span::after{background-color: var(--Orange); width: 8px; height: 8px; top: 4px; left: 4px; animation: ripple 0.7s linear infinite;}
-
-@keyframes ripple {
-    0% {
-      box-shadow: 0 0 0 0 rgba(241, 124, 35, 0.50),
-                  0 0 0 1em rgba(241, 124, 35, 0.50),
-    }
-    100% {
-      box-shadow: 0 0 0 1em rgba(241, 124, 35, 0.50),
-                  0 0 0 2em rgba(241, 124, 35, 0),
-    }
-  }
+ul.sub-service-menu{margin: 0;}
+ul.sub-service-menu > li{margin-bottom: 12px; line-height: normal;}
+ul.sub-service-menu > li:last-child{margin-bottom: 0;}
+ul.sub-service-menu > li::before{display: none;}
+ul.sub-service-menu > li span{position: absolute; top: 12px; left: 12px; width: 16px; height: 16px; border-radius: 16px; background-color: var(--White); }
+ul.sub-service-menu > li span::after{content: ""; position: absolute; top: 6px; left: 6px; width: 4px; height: 4px; opacity: 1; background-color: var(--Light-Blue); border-radius: 50%; z-index: 1;}
+ul.sub-service-menu > li > a{padding: 9px 0 8px 36px; display: block;}
+ul.sub-service-menu > li.active{border-radius: 20px 0px 0px 20px; background-color: var(--White);}
+ul.sub-service-menu > li.active a{color: var(--Navy);}
+ul.sub-service-menu > li.active span{top: 12px; left: 12px; width: 16px; height: 16px; background-color: rgba(241, 124, 35, 0.50);}
+ul.sub-service-menu > li.active span::after{background-color: var(--Orange); width: 8px; height: 8px; top: 4px; left: 4px;}
 
 @media screen and (min-width: 1024px) {
     .sub-service-main{padding: 80px 0 88px; gap: 80px;}
     .sub-service-title{flex: 0 0 400px;}
     .sub-service-content{flex: 0 0 calc(100% - 480px); padding-top: 71px;}
-    .sub-service-menu > li.active::after, .sub-service-menu > li.active::before { position: absolute; content: ""; display: block; width: 35px; height: 35px; transform: rotate(143deg); border-top: 15px solid var(--White); border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid transparent; border-radius: 50%; top: -50px; right: -15px; left: auto; background-color: transparent; }
-    .sub-service-menu > li.active::after{top: auto; transform: rotate(30deg); left: auto; right: -15px; bottom: -50px;}
+    ul.sub-service-menu > li.active::after, ul.sub-service-menu > li.active::before { position: absolute; content: ""; display: block; width: 35px; height: 35px; transform: rotate(143deg); border-top: 15px solid var(--White); border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid transparent; border-radius: 50%; top: -50px; right: -15px; left: auto; background-color: transparent; }
+    ul.sub-service-menu > li.active::after{top: auto; transform: rotate(30deg); left: auto; right: -15px; bottom: -50px;}
 }
 @media screen and (max-width: 1199px)  and (min-width: 1024px){
   .sub-service-main{gap: 40px;}
@@ -41,34 +30,34 @@
   .sub-service-inner{padding: 24px 40px 0; border-radius: 16px;}
   .sub-service-inner span.optional-text{margin-bottom: 12px;}
   .sub-service-inner h3{margin-bottom: 24px;}
-  .sub-service-menu{display: flex; gap: 24px; flex-wrap: wrap;}
-  .sub-service-menu > li{flex: 0 0 128px; margin-bottom: 0; font-size: 16px; line-height: 16px;}
-  .sub-service-menu > li:last-child{display: none;}
-  .sub-service-menu > li span{position: relative; display: block; top: 0; left: 0; margin-bottom: 12px;}
-  .sub-service-menu > li.active{border-radius: 16px 16px 0 0;}
-  .sub-service-menu > li.active span{top: 0; left: 0;}
-  .sub-service-menu > li > a{padding: 12px 12px 18px;}
-  .sub-service-menu > li.active::after, .sub-service-menu > li.active::before { position: absolute; content: ""; display: block; width: 35px; height: 35px; transform: rotate(140deg); border-top: 15px solid var(--White); border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid transparent; border-radius: 50%; bottom: -15px; right: auto; left: -50px; background-color: transparent; top: auto;}
-  .sub-service-menu > li.active::after{top: auto; transform: rotate(-140deg); left: auto; right: -50px; bottom: -15px;}
+  ul.sub-service-menu{display: flex; gap: 24px; flex-wrap: wrap;}
+  ul.sub-service-menu > li{flex: 0 0 128px; margin-bottom: 0; font-size: 16px; line-height: 16px;}
+  ul.sub-service-menu > li:last-child{display: none;}
+  ul.sub-service-menu > li span{position: relative; display: block; top: 0; left: 0; margin-bottom: 12px;}
+  ul.sub-service-menu > li.active{border-radius: 16px 16px 0 0;}
+  ul.sub-service-menu > li.active span{top: 0; left: 0;}
+  ul.sub-service-menu > li > a{padding: 12px 12px 18px;}
+  ul.sub-service-menu > li.active::after, ul.sub-service-menu > li.active::before { position: absolute; content: ""; display: block; width: 35px; height: 35px; transform: rotate(140deg); border-top: 15px solid var(--White); border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid transparent; border-radius: 50%; bottom: -15px; right: auto; left: -50px; background-color: transparent; top: auto;}
+  ul.sub-service-menu > li.active::after{top: auto; transform: rotate(-140deg); left: auto; right: -50px; bottom: -15px;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
   .sub-service-main{padding: 40px 0 48px; gap: 32px;}
   .sub-service-inner{padding: 16px; position: relative;}
   .sub-service-inner span.optional-text{margin-bottom: 12px; font-size: 16px; line-height: 20px;}
   .sub-service-inner h3{font-size: 24px; line-height: 30px; margin-bottom: 32px;}
-  .sub-service-menu > li.active{border-radius: 20px;}
+  ul.sub-service-menu > li.active{border-radius: 20px;}
   .sub-service-content h4{font-size: 24px; line-height: 30px;}
 
   .sub-service-navigation{padding: 13px 40px 12px; display: block; font-size: 18px; line-height: 18px; color: var(--Navy); border-radius: 20px; background-color: var(--White); position: relative; cursor: pointer;}
   .sub-service-navigation > span{position: absolute; top: 13px; left: 12px; width: 16px; height: 16px; border-radius: 16px; background-color: rgba(241, 124, 35, 0.50);}
-  .sub-service-navigation > span::after{content: ""; position: absolute; background-color: var(--Orange); width: 8px; height: 8px; top: 4px; left: 4px; border-radius: 50%; animation: ripple 0.7s linear infinite;}
+  .sub-service-navigation > span::after{content: ""; position: absolute; background-color: var(--Orange); width: 8px; height: 8px; top: 4px; left: 4px; border-radius: 50%;}
   .sub-service-navigation::after{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; color: var(--Light-Blue); font-size: 20px; top: 12px; right: 12px; line-height: normal;}
-  .sub-service-navigation.open .sub-service-menu{display: block;}
+  .sub-service-navigation.open ul.sub-service-menu{display: block;}
 
-  .sub-service-menu{display: none; margin: 10px 0 0; padding: 24px 0 27px; background: var(--White); border-radius: 20px; position: absolute; box-shadow: 0px 5px 40px rgba(0, 17, 51, .15); width: 100%;}
-  .sub-service-menu > li{margin-bottom: 0;}
-  .sub-service-menu > li span{background-color: #e2f4ff;}
-  .sub-service-menu > li > a {padding: 9px 29px 8px 36px;}
+  ul.sub-service-menu{display: none; margin: 10px 0 0; padding: 24px 0 27px; background: var(--White); border-radius: 20px; position: absolute; box-shadow: 0px 5px 40px rgba(0, 17, 51, .15); width: 100%;}
+  ul.sub-service-menu > li{margin-bottom: 0;}
+  ul.sub-service-menu > li span{background-color: #e2f4ff;}
+  ul.sub-service-menu > li > a {padding: 9px 29px 8px 36px;}
   
 
 }
