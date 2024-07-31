@@ -129,3 +129,6 @@ ul.copyright-links>li.current-menu-item>a, ul.copyright-links>li>a:hover { color
 @media only screen and (max-width: 480px) and (min-width: 200px){
     .footer-work span.f-fs-104{max-width: 280px;}
 }
+@media screen and (max-width: 389px) and (min-width: 200px){
+    .footer-middle{flex-direction: column; gap: 32px; padding: 0 0 32px;}
+}

@@ -41,3 +41,6 @@ width: 0;
 height: 0;
 }
 ul.social-icons li a:hover{color: var(--White); background-color: var(--Orange);}
+@media screen and (max-width: 389px) and (min-width: 200px){
+  ul.social-icons { width: 100%; flex-direction: revert; justify-content: flex-start; }
+}

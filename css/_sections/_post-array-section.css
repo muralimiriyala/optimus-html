@@ -203,3 +203,6 @@
         flex: 1;
     }
 }
+@media screen and (max-width: 389px) and (min-width: 200px){
+    .post-array-list.slick-slide{width: 273px; margin-right: 24px;}
+}

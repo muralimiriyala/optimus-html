@@ -1,8 +1,44 @@
-.timeline-main { padding: 40px 0; }
-.timeline-head { margin-bottom: 48px; }
-.timeline-head h3 { font-size: 40px; }
 
-.timeline-row { gap: 32px; } 
-.timeline-slide { flex: 0 0 calc(25% - 24px); border: 1px solid var(--Light-Blue-Tint); padding: 32px; border-radius: 24px; } 
-.t-number{ font-size: 48px; color: var(--Blue); font-weight: 700; margin-bottom: 16px; display: block; line-height: 55px; }
+
+
+
+
+.timeline-slide { border: 1px solid var(--Light-Blue-Tint); padding: 32px; border-radius: 24px; } 
+.t-circle-wrap{ margin-bottom: 16px;}
+.t-number{ font-size: 48px; color: var(--Blue); display: inline-block; line-height: 55px; }
+.t-circle-main{left: 143px; top: 50%; transform: translateY(-50%);}
+.t-circle-main svg{left: -5px; top: 0.25px; position: relative;}
+.t-circle-left{top: 50%; transform: translateY(-50%);}
+.t-circle{top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: var(--Orange);}
+.t-circle-1{width: 26px; height: 26px; opacity: 0.5;}
+.t-circle-2{width: 38px; height: 38px; opacity: 0.15;}
 .timeline-slide p { color: var(--Gray); }
+
+
+.timeline-row .slick-list{overflow: inherit;}
+.slick-slider .timeline-slide{width: 296px; margin-right: 32px;}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 744px){
+    .timeline-main { padding: 40px 0; }
+    .timeline-head { padding: 0 138px 54px 0;}
+    .timeline-appends{right: 0; top: 32px; max-width: 128px; justify-content: space-between; position: absolute;}
+    .timeline-appends ul.slick-dots{width: 0; height: 0;}
+}
+@media only screen and (min-width: 1024px){
+    .timeline-row { gap: 32px; } 
+    .timeline-slide { flex: 0 0 calc(25% - 24px);} 
+}
+@media screen and (max-width: 1023px) and (min-width: 744px){}
+
+@media screen and (max-width: 743px) and (min-width: 200px){
+    .timeline-main { padding: 11px 0 40px; }
+    .timeline-head{padding-bottom: 21px;}
+    .slick-slider .timeline-slide{width: 296px; margin-right: 32px;}
+    .timeline-appends { margin: 40px 0 36px; }
+}
+@media screen and (max-width: 389px) and (min-width: 200px){
+    .timeline-slide{padding: 24px;}
+    .slick-slider .timeline-slide{width: 273px; margin-right: 24px;}
+}

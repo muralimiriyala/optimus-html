@@ -6226,10 +6226,8 @@ jQuery(document).ready(function ($) {
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
-            prevArrow:
-              '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-            nextArrow:
-              '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
             dots: true,
             speed: 1000,
             infinite: false,
@@ -6362,6 +6360,75 @@ jQuery(document).ready(function ($) {
     }
   }
   serviceSlider();
+
+  /*-- timeline slider starts here --*/
+  const tSlider = jQuery(".timeline-row");
+  function timelineSlider() {
+    tSlider.each(function () {
+      const $this = $(this);
+      const tSlide = $this.children(".timeline-slide").length;
+      const tAppend = $(".timeline-appends");
+      if (window.matchMedia("(max-width: 1439px)").matches) {
+        if (!$this.hasClass("slick-initialized")) {
+          $this.slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            dots: true,
+            speed: 1000,
+            infinite: false,
+            autoplay: false,
+            variableWidth: true,
+            appendDots: tAppend,
+            appendArrows: tAppend,
+          });
+        }
+      } else {
+        if (tSlide >= 5 && !$this.hasClass("slick-initialized")) {
+          $this.slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            appendArrows: tAppend,
+            arrows: true,
+            prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+            dots: true,
+            appendDots: tAppend,
+            speed: 1000,
+            infinite: false,
+            autoplay: false,
+            variableWidth: true,
+          });
+        }
+      }
+    });
+  }
+  function tdelSlider() {
+    tSlider.each(function () {
+      const $this = $(this);
+      if(jQuery(window).width() >= 1440 && $this.hasClass("slick-initialized") ) {
+        $this.slick("unslick");
+      }
+    });
+  }
+  // Initial call
+  timelineSlider();
+  $(window).on("resize", function () { tdelSlider(); timelineSlider(); });
+  /*-- timeline slider ends here --*/
+
+
+
+
+
+
+
+
+
+
+
+
 });
 
 jQuery(document).ready(function ($) {
