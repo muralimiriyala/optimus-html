@@ -97,6 +97,10 @@ document.addEventListener("DOMContentLoaded", function () {
   /*-- expand search ends here --*/
 
   let sublinks = document.querySelectorAll("ul.sub-service-menu > li > a");
+  sublinks[0].classList.add("open");
+  let subnav = document.querySelector(".sub-service-navigation");
+  let submobile = document.querySelector(".sub-service-mobile")
+
   sublinks.forEach(function(sublink){
     sublink.addEventListener("click", function(e) {
       e.preventDefault();
@@ -104,10 +108,13 @@ document.addEventListener("DOMContentLoaded", function () {
         subitem.classList.remove("open");
       });
       sublink.classList.add("open");
+      if(subnav.dataset.open !== "false") {
+        subnav.dataset.open = "false";
+        submobile.style.maxHeight = "";
+        submobile.classList.remove("open");
+      }
     });
   });
-  let subnav = document.querySelector(".sub-service-navigation");
-  let submobile = document.querySelector(".sub-service-mobile")
   subnav.addEventListener("click", function(e){
     e.preventDefault();
     let $this = this;
@@ -115,10 +122,12 @@ document.addEventListener("DOMContentLoaded", function () {
     if($this.dataset.open !== "true") {
       $this.dataset.open = "true";
       submobile.style.maxHeight = `${submobile.scrollHeight}px`;
+      submobile.classList.add("open");
     }
     else{
       $this.dataset.open = "false";
       submobile.style.maxHeight = "";
+      submobile.classList.remove("open");
     }
   });
 });
