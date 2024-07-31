@@ -323,7 +323,7 @@ ul.slick-dots li button{display: none; padding: 0;}
     .white-slick-bg ul.slick-dots li{opacity: .25; background: var(--Navy);}
     .white-slick-bg ul.slick-dots li.slick-active{background-color: var(--Light-Blue); opacity: 1;}
 
-    .c-16 ul.slick-dots{gap: 8px;}
+    .c-16 ul.slick-dots{gap: 8px; min-height: 18px;}
     .c-16 ul.slick-dots li{width: 16px; height: 16px;}
     
     .play-btn-main .play-btn{width: 64px; height: 64px;}

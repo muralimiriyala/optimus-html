@@ -39,3 +39,23 @@ body.single-post .share-inline-arrow{padding: 35px 0 0 ;}
 
     .share-icons #st-1.st-animated .st-btn[data-network="sharethis"]  {  width: 42px; }
 }
+@media screen and (max-width: 389px) and (min-width: 200px){
+    .share-icons #st-1.st-animated {
+        justify-content: space-between;
+    }
+    .share-icons #st-1.st-animated .st-btn[data-network="sharethis"] {
+        width: 40px;
+        min-width: 40px;
+    }
+    .share-icons #st-1.st-animated .st-btn[data-network="sharethis"] {
+        color: var(--Orange) !important;
+        font-size: 44px;
+        line-height: 48px;
+        font-weight: 100;
+    }
+    .share-icons #st-1.st-has-labels .st-btn.st-remove-label {
+        min-width: 50px;
+        width: 50px;
+        height: 50px;
+    }
+}

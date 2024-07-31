@@ -85,3 +85,6 @@ body.page-template-case-study .primary-cta-section hr{width: 100%; height: 1px; 
     body.page-template-case-study .primary-cta-wrap{padding: 48px 0 40px;}
     body.page-template-service-detail .primary-cta-wrap{padding: 48px 0 40px;}
 }
+@media screen and (max-width: 389px) and (min-width: 200px){
+    .primary-cta-text h2{font-size: 32px; line-height: 40px;}
+}
