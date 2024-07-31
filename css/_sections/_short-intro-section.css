@@ -124,6 +124,8 @@ body.page-template-services-detail-sub-page .intro-second-section .short-intro-m
     .no_intro_head .short-intro-desc {
         padding-left: 0;
     }
+
+    body.page-template-about .short-intro-main{padding: 40px 0 0;}
 }
 
 @media screen and (min-width:1200px) {
