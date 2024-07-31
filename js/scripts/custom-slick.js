@@ -148,6 +148,53 @@ jQuery(document).ready(function ($) {
   }
   serviceSlider();
 
+
+  function singletestimonialSlider() {
+    const singleAppend = $(".single-append-arrows");
+    if (!$(".single-testimonial-lists").hasClass("slick-initialized")) {
+      $(".single-testimonial-lists").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow:
+          '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+        nextArrow:
+          '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+        dots: false,
+        speed: 1500,
+        infinite: true,
+        autoplay: false,
+        appendArrows: singleAppend,
+        appendDots: singleAppend,
+        responsive: [
+          {
+            breakpoint: 1023,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 743,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+              
+            },
+          },
+        ],
+      });
+    } else {
+      if ($(".single-testimonial-lists").hasClass("slick-initialized")) {
+        $(".single-testimonial-lists").slick("unslick");
+      }
+    }
+  }
+  singletestimonialSlider();
+
+
+
   /*-- timeline slider starts here --*/
   const tSlider = jQuery(".timeline-row");
   function timelineSlider() {
