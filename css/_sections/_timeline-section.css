@@ -1,0 +1,8 @@
+.timeline-main { padding: 40px 0; }
+.timeline-head { margin-bottom: 48px; }
+.timeline-head h3 { font-size: 40px; }
+
+.timeline-row { gap: 32px; } 
+.timeline-slide { flex: 0 0 calc(25% - 24px); border: 1px solid var(--Light-Blue-Tint); padding: 32px; border-radius: 24px; } 
+.timeline-slide .num { font-size: 48px; color: var(--Blue); font-weight: 700; margin-bottom: 16px; display: block; line-height: 55px; }
+.timeline-slide p { color: var(--Gray); }
