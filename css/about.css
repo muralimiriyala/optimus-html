@@ -11,5 +11,5 @@
 .about-tab-main ul{margin: 0;}
 ul.about-tab-row li::before{display: none;}
  ul.about-tab-row{gap: 12px;}
- ul.about-tab-row li{background-color: var(--Navy); padding: ;}
+ ul.about-tab-row li{background-color: var(--Navy); padding: 8px 216px; border-radius: 20px;}
  ul.about-tab-row li a{color: var(--White);}
