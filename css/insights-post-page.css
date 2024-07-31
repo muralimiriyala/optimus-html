@@ -75,7 +75,6 @@ body.single-post .insights-post-main{z-index: 810;}
   .insights-post-main  .default-article h3{font-size: 1.75rem; line-height: 2.18rem;}
   .insights-post-main  .default-line-in{line-height: 1.875rem;}
 
-
   .insights-post-main .default-aside{padding-top: 40px;}
   .insights-post-main .sidebar-list{display: block;}
   .insights-post-main .sidebar-img{margin-bottom: 20px;}
@@ -84,9 +83,9 @@ body.single-post .insights-post-main{z-index: 810;}
   .insights-post-bracket.left { top: 0; transform: rotate(-180deg); }
   .insights-block-main > span {font-size: 20px;}
 
-
 }
 @media screen and (max-width: 389px) and (min-width: 200px) {
+  .insights-post-main .insights-row{flex-direction: column; padding: 0;}
   .insights-post-main .share-icons #st-1.st-animated { gap: 13px; }
 }
 
