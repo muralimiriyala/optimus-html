@@ -7,3 +7,9 @@
 .building-list .num{font-size: 48px; color: var(--Blue); font-weight: 700; margin-bottom: 16px; display: block; line-height: 55px;}
 .building-list p{color: var(--Gray);}
 
+.about-tab-main{padding: ;}
+.about-tab-main ul{margin: 0;}
+ul.about-tab-row li::before{display: none;}
+ ul.about-tab-row{gap: 12px;}
+ ul.about-tab-row li{background-color: var(--Navy); padding: ;}
+ ul.about-tab-row li a{color: var(--White);}
