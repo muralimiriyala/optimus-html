@@ -28,7 +28,7 @@ ul.about-tab-row li::before{display: none;}
  .team-list:hover .team-con{padding: 22px 24px 30px;}
  .team-list:hover .team-con::after{ 
  display: block;
-  content: "\f063";
+  content: "\f062";
   font-family: "Font Awesome 6 Sharp";
   font-size: 20px;
   color: var(--Orange);
