@@ -16,3 +16,12 @@ ul.about-tab-row li::before{display: none;}
 
  ul.about-tab-row li:hover{background-color: var(--Light-Blue-Tint);  transition: all ease;}
  ul.about-tab-row li:hover a{color: var(--Navy); }
+
+ .team-row{gap: 48px;}
+ .team-list{flex: 0 0 calc(33.33% - 32px); }
+
+ .team-con { background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: 0; width: 100%; padding:  22px 24px; border-radius: 0 0 24px 24px; }
+ .team-con h3{font-size: 24px; color: var(--White); margin-bottom: 0; line-height: 30px;}
+ .team-con h3 a{color: var(--White);}
+ .team-con span{font-size: 16px; color: var(--Light-Blue); line-height: 24px;}
+ .team-img img{border-radius: 24px;}
