@@ -25,3 +25,16 @@ ul.about-tab-row li::before{display: none;}
  .team-con h3 a{color: var(--White);}
  .team-con span{font-size: 16px; color: var(--Light-Blue); line-height: 24px;}
  .team-img img{border-radius: 24px;}
+ .team-list:hover .team-con{padding: 22px 24px 30px;}
+ .team-list:hover .team-con::after{ 
+ display: block;
+  content: "\f063";
+  font-family: "Font Awesome 6 Sharp";
+  font-size: 20px;
+  color: var(--Orange);
+  right: 24px;
+  left: auto;
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50% ,-50%);}
