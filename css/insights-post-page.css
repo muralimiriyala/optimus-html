@@ -62,7 +62,7 @@ body.single-post .insights-post-main{z-index: 810;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px) {
   body.single-post .header::after{top: 84px; left: -100px; width: 519px; height: 316px; background-image: url("images/insights-decor-mobile.svg");}
-  .insights-post-main{padding: 40px 0 8px; gap: 40px;}
+  .insights-post-main{padding: 40px 0 8px; display: block;}
   .insights-block-con .h1{font-size: 2rem; line-height: 2.5rem;}
   .insights-post-main .share-icons{padding: 0;}
   .insights-post-main .insights-row{flex: 0 0 100%; padding-left: 5px; gap: 20px;}

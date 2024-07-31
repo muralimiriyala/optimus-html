@@ -217,5 +217,5 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertica
     body .contact-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{max-width: 100%;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
-    body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container, body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column;}
+    body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container, body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column; margin-bottom: 8px;}
 }
