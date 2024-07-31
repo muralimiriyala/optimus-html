@@ -6164,9 +6164,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let sublinks = document.querySelectorAll("ul.sub-service-menu > li > a");
   let subnav = document.querySelector(".sub-service-navigation");
-  let submobile = document.querySelector(".sub-service-mobile")
+  let submobile = document.querySelector(".sub-service-mobile");
+  let subSlides = document.querySelectorAll(".sub-service-slide");
+  let openSubSlide = document.querySelector(".sub-service-slide.open");
+
+  if (openSubSlide) {
+    // Get the scrollHeight and append "px" to it
+    let height = openSubSlide.scrollHeight + "px";
+    console.log('ScrollHeight:', height);
+  
+    // Example of setting maxHeight or other styles
+    openSubSlide.style.maxHeight = height;
+  } else {
+    console.log('No element found with .sub-service-slide.open');
+  }
+
   if(sublinks.length > 0){
-    sublinks[0].classList.add("open")
+    // sublinks[0].classList.add("open")
       sublinks.forEach(function(sublink){
         sublink.addEventListener("click", function(e) {
           e.preventDefault();
@@ -6179,6 +6193,23 @@ document.addEventListener("DOMContentLoaded", function () {
             submobile.style.maxHeight = "";
             submobile.classList.remove("open");
           }
+
+          subSlides.forEach(function(slide) {
+            slide.classList.remove("open");
+            slide.style.maxHeight = "";
+          });
+
+          let subslideno = this.getAttribute("data-sub-service");
+  
+         
+         
+            let targetSubSlide = document.querySelector(`.sub-service-slide[data-sub-service="${subslideno}"]`);
+            if(targetSubSlide) {
+              targetSubSlide.classList.add("open");
+              targetSubSlide.style.maxHeight = `${targetSubSlide.scrollHeight}px`;
+            } 
+          
+
         });
       });
   }
