@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+<<<<<<< HEAD
+.about-tab-main{padding: ;}
+.about-tab-main ul{margin: 0;}
+ul.about-tab-row li::before{display: none;}
+ ul.about-tab-row{gap: 12px;}
+ ul.about-tab-row li{background-color: var(--Navy); padding: 8px 216px; border-radius: 20px;}
+ ul.about-tab-row li a{color: var(--White);}
+=======
 .about-tab-main ul {
     margin: 0;
 }
@@ -23,3 +31,4 @@ ul.about-tab-row li {
 ul.about-tab-row li a {
     color: var(--White);
 }
+>>>>>>> 06de9eb50ed48b305c9105cff3642adf25855396
