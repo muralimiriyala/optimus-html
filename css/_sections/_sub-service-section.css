@@ -62,8 +62,8 @@ ul.sub-service-menu > li > a.open span::after{background-color: var(--Orange); w
 
   .sub-service-nav{z-index: 2;}
   .sub-service-navigation{padding: 13px 40px 13px; display: block; font-size: 18px; line-height: 18px; font-weight: 600; color: var(--Navy); border-radius: 20px; background-color: var(--White); position: relative; cursor: pointer;}
-  .sub-service-navigation > span{position: absolute; top: 13px; left: 12px; width: 16px; height: 16px; border-radius: 16px; background-color: rgba(241, 124, 35, 0.50);}
-  .sub-service-navigation > span::after{content: ""; position: absolute; background-color: var(--Orange); width: 8px; height: 8px; top: 4px; left: 4px; border-radius: 50%;}
+  span.sub-service-dot{position: absolute; top: 13px; left: 12px; width: 16px; height: 16px; border-radius: 16px; background-color: rgba(241, 124, 35, 0.50);}
+  span.sub-service-dot::after{content: ""; position: absolute; background-color: var(--Orange); width: 8px; height: 8px; top: 4px; left: 4px; border-radius: 50%;}
   .sub-service-navigation::after{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; font-weight: normal; color: var(--Light-Blue); font-size: 20px; top: 12px; right: 12px; line-height: normal; transition: all .5s ease;}
   .sub-service-navigation.open ul.sub-service-menu{display: block;}
   .sub-service-navigation.open::after{transform: rotate(180deg);}

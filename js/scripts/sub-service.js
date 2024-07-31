@@ -14,9 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
             subitem.classList.remove("open");
           });
           sublink.classList.add("open");
+          let text = sublink.textContent;
+          document.querySelector(".sub-service-text").textContent = text;
+
           if(subnav.dataset.open !== "false") {
             subnav.dataset.open = "false";
             submobile.style.maxHeight = "";
+            subnav.classList.remove("open");
             submobile.classList.remove("open");
           }
 
