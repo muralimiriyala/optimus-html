@@ -38,3 +38,7 @@
     .slick-slider .timeline-slide{width: 296px; margin-right: 32px;}
     .timeline-appends { margin: 40px 0 36px; }
 }
+@media screen and (max-width: 389px) and (min-width: 200px){
+    .timeline-slide{padding: 24px;}
+    .slick-slider .timeline-slide{width: 273px; margin-right: 24px;}
+}

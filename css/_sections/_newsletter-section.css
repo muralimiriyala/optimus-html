@@ -69,6 +69,7 @@ body .insights-signup .with_frm_style .frm_message p{color: var(--White); font-s
     .comments-type-text{flex: 1;}
     .newsletter-disclaimer{max-width: 260px; margin: auto; padding-top: 19px;}
     .newsletter-bulb{margin: 24px 0 26px;}
+    body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{padding: 15px 32px 12px 56px;}
     body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field.field_submit{display: block; position: static; margin-top: 20px;}
 }
 @media only screen and (max-width: 389px) and (min-width: 200px){
