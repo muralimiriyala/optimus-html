@@ -4,10 +4,13 @@
 span.people-future-title{color: var(--Light-Blue); margin-bottom: 25px; display: block;}
 span.people-future-title a{color: var(--Light-Blue);}
 span.people-future-title a:hover{color: var(--Orange);}
-.people-future-image{width: 216px; height: 216px; margin: 0 auto; margin-bottom: 24px;}
+.people-future-image{margin: 0 auto; margin-bottom: 24px;}
 .people-future-list h3{margin-bottom: 0; font-size: 28px;} 
 
 /* media css starts here */
+@media screen and (min-width: 744px){
+   .people-future-image{width: 216px; height: 216px;}
+}
 @media screen and (min-width: 1024px){
    .people-future-row{gap: 40px;}
    .people-future1-of-3{flex: 0 0 calc(33.33333% - 27px);}
@@ -24,6 +27,7 @@ span.people-future-title a:hover{color: var(--Orange);}
 @media only screen and (max-width: 743px) and (min-width: 200px){
    .people-future-row{display: block;}
    .people-future-list:not(:last-child){margin-bottom: 24px;}
+   .people-future-image{max-width: 216px;}
 }
 
 
