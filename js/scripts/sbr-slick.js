@@ -20,14 +20,14 @@ jQuery(document).ready(function($) {
     $($sib).filter('.sbr-active').toggleClass("sbr-hover-active")
   });
 
-  let sbrimages = $(".sbr-slider-images");
-  let sbrslide = sbrimages.children(".sbr-for-slide");
-  let sbrtotalHeight = 10;
-  sbrslide.each(function(sbrIndex, sbrItem) {
-    let sbrHeight = $(sbrItem).outerHeight(true);
-    sbrtotalHeight += sbrHeight; 
-  });
-  sbrimages.css({ 'height': sbrtotalHeight + 'px' });
+  // let sbrimages = $(".sbr-slider-images");
+  // let sbrslide = sbrimages.children(".sbr-for-slide");
+  // let sbrtotalHeight = 10;
+  // sbrslide.each(function(sbrIndex, sbrItem) {
+  //   let sbrHeight = $(sbrItem).outerHeight(true);
+  //   sbrtotalHeight += sbrHeight; 
+  // });
+  // sbrimages.css({ 'height': sbrtotalHeight + 'px' });
   
   
 
