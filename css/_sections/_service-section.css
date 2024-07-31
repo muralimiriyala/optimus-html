@@ -34,7 +34,7 @@ ul.service-subtitle > li a.active{color: var(--Blue);}
 .service-lists .slick-list{overflow: inherit;}
 .service-lists .slick-track{display: flex;}
 .service-lists .service-item.slick-slide{height: auto;}
-.service-lists div.slick-arrow{border-radius: 50%; color: var(--White);}
+.service-lists div.slick-arrow{color: var(--White); position: absolute;}
 .service-lists div.slick-arrow.slick-next{right: 0; top: -62px;}
 .service-lists  div.slick-arrow.slick-prev{left: auto; right: 72px; top: -62px;}
 

@@ -6,34 +6,10 @@
 .post-array-cat-main{ gap: 8px; margin-bottom: 25px; display: flex; flex-wrap: wrap; }
 .post-array-cat { gap: 8px; width: fit-content;}
 
-.post-array-icon {
-    font-size: 20px;
-    line-height: 20px;
-}
-
-.post-array-icon i {
-    top: -2px;
-    position: relative;
-    color: var(--Light-Blue);
-}
-
-.post-array-hover {
-    opacity: 1;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: var(--post-transition);
-    background-color: var(--Navy);
-    color: var(--White);
-    position: absolute;
-    z-index: 2;
-    border-radius: 0 0 24px 24px;
-    overflow-y: auto;
-}
-
-.post-array-hover h2 a:hover {
-    color: var(--White);
-}
+.post-array-icon { font-size: 20px; line-height: 20px; max-width: 24px; }
+.post-array-icon i { top: -2px; position: relative; color: var(--Light-Blue); }
+.post-array-hover { opacity: 1; left: 0; width: 100%; height: 100%; transition: var(--post-transition); background-color: var(--Navy); color: var(--White); position: absolute; z-index: 2; border-radius: 0 0 24px 24px; overflow-y: auto; }
+.post-array-hover h2 a:hover { color: var(--White); }
 
 .post-array-card:hover {
     position: relative;

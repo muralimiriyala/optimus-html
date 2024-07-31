@@ -1,3 +1,5 @@
+"use strict";
+
 document.addEventListener("DOMContentLoaded", function () {
   const header = document.querySelector("header.site-header");
   const headerHeight = header.clientHeight;
@@ -84,26 +86,48 @@ document.addEventListener("DOMContentLoaded", function () {
   accordions(".accordion-list", ".accordion-header", ".accordion-content");
   /*-- accordions ends here --*/
 
-  if ($(window).width() >= 744) {
-    jQuery(".sub-service-menu > li, .sub-service-menu > li a").click(function (e) {
-      e.preventDefault;
-      jQuery(".sub-service-menu > li").removeClass("active");
-      jQuery(this).addClass("active");   
-    });
+  /*-- expand search starts here --*/
+  const srcBtn = document.querySelector("button.res-srch-icon");
+  if(srcBtn){
+      srcBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector(".res-srch-form").classList.toggle("open");
+      });
   }
-  
-  if ($(window).width() <= 743) {
-    jQuery(".sub-service-navigation").click(function (e) {
-      e.preventDefault;
-      jQuery(".sub-service-navigation").toggleClass("open");
-      jQuery(".sub-service-menu").toggle(500);   
-    });
-  
-    jQuery(".sub-service-menu > li").click(function (e) {
-      e.preventDefault;
-      jQuery(".sub-service-menu").slideUp(500);   
-    });
-  }
-  
+  /*-- expand search ends here --*/
 
+  let sublinks = document.querySelectorAll("ul.sub-service-menu > li > a");
+  sublinks[0].classList.add("open");
+  let subnav = document.querySelector(".sub-service-navigation");
+  let submobile = document.querySelector(".sub-service-mobile")
+
+  sublinks.forEach(function(sublink){
+    sublink.addEventListener("click", function(e) {
+      e.preventDefault();
+      sublinks.forEach(function(subitem){
+        subitem.classList.remove("open");
+      });
+      sublink.classList.add("open");
+      if(subnav.dataset.open !== "false") {
+        subnav.dataset.open = "false";
+        submobile.style.maxHeight = "";
+        submobile.classList.remove("open");
+      }
+    });
+  });
+  subnav.addEventListener("click", function(e){
+    e.preventDefault();
+    let $this = this;
+    $this.classList.toggle("open");
+    if($this.dataset.open !== "true") {
+      $this.dataset.open = "true";
+      submobile.style.maxHeight = `${submobile.scrollHeight}px`;
+      submobile.classList.add("open");
+    }
+    else{
+      $this.dataset.open = "false";
+      submobile.style.maxHeight = "";
+      submobile.classList.remove("open");
+    }
+  });
 });
