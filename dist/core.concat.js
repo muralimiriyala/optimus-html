@@ -6162,31 +6162,31 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   /*-- expand search ends here --*/
 
-  let asx = document.querySelectorAll("ul.sub-service-menu > li a")[0];
-  console.log(asx, "asx")
-
-  if ($(window).width() >= 744) {
-    jQuery(".sub-service-menu > li, ").click(function (e) {
-      e.preventDefault;
-      jQuery(".sub-service-menu > li").removeClass("active");
-      jQuery(this).addClass("active");   
+  let sublinks = document.querySelectorAll("ul.sub-service-menu > li > a");
+  sublinks.forEach(function(sublink){
+    sublink.addEventListener("click", function(e) {
+      e.preventDefault();
+      sublinks.forEach(function(subitem){
+        subitem.classList.remove("open");
+      });
+      sublink.classList.add("open");
     });
-  }
-  
-  if ($(window).width() <= 743) {
-    jQuery(".sub-service-navigation").click(function (e) {
-      e.preventDefault;
-      jQuery(".sub-service-navigation").toggleClass("open");
-      jQuery(".sub-service-menu").toggle(500);   
-    });
-  
-    jQuery(".sub-service-menu > li").click(function (e) {
-      e.preventDefault;
-      jQuery(".sub-service-menu").slideUp(500);   
-    });
-  }
-  
-
+  });
+  let subnav = document.querySelector(".sub-service-navigation");
+  let submobile = document.querySelector(".sub-service-mobile")
+  subnav.addEventListener("click", function(e){
+    e.preventDefault();
+    let $this = this;
+    $this.classList.toggle("open");
+    if($this.dataset.open !== "true") {
+      $this.dataset.open = "true";
+      submobile.style.maxHeight = `${submobile.scrollHeight}px`;
+    }
+    else{
+      $this.dataset.open = "false";
+      submobile.style.maxHeight = "";
+    }
+  });
 });
 
 jQuery(function(){
@@ -6440,7 +6440,7 @@ jQuery(document).ready(function($) {
 
   let sbrimages = $(".sbr-slider-images");
   let sbrslide = sbrimages.children(".sbr-for-slide");
-  let sbrtotalHeight = 20;
+  let sbrtotalHeight = 10;
   sbrslide.each(function(sbrIndex, sbrItem) {
     let sbrHeight = $(sbrItem).outerHeight(true);
     sbrtotalHeight += sbrHeight; 

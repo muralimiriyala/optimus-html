@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
 
   let sbrimages = $(".sbr-slider-images");
   let sbrslide = sbrimages.children(".sbr-for-slide");
-  let sbrtotalHeight = 20;
+  let sbrtotalHeight = 10;
   sbrslide.each(function(sbrIndex, sbrItem) {
     let sbrHeight = $(sbrItem).outerHeight(true);
     sbrtotalHeight += sbrHeight; 

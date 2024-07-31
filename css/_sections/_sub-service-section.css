@@ -9,10 +9,10 @@ ul.sub-service-menu > li::before{display: none;}
 ul.sub-service-menu > li span{position: absolute; top: 12px; left: 12px; width: 16px; height: 16px; border-radius: 16px; background-color: var(--White); }
 ul.sub-service-menu > li span::after{content: ""; position: absolute; top: 6px; left: 6px; width: 4px; height: 4px; opacity: 1; background-color: var(--Light-Blue); border-radius: 50%; z-index: 1;}
 ul.sub-service-menu > li > a{padding: 9px 0 8px 36px; display: block;}
-ul.sub-service-menu > li.active{border-radius: 20px 0px 0px 20px; background-color: var(--White);}
-ul.sub-service-menu > li.active a{color: var(--Navy);}
-ul.sub-service-menu > li.active span{top: 12px; left: 12px; width: 16px; height: 16px; background-color: rgba(241, 124, 35, 0.50);}
-ul.sub-service-menu > li.active span::after{background-color: var(--Orange); width: 8px; height: 8px; top: 4px; left: 4px;}
+ul.sub-service-menu > li > a.open{border-radius: 20px 0px 0px 20px; background-color: var(--White);}
+ul.sub-service-menu > li > a.open{color: var(--Navy);}
+ul.sub-service-menu > li > a.open span{top: 12px; left: 12px; width: 16px; height: 16px; background-color: rgba(241, 124, 35, 0.50); transition: var(--b-transition);}
+ul.sub-service-menu > li > a.open span::after{background-color: var(--Orange); width: 8px; height: 8px; top: 4px; left: 4px;}
 
 @media screen and (min-width: 1024px) {
     .sub-service-main{padding: 80px 0 88px; gap: 80px;}
@@ -54,7 +54,7 @@ ul.sub-service-menu > li.active span::after{background-color: var(--Orange); wid
   .sub-service-navigation::after{content: "\f107"; position: absolute; font-family: "Font Awesome 6 Pro"; color: var(--Light-Blue); font-size: 20px; top: 12px; right: 12px; line-height: normal;}
   .sub-service-navigation.open ul.sub-service-menu{display: block;}
 
-  .sub-service-mobile{display: none;  box-shadow: 0px 5px 40px rgba(0, 17, 51, .15);  background: var(--White); border-radius: 20px; position: absolute;}
+  .sub-service-mobile{max-height: 0; overflow: hidden; box-shadow: 0px 5px 40px rgba(0, 17, 51, .15);  background: var(--White); border-radius: 20px; position: absolute; transition: max-height .9s;}
   ul.sub-service-menu{ margin: 10px 0 0; padding: 24px 0 27px; width: 100%;}
   ul.sub-service-menu > li{margin-bottom: 0;}
   ul.sub-service-menu > li span{background-color: #e2f4ff;}
