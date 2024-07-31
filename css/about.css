@@ -1,34 +1,18 @@
+.building-main-slider{padding: 40px 0;}
+.building-head{margin-bottom: 48px;}
+.building-head h3{font-size: 40px;}
 
-.about-tab-main {
-    padding: 0;
-}
+.building-row{gap: 32px;}
+.building-list{flex: 0 0 calc(25% - 24px); border: 1px solid var(--Light-Blue-Tint); padding: 32px; border-radius: 24px;}
+.building-list .num{font-size: 48px; color: var(--Blue); font-weight: 700; margin-bottom: 16px; display: block; line-height: 55px;}
+.building-list p{color: var(--Gray);}
 
-<<<<<<< HEAD
-.about-tab-main{padding: ;}
+.about-tab-main{padding: 0 0 40px;}
 .about-tab-main ul{margin: 0;}
 ul.about-tab-row li::before{display: none;}
  ul.about-tab-row{gap: 12px;}
- ul.about-tab-row li{background-color: var(--Navy); padding: 8px 216px; border-radius: 20px;}
+ ul.about-tab-row li{background-color: var(--Navy); padding: 8px 16px; border-radius: 20px; margin-bottom: 0;}
  ul.about-tab-row li a{color: var(--White);}
-=======
-.about-tab-main ul {
-    margin: 0;
-}
 
-ul.about-tab-row li::before {
-    display: none;
-}
-
-ul.about-tab-row {
-    gap: 12px;
-}
-
-ul.about-tab-row li {
-    background-color: var(--Navy);
-    padding: 0;
-}
-
-ul.about-tab-row li a {
-    color: var(--White);
-}
->>>>>>> 06de9eb50ed48b305c9105cff3642adf25855396
+ ul.about-tab-row li:hover{background-color: var(--Light-Blue-Tint);  transition: all ease;}
+ ul.about-tab-row li:hover a{color: var(--Navy); }
