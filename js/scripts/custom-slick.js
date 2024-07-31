@@ -168,19 +168,9 @@ jQuery(document).ready(function ($) {
         appendDots: singleAppend,
         responsive: [
           {
-            breakpoint: 1023,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-          {
             breakpoint: 743,
             settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
               dots: true,
-              
             },
           },
         ],
