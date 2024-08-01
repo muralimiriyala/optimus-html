@@ -42,5 +42,5 @@ body.single-post .share-inline-arrow{padding: 35px 0 0 ;}
 @media screen and (max-width: 389px) and (min-width: 200px){
     .share-icons #st-1.st-animated { justify-content: space-between; }
     .share-icons #st-1.st-animated .st-btn[data-network="sharethis"] { font-size: 42px; line-height: 48px; }
-    .share-icons #st-1.st-has-labels .st-btn.st-remove-label { min-width: 44px; width: 44px; height: 44px; }
+    .share-icons #st-1.st-animated .st-btn{ min-width: 44px; width: 44px; height: 44px; }
 }

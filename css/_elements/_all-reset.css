@@ -339,6 +339,3 @@ ul.slick-dots li button{display: none; padding: 0;}
     caption, td, th{font-size: 13px; line-height: 16px;}
     td{padding: 13px 10px 11px;}
 }
-@media screen and (max-width: 374px) and (min-width: 200px){
-    .text-btn-link{font-size: 14px;}
-}

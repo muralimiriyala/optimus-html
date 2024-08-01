@@ -88,3 +88,6 @@ body.page-template-case-study .primary-cta-section hr{width: 100%; height: 1px; 
 @media screen and (max-width: 389px) and (min-width: 200px){
     .primary-cta-text h2{font-size: 32px; line-height: 40px;}
 }
+@media screen and (max-width: 374px) and (min-width: 200px){
+    .primary-cta-btns .text-btn-link{font-size: 14px;}
+}
