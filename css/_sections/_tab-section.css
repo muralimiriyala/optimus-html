@@ -11,12 +11,20 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
 .tabs-row{gap: 48px;}
 .tab-list{flex: 0 0 calc(33.33% - 32px); }
 .tab-title{flex: 1;}
-.tab-arrow{flex: 0 0 24px; opacity: 0; transform: translate(0,0); transition: all 0.5s ease;  color: var(--Orange);} 
-.tab-list:hover .tab-arrow{opacity: 1; transform: translate(-2px, 2px);}
+.tab-head::after { font-size: 32px; line-height: 32px; font-weight: 300; content: "\f176"; display: block; position: absolute; right: 24px; top: 50%; transform: translateY(-50%); color: var(--Orange); transition: all .5s ease; opacity: 0; font-family: "Font Awesome 6 Sharp"; }
+.tab-list:hover .tab-head::after{opacity: 1; transform: translate(-2px, -50%);}
+.tab-open .tab-head::after{opacity: 0 !important;}
+
+.tab-arrow{flex: 0 0 24px; opacity: 0; transform: translate(0,0); transition: all 0.5s ease;  color: var(--Orange); cursor: pointer;} 
 .tab-image{height: 100%;}
-.tab-text {cursor: pointer; transition: all 0.5s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: 0; width: 100%; padding:  22px 24px; border-radius: 24px; }
-.tab-list:hover .tab-text{padding-bottom: 34px;}
-.tab-text.tab-open{height: 100%; cursor: inherit;}
+.tab-text {cursor: pointer; transition: all 0.5s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: -10px; width: 100%; padding: 22px 24px 34px; overflow: auto; -ms-overflow-style: none; scrollbar-width: none;}
+.tab-text::-webkit-scrollbar { display: none; }
+  
+.tab-list:hover .tab-text{bottom: 0;}
+.tab-text.tab-open{height: 100%; bottom: 0; cursor: inherit;}
+
+.tab-open .tab-arrow{opacity: 1;}
+.tab-open .tab-arrow i::before{content: "\f175";}
 
 .tab-text h2{font-size: 24px; line-height: 30px; color: var(--White); margin-bottom: 0;}
 .tab-text h2 a{color: var(--White);}
