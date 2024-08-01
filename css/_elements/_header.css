@@ -19,7 +19,7 @@ header.sticky-header{z-index: 850; background: var(--Blue);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-    body.page-template-service-landing header.site-header:not(.sticky-header){background-color: transparent;}
+    body.page-template-service-landing header.site-header:not(.sticky-header), body.page-template-industries-landing header.site-header:not(.sticky-header){background-color: transparent;}
     body.home header.site-header:not(.sticky-header){background: transparent;}
     body.category-insights header.site-header:not(.sticky-header){background-color: transparent;}
     body.home .site-main-cover,
@@ -103,7 +103,7 @@ header.sticky-header{z-index: 850; background: var(--Blue);}
     ul.main_menu > li.nav-services > ul > li > ul > li.hide-menu-item {display: none;}
 
     .site-main-cover{padding-top: 84px;}
-    body.page-template-service-landing .site-main-cover{padding-top: 0;}
+    body.page-template-service-landing .site-main-cover, body.page-template-industries-landing .site-main-cover{padding-top: 0;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     ul.main_menu{padding-right: 22px; gap: 22px;}
