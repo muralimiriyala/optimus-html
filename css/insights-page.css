@@ -111,3 +111,6 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
 
 
 }
+@media screen and (max-width: 389px) and (min-width: 200px){
+    .slick-slider .blog-post-list{width: 273px; margin-right: 24px;}
+}
