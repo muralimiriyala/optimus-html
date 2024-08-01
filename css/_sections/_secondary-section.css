@@ -30,9 +30,8 @@ body.page-template-our-people hr, body.page-template-about .secondary-section hr
         display: block;
     }
 
-    .secondary-list {
-       margin-bottom: 40px;
-    }
+    .secondary-list { margin-bottom: 40px; }
+    .secondary-list:last-child{margin-bottom: 0;}
 }
 
 @media only screen and (max-width: 743px) and (min-width: 200px) {
