@@ -34,6 +34,7 @@
     body.page-template-about .people-fancy-main::after {display: none;}
     .people-fancy-inner { width: calc(100% + 154px); left: -77px; margin-bottom: 20px; }
       .people-fancy-txt p{margin-bottom: 30px;}
+      .people-fancy-row{gap: 0;}
       
 }
 
