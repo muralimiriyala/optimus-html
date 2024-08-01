@@ -62,8 +62,8 @@
     visibility: visible;
 }
 
-.post-array-section.color{background-color: var(--Light-Blue-Tint);} 
-.post-array-section.color .post-array-main{padding-top: 80px;}
+.post-array-section.post-color{background-color: var(--Dim-Blue);} 
+.post-array-section.post-color .post-array-main{padding-top: 80px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px) {

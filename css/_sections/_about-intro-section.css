@@ -36,7 +36,7 @@
 }
 
 @media screen and (max-width:1199px) and (min-width: 1024px) {
-    .about-intro-title { flex: 0 0 372px; }
+    .about-intro-title { flex: 0 0 252px; }
     .about-intro-text { flex: 1; gap: 48px; flex-direction: row-reverse; }
     .about-intro-desc { flex: 1; padding-left: 25px; }
     .about-arrow-img { flex: 0 0 104px; }
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 744px) {
     .about-intro-head {
-        padding: 0 0 80px;
+        padding: 0px;
         display: block;
     }
 
