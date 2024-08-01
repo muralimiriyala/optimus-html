@@ -32,5 +32,10 @@
     .people-fancy-btns .button{width: 100%;}
 
     body.page-template-about .people-fancy-main::after {display: none;}
+    body.page-template-about .people-fancy-inner {
+        width: calc(100% + 154px);
+        left: -77px;
+        margin-bottom: 20px;
+      }
 }
 

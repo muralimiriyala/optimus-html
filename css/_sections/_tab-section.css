@@ -31,7 +31,6 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
 
 .tab-desc{max-height: 0; overflow: hidden;}
 
-
 ul.tab-address{margin: 26px 0 23px; gap: 19px; flex-direction: column;}
 ul.tab-address > li{margin: 0;}
 ul.tab-address > li::before{display: none;}
@@ -56,4 +55,5 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
     .tabs-row{display: block;}
     .tab-list{margin-bottom: 24px;}
     .tab-list:hover .tab-text::after {font-size: 30px; line-height: 300;}
+    .tabs-main{padding: 0 0 15px;}
 }
