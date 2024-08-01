@@ -3,7 +3,7 @@
 .people-fancy-cont span{font-size: 15px; color: var(--Blue);}
 .people-fancy-cont{margin-bottom: 14px;}
 .people-fancy-btns{gap: 16px;}
-.people-fancy-txt p{color: var(--Gray);}
+.people-fancy-txt p{color: var(--Gray); font-size: 16px; line-height: 28px;}
 .people-fancy-row.no_fancy_images{display: block;}
 .people-fancy-row.no_fancy_text{justify-content: center;}
 
