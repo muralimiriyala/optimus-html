@@ -1,31 +1,33 @@
 .tabs-main{padding: 0 0 80px;}
-.tab-head{padding: 0 0 47px;}
-ul.tab-links {margin: 0;}
+
+ul.tab-links {margin: 0; padding: 0 0 47px;}
 ul.tab-links li::before{display: none;}
 ul.tab-links{gap: 12px;}
-<<<<<<< HEAD
-ul.tab-links li{padding: 8px 16px; border-radius: 20px; margin-bottom: 0;}
-ul.tab-links li a.active {color: var(--White); background-color: var(--Navy); }
-
-
-ul.tab-links li{background-color: var(--Light-Blue-Tint);  transition: all ease;}
-ul.tab-links li a{color: var(--Navy); }
-=======
 ul.tab-links > li{margin: 0;}
 ul.tab-links > li > a{padding: 9px 16px 8px; background-color: var(--Light-Blue-Tint);color: var(--Navy); display: inline-block;}
 ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(--Navy); color: var(--White); }
 
->>>>>>> e0e3dcdfa7e30ad620a85960bfd8de1efa6c30fc
 
 .tabs-row{gap: 48px;}
 .tab-list{flex: 0 0 calc(33.33% - 32px); }
-
-.tab-text { cursor: pointer; transition: height 0.9s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: 0; width: 100%; padding:  22px 24px; border-radius: 24px; }
+.tab-title{flex: 1;}
+.tab-arrow{flex: 0 0 24px; opacity: 0; transform: translate(0,0); transition: all 0.5s ease;  color: var(--Orange);} 
+.tab-list:hover .tab-arrow{opacity: 1; transform: translate(-2px, 2px);}
+.tab-image{height: 100%;}
+.tab-text {height: 101px; cursor: pointer; transition: all 0.5s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: 0; width: 100%; padding:  22px 24px; border-radius: 24px; }
+.tab-list:hover .tab-text{padding-bottom: 34px;}
 .tab-text.tab-open{height: 100%; cursor: inherit;}
+
 .tab-text h2{font-size: 24px; line-height: 30px; color: var(--White); margin-bottom: 0;}
 .tab-text h2 a{color: var(--White);}
 .tab-text h2 a:hover{color: var(--Orange);}
 .tab-text span{font-size: 16px; color: var(--Light-Blue); line-height: 24px;}
 .tab-image img{border-radius: 24px;}
-.tab-list:hover .tab-text{padding: 22px 24px 30px; transition: all ease-in-out 0.25s;}
-.tab-list:hover .tab-text::after{ display: block; content: "\f176"; font-family: "Font Awesome 6 Sharp"; font-size: 20px; color: var(--Orange); right: 24px; left: auto; width: 20px; position: absolute; top: 50%; transform: translate(-50% ,-50%);}
+
+.tab-desc{max-height: 0; overflow: hidden;}
+
+ul.tab-address{margin: 0 0 23px; gap: 19px; flex-direction: column;}
+ul.tab-address > li{margin: 0;}
+ul.tab-address > li::before{display: none;}
+ul.tab-address > li > a{gap: 8px; font-size: 16px; line-height: 16px; letter-spacing: -0.32px;}
+ul.tab-address > li > a i{color: var(--Light-Blue);}

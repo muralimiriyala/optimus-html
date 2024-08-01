@@ -106,14 +106,26 @@ document.addEventListener("DOMContentLoaded", function () {
           if (tabitem !== tabel) {
             tabel.dataset.tab = "false";
             tabel.classList.remove("tab-open")
+            const desc = tabel.querySelector(".tab-desc");
+            if (desc) {
+              desc.style.maxHeight = "";
+            }
           }
         });
         tabitem.dataset.tab = "true";
-        tabitem.classList.add("tab-open")
+        tabitem.classList.add("tab-open");
+        const desc = tabitem.querySelector(".tab-desc");
+        if (desc) {
+          desc.style.maxHeight = `${desc.scrollHeight}px`;
+        }
       }
       else{
         tabitem.dataset.tab = "false";
         tabitem.classList.remove("tab-open")
+        const desc = tabitem.querySelector(".tab-desc");
+        if (desc) {
+          desc.style.maxHeight = "";
+        }
       }
     })
   });
