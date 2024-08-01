@@ -2,12 +2,6 @@
 ul.tab-links {margin: 0;}
 ul.tab-links li::before{display: none;}
 ul.tab-links{gap: 12px;}
-ul.tab-links li{padding: 8px 16px; border-radius: 20px; margin-bottom: 0;}
-ul.tab-links li a.active {color: var(--White); background-color: var(--Navy); }
-
-
-ul.tab-links li{background-color: var(--Light-Blue-Tint);  transition: all ease;}
-ul.tab-links li a{color: var(--Navy); }
 ul.tab-links > li{margin: 0;}
 ul.tab-links > li > a{padding: 9px 16px 8px; background-color: var(--Light-Blue-Tint);color: var(--Navy); display: inline-block;}
 ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(--Navy); color: var(--White); }
