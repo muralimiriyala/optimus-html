@@ -104,50 +104,6 @@ jQuery(document).ready(function ($) {
     recentSlider();
   });
 
-  function serviceSlider() {
-    const serviceAppend = $(".service-append-arrows");
-    if (!$(".service-lists").hasClass("slick-initialized")) {
-      $(".service-lists").slick({
-        slidesToShow: 1,
-        slidesToScroll: 4,
-        variableWidth: true,
-        arrows: true,
-        prevArrow:
-          '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-        nextArrow:
-          '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-        dots: false,
-        speed: 1500,
-        infinite: false,
-        autoplay: false,
-        responsive: [
-          {
-            breakpoint: 1023,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-          {
-            breakpoint: 743,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              dots: true,
-              appendArrows: serviceAppend,
-              appendDots: serviceAppend,
-            },
-          },
-        ],
-      });
-    } else {
-      if ($(".service-lists").hasClass("slick-initialized")) {
-        $(".service-lists").slick("unslick");
-      }
-    }
-  }
-  serviceSlider();
-
 
   function singletestimonialSlider() {
     const singleAppend = $(".single-append-arrows");
