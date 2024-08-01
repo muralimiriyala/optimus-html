@@ -33,30 +33,11 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
 
 .tab-desc{max-height: 0; overflow: hidden;}
 
-<<<<<<< HEAD
-/*-- media css starts here --*/
-
-@media screen and (max-width: 1023px) and (min-width: 744px) {
-ul.tab-links { gap: 24px; }
-
-}
-@media screen and (max-width: 743px) and (min-width: 200px) {
-.tabs-row{display: block;}
-.tab-list{margin-bottom: 24px;}
-
-.tab-list:hover .tab-text::after {font-size: 30px; line-height: 300;}
-
-}
-=======
-
->>>>>>> 8d1d772131351ee3fd522428a8a7e8561284a966
 ul.tab-address{margin: 26px 0 23px; gap: 19px; flex-direction: column;}
 ul.tab-address > li{margin: 0;}
 ul.tab-address > li::before{display: none;}
 ul.tab-address > li > a{gap: 8px; font-size: 16px; line-height: 16px; letter-spacing: -0.32px;}
 ul.tab-address > li > a i{color: var(--Light-Blue);}
-<<<<<<< HEAD
-=======
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -70,5 +51,5 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
     .tabs-row{display: block;}
     .tab-list{margin-bottom: 24px;}
     .tab-list:hover .tab-text::after {font-size: 30px; line-height: 300;}
+    .tabs-main{padding: 0 0 15px;}
 }
->>>>>>> 8d1d772131351ee3fd522428a8a7e8561284a966
