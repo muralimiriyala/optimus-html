@@ -96,4 +96,27 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   /*-- expand search ends here --*/
 
+  /*-- tab-section starts here --*/  
+  const tabText = document.querySelectorAll(".tab-text");
+  tabText.forEach(function(tabitem){
+    tabitem.addEventListener("click", function(e){
+      e.preventDefault();
+      if(tabitem.dataset.tab !== "true"){
+        tabText.forEach((tabel) => {
+          if (tabitem !== tabel) {
+            tabel.dataset.tab = "false";
+            tabel.classList.remove("tab-open")
+          }
+        });
+        tabitem.dataset.tab = "true";
+        tabitem.classList.add("tab-open")
+      }
+      else{
+        tabitem.dataset.tab = "false";
+        tabitem.classList.remove("tab-open")
+      }
+    })
+  });
+  /*-- tab-section ends here --*/
+
 });

@@ -1,0 +1,21 @@
+.tab-head{padding: 0 0 40px;}
+ul.tab-links {margin: 0;}
+ul.tab-links li::before{display: none;}
+ul.tab-links{gap: 12px;}
+ul.tab-links li{background-color: var(--Navy); padding: 8px 16px; border-radius: 20px; margin-bottom: 0;}
+ul.tab-links li a{color: var(--White);}
+
+ul.tab-links li:hover{background-color: var(--Light-Blue-Tint);  transition: all ease;}
+ul.tab-links li:hover a{color: var(--Navy); }
+
+.tabs-row{gap: 48px;}
+.tab-list{flex: 0 0 calc(33.33% - 32px); }
+
+.tab-text { cursor: pointer; transition: height 0.9s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: 0; width: 100%; padding:  22px 24px; border-radius: 24px; }
+.tab-text.tab-open{height: 100%; cursor: inherit;}
+.tab-text h3{font-size: 24px; color: var(--White); margin-bottom: 0; line-height: 30px;}
+.tab-text h3 a{color: var(--White);}
+.tab-text span{font-size: 16px; color: var(--Light-Blue); line-height: 24px;}
+.tab-image img{border-radius: 24px;}
+.tab-list:hover .tab-text{padding: 22px 24px 30px; transition: all ease-in-out 0.25s;}
+.tab-list:hover .tab-text::after{ display: block; content: "\f176"; font-family: "Font Awesome 6 Sharp"; font-size: 20px; color: var(--Orange); right: 24px; left: auto; width: 20px; position: absolute; top: 50%; transform: translate(-50% ,-50%);}
