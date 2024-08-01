@@ -52,7 +52,7 @@
 </header>
 <main class="site-main-cover">
 <section class="home-banner-section relative">
-    <div class="home-banner-image absolute">
+    <!-- <div class="home-banner-image absolute">
         <div class="home-banner-bg hide-tablet hide-mobile absolute"></div>
         <div class="home-banner-svg container absolute hide-mobile hide-tablet">
             <svg width="1578" height="960" viewBox="0 0 1578 960" fill="none">
@@ -64,13 +64,20 @@
                 </g>
             </svg> 
         </div>
-
         <picture class="object-fit">
             <source srcset="images/home-banner-new@2x.jpg" media="(min-width: 744px)">
             <img src="images/home-banner-mobile-new@2x.jpg" alt="home-banner">
         </picture>
-        <!-- <div class="banner-bg background-bg home-banner-iframe" data-ytbg-fade-in="true" data-youtube="https://www.youtube.com/watch?v=feJWOrqn8VI"> </div> -->
+    </div> -->
+    <div class="banner-bg background-bg home-banner-iframe" data-ytbg-fade-in="true" data-youtube="https://www.youtube.com/watch?v=feJWOrqn8VI"> 
+        <div class="home-banner-bg hide-tablet hide-mobile absolute"></div>
+        <div class="home-banner-image">
+            <picture class="object-fit">
+                <img loading="eager" src="images/home-banner-new@2x.jpg" alt="home-banner">
+            </picture>
+        </div>
     </div>
+
     <div class="container">
         <div class="home-banner-main">
             <div class="home-banner-text relative">
@@ -463,7 +470,7 @@
                         <span class="service-name industries-list">Industries</span>
                     </form>
                 </div>
-                <div class="service-lists flex">
+                <div class="service-lists healthcare-slider flex">
                     <div class="service-item">
                         <div class="service-icon">
                             <a href="#">
@@ -1283,5 +1290,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/daf2e8de71.js" crossorigin="anonymous"></script>
 <script src="./dist/core.concat.js"></script>
+<script src="dist/ajax-solutions.js"></script>
 </body>
 </html>
