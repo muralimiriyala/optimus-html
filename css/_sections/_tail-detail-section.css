@@ -10,6 +10,7 @@
     max-width: 40px;
     color: var(--Light-Blue);
 }
+.tail-detail-icon.no_icon .tail-detail-arrow{position: static;}
 
 .tail-detail-icon figure img {
     object-fit: contain;
