@@ -14,7 +14,7 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
 .tab-arrow{flex: 0 0 24px; opacity: 0; transform: translate(0,0); transition: all 0.5s ease;  color: var(--Orange);} 
 .tab-list:hover .tab-arrow{opacity: 1; transform: translate(-2px, 2px);}
 .tab-image{height: 100%;}
-.tab-text {height: 101px; cursor: pointer; transition: all 0.5s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: 0; width: 100%; padding:  22px 24px; border-radius: 24px; }
+.tab-text {cursor: pointer; transition: all 0.5s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: 0; width: 100%; padding:  22px 24px; border-radius: 24px; }
 .tab-list:hover .tab-text{padding-bottom: 34px;}
 .tab-text.tab-open{height: 100%; cursor: inherit;}
 
@@ -26,7 +26,7 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
 
 .tab-desc{max-height: 0; overflow: hidden;}
 
-ul.tab-address{margin: 0 0 23px; gap: 19px; flex-direction: column;}
+ul.tab-address{margin: 26px 0 23px; gap: 19px; flex-direction: column;}
 ul.tab-address > li{margin: 0;}
 ul.tab-address > li::before{display: none;}
 ul.tab-address > li > a{gap: 8px; font-size: 16px; line-height: 16px; letter-spacing: -0.32px;}
