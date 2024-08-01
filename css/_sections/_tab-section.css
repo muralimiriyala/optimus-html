@@ -19,3 +19,12 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
 .tab-image img{border-radius: 24px;}
 .tab-list:hover .tab-text{padding: 22px 24px 30px; transition: all ease-in-out 0.25s;}
 .tab-list:hover .tab-text::after{ display: block; content: "\f176"; font-family: "Font Awesome 6 Sharp"; font-size: 20px; color: var(--Orange); right: 24px; left: auto; width: 20px; position: absolute; top: 50%; transform: translate(-50% ,-50%);}
+
+
+/*-- media css starts here --*/
+
+@media screen and (max-width: 1023px) and (min-width: 744px) {
+ul.tab-links { gap: 24px; }
+
+
+}

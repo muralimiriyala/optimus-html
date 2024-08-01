@@ -36,7 +36,7 @@
     .timeline-main { padding: 11px 0 40px; }
     .timeline-head{padding-bottom: 21px;}
     .slick-slider .timeline-slide{width: 296px; margin-right: 32px;}
-    .timeline-appends { margin: 40px 0 36px; }
+    .timeline-appends { margin: 16px 0 36px; }
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     .timeline-slide{padding: 24px;}
