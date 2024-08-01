@@ -93,7 +93,7 @@ ul.blog_list{margin: 0; width: 100%;}
     .load-more-resources{margin-top: 64px;}
     .res-rule{height: 34px;}
     .res-dropdown-main{gap: 32px;}
-    .res-dropdown-pos{flex: 0 0 calc(50% - 16px);}
+    .res-dropdown-pos{flex: 0 0 calc(50% - 16px);max-width: calc(50% - 16px);}
     .res-srch-field{border: 4px solid var(--Orange);}
     .res-srch-field input{padding: 15px 48px 14px 16px;}
 }

@@ -56,4 +56,7 @@ body.page-template-our-people hr, body.page-template-about .secondary-section hr
         margin: 10px 0;
     }
 
+    body.page-template-about .secondary-section hr {
+        margin: 8px 0 35px;}
+
 }

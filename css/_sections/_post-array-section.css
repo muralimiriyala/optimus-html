@@ -62,6 +62,9 @@
     visibility: visible;
 }
 
+.post-array-section.post-color{background-color: var(--Dim-Blue);} 
+.post-array-section.post-color .post-array-main{padding-top: 80px;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px) {
     .post-array-row .slick-track {

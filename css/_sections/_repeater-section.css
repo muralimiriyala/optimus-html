@@ -334,7 +334,7 @@ body.page-template-services-detail-sub-page .repeater-main::after {
     margin-bottom: 22px;
   }
 
-  .repeater-txt button {
+  .repeater-btns .button {
     width: 100%;
   }
 
@@ -350,5 +350,5 @@ body.page-template-services-detail-sub-page .repeater-main::after {
     margin-top: 48px
   }
 
-  ;
+  
 }
