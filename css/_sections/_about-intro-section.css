@@ -86,7 +86,7 @@
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .about-intro-head {
         display: block;
-        padding: 0 0 61px;
+        padding: 0 0 40px;
     }
 
     .about-intro-title {

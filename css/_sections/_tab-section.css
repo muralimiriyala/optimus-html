@@ -26,5 +26,11 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
 @media screen and (max-width: 1023px) and (min-width: 744px) {
 ul.tab-links { gap: 24px; }
 
+}
+@media screen and (max-width: 743px) and (min-width: 200px) {
+.tabs-row{display: block;}
+.tab-list{margin-bottom: 24px;}
+
+.tab-list:hover .tab-text::after {font-size: 30px; line-height: 300;}
 
 }
