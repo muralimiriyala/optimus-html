@@ -1,21 +1,29 @@
-.tab-head{padding: 0 0 40px;}
+.tab-head{padding: 0 0 47px;}
 ul.tab-links {margin: 0;}
 ul.tab-links li::before{display: none;}
 ul.tab-links{gap: 12px;}
+<<<<<<< HEAD
 ul.tab-links li{padding: 8px 16px; border-radius: 20px; margin-bottom: 0;}
 ul.tab-links li a.active {color: var(--White); background-color: var(--Navy); }
 
 
 ul.tab-links li{background-color: var(--Light-Blue-Tint);  transition: all ease;}
 ul.tab-links li a{color: var(--Navy); }
+=======
+ul.tab-links > li{margin: 0;}
+ul.tab-links > li > a{padding: 9px 16px 8px; background-color: var(--Light-Blue-Tint);color: var(--Navy); display: inline-block;}
+ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(--Navy); color: var(--White); }
+
+>>>>>>> e0e3dcdfa7e30ad620a85960bfd8de1efa6c30fc
 
 .tabs-row{gap: 48px;}
 .tab-list{flex: 0 0 calc(33.33% - 32px); }
 
 .tab-text { cursor: pointer; transition: height 0.9s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: 0; width: 100%; padding:  22px 24px; border-radius: 24px; }
 .tab-text.tab-open{height: 100%; cursor: inherit;}
-.tab-text h3{font-size: 24px; color: var(--White); margin-bottom: 0; line-height: 30px;}
-.tab-text h3 a{color: var(--White);}
+.tab-text h2{font-size: 24px; line-height: 30px; color: var(--White); margin-bottom: 0;}
+.tab-text h2 a{color: var(--White);}
+.tab-text h2 a:hover{color: var(--Orange);}
 .tab-text span{font-size: 16px; color: var(--Light-Blue); line-height: 24px;}
 .tab-image img{border-radius: 24px;}
 .tab-list:hover .tab-text{padding: 22px 24px 30px; transition: all ease-in-out 0.25s;}
