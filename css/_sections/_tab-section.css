@@ -7,9 +7,7 @@ ul.tab-links > li{margin: 0;}
 ul.tab-links > li > a{padding: 9px 16px 8px; background-color: var(--Light-Blue-Tint);color: var(--Navy); display: inline-block;}
 ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(--Navy); color: var(--White); }
 
-
-
-.tab-title{flex: 1;}
+.tab-title{flex: 1; padding-right: 20px;}
 .tab-head::after { font-size: 32px; line-height: 32px; font-weight: 300; content: "\f176"; display: block; position: absolute; right: 24px; top: 50%; transform: translateY(-50%); color: var(--Orange); transition: all .5s ease; opacity: 0; font-family: "Font Awesome 6 Sharp"; }
 .tab-list:hover .tab-head::after{opacity: 1; transform: translate(-2px, -50%);}
 .tab-open .tab-head::after{opacity: 0 !important;}
@@ -40,14 +38,20 @@ ul.tab-address > li > a{gap: 8px; font-size: 16px; line-height: 16px; letter-spa
 ul.tab-address > li > a i{color: var(--Light-Blue);}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1200px){
     .tabs-row{gap: 48px;}
-    .tab-list{flex: 0 0 calc(33.33% - 32px); }
+    .tab-list{flex: 0 0 calc(33.333333% - 32px); }
 }
-@media screen and (max-width: 1023px) and (min-width: 744px) {
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+    .tabs-row{gap: 32px;}
+    .tab-list{flex: 0 0 calc(33.333333% - 22px); }
+}
+@media screen and (max-width: 1023px) and (min-width: 744px){
+    .tabs-row{gap: 32px;}
+    .tab-list{flex: 0 0 calc(50% - 16px); }
     ul.tab-links { gap: 24px; }
 }
-@media screen and (max-width: 743px) and (min-width: 200px) {
+@media screen and (max-width: 743px) and (min-width: 200px){
     .tabs-row{display: block;}
     .tab-list{margin-bottom: 24px;}
     .tab-list:hover .tab-text::after {font-size: 30px; line-height: 300;}
