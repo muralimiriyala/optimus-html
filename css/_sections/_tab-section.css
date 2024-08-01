@@ -34,8 +34,24 @@ ul.tab-links > li > a.active, ul.tab-links > li > a:hover{background-color: var(
 
 .tab-desc{max-height: 0; overflow: hidden;}
 
+<<<<<<< HEAD
+/*-- media css starts here --*/
+
+@media screen and (max-width: 1023px) and (min-width: 744px) {
+ul.tab-links { gap: 24px; }
+
+}
+@media screen and (max-width: 743px) and (min-width: 200px) {
+.tabs-row{display: block;}
+.tab-list{margin-bottom: 24px;}
+
+.tab-list:hover .tab-text::after {font-size: 30px; line-height: 300;}
+
+}
+=======
 ul.tab-address{margin: 26px 0 23px; gap: 19px; flex-direction: column;}
 ul.tab-address > li{margin: 0;}
 ul.tab-address > li::before{display: none;}
 ul.tab-address > li > a{gap: 8px; font-size: 16px; line-height: 16px; letter-spacing: -0.32px;}
 ul.tab-address > li > a i{color: var(--Light-Blue);}
+>>>>>>> 157033150626f4ba9c7d2186aa7dcad4ce1f6336
