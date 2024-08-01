@@ -29,13 +29,12 @@
     .people-fancy-main{padding: 40px 0 40px;}
     body.page-template-our-culture .people-fancy-main{padding-bottom: 8px;}
     .people-fancy-main::after{margin-top: 47px; width: 100%; height: 1px; opacity: 0.5; background-color: var(--Gray); content: ""; display: block;}
-    .people-fancy-btns .button{width: 100%;}
+    .people-fancy-btns .button{width: 100%; padding: 16px 16px 17px;}
 
     body.page-template-about .people-fancy-main::after {display: none;}
-    body.page-template-about .people-fancy-inner {
-        width: calc(100% + 154px);
-        left: -77px;
-        margin-bottom: 20px;
-      }
+    .people-fancy-inner { width: calc(100% + 154px); left: -77px; margin-bottom: 20px; }
+      .people-fancy-txt p{margin-bottom: 30px;}
+      .people-fancy-row{gap: 0;}
+      
 }
 
