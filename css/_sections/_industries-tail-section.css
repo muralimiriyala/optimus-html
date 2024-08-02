@@ -43,7 +43,7 @@
 
     .industries-tail-row{gap: 32px;}
     .industries-tail-list{flex: 0 0 calc(25% - 24px);}
-    .industries-tail-list:nth-child(-n+3){flex: 0 0 calc(33.333% - 24px);}
+    .industries-tail-list:nth-child(-n+3){flex: 0 0 calc(33.333% - 22px);}
     .industries-tail-row{padding: 56px 0 80px; justify-content: center;}
     .industries-tail-list:hover{transform: translateY(-20px);}
 }
