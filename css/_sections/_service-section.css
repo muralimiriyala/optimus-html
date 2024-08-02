@@ -19,16 +19,18 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 
 .service-item{font-size: 16px; line-height: 24px; font-weight: 400; color: var(--Gray); padding: 32px 32px 39px; background-color: var(--White); border: 1px solid #DBF5FF; border-radius: 24px; transition: all .5s ease;}
 .service-item:hover{box-shadow: 0px 15px 20px #dbf5ff; border-color: transparent; transform: translateY(-20px);}
-.service-item:hover .service-icon > i{left:30px; opacity: 0;}
-.service-item:hover .service-icon > a > i.fa-arrow-right{left:0; opacity: 1;}
+.service-item:hover .service-icon-arrow{left:40px; opacity: 1;}
+.service-item:hover figure, .service-item:hover i.icon{ transform: translateX(calc(100% + 10px)); opacity: 0;}
 .service-icon{margin-bottom: 14px;}
-.service-icon > i, .service-icon > a > i{font-size: 32px; color: var(--Light-Blue); line-height: 32px; position: relative; left: -30px; transition: all .5s ease;}
-.service-icon > a > i.fa-arrow-right{color: var(--Orange); position: relative; left: -30px; opacity: 0; transition: all .5s ease;}
+.service-icon > i, .service-icon > a > i{font-size: 32px; color: var(--Light-Blue); line-height: 32px; position: relative; transition: all .5s ease;}
+.service-icon figure, .service-icon i{ transition: var(--b-transition); }
+.service-icon .service-icon-arrow{position: absolute; left: 0; opacity: 0; transform: translateX(calc(-100% - 10px));}
+.service-icon .service-icon-arrow a{color: var(--Orange); font-size: 32px; }
 .service-item h6{margin-bottom: 15px;}
 .service-icon figure{max-width: 40px;}
 
 .service-item:last-child{text-align: center; border: 1px solid var(--Orange); display: flex !important; justify-content: center; align-items: center; flex-direction: column;}
-.service-item:last-child .service-icon > i.fa-arrow-right{font-size: 70px; text-align: center; color: var(--Blue); opacity: 1; left: 0;}
+.service-item:last-child .service-icon-last > i.fa-arrow-right{font-size: 70px; text-align: center; color: var(--Blue); opacity: 1; left: 0;}
 .service-item:last-child:hover{box-shadow: none; border-color: var(--Orange); transform: none;}
 
 .service-lists .slick-list{overflow: inherit;}
