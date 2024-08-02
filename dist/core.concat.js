@@ -6282,50 +6282,6 @@ jQuery(document).ready(function ($) {
     recentSlider();
   });
 
-  function serviceSlider() {
-    const serviceAppend = $(".service-append-arrows");
-    if (!$(".service-lists").hasClass("slick-initialized")) {
-      $(".service-lists").slick({
-        slidesToShow: 1,
-        slidesToScroll: 4,
-        variableWidth: true,
-        arrows: true,
-        prevArrow:
-          '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-        nextArrow:
-          '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-        dots: false,
-        speed: 1500,
-        infinite: false,
-        autoplay: false,
-        responsive: [
-          {
-            breakpoint: 1023,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-          {
-            breakpoint: 743,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              dots: true,
-              appendArrows: serviceAppend,
-              appendDots: serviceAppend,
-            },
-          },
-        ],
-      });
-    } else {
-      if ($(".service-lists").hasClass("slick-initialized")) {
-        $(".service-lists").slick("unslick");
-      }
-    }
-  }
-  serviceSlider();
-
 
   function singletestimonialSlider() {
     const singleAppend = $(".single-append-arrows");
@@ -6624,19 +6580,105 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+// "use strict";
+
+// document.addEventListener("DOMContentLoaded", function () {
+//     const tabTexts = document.querySelectorAll(".tab-text");
+
+//     tabTexts.forEach(function(tabText) {
+//         const tabHead = tabText.querySelector(".tab-head");
+//         const initialHeight = tabText.offsetHeight;
+//         tabText.style.height = `${initialHeight}px`;
+//         tabText.dataset.initialHeight = initialHeight;
+
+//         tabText.addEventListener("click", function(e) {
+//             // Check if the target is not the 'Position or job title' link
+//             if (!e.target.closest("a")) {
+//                 e.preventDefault();
+//                 e.stopPropagation();
+
+//                 if (tabText.dataset.tab !== "true") {
+//                     document.querySelectorAll(".tab-text").forEach((tabel) => {
+//                         if (tabText !== tabel) {
+//                             tabel.dataset.tab = "false";
+//                             tabel.classList.remove("tab-open");
+//                             const desc = tabel.querySelector(".tab-desc");
+//                             if (desc) {
+//                                 desc.style.maxHeight = "";
+//                             }
+//                             tabel.style.height = `${tabel.dataset.initialHeight}px`;
+//                         }
+//                     });
+//                     tabText.dataset.tab = "true";
+//                     tabText.classList.add("tab-open");
+//                     tabText.style.height = `100%`;
+//                     const desc = tabText.querySelector(".tab-desc");
+//                     if (desc) {
+//                         desc.style.maxHeight = `${desc.scrollHeight}px`;
+//                     }
+//                 }
+//             }
+//         });
+
+//         const tabArrow = tabHead.querySelector(".tab-arrow");
+//         tabArrow.addEventListener("click", function(e) {
+//             e.stopPropagation();
+//             e.preventDefault();
+
+//             if (tabText.dataset.tab === "true") {
+//                 tabText.dataset.tab = "false";
+//                 tabText.classList.remove("tab-open");
+//                 const desc = tabText.querySelector(".tab-desc");
+//                 tabText.style.height = `${tabText.dataset.initialHeight}px`;
+//                 if (desc) {
+//                     desc.style.maxHeight = "";
+//                 }
+//             }
+//         });
+//     });
+
+//     document.addEventListener("click", function(e) {
+//         if (!e.target.closest(".tab-text")) {
+//             document.querySelectorAll(".tab-text").forEach((tabel) => {
+//                 tabel.dataset.tab = "false";
+//                 tabel.classList.remove("tab-open");
+//                 const desc = tabel.querySelector(".tab-desc");
+//                 if (desc) {
+//                     desc.style.maxHeight = "";
+//                 }
+//                 tabel.style.height = `${tabel.dataset.initialHeight}px`;
+//             });
+//         }
+//     });
+// });
+
+
 "use strict";
 
 document.addEventListener("DOMContentLoaded", function () {
     const tabTexts = document.querySelectorAll(".tab-text");
 
+    const updateHeights = () => {
+        tabTexts.forEach(function(tabText) {
+            const initialHeight = tabText.querySelector(".tab-head").offsetHeight + 56;
+            tabText.style.height = `${initialHeight}px`;
+            tabText.dataset.initialHeight = initialHeight;
+            
+            if (tabText.dataset.tab === "true") {
+                const desc = tabText.querySelector(".tab-desc");
+                if (desc) {
+                    desc.style.maxHeight = `${desc.scrollHeight}px`;
+                }
+            }
+        });
+    };
+
+    updateHeights();
+
     tabTexts.forEach(function(tabText) {
         const tabHead = tabText.querySelector(".tab-head");
-        const initialHeight = tabText.offsetHeight;
-        tabText.style.height = `${initialHeight}px`;
-        tabText.dataset.initialHeight = initialHeight;
 
         tabText.addEventListener("click", function(e) {
-            // Check if the target is not the 'Position or job title' link
             if (!e.target.closest("a")) {
                 e.preventDefault();
                 e.stopPropagation();
@@ -6694,4 +6736,8 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
     });
+
+    window.addEventListener("resize", updateHeights);
+    window.addEventListener("orientationchange", updateHeights);
 });
+
