@@ -1,7 +1,7 @@
 var $ = jQuery.noConflict();
 
 $(document).ready(function() {
-    const serviceAppend = $(".service-append-arrows");
+    var serviceAppend = $(".service-append-arrows");
 
     function destroyCarousel() {
         if ($('.healthcare-slider').hasClass('slick-initialized')) {
@@ -27,7 +27,7 @@ $(document).ready(function() {
                     breakpoint: 1299,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 3,
+                        slidesToScroll: 1,
                     }
                 },
                 {
@@ -77,10 +77,13 @@ $(document).ready(function() {
     $('a.solutions_sub[name=tab]:first').addClass("active");
     $('a.solutions_sub[name=tab]').on("click", function() {
         $(".spinner").fadeIn(300);
+        
         $(this).siblings().removeClass("active");
         $(this).addClass("active");
         var sub_page_id = $(this).data("index");
         loadContent(sub_page_id);
+
+        $(".switch-cirle").attr("data-switch", sub_page_id);
         return false;
     });
 });

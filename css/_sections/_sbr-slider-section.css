@@ -43,11 +43,14 @@ body.page-template-service-detail .sbr-slider-main{padding: 88px 0; border-botto
     [data-sbr-text="1"]{display: block;}
     .sbr-slide-mobile{max-height: 0 !important;}
 
+    body.page-template-industry-detail .sbr-slider-main { padding:  80px 0 0 ; }
+    body.page-template-industry-detail .sbr-slider-main:after{content: ""; display: block; background-color: var(--body-text); width: 100%; height: 1px; opacity: 0.5; margin-top: 80px;}
 }
 @media only screen and (min-width: 1440px){
     .sbr-slider-main{min-height: 680px;}
     .sbr-slider-text{align-items: center;}
 }
+
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .sbr-slider-row { gap: 40px; }
     .sbr-slide-desktop h2{font-size: 32px; line-height: 40px; margin-bottom: 0;}

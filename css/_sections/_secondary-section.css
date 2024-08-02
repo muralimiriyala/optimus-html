@@ -10,7 +10,7 @@ body.page-template-our-people hr, body.page-template-about .secondary-section hr
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
     .secondary-row {
-        gap: 32px;
+        gap: 64px 32px;
         justify-content: center;
     }
 
