@@ -12,6 +12,7 @@ body.page-template-industry-detail .primary-cta-main::after{position: absolute; 
     body.page-template-service-detail .inline-images-row{margin: 64px 0;}
 }
 
+
 @media screen and (max-width: 1023px)  and (min-width: 200px){
     .service-details-article{padding: 48px 0;}
     .service-details-article h2{font-size: 40px; line-height: 50px;}
@@ -19,4 +20,5 @@ body.page-template-industry-detail .primary-cta-main::after{position: absolute; 
     body.page-template-service-detail .sub-detail-line-wrap{padding: 30px 0 0;}
     .blue-line{ margin: 56px 0;}
     body.page-template-service-detail .inline-images-row{margin: 56px 0; padding: 0;}
+    
 }
