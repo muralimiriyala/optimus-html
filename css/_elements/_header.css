@@ -15,7 +15,7 @@ header.sticky-header{z-index: 850; background: var(--Blue);}
 .header-btn-link:hover{color: var(--White);}
 .header-btn-link svg{width: 23px; height: 43px;}
 
-
+body.page-template-home .header .header-btn-link{display: none;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {

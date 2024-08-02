@@ -33,9 +33,9 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 .service-lists .slick-list{overflow: inherit;}
 .service-lists .slick-track{display: flex;}
 .service-lists .service-item.slick-slide{height: auto;}
-.service-lists div.slick-arrow{color: var(--White); position: absolute;}
-.service-lists div.slick-arrow.slick-next{right: 0; top: -62px;}
-.service-lists  div.slick-arrow.slick-prev{left: auto; right: 72px; top: -62px;}
+.service-lists div.slick-arrow{color: var(--White); position: absolute; top: -90px;}
+.service-lists div.slick-arrow.slick-next{right: 0;}
+.service-lists  div.slick-arrow.slick-prev{left: auto; right: 72px;}
 
 .take-action-main{gap: 40px; align-items: center;}
 .take-action-main h3{font-weight: 400; margin-bottom: 0;}
@@ -44,7 +44,9 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 .take-action-btn .text-btn-link > span{color: var(--Blue);}
 
 .solutions_sub.button{font-size: 24px; line-height: 24px; padding: 0; opacity: .6; font-weight: 600; background: transparent; color: var(--Foreground); border-radius: 0;}
-.solutions_sub.button.active{opacity: 1; color: var(--Orange);}
+.solutions_sub.button.active{opacity: 1; color: var(--Blue);}
+.service-subtitle-toggle .solutions_sub:first-child{order: 1;}
+.service-subtitle-toggle .solutions_sub:not(:first-child){order: 3;}
 
 @media screen and (min-width: 1024px) {
     .service-wrapper{padding: 80px 0 90px;}

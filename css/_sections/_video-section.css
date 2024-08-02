@@ -4,6 +4,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body.page-template-our-culture .video-main{padding: 40px 0;}  
+    body.page-template-industry-detail .video-main{padding: 40px 0 65px;}  
 }
 @media screen and (max-width: 1023px) and (min-width: 744px) {
 .video-main{padding: 40px 0;}
@@ -12,3 +13,4 @@
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .play-btn-bg i{font-size: 29px;}
 }
+
