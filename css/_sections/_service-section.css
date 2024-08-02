@@ -4,7 +4,7 @@
 .service-head h2{font-weight: 400; margin-bottom: 0;}
 .service-head h2 strong{font-weight: 600;}
 
-.service-subtitle{margin: 0 0 40px 0; gap: 20px;}
+.service-subtitle{margin: 0 0 40px 0; gap: 12px;}
 a.subtitle-link{color: var(--Gray); font-size: 24px; line-height: 24px; font-weight: 600; margin-bottom: 0;}
 a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 
@@ -76,7 +76,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
     .take-action-main{gap: 20px;}
 }
 @media screen and (min-width: 744px) {
-    .service-append-arrows{right: 0; top: -23px; max-width: 128px; justify-content: space-between; position: absolute;}
+    .service-append-arrows{right: 0; top: -90px; max-width: 128px; justify-content: space-between; position: absolute;}
     .service-append-arrows ul.slick-dots{display: none !important;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px) {
