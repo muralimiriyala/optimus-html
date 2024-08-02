@@ -25,6 +25,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 .service-icon > i, .service-icon > a > i{font-size: 32px; color: var(--Light-Blue); line-height: 32px; position: relative; left: -30px; transition: all .5s ease;}
 .service-icon > a > i.fa-arrow-right{color: var(--Orange); position: relative; left: -30px; opacity: 0; transition: all .5s ease;}
 .service-item h6{margin-bottom: 15px;}
+.service-icon figure{max-width: 40px;}
 
 .service-item:last-child{text-align: center; border: 1px solid var(--Orange); display: flex !important; justify-content: center; align-items: center; flex-direction: column;}
 .service-item:last-child .service-icon > i.fa-arrow-right{font-size: 70px; text-align: center; color: var(--Blue); opacity: 1; left: 0;}
