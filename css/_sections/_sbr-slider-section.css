@@ -50,6 +50,7 @@ body.page-template-service-detail .sbr-slider-main{padding: 88px 0; border-botto
     .sbr-slider-main{min-height: 680px;}
     .sbr-slider-text{align-items: center;}
 }
+
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .sbr-slider-row { gap: 40px; }
     .sbr-slide-desktop h2{font-size: 32px; line-height: 40px; margin-bottom: 0;}
