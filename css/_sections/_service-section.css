@@ -56,6 +56,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
     .service-svg{top: -25px; right: -104px; z-index: 0;}
     .service-head{max-width: 770px; margin-bottom: 84px;}
     .service-main{margin-bottom: 56px;}
+    .service-lists{flex-wrap: nowrap;}
     .service-item{width: 264px; min-width: 264px; margin-right: 32px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
