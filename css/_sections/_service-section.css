@@ -52,9 +52,11 @@ ul.service-subtitle > li a.active{color: var(--Blue);}
     .service-svg{top: -25px; right: -104px; z-index: 0;}
     .service-head{max-width: 770px; margin-bottom: 84px;}
     .service-main{margin-bottom: 56px;}
-    .service-item{width: 264px; margin-right: 32px;}
+    .service-item{width: 264px; min-width: 264px; margin-right: 32px;}
 }
-
+@media screen and (min-width: 1440px){
+    .healthcare-slider{flex-wrap: nowrap;}
+}
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .service-wrapper{padding: 64px 0;}
     .service-head{max-width: 614px;}

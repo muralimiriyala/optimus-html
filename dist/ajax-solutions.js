@@ -27,7 +27,7 @@ $(document).ready(function() {
                     breakpoint: 1299,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 3,
+                        slidesToScroll: 1,
                     }
                 },
                 {
@@ -77,6 +77,9 @@ $(document).ready(function() {
     $('a.solutions_sub[name=tab]:first').addClass("active");
     $('a.solutions_sub[name=tab]').on("click", function() {
         $(".spinner").fadeIn(300);
+        let index = $(this).data("index");
+        $(".switch-cirle").attr("data-switch", index);
+
         $(this).siblings().removeClass("active");
         $(this).addClass("active");
         var sub_page_id = $(this).data("index");
