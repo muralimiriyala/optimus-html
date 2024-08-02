@@ -6546,7 +6546,7 @@ jQuery(document).ready(function ($) {
               appendArrows: serviceAppend,
               appendDots: serviceAppend,
               slidesToShow: 1,
-              slidesToScroll: 1,
+              slidesToScroll: 4,
               arrows: true,
               prevArrow:
                 '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
