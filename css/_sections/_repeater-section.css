@@ -252,6 +252,7 @@ body.page-template-industry-detail .repeater-main::after {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
   }
+  body.page-template-industry-detail .repeater-row:first-child{margin-bottom: 80px;}
 }
 
 @media screen and (max-width:1023px) and (min-width:744px) {
@@ -356,4 +357,5 @@ body.page-template-industry-detail .repeater-main::after {
   }
   .repeater-btns{justify-content: center;} /*-- as disc --*/
   
+  body.page-template-industry-detail .repeater-main::after {margin-top: 48px;}
 }

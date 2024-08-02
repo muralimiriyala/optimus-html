@@ -127,7 +127,7 @@ body.page-template-services-detail-sub-page .intro-second-section .short-intro-m
 
     body.page-template-about .short-intro-main{padding: 40px 0 0;}
     body.page-template-industry-detail .short-intro-row{padding: 40px 0 80px;}
-    body.page-template-industry-detail .short-intro-main{padding: 40px 0 0;}
+    body.page-template-industry-detail .short-intro-main{padding: 80px 0 0;}
 }
 
 @media screen and (min-width:1200px) {
