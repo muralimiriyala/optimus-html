@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="./style.css" media="all">
     <link rel="stylesheet" href="./core.bundle.css?v=85" media="all">
 </head>
-<body class="page-template-about">
+<body class="page-template-industry-detail">
 <header class="site-header">
     <div class="container">
         <div class="header flex flex-vcenter">
@@ -68,46 +68,948 @@
 
     <section class="banner-section relative o-hidden">
         <div class="banner-wrap">
-          <div class="banner-main flex no-wrap relative">
-            <!-- if no banner image add this no_banner_image -->
-            <div class="banner-image relative">
-              <div class="banner-pointer absolute"></div>
-              <div class="banner-chevron absolute"></div>
-              <picture class="banner-thumb object-fit">
-                <source srcset="images/about-banner@2x.jpg" media="(min-width: 1024px)" />
-                <img src="images/about-banner-mobile@2x.jpg" alt="career-banner-mobile" />
-              </picture>
-            </div>
-            <div class="banner-text inverted flex flex-vcenter relative">
-              <div class="banner-desc fs-20">
-                <div class="banner-circle absolute">
-                  <svg class="hide-tablet hide-mobile" width="639" height="640" viewBox="0 0 639 640" fill="none" >
-                    <path d="M498.416 320C498.416 220.662 418.125 140.127 319.088 140.127C220.051 140.127 139.76 220.662 139.76 320C139.76 419.338 220.051 499.873 319.088 499.873C418.125 499.873 498.416 419.338 498.416 320ZM638.118 320C638.118 496.691 495.244 640 319.03 640C142.817 640 0 496.691 0 320C0 143.309 142.874 0 319.03 0C495.186 0 638.061 143.309 638.061 320" fill="#004C97" />
-                  </svg>
-                  <svg class="hide-mobile hide-desktop" width="484" height="485" viewBox="0 0 484 485" fill="none" >
-                    <path d="M377.727 242.331C377.727 167.104 316.878 106.116 241.822 106.116C166.766 106.116 105.917 167.104 105.917 242.331C105.917 317.559 166.766 378.547 241.822 378.547C316.878 378.547 377.727 317.559 377.727 242.331ZM483.6 242.331C483.6 376.137 375.322 484.663 241.778 484.663C108.234 484.663 0 376.137 0 242.331C0 108.526 108.278 0 241.778 0C375.279 0 483.556 108.526 483.556 242.331" fill="url(#paint0_linear_2095_20080)" />
-                    <defs> <linearGradient id="paint0_linear_2095_20080" x1="241.8" y1="0" x2="241.8" y2="484.663" gradientUnits="userSpaceOnUse" >
-                        <stop stop-color="#004C97" stop-opacity="0" />
-                        <stop offset="1" stop-color="#004C97" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                  <svg class="hide-tablet hide-desktop" width="254" height="254" viewBox="0 0 254 254" fill="none" >
-                    <path d="M198.002 127.029C198.002 87.5948 166.105 55.6252 126.761 55.6252C87.4177 55.6252 55.5211 87.5948 55.5211 127.029C55.5211 166.462 87.4177 198.432 126.761 198.432C166.105 198.432 198.002 166.462 198.002 127.029ZM253.5 127.029C253.5 197.169 196.741 254.057 126.739 254.057C56.7356 254.057 0 197.169 0 127.029C0 56.8884 56.7585 0 126.739 0C196.719 0 253.477 56.8884 253.477 127.029" fill="url(#paint0_linear_2095_20082)" />
-                    <defs>
-                      <linearGradient id="paint0_linear_2095_20082" x1="126.75" y1="0" x2="126.75" y2="254.057" gradientUnits="userSpaceOnUse" >
-                        <stop stop-color="#004C97" stop-opacity="0" />
-                        <stop offset="1" stop-color="#004C97" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
+            <div class="banner-main flex no-wrap relative"><!-- if no banner image add this no_banner_image -->
+                <div class="banner-image relative">
+                    <div class="banner-pointer absolute"></div>
+                    <div class="banner-chevron absolute"></div>
+                    <picture class="banner-thumb object-fit">
+                        <source srcset="images/industry-detail-banner@2x.jpg" media="(min-width: 1024px)">
+                        <img src="images/industry-detail-mobile-banner@2x.jpg" alt="career-banner-mobile">
+                    </picture>
                 </div>
-                <span class="optional-text light-blue">About</span>
-                <h1>Our Culture</h1>
-                <p> A short excerpt can optionally appear here to introduce the page mask arrow variant fill blur editor vertical background polygon thumbnail group comment. </p>
+                <div class="banner-text inverted flex flex-vcenter relative">
+                    <div class="banner-desc fs-20">
+                        <div class="banner-circle absolute">
+                            <svg class="hide-tablet hide-mobile" width="639" height="640" viewBox="0 0 639 640" fill="none">
+                                <path d="M498.416 320C498.416 220.662 418.125 140.127 319.088 140.127C220.051 140.127 139.76 220.662 139.76 320C139.76 419.338 220.051 499.873 319.088 499.873C418.125 499.873 498.416 419.338 498.416 320ZM638.118 320C638.118 496.691 495.244 640 319.03 640C142.817 640 0 496.691 0 320C0 143.309 142.874 0 319.03 0C495.186 0 638.061 143.309 638.061 320" fill="#004C97"/>
+                            </svg>
+                            <svg class="hide-mobile hide-desktop" width="484" height="485" viewBox="0 0 484 485" fill="none">
+                                <path d="M377.727 242.331C377.727 167.104 316.878 106.116 241.822 106.116C166.766 106.116 105.917 167.104 105.917 242.331C105.917 317.559 166.766 378.547 241.822 378.547C316.878 378.547 377.727 317.559 377.727 242.331ZM483.6 242.331C483.6 376.137 375.322 484.663 241.778 484.663C108.234 484.663 0 376.137 0 242.331C0 108.526 108.278 0 241.778 0C375.279 0 483.556 108.526 483.556 242.331" fill="url(#paint0_linear_2095_20080)"/>
+                                <defs>
+                                    <linearGradient id="paint0_linear_2095_20080" x1="241.8" y1="0" x2="241.8" y2="484.663" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#004C97" stop-opacity="0"/>
+                                    <stop offset="1" stop-color="#004C97"/>
+                                    </linearGradient>
+                                </defs>
+                                </svg>
+                                <svg class="hide-tablet hide-desktop" width="254" height="254" viewBox="0 0 254 254" fill="none">
+                                <path d="M198.002 127.029C198.002 87.5948 166.105 55.6252 126.761 55.6252C87.4177 55.6252 55.5211 87.5948 55.5211 127.029C55.5211 166.462 87.4177 198.432 126.761 198.432C166.105 198.432 198.002 166.462 198.002 127.029ZM253.5 127.029C253.5 197.169 196.741 254.057 126.739 254.057C56.7356 254.057 0 197.169 0 127.029C0 56.8884 56.7585 0 126.739 0C196.719 0 253.477 56.8884 253.477 127.029" fill="url(#paint0_linear_2095_20082)"/>
+                                <defs>
+                                    <linearGradient id="paint0_linear_2095_20082" x1="126.75" y1="0" x2="126.75" y2="254.057" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#004C97" stop-opacity="0"/>
+                                    <stop offset="1" stop-color="#004C97"/>
+                                    </linearGradient>
+                                </defs>
+                                </svg>
+                        </div>
+                            <span class="optional-text light-blue">Industries</span>
+                            <h1>Industry name</h1>
+                            <p>A short excerpt can optionally appear here to introduce the page mask arrow variant fill blur editor vertical background polygon thumbnail group comment.</p>
+                            <div class="banner-btns flex flex-vcenter">
+                                <a href="#" class="button btn-transparent">CTA Button</a>
+                                <a href="#" class="text-link white inline-flex f-600">Optional Alternative <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </section>  
+     <!--end of banner section -->
+
+
+     <section class="short-intro-section">
+        <div class="container">
+            <div class="short-intro-main">
+            <div class="short-intro-head flex flex-vcenter"><!-- if no short-intro-text add this no_intro_desc -->
+                <div class="short-intro-title">
+                    <h2>How we help our clients in this key industry vertical</h2>
+                </div>
+                <div class="short-intro-text fs-20 flex flex-vcenter">
+                    <div class="short-intro-desc">
+                        <p>Arrow overflow arrow variant flows comment. Align mask connection variant align export team. Arrow hand figjam main ellipse community. Layer arrange stroke create underline boolean content scale ipsum.</p>
+                    </div>
+                    <div class="short-arrow-img">
+                        <picture class="object-fit">
+                            <source srcset="images/short-arrow@2x.png" media="(min-width: 744px)">
+                            <img src="images/short-arrow-mobile@2x.png" alt="short-arrow">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="short-intro-row flex">
+                <div class="short-intro-list fs-16 font-graphic short-intro1-of-4">
+                    <div class="short-intro-icon fs-40">
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true"></i>
+                        <!-- <figure class="object-fit"><img src="images/tick-icon.svg" alt="tick-icon"></figure>  -->
+                    </div>
+                    <h3 class="h5">Service name</h3>
+                    <p>Short excerpt or description object duplicate prototype underline pixel hand edit union scale variant.</p>
+                    <a href="#" class="text-link inline-flex f-600">Relevant service <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="short-intro-list  fs-16 font-graphic short-intro1-of-4">
+                    <div class="short-intro-icon fs-40">
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true"></i>
+                        <!-- <figure class="object-fit"><img src="images/tick-icon.svg" alt="tick-icon"></figure>  -->
+                    </div>
+                    <h3 class="h5">Service name</h3>
+                    <p>Short excerpt or description object duplicate prototype underline pixel hand edit union scale variant.</p>
+                    <a href="#" class="text-link inline-flex f-600">Relevant service <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="short-intro-list fs-16 font-graphic short-intro1-of-4">
+                    <div class="short-intro-icon fs-40">
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true"></i>
+                        <!-- <figure class="object-fit"><img src="images/tick-icon.svg" alt="tick-icon"></figure>  -->
+                    </div>
+                    <h3 class="h5">Service name</h3>
+                    <p>Short excerpt or description object duplicate prototype underline pixel hand edit union scale variant.</p>
+                    <a href="#" class="text-link inline-flex f-600">Relevant service <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="short-intro-list fs-16 font-graphic short-intro1-of-4">
+                    <div class="short-intro-icon fs-40">
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true"></i>
+                        <!-- <figure class="object-fit"><img src="images/tick-icon.svg" alt="tick-icon"></figure>  -->
+                    </div>
+                    <h3 class="h5">Service name</h3>
+                    <p>Short excerpt or description object duplicate prototype underline pixel hand edit union scale variant.</p>
+                    <a href="#" class="text-link inline-flex f-600">Relevant service <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="short-intro-list fs-16 font-graphic short-intro1-of-4">
+                    <div class="short-intro-icon fs-40">
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true"></i>
+                        <!-- <figure class="object-fit"><img src="images/tick-icon.svg" alt="tick-icon"></figure>  -->
+                    </div>
+                    <h3 class="h5">Service name</h3>
+                    <p>Short excerpt or description object duplicate prototype underline pixel hand edit union scale variant.</p>
+                    <a href="#" class="text-link inline-flex f-600">Relevant service <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="short-intro-list  fs-16 font-graphic short-intro1-of-4">
+                    <div class="short-intro-icon fs-40">
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true"></i>
+                        <!-- <figure class="object-fit"><img src="images/tick-icon.svg" alt="tick-icon"></figure>  -->
+                    </div>
+                    <h3 class="h5">Service name</h3>
+                    <p>Short excerpt or description object duplicate prototype underline pixel hand edit union scale variant.</p>
+                    <a href="#" class="text-link inline-flex f-600">Relevant service <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="short-intro-list fs-16 font-graphic short-intro1-of-4">
+                    <div class="short-intro-icon fs-40">
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true"></i>
+                        <!-- <figure class="object-fit"><img src="images/tick-icon.svg" alt="tick-icon"></figure>  -->
+                    </div>
+                    <h3 class="h5">Service name</h3>
+                    <p>Short excerpt or description object duplicate prototype underline pixel hand edit union scale variant.</p>
+                    <a href="#" class="text-link inline-flex f-600">Relevant service <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="short-intro-list fs-16 font-graphic short-intro1-of-4">
+                    <div class="short-intro-icon fs-40">
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true"></i>
+                        <!-- <figure class="object-fit"><img src="images/tick-icon.svg" alt="tick-icon"></figure>  -->
+                    </div>
+                    <h3 class="h5">Service name</h3>
+                    <p>Short excerpt or description object duplicate prototype underline pixel hand edit union scale variant.</p>
+                    <a href="#" class="text-link inline-flex f-600">Relevant service <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="repeater-section">
+        <div class="container">
+          <div class="repeater-main relative">
+            <div class="repeater-row flex flex-vcenter">
+              <!-- if no repeater-image add class like no_repeater_image & repeater-txt if no this no_repeater_txt -->
+              <div class="repeater-txt fs-16">
+                <div class="repeater-bracket absolute radius-24"></div>
+                <span class="optional-text">Optional preheader</span>
+                <h2 class="h3"> Alternating repeater subhead here on a few lines as needed. </h2>
+                <p>
+                  Image follower figjam selection figjam. Opacity prototype
+                  flatten component layer fill device opacity duplicate inspect.
+                  Undo effect library strikethrough hand library main boolean
+                  clip.
+                </p>
+
+                <div class="repeater-btns flex flex-vcenter">
+                  <a class="button" href="#">Optional CTA</a>
+                  <a href="#" class="text-link inline-flex f-600"
+                    >Let’s get to work
+                    <i
+                      class="transition-3 fa-light fa-sharp fa-arrow-right"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+              <div class="repeater-image relative">
+                <figure class="repeater-thumb object-fit relative radius-img-24" > <img src="images/industry-detail-repeater-one@2x.jpg" alt="industry-detail-repeater-one" /> </figure>
+                <div class="repeater-block absolute"></div>
+                <div class="repeater-icon absolute">
+                  <!-- <figure class="object-fit"><img src="images/chartpie.svg" alt=""></figure> -->
+                  <i class="fa-thin fa-chart-pie" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <div class="repeater-row row-reverse flex flex-vcenter">
+              <!-- if no repeater-image add class like no_repeater_image -->
+              <div class="repeater-txt fs-16">
+                <div class="repeater-bracket absolute radius-24"></div>
+                <span class="optional-text">Optional preheader</span>
+                <h2 class="h3">
+                  Alternating repeater subhead here on a few lines as needed.
+                </h2>
+                <p>
+                  Image follower figjam selection figjam. Opacity prototype
+                  flatten component layer fill device opacity duplicate inspect.
+                  Undo effect library strikethrough hand library main boolean
+                  clip.
+                </p>
+                <div class="repeater-btns flex flex-vcenter">
+                  <a class="button" href="#">Optional CTA</a>
+                  <a href="#" class="text-link inline-flex f-600"
+                    >Let’s get to work
+                    <i
+                      class="transition-3 fa-light fa-sharp fa-arrow-right"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+              <div class="repeater-image relative">
+                <figure
+                  class="repeater-thumb object-fit relative radius-img-24"
+                >
+                  <img
+                    src="images/industry-detail-repeater-two@2x.jpg"
+                    alt="industery-detail-repeater-two"
+                  />
+                </figure>
+                <div class="repeater-block absolute"></div>
+                <div class="repeater-icon absolute">
+                <!-- <figure class="object-fit"><img src="images/computer.svg" alt="user-group3"></figure> -->
+                <i class="fa-sharp fa-thin fa-computer" aria-hidden="true"></i>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- end of repeater section -->
+
+      <section class="industry-detail-default">
+        <div class="container sm">
+            <div class="industry-detail-main">
+                <h3>How We Help Clients in this industry</h3>
+                <p><span>XL text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. </span></p>
+                <p>Variant effect pencil edit pencil layout share star flatten draft. Text horizontal selection boolean editor line italic. Scale star variant vertical team effect layout bullet boolean undo. Export object create editor export layout comment bullet bullet pencil. Opacity underline bold polygon clip duplicate distribute union arrow select.</p>
+                <p>Content underline community arrow edit pixel. Rectangle line pen horizontal community background reesizing create. Background blur rectangle plugin undo. Pixel duplicate blur shadow bold pen team plugin project. Arrow content duplicate arrow create figjam content auto asset clip. Plugin duplicate mask project style rotate star duplicate move. Blur link font font effect bullet team prototype. Italic vector figma draft select rotate.</p>
+           
+            </div>
+        </div>
+      </section>
+
+      <section class="sub-service-section">
+        <div class="container">
+            <div class="sub-service-main flex relative">
+                <div class="sub-service-title">
+                    <div class="sub-service-inner">
+                        <span class="optional-text">Preheader</span>
+                        <h3>A short intro to this breakdown of sub services below</h3>
+                        <div class="sub-service-nav relative">
+                            <div class="sub-service-navigation hide-tablet hide-desktop">
+                                <span class="sub-service-dot"></span>
+                                <span class="sub-service-text">Subservice name</span>
+                            </div>
+                            <div class="sub-service-mobile">
+                                <ul class="sub-service-menu">
+                                    <li><a data-sub-service="1" class="open" href="#"><span></span>Subservice name</a></li>
+                                    <li><a data-sub-service="2" href="#"><span></span>Another subservice here</a></li>
+                                    <li><a data-sub-service="3" href="#"><span></span>Third subservice</a></li>
+                                    <li><a data-sub-service="4" href="#"><span></span>Subservice number four here</a></li>
+                                    <li><a data-sub-service="5" href="#"><span></span>Subservice name</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-service-content">
+                    <div class="sub-service-slides relative">
+                        <div class="sub-service-slide open" data-sub-service="1">
+                            <div class="sub-service-desc">
+                                <h4>H2 Short subhead if necessary 1</h4>
+                                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share mask.</p>
+                                <ul>
+                                    <li>Subtract style overflow figma duplicate connection star line.</li>
+                                    <li>Inspect draft figjam stroke bold export. </li>
+                                    <li>Arrow layout prototype effect scrolling stroke style  link.</li>
+                                    <li>Star connection line rectangle strikethrough.</li>
+                                    <li>Overflow move main clip font list arrange.</li>
+                                </ul> 
+                                <a href="#" class="text-link inline-flex f-600">Learn more <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="sub-service-slide" data-sub-service="2">
+                            <div class="sub-service-desc">
+                                <h4>H2 Short subhead if necessary 2</h4>
+                                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share mask.</p>
+                                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share mask.</p>
+                                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share mask.</p>
+                                <ul>
+                                    <li>Subtract style overflow figma duplicate connection star line.</li>
+                                    <li>Inspect draft figjam stroke bold export. </li>
+                                    <li>Arrow layout prototype effect scrolling stroke style  link.</li>
+                                    <li>Star connection line rectangle strikethrough.</li>
+                                    <li>Overflow move main clip font list arrange.</li>
+                                </ul> 
+                                <a href="#" class="text-link inline-flex f-600">Learn more <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="sub-service-slide" data-sub-service="3">
+                            <div class="sub-service-desc">
+                                <h4>H2 Short subhead if necessary 3</h4>
+                                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share mask.</p>
+                                <ul>
+                                    <li>Subtract style overflow figma duplicate connection star line.</li>
+                                    <li>Inspect draft figjam stroke bold export. </li>
+                                    <li>Arrow layout prototype effect scrolling stroke style  link.</li>
+                                    <li>Star connection line rectangle strikethrough.</li>
+                                    <li>Overflow move main clip font list arrange.</li>
+                                </ul> 
+                                <a href="#" class="text-link inline-flex f-600">Learn more <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="sub-service-slide" data-sub-service="4">
+                            <div class="sub-service-desc">
+                                <h4>H2 Short subhead if necessary 4</h4>
+                                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share mask.</p>
+                                <ul>
+                                    <li>Subtract style overflow figma duplicate connection star line.</li>
+                                    <li>Inspect draft figjam stroke bold export. </li>
+                                    <li>Arrow layout prototype effect scrolling stroke style  link.</li>
+                                    <li>Star connection line rectangle strikethrough.</li>
+                                    <li>Overflow move main clip font list arrange.</li>
+                                </ul> 
+                                <a href="#" class="text-link inline-flex f-600">Learn more <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="sub-service-slide" data-sub-service="5">
+                            <div class="sub-service-desc">
+                                <h4>H2 Short subhead if necessary 5</h4>
+                                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share mask.</p>
+                                <ul>
+                                    <li>Subtract style overflow figma duplicate connection star line.</li>
+                                    <li>Inspect draft figjam stroke bold export. </li>
+                                    <li>Arrow layout prototype effect scrolling stroke style  link.</li>
+                                    <li>Star connection line rectangle strikethrough.</li>
+                                    <li>Overflow move main clip font list arrange.</li>
+                                </ul> 
+                                <a href="#" class="text-link inline-flex f-600">Learn more <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-proof-section relative o-hidden" style="position: relative; z-index: 50;">
+        <div class="social-proof-bg background-bg"></div>
+        <div class="container">
+            <div class="social-proof-main flex">
+                <div class="social-proof-dot">
+                    <div class="social-dot-circle relative">
+                        <span class="s-blue-circle absolute"></span>
+                        <span class="s-blue-gradient absolute">
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="social-proof-title relative">
+                    <h1>Social<strong>proof</strong>  section that highlights our <strong>impact</strong> in this specific industry vertical.</h1>
+                </div>
+                <div class="social-proof-counter flex relative" data-counter-main="counter-main">
+                    <div class="social-proof-counter-list">
+                        <div class="counter-num flex">
+                            <span class="counter" data-count-duration="2000" data-count-to="100">100</span>
+                            <span>+</span>
+                        </div>
+                        <div class="counter-desc">
+                            <p>Undo rotate boolean strikethrough overflow background text auto. Star list pixel group rectangle shadow.</p>
+                        </div>
+                    </div>
+                    <div class="social-proof-counter-list">
+                        <span class="counter-num flex">
+                            <span>$</span>
+                            <span class="counter" data-count-duration="2500" data-count-to="286">286</span>
+                            <span>M</span>
+                        <div class="counter-desc">
+                            <p>Distribute overflow strikethrough link vector component device main flows variant font background.</p>
+                        </div>
+                    </span></div>
+                    <div class="social-proof-counter-list">
+                        <span class="counter-num flex">
+                            <span class="counter" data-count-duration="3000" data-count-to="4500">3977</span>
+                            <span>+</span>
+                        <div class="counter-desc">
+                            <p>Thumbnail asset figma library vector overflow line ellipse component image polygon star font follower.</p>
+                        </div>
+                    </span></div>
+                    <div class="social-proof-counter-list">
+                        <span class="counter-num flex">
+                            <span>$</span>
+                            <span class="counter" data-count-duration="2500" data-count-to="300">300</span>
+                            <span>B</span>
+                        <div class="counter-desc">
+                            <p>Connection boolean align selection comment bullet shadow distribute resizing duplicate polygon fill.</p>
+                        </div>
+                    </span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sbr-slider-section white-bg">
+        <div class="container">
+        <div class="sbr-slider-main">
+            <div class="sbr-slider-row flex">
+                <div class="sbr-slider-images flex">
+                    <div class="sbr-for-slide sbr-active" data-sbr-slide="1">
+                        <div class="sbr-slide-image relative" data-sbr-img="1">
+                            <picture class="sbr-slide-thumb object-fit relative radius-img-24">
+                                <source srcset="images/impact-thumb-one@2x.jpg" media="(min-width: 744px)">
+                                <img src="images/sbr-slide-m1@2x.jpg" alt="">
+                            </picture>
+                            <div class="sbr-block absolute"></div>
+                            <div class="sbr-icon absolute">
+                                 <!-- <figure class="object-fit"><img src="images/heart.svg" alt=""></figure>  -->
+                                <i class="fa-sharp fa-thin fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="sbr-slide-mobile" data-sbr-text="1">
+                            <div class="sbr-slide-desc">
+                                <h2 class="h1 f-400">A short headline that <strong>highlights</strong> the incredible <strong>impact</strong> working with the Optimus SBR team has had across many different <strong>industry</strong> verticals.</h2>
+                                <div class="sbr-slider-author flex flex-vcenter">
+                                    <div class="sbr-author-image">
+                                        <figure class="sbr-author-thumb object-fit">
+                                            <img src="images/highlights-author@2x.png" alt="highlights-author">
+                                        </figure>
+                                    </div>
+                                    <div class="sbr-author-text fs-16">
+                                        <div class="sbr-author-inf flex flex-vcenter"><i class="fa-sharp fa-thin fa-venus" aria-hidden="true"></i>Women at Optimus SBR</div>
+                                        <p>A short excerpt for this story with a <strong>highlighted industry</strong> appears here spanning up to and a <strong> highlighted service</strong> four lines as needed to fit the content group invite component pencil line pen horizontal italic.</p>
+                                        <div class="sbr-author-btns flex flex-vcenter">
+                                            <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                            <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sbr-for-slide" data-sbr-slide="2">
+                        <div class="sbr-slide-image relative" data-sbr-img="2">
+                            <picture class="sbr-slide-thumb object-fit  relative radius-img-24">
+                                <source srcset="images/impact-thumb-2@2x.jpg" media="(min-width: 744px)">
+                                <img src="images/sbr-slide-m2@2x.jpg" alt="">
+                            </picture>
+                            <div class="sbr-block absolute"></div>
+                            <div class="sbr-icon absolute">
+                                 <!-- <figure class="object-fit"><img src="images/heart.svg" alt=""></figure>  -->
+                                <i class="fa-sharp fa-thin fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="sbr-slide-mobile" data-sbr-text="2">
+                            <div class="sbr-slide-desc">
+                                <h2 class="h1 f-400">A short headline that <strong>highlights</strong> the incredible <strong>impact</strong> working with the Optimus SBR team has had across many different <strong>industry</strong> verticals.</h2>
+                                <div class="sbr-slider-author flex flex-vcenter">
+                                    <div class="sbr-author-image">
+                                        <figure class="sbr-author-thumb object-fit radius-img-50">
+                                            <img src="images/bold-thumb-one@2x.jpg" alt="bold-thumb-one">
+                                        </figure>
+                                    </div>
+                                    <div class="sbr-author-text fs-16">
+                                        <div class="sbr-author-inf flex flex-vcenter"><i class="fa-sharp fa-thin fa-venus" aria-hidden="true"></i>Women at Optimus SBR</div>
+                                        <p>A short excerpt for this story with a <strong>highlighted industry</strong> appears here spanning up to and a <strong> highlighted service</strong> four lines as needed to fit the content group invite component pencil line pen horizontal italic.</p>
+                                        <div class="sbr-author-btns flex flex-vcenter">
+                                            <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                            <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sbr-for-slide" data-sbr-slide="3">
+                        <div class="sbr-slide-image relative" data-sbr-img="3">
+                            <picture class="sbr-slide-thumb relative object-fit radius-img-24">
+                                <source srcset="images/impact-thumb-3@2x.jpg" media="(min-width: 744px)">
+                                <img src="images/sbr-slide-m2@2x.jpg" alt="">
+                            </picture>
+                            <div class="sbr-block absolute"></div>
+                            <div class="sbr-icon absolute">
+                                 <!-- <figure class="object-fit"><img src="images/heart.svg" alt=""></figure>  -->
+                                <i class="fa-sharp fa-thin fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="sbr-slide-mobile" data-sbr-text="3">
+                            <div class="sbr-slide-desc"> 
+                                <h2 class="h1 f-400">A short headline that <strong>highlights</strong> the incredible <strong>impact</strong> working with the Optimus SBR team has had across many different <strong>industry</strong> verticals.</h2>
+                                <div class="sbr-slider-author flex flex-vcenter">
+                                    <div class="sbr-author-image">
+                                        <figure class="sbr-author-thumb object-fit radius-img-50">
+                                            <img src="images/bold-thumb-two@2x.jpg" alt="bold-thumb-two">
+                                        </figure>
+                                        <div class="sbr-block absolute"></div>
+                                        <div class="sbr-icon absolute">
+                                            <!-- <figure class="object-fit"><img src="images/heart.svg" alt=""></figure>  -->
+                                            <i class="fa-sharp fa-thin fa-heart" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="sbr-author-text fs-16">
+                                        <div class="sbr-author-inf flex flex-vcenter"><i class="fa-sharp fa-thin fa-venus" aria-hidden="true"></i>Women at Optimus SBR</div>
+                                        <p>A short excerpt for this story with a <strong>highlighted industry</strong> appears here spanning up to and a <strong> highlighted service</strong> four lines as needed to fit the content group invite component pencil line pen horizontal italic.</p>
+                                        <div class="sbr-author-btns flex flex-vcenter">
+                                            <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                            <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sbr-for-slide" data-sbr-slide="4">
+                        <div class="sbr-slide-image relative" data-sbr-img="4">
+                            <picture class="sbr-slide-thumb object-fit  relative radius-img-24">
+                                <source srcset="images/impact-thumb-4@2x.jpg" media="(min-width: 744px)">
+                                <img src="images/sbr-slide-m2@2x.jpg" alt="">
+                            </picture> 
+                            <div class="sbr-block absolute"></div>
+                            <div class="sbr-icon absolute">
+                                 <!-- <figure class="object-fit"><img src="images/heart.svg" alt=""></figure>  -->
+                                <i class="fa-sharp fa-thin fa-heart" aria-hidden="true"></i>
+                            </div>               
+                        </div>
+                        <div class="sbr-slide-mobile" data-sbr-text="4">
+                            <div class="sbr-slide-desc"> 
+                                <h2 class="h1 f-400">A short headline that <strong>highlights</strong> the incredible <strong>impact</strong> working with the Optimus SBR team has had across many different <strong>industry</strong> verticals.</h2>
+                                <div class="sbr-slider-author flex flex-vcenter">
+                                    <div class="sbr-author-image">
+                                        <figure class="sbr-author-thumb object-fit radius-img-50">
+                                            <img srcset="images/bold-thumb-three@2x.jpg" alt="bold-thumb-three">
+                                        </figure>
+                                    </div>
+                                    <div class="sbr-author-text fs-16">
+                                        <div class="sbr-author-inf flex flex-vcenter"><i class="fa-sharp fa-thin fa-venus" aria-hidden="true"></i>Women at Optimus SBR</div>
+                                        <p>A short excerpt for this story with a <strong>highlighted industry</strong> appears here spanning up to and a <strong> highlighted service</strong> four lines as needed to fit the content group invite component pencil line pen horizontal italic.</p>
+                                        <div class="sbr-author-btns flex flex-vcenter">
+                                            <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                            <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sbr-slider-text flex">
+                    <div class="sbr-slide-desktop" data-sbr-text="1">
+                        <h2 class="h1 f-400">A short headline that <strong>highlights</strong> the incredible <strong>impact</strong> working with the Optimus SBR team has had across many different <strong>industry</strong> verticals.</h2>
+                        <div class="sbr-slider-author flex flex-vcenter">
+                            <div class="sbr-author-image">
+                                <figure class="sbr-author-thumb object-fit">
+                                    <img src="images/highlights-author@2x.png" alt="highlights-author">
+                                </figure>
+                            </div>
+                            <div class="sbr-author-text fs-16">
+                                <div class="sbr-author-inf flex flex-vcenter"><i class="fa-sharp fa-thin fa-venus" aria-hidden="true"></i>Women at Optimus SBR</div>
+                                <p>A short excerpt for this story with a <strong>highlighted industry</strong> appears here spanning up to and a <strong> highlighted service</strong> four lines as needed to fit the content group invite component pencil line pen horizontal italic.</p>
+                                <div class="sbr-author-btns flex flex-vcenter">
+                                    <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                    <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="sbr-author-btns sbr-author-1024 flex flex-vcenter">
+                                <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sbr-slide-desktop" data-sbr-text="2">
+                        <h2 class="h1 f-400">A short headline that <strong>highlights</strong> the incredible <strong>impact</strong> working with the Optimus SBR team has had across many different <strong>industry</strong> verticals.</h2>
+                        <div class="sbr-slider-author flex flex-vcenter">
+                            <div class="sbr-author-image">
+                                <figure class="sbr-author-thumb object-fit radius-img-50">
+                                    <img src="images/bold-thumb-one@2x.jpg" alt="bold-thumb-one">
+                                </figure>
+                            </div>
+                            <div class="sbr-author-text fs-16">
+                                <div class="sbr-author-inf flex flex-vcenter"><i class="fa-sharp fa-thin fa-venus" aria-hidden="true"></i>Women at Optimus SBR</div>
+                                <p>A short excerpt for this story with a <strong>highlighted industry</strong> appears here spanning up to and a <strong> highlighted service</strong> four lines as needed to fit the content group invite component pencil line pen horizontal italic.</p>
+                                <div class="sbr-author-btns flex flex-vcenter">
+                                    <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                    <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="sbr-author-btns sbr-author-1024 flex flex-vcenter">
+                                <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sbr-slide-desktop" data-sbr-text="3"> 
+                        <h2 class="h1 f-400">A short headline that <strong>highlights</strong> the incredible <strong>impact</strong> working with the Optimus SBR team has had across many different <strong>industry</strong> verticals.</h2>
+                        <div class="sbr-slider-author flex flex-vcenter">
+                            <div class="sbr-author-image">
+                                <figure class="sbr-author-thumb object-fit radius-img-50">
+                                    <img src="images/bold-thumb-two@2x.jpg" alt="bold-thumb-two">
+                                </figure>
+                            </div>
+                            <div class="sbr-author-text fs-16">
+                                <div class="sbr-author-inf flex flex-vcenter"><i class="fa-sharp fa-thin fa-venus" aria-hidden="true"></i>Women at Optimus SBR</div>
+                                <p>A short excerpt for this story with a <strong>highlighted industry</strong> appears here spanning up to and a <strong> highlighted service</strong> four lines as needed to fit the content group invite component pencil line pen horizontal italic.</p>
+                                <div class="sbr-author-btns flex flex-vcenter">
+                                    <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                    <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="sbr-author-btns sbr-author-1024 flex flex-vcenter">
+                                <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sbr-slide-desktop" data-sbr-text="4">
+                        <h2 class="h1 f-400">A short headline that <strong>highlights</strong> the incredible <strong>impact</strong> working with the Optimus SBR team has had across many different <strong>industry</strong> verticals.</h2>
+                        <div class="sbr-slider-author flex flex-vcenter">
+                            <div class="sbr-author-image">
+                                <figure class="sbr-author-thumb object-fit radius-img-50">
+                                    <img src="images/bold-thumb-three@2x.jpg" alt="bold-thumb-three">
+                                </figure>
+                            </div>
+                            <div class="sbr-author-text fs-16">
+                                <div class="sbr-author-inf flex flex-vcenter"><i class="fa-sharp fa-thin fa-venus" aria-hidden="true"></i>Women at Optimus SBR</div>
+                                <p>A short excerpt for this story with a <strong>highlighted industry</strong> appears here spanning up to and a <strong> highlighted service</strong> four lines as needed to fit the content group invite component pencil line pen horizontal italic.</p>
+                                <div class="sbr-author-btns flex flex-vcenter">
+                                    <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                    <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="sbr-author-btns sbr-author-1024 flex flex-vcenter">
+                                <a href="#" class="button">Social &amp; Not-for Profit</a>
+                                <a href="#" class="text-link inline-flex f-600">Our People <i class="transition-3 fa-light fa-sharp fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="service-details-section">
+        <div class="container sm">
+            <div class="service-details-article">
+                <h2>H2 Short subhead if necessary</h2>
+                <p>XL text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share prototype. </p>
+                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share prototype. Editor mask mask background frame pencil invite invite align scrolling. Union arrow component union figma.</p>
+                <div class="fluid-container relative">
+                    <div class="container msd">
+                        <section class="video-section">
+                            <div class="video-main">
+                                <div class="video-image relative">
+                                    <picture class="video-thumb radius-img-24">
+                                        <source srcset="images/careers-video-thumb@2x.jpg" media="(min-width: 744px)" type="image/webp">
+                                        <img src="images/careers-video-mobile@2x.jpg" alt="careers-video-thumb">
+                                    </picture>
+                                    <div class="play-btn-main flex flex-center">
+                                        <div class="play-btn relative">
+                                            <a href="https://www.youtube.com/watch?v=feJWOrqn8VI" class="popup-youtube play-btn-bg flex flex-center radius-50">
+                                            <i class="fa-light fa-sharp fa-play" aria-hidden="true"></i>
+                                            <span class="btn-circle"></span>
+                                            <span></span>
+                                            <span></span>
+                                            video
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <h2>H2 Short subhead if necessary</h2>
+                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share prototype. Editor mask mask background frame pencil invite invite align scrolling. Union arrow component union figma.</p>
+                <ul>
+                    <li>Subtract style overflow figma duplicate connection star line.</li>
+                    <li>Inspect draft figjam stroke bold export. </li>
+                    <li>Arrow layout prototype effect scrolling stroke style resizing opacity link.</li>
+                    <li>Star connection line rectangle strikethrough.</li>
+                    <li>Overflow move main clip font list arrange.</li>
+                </ul>
+                <div class="sub-detail-line-wrap">
+                    <div class="default-line-in flex flex-vcenter fs-24">
+                      <div class="default-line-text">
+                        <p><a href="#">Narrative sections have cleverly placed calls to action in the content</a></p>
+                      </div>
+                      <div class="default-line-arrow flex">
+                        <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M37.4387 24.0503C37.4387 31.5007 31.4076 37.5408 23.9684 37.5408C16.5292 37.5408 10.4981 31.5007 10.4981 24.0503C10.4981 16.5999 16.5292 10.5598 23.9684 10.5598C31.4076 10.5598 37.4387 16.5999 37.4387 24.0503ZM47.9324 24.0503C47.9324 10.7984 37.2004 0.050293 23.964 0.050293C10.7277 0.050293 0 10.7984 0 24.0503C0 37.3021 10.732 48.0503 23.964 48.0503C37.196 48.0503 47.9281 37.3021 47.9281 24.0503" fill="#F17C23"></path>
+                        </svg>
+                        <svg width="30" height="49" viewBox="0 0 30 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.933594 0.050293H13.4562L29.9822 23.9068L13.3346 48.0503H0.933594L17.0645 24.0503L0.933594 0.050293Z" fill="#F17C23"></path>
+                        </svg>
+                      </div>
+                    </div>
+                </div>
+                <div class="fluid-container relative">
+                    <div class="container md">
+                        <hr class="blue-line">
+                    </div>
+                </div>
+                <h2>H2 Short subhead if necessary</h2>
+                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share prototype. Editor mask mask background frame pencil invite invite align scrolling. Union arrow component union figma.</p>
+                <p>Ipsum invite blur auto inspect. Pen mask pixel scale list figma ellipse connection. Selection invite export font underline device ellipse strikethrough text. Fill rectangle bullet thumbnail fill pen select pixel opacity pen. Reesizing vertical bold union bold main font link. Device library content team text star effect strikethrough draft. Scrolling follower component pencil invite background rectangle. Horizontal asset pen comment connection edit image bold variant. Inspect pencil flows polygon arrow asset. Vector horizontal horizontal scrolling opacity rotate. Align flows layer invite slice underline pen edit. Auto share vector main distribute main star flows. Vector blur shadow style prototype draft. Inspect prototype subtract share inspect overflow underline. Asset fill font font export.</p>
+                <div class="fluid-container relative">
+                    <div class="container md">
+                        <div class="inline-images-row flex">
+                            <div class="inline-images-list flex"><!-- if no inline-images-list on right -->
+                                <div class="inline-images-caption">
+                                    <picture class="inline-caption-thumb object-fit radius-img-24">
+                                        <source srcset="images/subhead-thumb-one@2x.jpg" media="(min-width: 744px)">
+                                        <img src="images/subhead-mobile-thumb-one@2x.jpg" alt="subhead-mobile-thumb-one">
+                                    </picture>
+                                </div>
+                                <div class="inline-caption-text fs-14">
+                                    <div class="inline-caption-desc">
+                                        <p>Image or video caption layout subtract content slice layout group frame editor. Italic opacity undo select scrolling list</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inline-images-list flex">
+                                <div class="inline-images-caption">
+                                    <picture class="inline-caption-thumb object-fit radius-img-24">
+                                        <source srcset="images/subhead-thumb-two@2x.jpg" media="(min-width: 744px)">
+                                        <img src="images/subhead-mobile-thumb-two@2x.jpg" alt="subhead-mobile-thumb-two">
+                                    </picture>
+                                </div>
+                                <div class="inline-caption-text fs-14">
+                                    <div class="inline-caption-desc">
+                                        <p>Image or video caption layout subtract content slice layout group frame editor. Italic opacity undo select scrolling list.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>H3 Short subhead if necessary</h3>
+                <p>M text shadow prototype ipsum editor vertical. Auto scrolling blur bold create variant ellipse figjam effect. Asset hand frame follower main export clip align component. Underline line star shadow italic vertical strikethrough pen duplicate pen. Figma community line strikethrough italic device project rotate. Image auto pixel library slice stroke device. Hand polygon invite ellipse share prototype. Editor mask mask background frame pencil invite invite align scrolling. Union arrow component union figma.</p>
+                <ul>
+                    <li>Subtract style overflow figma duplicate connection star line.</li>
+                    <li>Inspect draft figjam stroke bold export.</li>
+                    <li>Arrow layout prototype effect scrolling stroke style resizing opacity link.</li>
+                    <li>Star connection line rectangle strikethrough.</li>
+                    <li>Overflow move main clip font list arrange.</li>
+                </ul> 
+                <div class="sub-detail-line-wrap">
+                    <div class="default-line-in flex flex-vcenter fs-24">
+                      <div class="default-line-text">
+                        <p> Narrative sections have cleverly placed calls to action in the content </p>
+                      </div>
+                      <div class="default-line-arrow flex">
+                        <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M37.4387 24.0503C37.4387 31.5007 31.4076 37.5408 23.9684 37.5408C16.5292 37.5408 10.4981 31.5007 10.4981 24.0503C10.4981 16.5999 16.5292 10.5598 23.9684 10.5598C31.4076 10.5598 37.4387 16.5999 37.4387 24.0503ZM47.9324 24.0503C47.9324 10.7984 37.2004 0.050293 23.964 0.050293C10.7277 0.050293 0 10.7984 0 24.0503C0 37.3021 10.732 48.0503 23.964 48.0503C37.196 48.0503 47.9281 37.3021 47.9281 24.0503" fill="#F17C23"></path>
+                        </svg>
+                        <svg width="30" height="49" viewBox="0 0 30 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.933594 0.050293H13.4562L29.9822 23.9068L13.3346 48.0503H0.933594L17.0645 24.0503L0.933594 0.050293Z" fill="#F17C23"></path>
+                        </svg>
+                      </div>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </section>
+
+    <section class="primary-cta-section">
+        <div class="container">
+            <div class="primary-cta-wrap">
+                <div class="primary-cta-main relative">
+                    <div class="primary-cta-bracket left absolute radius-24"></div>
+                    <div class="primary-cta-row flex radius-16 relative o-hidden">
+                        <div class="primary-cta-text inverted fs-20 f-300 relative">
+                            <div class="primary-cta-circle hide-tablet hide-mobile absolute">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="499" height="500" viewBox="0 0 499 500" fill="none">
+                                    <path d="M389.755 250C389.755 172.392 326.968 109.474 249.523 109.474C172.077 109.474 109.29 172.392 109.29 250C109.29 327.608 172.077 390.526 249.523 390.526C326.968 390.526 389.755 327.608 389.755 250ZM499 250C499 388.04 387.274 500 249.477 500C111.681 500 0 388.04 0 250C0 111.96 111.726 3.05176e-05 249.477 3.05176e-05C387.229 3.05176e-05 498.955 111.96 498.955 250" fill="#004C97"/>
+                                  </svg>
+                            </div>
+                                <span class="optional-text light-blue">CTA Module</span>
+                                <h2>Ready to<br> take action?</h2>
+                                <p>Subtract variant font auto follower arrow clip move layout arrow. Duplicate community italic asset layer. Union library style create.</p>
+                                <div class="primary-cta-btns">
+                                    <a href="#" class="text-btn-link inline-flex f-600"><span>Let’s get to work</span><svg xmlns="http://www.w3.org/2000/svg" width="29" height="53" viewBox="0 0 29 53" fill="none"> <path d="M0 0.800049H10.3162L28.2194 26.6446L10.1845 52.8H0L17.4751 26.8L0 0.800049Z" fill="#F17C23"></path></svg></a>
+                                </div>
+                        </div>
+                        <div class="primary-cta-image relative">
+                            <div class="primary-cta-pointer absolute"></div>
+                            <div class="primary-cta-chevron absolute"></div>
+                            <picture class="primary-cta-thumb object-fit">
+                                <source srcset="images/primary-cta@2x.jpg" media="(min-width: 1024px)">
+                                <source srcset="images/primary-cta-ipad@2x.jpg" media="(min-width: 744px)">
+                                <img src="images/primary-cta-mobile@2x.jpg" alt="primary-cta-mobile">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="primary-cta-bracket right absolute radius-24"></div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    </main><!-- site main cover ends here -->
+    <footer class="site-footer relative">
+        <div class="footer-mark absolute">
+            <svg class="hide-mobile" width="912" height="625" viewBox="0 0 912 625" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.4" filter="url(#filter0_d_0_5)">
+                    <path
+                        d="M381.812 248.799C381.812 174.295 321.594 113.894 247.316 113.894C173.038 113.894 112.82 174.295 112.82 248.799C112.82 323.302 173.038 383.704 247.316 383.704C321.594 383.704 381.812 323.302 381.812 248.799ZM486.589 248.799C486.589 381.317 379.433 488.799 247.273 488.799C115.113 488.799 8 381.317 8 248.799C8 116.28 115.156 8.79858 247.273 8.79858C379.39 8.79858 486.545 116.28 486.545 248.799"
+                        fill="#19234C" />
+                    <path
+                        d="M486.589 488.799H611.351L776 250.751L610.14 9.84003H486.589L647.301 249.319L486.589 488.799Z"
+                        fill="#19234C" />
+                </g>
+                <defs>
+                    <filter id="filter0_d_0_5" x="0" y="0.798584" width="912" height="624" filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dx="64" dy="64" />
+                        <feGaussianBlur stdDeviation="36" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.0784314 0 0 0 0 0.152941 0 0 0 0 0.431373 0 0 0 0.5 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_5" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_5" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
+            <svg class="hide-desktop hide-tablet" xmlns="http://www.w3.org/2000/svg" width="828" height="571" viewBox="0 0 828 571" fill="none">
+                <g opacity="0.4" filter="url(#filter0_d_0_5)">
+                    <path d="M340.927 221.506C340.927 155.229 287.295 101.497 221.141 101.497C154.987 101.497 101.355 155.229 101.355 221.506C101.355 287.783 154.987 341.515 221.141 341.515C287.295 341.515 340.927 287.783 340.927 221.506ZM434.243 221.506C434.243 339.392 338.807 435.006 221.102 435.006C103.397 435.006 8 339.392 8 221.506C8 103.62 103.436 8.00586 221.102 8.00586C338.769 8.00586 434.204 103.62 434.204 221.506" fill="#19234C"/>
+                    <path d="M434.243 435.006H545.36L692 223.243L544.281 8.93231H434.243L577.377 221.969L434.243 435.006Z" fill="#19234C"/>
+                </g>
+                <defs>
+                    <filter id="filter0_d_0_5" x="0" y="0.00585938" width="828" height="571" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dx="64" dy="64"/>
+                    <feGaussianBlur stdDeviation="36"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0.152941 0 0 0 0 0.431373 0 0 0 0.5 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_5"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_5" result="shape"/>
+                    </filter>
+                </defs>
+                </svg>
+        </div>
+        <div class="container">
+            <div class="footer inverted">
+                <div class="footer-top-wrap">
+                    <div class="footer-top flex flex-vcenter">
+                        <div class="footer-logo">
+                            <figure class="object-fit">
+                                <img src="images/logo-white.svg" alt="logo">
+                            </figure>
+                        </div>
+                        <div class="footer-line"></div>
+                        <div class="footer-work">
+                            <span class="f-fs-104 f-600">Let’s get to work</span>
+                        </div>
+                    </div>
+                    <div class="footer-btn flex">
+                        <a href="#" class="text-btn-link inline-flex f-600"><span>Start right now</span><svg xmlns="http://www.w3.org/2000/svg" width="29" height="53" viewBox="0 0 29 53" fill="none"> <path d="M0 0.800049H10.3162L28.2194 26.6446L10.1845 52.8H0L17.4751 26.8L0 0.800049Z" fill="#F17C23"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-middle flex flex-vcenter">
+                    <ul class="footer-links flex">
+                        <li><a href="#"><figure class="object-fit-img"><img src="images/toronto-icon.svg" alt=""></figure>toronto, on</a></li>
+                        <li><a href="#"><figure class="object-fit-img"><img src="images/f-call-icon.svg" alt=""></figure>+1 (234) 456-8999</a></li>
+                        <li><a href="#"><figure class="object-fit-img"><img src="images/f-email-icon.svg" alt=""></figure>info@optimussbr.com</a></li>
+                    </ul>
+                    <ul class="social-icons flex">
+                        <li><a class="flex flex-center radius-4" href="#" target="_blank" rel="noopener"><span
+                                    class="fs-0">linkedin</span><span class="fa-brands fa-linkedin-in"
+                                    aria-hidden="true"></span></a></li>
+                        <li><a class="flex flex-center radius-4" href="#" target="_blank" rel="noopener"><span
+                                    class="fs-0">youtube</span><span class="fa-brands fa-youtube"
+                                    aria-hidden="true"></span></a></li>
+                    
+                    </ul>
+                </div>
+                <div class="footer-text">
+                    <div class="f-hr-main flex flex-vcenter">
+                        <div class="f-hr-text f-300 fs-16">
+                            <p>We’re an <strong>independent</strong> consultancy that <strong>inspires</strong> action and <strong>delivers</strong> results for organizations in</p>
+                        </div>
+                        <span class="f-hr-line"></span>
+                    </div>
+                    <div class="footer-row flex fs-15 f-300">
+                        <div class="footer-list radius-24 flex">
+                            <!-- <i class="fs-24 fa-sharp fa-light fa-building-columns"></i> -->
+                            <figure class="object-fit-img"><img src="images/building-columns.svg" alt="building-columns"></figure>
+                            <p>Financial Services</p>
+                        </div>
+                        <div class="footer-list radius-24 flex">
+                            <!-- <i class="fs-24 fa-sharp fa-light fa-leaf-maple"></i> -->
+                            <figure class="object-fit-img"><img src="images/leaf-maple.svg" alt="leaf-maple"></figure>
+                            <p>Government & Public Sector</p>
+                        </div>
+                        <div class="footer-list radius-24 flex">
+                            <!-- <i class="fs-24 fa-sharp fa-light fa-stethoscope"></i> -->
+                            <figure class="object-fit-img"><img src="images/stethoscope.svg" alt="stethoscope"></figure>
+                            <p>Health Care</p>
+                        </div>
+                        <div class="footer-list radius-24 flex">
+                            <!-- <i class="fs-24 fa-sharp fa-light fa-plane"></i> -->
+                            <figure class="object-fit-img"><img src="images/plane.svg" alt="plane"></figure>
+                            <p>Travel and Events & Meetings</p>
+                        </div>
+                        <div class="footer-list radius-24 flex">
+                            <!-- <i class="fs-24 fa-sharp fa-light fa-heart"></i> -->
+                            <figure class="object-fit-img"><img src="images/heart.svg" alt="heart"></figure>
+                            <p>Social &<br> Not-for Profit</p>
+                        </div>
+                        <div class="footer-list radius-24 flex">
+                            <!-- <i class="fs-24 fa-sharp fa-light fa-truck"></i> -->
+                            <figure class="object-fit-img"><img src="images/truck.svg" alt="truck"></figure>
+                            <p>Transportation</p>
+                        </div>
+                        <div class="footer-list radius-24 flex">
+                            <!-- <i class="fs-24 fa-sharp fa-light fa-bolt"></i> -->
+                            <figure class="object-fit-img"><img src="images/bolt.svg" alt="bolt"></figure>
+                            <p>Energy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyrights-main flex relative">
+                    <div class="copyright-text">
+                        <p>Copyright © 2024 Optimus SBR. All rights reserved.</p>
+                    </div>
+                    <ul class="copyright-links flex">
+                        <li><a href="017-General-Default.html">Privacy Policy</a></li>
+                        <li><a href="017-General-Default.html">Cookie Policy</a></li>
+                        <li><a href="017-General-Default.html">Acessibility</a></li>
+                        <li><a href="017-General-Default.html">Integrated Accessibility Standards Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/daf2e8de71.js" crossorigin="anonymous"></script>
+    <script src="./dist/core.bundle.js?v=2" defer></script>
+    </body>
+    </html>
+    
     
