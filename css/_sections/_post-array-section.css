@@ -205,6 +205,7 @@
         order: 2;
         flex: 1;
     }
+    .post-array-blog h2{margin-bottom: 0;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     .post-array-list.slick-slide{width: 273px; margin-right: 24px;}
