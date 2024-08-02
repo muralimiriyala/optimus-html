@@ -198,15 +198,4 @@ jQuery(document).ready(function ($) {
   $(window).on("resize", function () { tdelSlider(); timelineSlider(); });
   /*-- timeline slider ends here --*/
 
-
-
-
-
-
-
-
-
-
-
-
 });
