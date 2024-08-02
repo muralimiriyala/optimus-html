@@ -354,6 +354,6 @@ body.page-template-industry-detail .repeater-main::after {
   body.page-template-services-detail-sub-page .repeater-main::after {
     margin-top: 48px
   }
-
+  .repeater-btns{justify-content: center;} /*-- as disc --*/
   
 }

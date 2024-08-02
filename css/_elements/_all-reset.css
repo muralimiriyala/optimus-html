@@ -332,7 +332,7 @@ ul.slick-dots li button{display: none; padding: 0;}
     blockquote{margin: 32px 0 16px; padding: 24px; font-size: 1.25rem; line-height: 2rem;}
 
     img.alignnone, img.alignleft, img.alignright, img.aligncenter{margin: 25px auto; clear: both; float: none; display: block;}
-    .btn-center .more-insights{margin-top: 24px;}
+    #load-more-insights.btn-center{margin-top: 56px;}
 
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
