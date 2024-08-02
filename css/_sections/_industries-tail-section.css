@@ -34,6 +34,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .industries-tail-wrap{padding: 84px 0 0;}
     .industries-tail-main{padding: 80px 0 41px; gap: 80px;}
     .industries-tail-decor{top: 0; left: -315px;}
     .industries-tail-text{flex: 1;}
