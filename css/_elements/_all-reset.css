@@ -253,6 +253,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .navy-bg{background: var(--Navy);}
 .blue-bg{background-color: var(--Blue);}
 .orange-tint-bg{background: var(--Orange-Tint-Bg);}
+.light-blue-bg{background: #E3F4FF;}
 
 div.slick-arrow{width: 56px; height: 56px; padding: 0; font-size: 24px; line-height: 24px; position: relative; z-index: 1; cursor: pointer; transition: var(--b-transition); background: var(--Blue); color: var(--White);}
 div.slick-arrow::after{width: 0%; height: 0%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; background: var(--Orange); content: ""; display: block; border-radius: 50%; position: absolute; transition: var(--b-transition); z-index: -1;}
