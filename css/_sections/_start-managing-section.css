@@ -3,7 +3,7 @@
 }
 
 .start-managing-wrap {
-  padding: 20px 30px;
+  padding: 20px 26px;
 }
 
 .start-managing-main {
@@ -27,7 +27,7 @@ body.marketing .start-managing-main{background-color: var(--Light-Blue-Tint);}
 }
 
 .start-btn-link span {
-  padding: 10px 13px 10px;
+  padding: 10px 14px 10px;
   border-radius: 28px;
   border: 8px solid var(--Orange);
   color: var(--White);
