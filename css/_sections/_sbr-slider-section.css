@@ -58,7 +58,6 @@ body.page-template-industry-detail .sbr-slider-main:after{content: ""; display: 
     .sbr-slider-text {padding: 40px 0; width: calc(100% - 430px);}
     .sbr-slider-author { gap: 24px; }
     .sbr-author-image { flex: 0 0 160px; }
-    .sbr-active .sbr-slide-image { height: 400px; }
     .sbr-author-btns{display: none;}
     .sbr-author-1024{display: flex;}
     .sbr-author-inf {margin-bottom: 17px};
