@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   /*-- menu starts here --*/
-  const mobileMenu = (humburger, headerRight, ulMenu, lis) => {
+  const mobileMenu = (humburger, headerRight, ulMenu) => {
     const humburgerBtn = document.querySelector(humburger);
     const hRight = document.querySelector(headerRight);
     const ul = document.querySelector(ulMenu);
-    const liitems = ul.querySelectorAll(lis);
+    const liitems = ul.querySelectorAll("li.menu-item-has-children");
     humburgerBtn.addEventListener("click", function (e) {
       e.preventDefault();
       this.classList.toggle("open");
@@ -23,9 +23,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     liitems.forEach(function (li) {
       atag = li.querySelector("a");
+
       atag.addEventListener("click", function (e) {
-        // e.preventDefault();
+        e.preventDefault();
+        let parentElement = this.parentElement;
+        let sibling = parentElement.querySelector("ul.sub-menu");
+        if (parentElement.dataset.menu === "true") {
+          parentElement.dataset.menu = "false";
+          sibling.style.maxHeight = null;
+        }
+        else {
+          parentElement.dataset.menu = "true";
+          sibling.style.maxHeight = `${sibling.scrollHeight}px`;
+        }
       });
+
+
     });
   };
   mobileMenu(
@@ -88,14 +101,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   /*-- expand search starts here --*/
   const srcBtn = document.querySelector("button.res-srch-icon");
-  if(srcBtn){
-      srcBtn.addEventListener('click', function(e) {
-          e.preventDefault();
-          document.querySelector(".res-srch-form").classList.toggle("open");
-      });
+  if (srcBtn) {
+    srcBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(".res-srch-form").classList.toggle("open");
+    });
   }
   /*-- expand search ends here --*/
 
- 
+
 
 });
