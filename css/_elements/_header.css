@@ -161,7 +161,7 @@ body.page-template-home .header .header-btn-link{display: none;}
     ul.main_menu > li > a{padding: 21px 0 19px; border-bottom: 1px solid var(--Blue-Tint, #D9DFF2); display: block; color: var(--Blue); font-family: var(--base-font); font-size: 1.25rem; font-weight: 600; line-height: 1.563rem; position: relative;}
     ul.main_menu > li > a.active{border-bottom-color: transparent;}
     ul.main_menu > li > a:hover, ul.main_menu > li.current-menu-item > a{color: var(--Orange);}
-    ul.main_menu > li.menu-item-has-children > a::after{top: 50%; transform: translateY(-50%); right: 0; width: 24px; height: 24px; background-image: url("./images/down-arrow.svg"); background-repeat: no-repeat; background-position: center; content: ""; display: block; position: absolute;}
+    ul.main_menu > li.menu-item-has-children > a::after{top: 50%; transform: translateY(-50%); right: 0; width: 24px; height: 24px; content: "\f078"; font-weight: 900; font-family: "Font Awesome 6 Sharp"; display: block; position: absolute;}
     ul.main_menu > li.menu-item-has-children > a.active{font-size: 1rem; color: rgb(19 53 175 / 50%); text-align: center; text-transform: uppercase;}
     ul.main_menu > li.menu-item-has-children > a.active::after{top: calc(50% + 3px); transform: translateY(-50%) scaleX(-1); left: 0; right: auto;}
     ul.main_menu > li > ul{margin: 0; background-color: var(--White);}
