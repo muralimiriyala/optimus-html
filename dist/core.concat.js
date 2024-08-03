@@ -6231,7 +6231,7 @@ jQuery(document).ready(function ($) {
           });
         }
       } else {
-        if (postSlide >= 6 && !$this.hasClass("slick-initialized")) {
+        if (postSlide >= 5 && !$this.hasClass("slick-initialized")) {
           $this.slick({
             appendArrows: postBtn,
             slidesToShow: 1,
