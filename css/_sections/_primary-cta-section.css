@@ -3,7 +3,7 @@
 
 .primary-cta-main{padding: 32px;}
 .primary-cta-text span.optional-text{margin-bottom: 15px;}
-.primary-cta-text h2{margin-bottom: 16px;}
+.primary-cta-text h2{font-size: 48px; line-height: 55px; margin-bottom: 16px;}
 .primary-cta-decs{z-index: 2;}
 .primary-cta-chevron{ height: 100%; opacity: .5; background-color: var(--Blue); }
 .no_primary_cta_image{display: block;}
@@ -18,6 +18,7 @@ body.page-template-case-study .primary-cta-section hr{width: 100%; height: 1px; 
     .primary-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
     .primary-cta-circle svg{width: 499px; height: 500px;}
     
+    body.marketing .primary-cta-wrap{padding: 40px 0;}
     body.page-template-career .primary-cta-wrap { padding: 88px 0 40px; }
     body.page-template-default .primary-cta-wrap{padding-top: 40px;}
     /* body.single-post .primary-cta-wrap { padding: 45px 0; } */
@@ -41,6 +42,7 @@ body.page-template-case-study .primary-cta-section hr{width: 100%; height: 1px; 
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .primary-cta-wrap{padding: 78px 0 40px;}
+    body.marketing .primary-cta-wrap{padding: 40px 0;}
     .primary-cta-row{display: block; text-align: center;}
     .primary-cta-text{padding: 40px 40px 0; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);}
     .primary-cta-text h2 br{display: none;}
