@@ -1,7 +1,7 @@
 
 .open-position-text h2{margin-bottom: 24px;}
 .open-position-text hr{margin-bottom: 24px;}
-.open-position-list{padding: 12px 12px 12px 16px; background-color: var(--Light-Blue-Tint);}
+.open-position-list{padding: 11px 12px 11px 16px; background-color: var(--Light-Blue-Tint);}
 .open-position-title h2{margin-bottom: 0;}
 .open-position-posted{color: var(--body-text);}
 .open-position-rt{flex-direction: column;}
@@ -23,6 +23,7 @@
     .open-position-title{flex: 1;}
     .open-position-posted{width: fit-content;}
     .open-position-btn{flex: 0 0 80px;}
+    .open-position-text h2 {font-size: 32px; line-height: 40px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .open-position-main{gap: 40px;}

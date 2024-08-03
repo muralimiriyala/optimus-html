@@ -64,8 +64,8 @@ body.page-template-case-study .primary-cta-section hr{width: 100%; height: 1px; 
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .primary-cta-wrap{padding: 40px 0;}
     .primary-cta-row{display: block; text-align: center;}
-    .primary-cta-main{padding: 20px;}
-    .primary-cta-text{padding: 28px 20px 0; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 16px; line-height: 24px;}
+    .primary-cta-main{padding: 18px 16px;}
+    .primary-cta-text{padding: 28px 20px 20px; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 16px; line-height: 24px;}
     .primary-cta-text h2{font-size: 40px; line-height: 46px;}
     .primary-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
     .primary-cta-circle svg{width: 499px; height: 500px;}
@@ -84,6 +84,8 @@ body.page-template-case-study .primary-cta-section hr{width: 100%; height: 1px; 
     body.page-template-career .primary-cta-wrap{padding: 48px 0 40px;}
     body.page-template-case-study .primary-cta-wrap{padding: 48px 0 40px;}
     body.page-template-service-detail .primary-cta-wrap{padding: 48px 0 40px;}
+
+    .primary-cta-section .container{padding: 0 20px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     .primary-cta-text h2{font-size: 32px; line-height: 40px;}

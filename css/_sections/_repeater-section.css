@@ -128,7 +128,7 @@ body.page-template-industry-detail .repeater-main::after {
 }
 
 @media screen and (min-width:1024px) {
-  .repeater-row:first-child{margin-bottom: 80px;}
+  /* .repeater-row:first-child{margin-bottom: 80px;} */
   .repeater-txt { flex: 0 0 50%; padding: 20px 80px; }
   .repeater-image {
     flex: 0 0 50%;
