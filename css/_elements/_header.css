@@ -79,15 +79,15 @@ body.page-template-home .header .header-btn-link{display: none;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a span.menu-image-title{padding: 0;}
     ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child) > ul > li > a img.menu-image{width: 17px; margin-right: 7px; opacity: 0.5;}
    
-    ul.main_menu > li.nav-industries > ul {width: 100vw; max-height: 0; overflow: hidden; padding: 40px; max-width: 696px; left: -227px; gap: 56px; display: flex; flex-wrap: wrap; z-index: 10; border-radius: 0 0 8px 8px; box-shadow: none;}
+    ul.main_menu > li.nav-industries > ul {width: 100vw; max-height: 0; overflow: hidden; padding: 0; max-width: 696px; left: -227px; gap: 0; display: flex; flex-wrap: wrap; z-index: 10; border-radius: 0 0 24px 24px;}
     ul.main_menu > li.nav-industries:hover > ul{max-height: inherit;}
-    ul.main_menu > li.nav-industries > ul > li:first-child{margin: 0; width: 100%; flex: 0 0 100%; display: flex; flex-wrap: wrap; align-items: center; border-bottom: 1px solid #000;}
+    ul.main_menu > li.nav-industries > ul > li:first-child{margin: 0; padding: 40px 40px 40px; width: 100%; flex: 0 0 100%; display: flex; flex-wrap: wrap; align-items: center; }
+    ul.main_menu > li.nav-industries > ul > li:first-child > ul{margin: 0; border-bottom: 1px solid var(--Light-Blue-50);}
+    ul.main_menu > li.nav-industries > ul > li:first-child > ul > li > a{font-size: 24px; line-height: 30px;}
     ul.main_menu > li.nav-industries > ul > li > a:not(.button){padding: 24px 32px; gap: 20px; flex: 1; display: flex; flex-wrap: wrap; align-items: center; background: transparent; color: var(--Blue); font-size: 1.25rem; font-weight: 700; line-height: 1.563rem; font-family: var(--base-font); }
     ul.main_menu > li.nav-industries > ul > li > a img.menu-image{padding: 0;}
     ul.main_menu > li.nav-industries > ul > li > a span.menu-image-title-after{padding: 0;}
-    ul.main_menu > li.nav-industries > ul > li > a span p{ color: var(--Foreground); font-family: "Noto Sans",sans-serif; font-size: 1rem; font-weight: 400; }
     ul.main_menu > li.nav-industries > ul > li > a svg{width: 35px;}
-    ul.main_menu > li.nav-industries > ul > li:first-child > ul{margin: 0;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul{margin: 0; padding: 0; gap: 56px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; background-color: var(--White); border-radius: 0 0 16px 16px; box-shadow: none;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li:nth-child(odd){flex: 0 0 200px;}
     ul.main_menu > li.nav-industries > ul > li > ul > li{flex: 1; margin: 0;}
