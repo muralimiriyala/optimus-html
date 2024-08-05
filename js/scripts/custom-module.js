@@ -31,10 +31,12 @@ document.addEventListener("DOMContentLoaded", function () {
         if (parentElement.dataset.menu === "true") {
           parentElement.dataset.menu = "false";
           sibling.style.maxHeight = null;
+          this.classList.remove("active");
         }
         else {
           parentElement.dataset.menu = "true";
           sibling.style.maxHeight = `${sibling.scrollHeight}px`;
+          this.classList.add("active");
         }
       });
 

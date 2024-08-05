@@ -6097,10 +6097,12 @@ document.addEventListener("DOMContentLoaded", function () {
         if (parentElement.dataset.menu === "true") {
           parentElement.dataset.menu = "false";
           sibling.style.maxHeight = null;
+          this.classList.remove("active");
         }
         else {
           parentElement.dataset.menu = "true";
           sibling.style.maxHeight = `${sibling.scrollHeight}px`;
+          this.classList.add("active");
         }
       });
 
@@ -6231,7 +6233,7 @@ jQuery(document).ready(function ($) {
           });
         }
       } else {
-        if (postSlide >= 6 && !$this.hasClass("slick-initialized")) {
+        if (postSlide >= 5 && !$this.hasClass("slick-initialized")) {
           $this.slick({
             appendArrows: postBtn,
             slidesToShow: 1,
