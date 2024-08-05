@@ -24,7 +24,7 @@
 @media screen and (max-width: 1023px) and (min-width: 200px){
     .home-banner-iframe{position: relative !important;}
     .home-banner-iframe iframe{display: none;}
-    .home-banner-image img{min-height: 393px;}
+    .home-banner-image img{min-height: 350px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 744px){
     .home-banner-main{padding: 0 24px 40px; left: -40px; width: calc(100% + 80px); position: relative; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); z-index: 1;}
