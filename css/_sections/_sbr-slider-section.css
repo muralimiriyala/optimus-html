@@ -31,7 +31,7 @@ body.page-template-industry-detail .sbr-slider-main:after{content: ""; display: 
     .sbr-slider-row{gap: 80px;}
     .sbr-slider-images{width: 390px; gap: 7px; flex-direction: column;}
     .sbr-slider-text{width: calc(100% - 470px); padding: 80px 0;}
-    body.home .sbr-slider-text{padding: 80px 0 22px;}
+    body.home .sbr-slider-text{padding: 0;}
     .sbr-slide-desktop{display: none;}
     .sbr-slide-desktop h2{line-height: 60px;}
     .sbr-slide-image img{height: 49px; cursor: pointer;  transform-origin: 50% 50%; transition: height 0.25s ease;}
