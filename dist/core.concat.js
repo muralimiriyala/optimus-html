@@ -5949,7 +5949,7 @@ $window.trigger("scroll load");
 
 jQuery(document).ready(function () {
     const blogSlider = jQuery(".blog-post-row");
-    const $slickappend = jQuery(".blog-append-arrows");
+    const blogAppend = jQuery(".blog-append-arrows");
     function blogSlickSlider() {
         blogSlider.each(function () {
         const $this = jQuery(this);
@@ -5962,9 +5962,9 @@ jQuery(document).ready(function () {
               arrows: true,
               prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
               nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-              appendArrows: $slickappend,
+              appendArrows: blogAppend,
               dots: true,
-              appendDots: $slickappend,
+              appendDots: blogAppend,
               speed: 1000,
               infinite: false,
               autoplay: false,
@@ -5980,9 +5980,9 @@ jQuery(document).ready(function () {
               arrows: true,
               prevArrow:'<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
               nextArrow:'<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
-              appendArrows: $slickappend,
+              appendArrows: blogAppend,
               dots: true,
-              appendDots: $slickappend,
+              appendDots: blogAppend,
               speed: 1000,
               infinite: false,
               autoplay: false,
@@ -6005,6 +6005,7 @@ jQuery(document).ready(function () {
     }
     blogSlickSlider();
     jQuery(window).on("resize", function () { destroyblogSlick(); blogSlickSlider(); });
+    jQuery(window).on("orientationchange", function () { destroyblogSlick(); blogSlickSlider(); });
 });  
 
 let $counter_elements = jQuery("[data-counter-main]");
@@ -6087,13 +6088,26 @@ document.addEventListener("DOMContentLoaded", function () {
       this.classList.toggle("open");
       hRight.classList.toggle("open");
     });
+
     liitems.forEach(function (li) {
       atag = li.querySelector("a");
-
       atag.addEventListener("click", function (e) {
         e.preventDefault();
         let parentElement = this.parentElement;
         let sibling = parentElement.querySelector("ul.sub-menu");
+
+        liitems.forEach(function (item) {
+          if (item !== parentElement) {
+            const siblingSubMenu = item.querySelector("ul.sub-menu");
+            if (siblingSubMenu) {
+              siblingSubMenu.style.maxHeight = null;
+              const siblingLink = item.querySelector("a");
+              siblingLink.classList.remove("active");
+              item.dataset.menu = "false";
+            }
+          }
+        });
+      
         if (parentElement.dataset.menu === "true") {
           parentElement.dataset.menu = "false";
           sibling.style.maxHeight = null;
@@ -6455,7 +6469,6 @@ jQuery(document).ready(function ($) {
     mainClass: "my-mfp-slide-top",
   });
 });
-
 
 jQuery(document).ready(function($) {
   let sbrsplideImage = $(".sbr-slide-image");
