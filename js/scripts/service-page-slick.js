@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
         if (window.matchMedia("(max-width: 1439px)").matches) {
           if (!$this.hasClass("slick-initialized")) {
             $this.slick({
-              slidesToShow: 1,
+              slidesToShow: 4,
               slidesToScroll: 4,
               arrows: true,
               prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
