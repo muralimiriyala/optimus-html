@@ -16,12 +16,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const hRight = document.querySelector(headerRight);
     const ul = document.querySelector(ulMenu);
     const liitems = ul.querySelectorAll("li.menu-item-has-children");
-    const mOverlay = document.querySelector(moverlay);
+    const overly = document.querySelector(moverlay);
     humburgerBtn.addEventListener("click", function (e) {
       e.preventDefault();
       this.classList.toggle("open");
       hRight.classList.toggle("open");
-      mOverlay.classList.toggle("open");
+      overly.classList.toggle("open");
     });
 
     liitems.forEach(function (li) {
@@ -64,6 +64,11 @@ document.addEventListener("DOMContentLoaded", function () {
     "ul.main_menu",
     ".h-mobile-overlay"
   );
+  mobileResize = () =>{
+    document.querySelector(".h-mobile-overlay").classList.remove("open");
+  }
+  window.addEventListener("resize", mobileResize);
+  window.addEventListener("orientationchange", mobileResize);
   /*-- menu ends here --*/
 
   /*-- accordions starts here --*/
