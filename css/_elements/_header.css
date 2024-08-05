@@ -25,6 +25,7 @@ body.page-template-home .header .header-btn-link{display: none;}
     body.category-insights header.site-header:not(.sticky-header){background-color: transparent;}
     body.home .site-main-cover, body.marketing .site-main-cover,
     body.category-insights .site-main-cover{padding-top: 0;}
+    body.home .header_btn{display: none;}
 
     .header{ gap: 16px;  }
     .logo{flex: 0 0 198px;}
@@ -45,6 +46,7 @@ body.page-template-home .header .header-btn-link{display: none;}
     ul.main_menu > li:hover > ul{opacity: 1; visibility: visible;}
     ul.main_menu > li > ul > li{margin: 0 0 11px;}
     ul.main_menu > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 500; display: block;}
+
 
     
     ul.main_menu > li.nav-services > ul {width: 100vw; max-height: 0; overflow: hidden; padding: 0; max-width: 1031px; left: -227px; gap: 32px; display: flex; flex-wrap: wrap; z-index: 10; border-radius: 0 0 24px 24px; box-shadow: none;}
@@ -151,6 +153,12 @@ body.page-template-home .header .header-btn-link{display: none;}
 
     .site-main-cover{padding-top: 84px;}
     body.page-template-service-landing .site-main-cover, body.page-template-industries .site-main-cover{padding-top: 0;}
+}
+@media screen and (min-width: 1200px){
+    body.home ul.main_menu > li.nav-services{position: static;}
+    body.home ul.main_menu > li.nav-services > ul{left: 24px;}
+    body.home ul.main_menu > li.nav-insights{position: static;}
+    body.home ul.main_menu > li.nav-insights > ul{left: 224px;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .header{position: relative;}
