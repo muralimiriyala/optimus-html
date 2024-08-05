@@ -6078,15 +6078,17 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   /*-- menu starts here --*/
-  const mobileMenu = (humburger, headerRight, ulMenu) => {
+  const mobileMenu = (humburger, headerRight, ulMenu, moverlay) => {
     const humburgerBtn = document.querySelector(humburger);
     const hRight = document.querySelector(headerRight);
     const ul = document.querySelector(ulMenu);
     const liitems = ul.querySelectorAll("li.menu-item-has-children");
+    const mOverlay = document.querySelector(moverlay);
     humburgerBtn.addEventListener("click", function (e) {
       e.preventDefault();
       this.classList.toggle("open");
       hRight.classList.toggle("open");
+      mOverlay.classList.toggle("open");
     });
 
     liitems.forEach(function (li) {
@@ -6127,6 +6129,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ".humburger-btn",
     ".header_right",
     "ul.main_menu",
+    ".h-mobile-overlay"
   );
   /*-- menu ends here --*/
 
@@ -6468,6 +6471,17 @@ jQuery(document).ready(function ($) {
     removalDelay: 160,
     mainClass: "my-mfp-slide-top",
   });
+});
+
+jQuery(document).ready(function ($) {
+    let alink = $("ul.main_menu > li.menu-item-has-children");
+    let overly = $(".header-overlay");
+
+    alink.on("mouseenter", function() {
+        overly.stop(true, true).addClass("open");
+    }).on("mouseleave", function() {
+        overly.stop(true, true).removeClass("open");
+    });
 });
 
 jQuery(document).ready(function($) {
