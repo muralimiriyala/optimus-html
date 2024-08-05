@@ -32,7 +32,8 @@ ul.breadcrumbs li a{width: fit-content;}
 .default-line-text { padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0; flex: 1;}
 .default-line-arrow{flex: 0 0 80px;}
 
-
+body.page-template-default .default-line-text {
+    padding: 7px 0 7px 24px;}
 
 .asidebar-nav h3{margin-bottom: 5px;}
 .asidebar-nav hr{margin-bottom: 9px;}
