@@ -17,17 +17,17 @@ jQuery(document).ready(function ($) {
       serviceSlider.each(function () {
         const $this = $(this);
         const serviceSlides = $this.children(".service-item").length;
-        const serviceAppend = $this.siblings(".service-append-arrows");
+        const serviceAppend = $this.closest(".service-sub-page").children(".service-append-arrows");
         if (window.matchMedia("(max-width: 1439px)").matches) {
           if (!$this.hasClass("slick-initialized")) {
             $this.slick({
-              slidesToShow: 1,
+              slidesToShow: 4,
               slidesToScroll: 4,
+              appendArrows: serviceAppend,
               arrows: true,
               prevArrow: '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
               nextArrow: '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
               dots: true,
-              appendArrows: serviceAppend,
               appendDots: serviceAppend,
               speed: 1000,
               infinite: false,
@@ -54,15 +54,15 @@ jQuery(document).ready(function ($) {
         } else {
           if (serviceSlides >= 5 && !$this.hasClass("slick-initialized")) {
             $this.slick({
-              appendArrows: serviceAppend,
               appendDots: serviceAppend,
-              slidesToShow: 1,
+              slidesToShow: 4,
               slidesToScroll: 4,
               arrows: true,
               prevArrow:
-                '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+              '<div class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
               nextArrow:
-                '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+              '<div class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></div>',
+              appendArrows: serviceAppend,
               dots: true,
               speed: 1000,
               infinite: false,
