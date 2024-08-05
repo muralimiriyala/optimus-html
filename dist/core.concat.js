@@ -6799,19 +6799,24 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("orientationchange", updateHeights);
 });
 
-function tabFun(e){
+function tabFun(e) {
     e.preventDefault();
     let $this = this;
-    tablinks.forEach(function(item){
+    tablinks.forEach(function(item) {
         item.classList.remove("active");
     });
     $this.classList.toggle("active");
     let tabattr = $this.getAttribute("data-name");
     const tabRow = document.querySelectorAll(".data-tab-row");
-    tabRow.forEach(function(tabitem){
-        tabitem.style.display = "none";
+    tabRow.forEach(function(tabitem) {
+        $(tabitem).fadeOut(100);
+        tabitem.classList.remove("open");
     });
-    document.querySelector(`.data-tab-row[data-tab='${tabattr}']`).style.display = "block";
+    $(`.data-tab-row[data-tab='${tabattr}']`).fadeIn(500);
+    document.querySelector(`.data-tab-row[data-tab='${tabattr}']`).classList.add("open");
 }
+
 let tablinks = document.querySelectorAll("ul.tab-links > li > a");
-tablinks.forEach(function(tablink){ tablink.addEventListener("click", tabFun); })
+tablinks.forEach(function(tablink) {
+    tablink.addEventListener("click", tabFun);
+});
