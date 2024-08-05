@@ -45,7 +45,7 @@ ul.aside-links > li:last-child > a{border-bottom: none;}
 ul.aside-links > li > a i{left: 0; top: 2px; color: var(--Light-Blue); font-size: 20px; line-height: 25px; position: relative;} 
 ul.aside-links > li > a:hover i{left: 8px;}
 
-.sidebar-link{gap: 8px; margin-bottom: 20px;}
+.sidebar-link{gap: 8px; margin-bottom: 20px; padding-right: 16px;}
 .sidebar-link a{width: fit-content;}
 
 .sidebar-block{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), var(--Blue); color: var(--White); border-radius: 24px;padding: 32px; margin-bottom: 40px;}
