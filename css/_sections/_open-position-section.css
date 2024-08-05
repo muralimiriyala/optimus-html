@@ -24,6 +24,7 @@
     .open-position-title{flex: 1;}
     .open-position-posted{width: fit-content;}
     .open-position-btn{flex: 0 0 80px;}
+    body.page-template-career .open-position-wrap {padding: 80px 0 79px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .open-position-main{gap: 40px;}
