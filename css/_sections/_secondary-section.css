@@ -2,7 +2,7 @@
 
 .secondary-main { padding: 40px 0; }
 .secondary-list h3 { margin-bottom: 16px; font-weight: 600; }
-.secondary-icon { display: block; margin-bottom: 20px; color: var(--Orange); max-width: 40px; }
+.secondary-icon { display: block; margin-bottom: 16px; color: var(--Orange); max-width: 40px; }
 .secondary-icon img { object-fit: contain; margin-top: -10px; }
 .secondary-list p { color: var(--Gray); }
 body.page-template-our-people hr, body.page-template-about .secondary-section hr { margin: 40px 0; background: var(--Gray-50); height: 1px; width: 100%; }

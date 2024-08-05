@@ -14,6 +14,8 @@
     .people-fancy-txt{flex: 0 0 46.5%;}
     .people-fancy-images{flex: 0 0 46.5%;}
     .people-fancy-txt h2{font-size: 56px;}
+    .people-fancy-main::after{margin-top: 70px; width: 100%; height: 1px; opacity: 0.5; background-color: var(--Gray); content: ""; display: block;}
+
 }
 @media screen and (max-width:1199px) and (min-width:1024px) {
     .people-fancy-row{gap: 60px}

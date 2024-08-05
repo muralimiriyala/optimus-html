@@ -118,6 +118,7 @@
     .post-array-btn {
         width: fit-content;
         gap: 16px;
+        align-items: flex-end;
     }
 
     .post-array-btn div.slick-arrow {
