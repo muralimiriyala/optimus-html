@@ -11,7 +11,7 @@
   background-color: var(--Navy);
 }
 
-body.marketing .start-managing-main{background-color: var(--Light-Blue-Tint);}
+body.page-template-marketing .start-managing-main{background-color: var(--Light-Blue-Tint);}
 
 .start-managing-text h2 {
   margin-bottom: 0

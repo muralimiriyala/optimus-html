@@ -68,7 +68,8 @@ ul.blog_list{margin: 0; width: 100%;}
 }
 @media screen and (max-width: 1023px) and (min-width: 744px){
     .res-dropdown-main{gap: 32px;}
-    .res-srch-main{gap: 32px 72px;}
+    .res-srch-main{gap: 32px 52px;}
+    button.res-expand-icon, button.res-srch-icon{right: -20px;}
     .res-srch-form.open .res-srch-field{width: 309px;}
     .resources-wrap{padding: 32px 0 62px;}
     .resources-blogs{padding: 42px 0 0;}
