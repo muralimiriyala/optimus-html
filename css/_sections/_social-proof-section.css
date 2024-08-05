@@ -93,7 +93,7 @@
 
 @media screen and (min-width: 1024px){
     .social-proof-main{padding: 80px 0;}
-    .social-proof-dot{order: 2; padding: 220px 0 209px; margin: 0 auto;}
+    .social-proof-dot{order: 2; padding: 192px 0 180px; margin: 0 auto;}
     .social-proof-title{order: 1;}
     .social-proof-counter{gap: 64px; order: 3;}
     .social-proof-counter-list{flex: 0 0 calc(25% - 48px);}
