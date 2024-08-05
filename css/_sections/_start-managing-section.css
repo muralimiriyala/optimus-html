@@ -3,7 +3,7 @@
 }
 
 .start-managing-wrap {
-  padding: 20px 26px;
+  padding: 20px 24px;
 }
 
 .start-managing-main {
@@ -52,6 +52,10 @@ body.page-template-marketing .start-managing-main{background-color: var(--Light-
   z-index: -1;
 }
 
+ body.page-template-our-people .start-managing-bracket {
+  width: 48px;}
+  body.page-template-our-people .start-managing-main {background: linear-gradient(180deg, rgba(25, 35, 76, 0.00)0%, rgba(25, 35, 76, 0.75)100%), var(--Blue, #004C97);}
+    
 .start-managing-bracket.left {
   left: 0;
   border-right: none;
@@ -92,9 +96,10 @@ body.page-template-our-people .start-managing-section hr {
   }
 
   body.page-template-our-people .start-managing-block {
-    padding-bottom: 80px;
+    padding: 40px 0 80px;
   }
 
+  body.page-template-our-people .start-managing-section hr {margin-bottom: 8px;}
 }
 
 @media screen and (max-width:1023px) and (min-width:200px) {
