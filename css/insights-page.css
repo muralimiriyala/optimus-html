@@ -1,4 +1,4 @@
-.blog-post-array-bg{top: 0; left: 0; position: absolute; width: 100%; height: calc(100% - 378px); z-index: -1;}
+.blog-post-array-bg{top: 0; left: 0; position: absolute; width: 100%; height: 100%; z-index: -1;}
 .no_single_post .blog-post-array-bg{height: 100%;}
 .blog-post-banner{ padding: 60px 0 40px; color: var(--White);}
 .blog-post-decor{z-index: -1; opacity: 0.1;}
@@ -37,6 +37,9 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
 .blog-append-arrows ul.slick-dots li{background-color: var(--Navy-25);}
 .blog-append-arrows ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}
 
+.blog-post-row{position: relative;}
+.blog-post-row::before{width: 1000vw; height: 100%; left: -100%; top: 296px; background-color: var(--White); content: ""; display: block; position: absolute; z-index: -1;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px){
@@ -68,9 +71,6 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     .resources-blog-row{gap: 32px;}
     .resources-blog-list{flex: 0 0 calc(25% - 24px);}
 }
-@media only screen and (max-width: 1439px) and (min-width: 1024px){
-    .blog-post-array-bg{height: calc(100% - 434px);}
-}
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .blog-post-banner{gap: 64px;}
     .blog-post-lt{flex: 0 0 300px;}
@@ -92,10 +92,8 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     .resources-blog-main{padding: 24px 0 64px;}
     .resources-blog-row{gap: 32px; padding: 61px 0 63px;}
     .resources-blog-list{flex: 0 0 calc(50% - 16px);}
-    .blog-post-array-bg{height: calc(100% - 459px);}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
-    .blog-post-array-bg{height: calc(100% - 399px);}
     .blog-post-wrap{border-top: 1px solid rgba(25, 35, 76, 0.25);}
     .blog-post-decor{left: -80px;}
     .blog-post-main{padding: 40px 0 40px;}

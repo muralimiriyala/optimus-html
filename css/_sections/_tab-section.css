@@ -16,7 +16,7 @@ ul.tab-links > li > a.active i{font-size: 14px;}
 
 .tab-arrow{flex: 0 0 24px; opacity: 0; transform: translate(0,0); transition: all 0.5s ease;  color: var(--Orange); cursor: pointer;} 
 .tab-image{height: 100%;}
-.tab-text {cursor: pointer; transition: all 0.5s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: -10px; width: 100%; padding: 22px 24px 34px; overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;}
+.tab-text{min-height: 102px; cursor: pointer; transition: all 0.5s ease; background: rgba(25, 35, 76, 0.8); color: var(--White); bottom: -10px; width: 100%; padding: 22px 24px 34px; overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;}
 .tab-text::-webkit-scrollbar { display: none; }
   
 .tab-list:hover .tab-text{bottom: 0;}
@@ -38,8 +38,8 @@ ul.tab-address > li{margin: 0;}
 ul.tab-address > li::before{display: none;}
 ul.tab-address > li > a{gap: 8px; font-size: 16px; line-height: 16px; letter-spacing: -0.32px;}
 ul.tab-address > li > a i{color: var(--Light-Blue);}
-.data-tab-row{display: none;}
-.data-tab-row[data-tab="tab-row-1"]{display: block;}
+.data-tab-row{max-height: 0; overflow: hidden;}
+.data-tab-row.open{max-height: inherit;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1200px){

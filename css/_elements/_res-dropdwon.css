@@ -4,7 +4,7 @@
 .resources-section{background: var(--Background, #F0F2FA);}
 .res-srch-form{transition: all .5s ease;}
 
-.res-srch-field input{width: 100%; padding: 15px 48px 16px 16px; font-size: 18px; line-height: 22px; background-color: var(--White); border-color: transparent; border-radius: 32px;}
+.res-srch-field input{width: 100%; padding: 15px 58px 16px 16px; font-size: 18px; line-height: 22px; background-color: var(--White); border-color: transparent; border-radius: 32px;}
 .res-srch-field input::-webkit-input-placeholder {color: var(--Navy); opacity: 0.5;}
 .res-srch-field input:-moz-placeholder {color: var(--Navy); opacity: 0.5;}
 .res-srch-field input::-moz-placeholder {color: var(--Navy); opacity: 0.5;}
