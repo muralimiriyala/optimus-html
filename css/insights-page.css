@@ -1,4 +1,4 @@
-.blog-post-array-bg{top: 0; left: 0; position: absolute; width: 100%; height: calc(100% - 384px); z-index: -1;}
+.blog-post-array-bg{top: 0; left: 0; position: absolute; width: 100%; height: calc(100% - 356px); z-index: -1;}
 .no_single_post .blog-post-array-bg{height: 100%;}
 .blog-post-banner{ padding: 60px 0 40px; color: var(--White);}
 .blog-post-decor{z-index: -1; opacity: 0.1;}
@@ -30,6 +30,8 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
 
 
 .blog-append-arrows{ margin: 24px 0; gap: 8px; align-items: center; }
+.blog-append-arrows div.slick-arrow{color: var(--Light-Blue);}
+.blog-append-arrows div.slick-arrow:hover{color: var(--White);}
 .blog-append-arrows div.slick-arrow.slick-next { order: 3; }
 .blog-append-arrows ul.slick-dots { order: 2; flex: 1; }
 .blog-append-arrows ul.slick-dots li{background-color: var(--Navy-25);}
@@ -90,6 +92,7 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     .resources-blog-list{flex: 0 0 calc(50% - 16px);}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
+    .blog-post-array-bg{height: calc(100% - 319px);}
     .blog-post-wrap{border-top: 1px solid rgba(25, 35, 76, 0.25);}
     .blog-post-decor{left: -80px;}
     .blog-post-main{padding: 40px 0 40px;}
