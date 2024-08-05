@@ -16,6 +16,7 @@ header.sticky-header{z-index: 850; background: var(--Blue);}
 .header-btn-link svg{width: 23px; height: 43px;}
 
 body.page-template-home .header .header-btn-link{display: none;}
+.header-overlay{top: 84px; visibility: hidden; opacity: 0; background: rgba(25, 35, 76, 0.85); backdrop-filter: blur(10px); width: 100vw; height: 100vh; position: fixed; }
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
@@ -180,8 +181,8 @@ body.page-template-home .header .header-btn-link{display: none;}
     .humburger-btn.open span:nth-child(2) { transform: scale(0); }
     .humburger-btn.open span:nth-child(3) {top: 24px; transform:rotate(-45deg) }
 
-    .header_right{display: block; padding: 0; top: 100%; left: 0; width: 100vw; height: auto; position: absolute;}
-    .header_right.open{display: block;}
+    .header_right{padding: 0; top: 100%; transform: translateX(100%); width: 100vw; height: auto; position: absolute; transition: transform 0.5s ease;}
+    .header_right.open{transform: translateX(0);}
     
     ul.main_menu{margin: 0; display: block;background-color: var(--White); border-radius: 0 0 24px 24px; }
     ul.main_menu > li{margin: 0; }
@@ -243,6 +244,10 @@ body.page-template-home .header .header-btn-link{display: none;}
     .header_btns .button{flex: 1;}
     .mobile_header_btns{flex: 0 0 150px; gap: 12px; top: 2px; position: relative; justify-content: flex-end; margin-left: auto; margin-right: 74px;}
     .mobile_header_btns .button span{display: none;}
+
+    .header_btn{justify-content: center; margin-top: 32px;}
+    .header-btn-link span{border-width: 8px; font-size: 20px; line-height: 20px;}
+    .header-btn-link svg{width: 29px; height: 52px;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
     header.site-header .container{padding-right: 8px;}

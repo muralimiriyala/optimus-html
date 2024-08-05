@@ -6088,13 +6088,26 @@ document.addEventListener("DOMContentLoaded", function () {
       this.classList.toggle("open");
       hRight.classList.toggle("open");
     });
+
     liitems.forEach(function (li) {
       atag = li.querySelector("a");
-
       atag.addEventListener("click", function (e) {
         e.preventDefault();
         let parentElement = this.parentElement;
         let sibling = parentElement.querySelector("ul.sub-menu");
+
+        liitems.forEach(function (item) {
+          if (item !== parentElement) {
+            const siblingSubMenu = item.querySelector("ul.sub-menu");
+            if (siblingSubMenu) {
+              siblingSubMenu.style.maxHeight = null;
+              const siblingLink = item.querySelector("a");
+              siblingLink.classList.remove("active");
+              item.dataset.menu = "false";
+            }
+          }
+        });
+      
         if (parentElement.dataset.menu === "true") {
           parentElement.dataset.menu = "false";
           sibling.style.maxHeight = null;
@@ -6456,7 +6469,6 @@ jQuery(document).ready(function ($) {
     mainClass: "my-mfp-slide-top",
   });
 });
-
 
 jQuery(document).ready(function($) {
   let sbrsplideImage = $(".sbr-slide-image");
