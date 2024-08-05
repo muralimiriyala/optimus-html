@@ -18,7 +18,7 @@
 .service-tail-arrow { font-size: 40px; line-height: 40px; transform: translateX(calc(-100% - 10px)); left: 0; opacity: 0;}
 .service-tail-list:hover .service-tail-arrow{transform: translateX(0); opacity: 1;}
 .service-tail-arrow a{color: var(--Orange);}
-.service-tail-arrow a:hover{color: var(--Blue);}
+.service-tail-arrow a:hover{color: var(--Orange);}
 .service-tail-list:hover figure, .service-tail-list:hover i.fa-service{transform: translateX(calc(100% + 10px)); opacity: 0;}
 .service-tail-list.no_tails_arrow:hover figure, .service-tail-list.no_tails_arrow:hover i.fa-service{opacity: 1; transform: none;}
 .service-tail-row::before{content: ""; display: block; width: 1000vw; height: 100%; top: 0; left: -100vw; background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), rgba(0, 76, 151, 0.75); position: absolute; z-index: -1;}
