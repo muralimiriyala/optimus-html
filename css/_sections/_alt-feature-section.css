@@ -29,6 +29,7 @@ ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)
     .no_alt_feature_image .alt-feature-desc{max-width: 1280px; margin: 0 auto; padding: 80px 0;}
     .alt-feature-svg{right: -30px; top: 85px; width: 80px; transform: rotate(-180deg);}
     .row-reverse .alt-feature-svg{left: -30px; right: auto; height: 161px; transform:none;}
+    .alt-feature-section:nth-child(2) .alt-feature-svg{top: 77px;}
 }
 @media only screen and (min-width: 1360px){
     .alt-feature-list{flex: 0 0 50%;}
