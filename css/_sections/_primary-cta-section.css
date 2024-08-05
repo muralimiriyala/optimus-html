@@ -21,8 +21,13 @@ body.page-template-case-study .primary-cta-section hr{width: 100%; height: 1px; 
     .primary-cta-text h2{font-size: 48px; line-height: 55px;}
 
     
+<<<<<<< HEAD
+    body.marketing .primary-cta-wrap{padding: 40px 0;}
+    body.page-template-career .primary-cta-wrap { padding: 48px 0 40px; }
+=======
     body.page-template-marketing .primary-cta-wrap{padding: 40px 0;}
     body.page-template-career .primary-cta-wrap { padding: 88px 0 40px; }
+>>>>>>> 4e64a8a8d69cb615fb6ee900f77b3802c02b8bca
     body.page-template-default .primary-cta-wrap{padding-top: 40px;}
     /* body.single-post .primary-cta-wrap { padding: 45px 0; } */
     
