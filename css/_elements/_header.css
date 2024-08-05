@@ -64,7 +64,7 @@ body.page-template-home .header .header-btn-link{display: none;}
     ul.main_menu > li.nav-services > ul > li:not(:first-child){flex: 0 0 100%; padding: 0 40px 30px;}
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul{margin: 0; padding: 0; gap: 0 72px; left: 0; top: auto;  position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; }
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:first-child{flex: 0 0 286px;}
-    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:nth-child(2){flex: 0 0 225px;}
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:nth-child(2){flex: 0 0 224px;}
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li{margin: 0; flex: 1;}
     ul.main_menu > li.nav-services > ul > li:first-child > ul > li:first-child{margin: 0; flex: 1;}
     ul.main_menu > li.nav-services > ul > li:first-child > ul > li:first-child > a{font-size: 24px; line-height: 30px; font-weight: 600;}
@@ -72,7 +72,7 @@ body.page-template-home .header .header-btn-link{display: none;}
     ul.main_menu > li.nav-services > ul > li > ul > li.button > a{color: var(--White);}
     ul.main_menu > li.nav-services > ul > li > ul > li.button > a:hover{color: var(--White);}
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a{gap: 16px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue); font-family: var(--base-font); font-size: 16px; font-weight: 600; line-height: 24px; cursor: pointer;} 
-    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a img, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a img{width: 24px;}
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a img, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a img{width: 24px; height: auto; object-fit: contain;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul{margin: 0; padding-top: 17px;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li{margin: 0 0 24px;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li:last-child{margin-bottom: 0;}

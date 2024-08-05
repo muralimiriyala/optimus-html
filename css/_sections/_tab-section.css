@@ -38,6 +38,8 @@ ul.tab-address > li{margin: 0;}
 ul.tab-address > li::before{display: none;}
 ul.tab-address > li > a{gap: 8px; font-size: 16px; line-height: 16px; letter-spacing: -0.32px;}
 ul.tab-address > li > a i{color: var(--Light-Blue);}
+.data-tab-row{display: none;}
+.data-tab-row[data-tab="tab-row-1"]{display: block;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1200px){

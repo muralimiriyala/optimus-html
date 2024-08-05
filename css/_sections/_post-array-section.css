@@ -211,6 +211,18 @@
         order: 2;
         flex: 1;
     }
+    .post-array-appends ul.slick-dots li{
+        opacity: 0.25;
+    }
+    .post-array-appends ul.slick-dots li.slick-active{
+        opacity: 1;
+    }
+    .post-array-appends div.slick-arrow{
+        color: var(--Light-Blue);
+    }
+    .post-array-appends div.slick-arrow:hover{
+        color: var(--White);
+    }
     .post-array-blog h2{margin-bottom: 0;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
