@@ -37,7 +37,7 @@ div.no_careers_text .people-careers-desc{max-width: 100%;}
 }
 @media screen and (max-width:1023px) and (min-width: 200px) {
     .people-careers-main{padding: 40px 0 40px;}
-    .people-careers-row{flex-direction: column-reverse; text-align: center; padding: 40px 0;}
+    .people-careers-row{flex-direction: column-reverse; text-align: center; padding: 48px 0 40px;}
     .people-careers-cont{justify-content: center; margin-bottom: 11px;}
     .people-careers-btns{justify-content: center;}
     .people-careers-txt h2{font-size: 32px; line-height: 37px; margin-bottom: 16px;}
