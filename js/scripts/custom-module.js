@@ -11,15 +11,17 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   /*-- menu starts here --*/
-  const mobileMenu = (humburger, headerRight, ulMenu) => {
+  const mobileMenu = (humburger, headerRight, ulMenu, moverlay) => {
     const humburgerBtn = document.querySelector(humburger);
     const hRight = document.querySelector(headerRight);
     const ul = document.querySelector(ulMenu);
     const liitems = ul.querySelectorAll("li.menu-item-has-children");
+    const mOverlay = document.querySelector(moverlay);
     humburgerBtn.addEventListener("click", function (e) {
       e.preventDefault();
       this.classList.toggle("open");
       hRight.classList.toggle("open");
+      mOverlay.classList.toggle("open");
     });
 
     liitems.forEach(function (li) {
@@ -60,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ".humburger-btn",
     ".header_right",
     "ul.main_menu",
+    ".h-mobile-overlay"
   );
   /*-- menu ends here --*/
 
