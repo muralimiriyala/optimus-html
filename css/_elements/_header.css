@@ -24,7 +24,7 @@ body.page-template-home .header .header-btn-link{display: none;}
 @media screen and (min-width: 1024px) {
     body.page-template-service-landing header.site-header:not(.sticky-header)::after,
      body.page-template-industries header.site-header:not(.sticky-header)::after, body.home header.site-header:not(.sticky-header)::after, body.page-template-marketing header.site-header:not(.sticky-header)::after{background-color: transparent;}
-    body.category-insights header.site-header:not(.sticky-header){background-color: transparent;}
+    body.category-insights header.site-header:not(.sticky-header)::after{background-color: transparent;}
     body.home .site-main-cover, body.page-template-marketing .site-main-cover,
     body.category-insights .site-main-cover{padding-top: 0;}
     body.home .header_btn{display: none;}
