@@ -130,6 +130,10 @@ body.page-template-our-people .start-managing-section hr {
     margin-top: -64px;
   }
 
+  body.page-template-our-people .start-managing-block {
+   padding-bottom: 48px;
+  }
+
   .start-managing-wrap {
     padding: 16px;
   }
