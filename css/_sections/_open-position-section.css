@@ -11,6 +11,7 @@
 .open-bracket.right{right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
 .open-position-btns{padding-top: 2px;}
 .open-position-btn a i{display: none;}
+.open-position-text h2 {font-size: 32px; line-height: 40px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -23,7 +24,6 @@
     .open-position-title{flex: 1;}
     .open-position-posted{width: fit-content;}
     .open-position-btn{flex: 0 0 80px;}
-    .open-position-text h2 {font-size: 32px; line-height: 40px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .open-position-main{gap: 40px;}
