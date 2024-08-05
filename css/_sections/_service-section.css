@@ -89,7 +89,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
     .service-head{margin-bottom: 24px; padding-right: 31px;}
     .service-head h2{font-size: 28px; line-height: 34px;}
     .service-main{margin-bottom: 75px;}
-    .service-subtitle{margin: 0 0 24px 0; gap: 20px;}
+    .service-subtitle{margin: 0 0 24px 0; gap: 13px;}
     .service-item{width: 288px; margin-right: 24px;}
     .service-append-arrows{margin: 24px 0 0; gap: 8px; align-items: center;}
     .service-append-arrows div.slick-arrow.slick-disabled{opacity: 0.25; background: var(--Navy);}
