@@ -65,7 +65,10 @@ document.addEventListener("DOMContentLoaded", function () {
     ".h-mobile-overlay"
   );
   mobileResize = () =>{
-    document.querySelector(".h-mobile-overlay").classList.remove("open");
+    let myoverlay = document.querySelector(".h-mobile-overlay");
+    if(myoverlay){
+      myoverlay.classList.remove("open");
+    }
   }
   window.addEventListener("resize", mobileResize);
   window.addEventListener("orientationchange", mobileResize);
