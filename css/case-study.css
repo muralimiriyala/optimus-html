@@ -32,6 +32,7 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
 .case-article-main .fluid-container{padding: 40px 0 55px;}
 
 .case-article-main ul{margin-bottom: 0;}
+.case-article-main ul > li:last-child{margin-bottom: 0;}
 .case-study-data-block{padding: 64px 0;}
 .case-study-data-wrap{padding: 24px;}
 .case-study-data-main{gap: 24px; padding: 24px; background: var(--Light-Blue-Tint); border-radius: 8px;}

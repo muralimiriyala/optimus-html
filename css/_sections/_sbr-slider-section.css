@@ -1,7 +1,7 @@
 .sbr-slider-main{padding: 40px 0;}
 body.page-template-marketing .sbr-slider-main{padding: 33px 0 73px;}
 body.home .sbr-slider-main{padding: 88px 0 80px;}
-body.page-template-service-detail .sbr-slider-main{padding: 88px 0; border-bottom: 1px solid rgba(112, 115, 114, 0.5);}
+body.page-template-services-detail-sub-page .sbr-slider-main{padding: 88px 0; border-bottom: 1px solid rgba(112, 115, 114, 0.5);}
 .sbr-author-text{color: var(--Gray)}
 .sbr-slider-author{padding-top: 37px;}
 .sbr-author-btns{gap: 16px;}
@@ -94,7 +94,7 @@ body.page-template-industry-detail .sbr-slider-main:after{content: ""; display: 
 @media only screen and (max-width: 743px) and (min-width: 200px){
     body.page-template-marketing .sbr-slider-main{padding: 40px 0;}
     .sbr-slider-row{display: block;}
-    body.page-template-service-detail .sbr-slider-main{padding: 48px 0;}
+    body.page-template-services-detail-sub-page .sbr-slider-main{padding: 48px 0;}
     .sbr-slider-images{gap: 16px; flex-direction: column;}
     .sbr-slide-mobile h2{font-size: 24px; line-height: 30px; margin-bottom: 18px;}
     .sbr-slider-author{padding-top: 0;}

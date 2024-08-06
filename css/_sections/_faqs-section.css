@@ -21,11 +21,11 @@ span.ui-plus::after { width: 2px; height: 24px; }
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .accordion-main{padding: 40px 0 60px;}
-    body.page-template-service-detail .accordion-main{padding-bottom: 0;}
+    /* body.page-template-services-detail-sub-page .accordion-main{padding-bottom: 0;} */
 }
 @media screen and (max-width: 1023px) and (min-width: 744px){
     .accordion-main{padding: 40px 0 60px;}
-    body.page-template-service-detail .accordion-main{padding-bottom: 0;}
+    body.page-template-services-detail-sub-page .accordion-main{padding-bottom: 0;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
     .accordion-main{padding: 40px 0 57px;}
@@ -35,9 +35,9 @@ span.ui-plus::after { width: 2px; height: 24px; }
     .accordion-wrap { padding: 50px 0 20px; }
     .accordion-head-lt h3 {font-size: 32px;}
 
-    body.page-template-service-detail-sub .accordion-main { padding: 28px 0 22px; }
-    body.page-template-service-detail-sub .accordion-wrap { padding: 50px 0 48px; }
-    body.page-template-service-detail .accordion-main{padding: 24px 0;}
+    body.page-template-services-detail-sub-page-sub .accordion-main { padding: 28px 0 22px; }
+    body.page-template-services-detail-sub-page-sub .accordion-wrap { padding: 50px 0 48px; }
+    body.page-template-services-detail-sub-page .accordion-main{padding: 24px 0;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .accordion-main { padding: 40px 0 57px; }

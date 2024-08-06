@@ -66,8 +66,8 @@
 }
 
 .repeater-icon {
-  width: 50px;
-  height: 50px;
+  /* width: 50px;
+  height: 50px; */
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50px;
@@ -167,10 +167,11 @@ body.page-template-industry-detail .repeater-main::after {
   }
 
 
-  body.page-template-service-detail .repeater-main {
+  body.page-template-services-detail-sub-page .repeater-main {
     padding-bottom: 80px;
   }
 
+  body.page-template-services-detail-sub-page .repeater-row:not(:last-child){margin-bottom: 80px;}
   body.page-template-our-culture .repeater-section:nth-child(2) .repeater-main {
     padding: 79px 0 40px;
   }

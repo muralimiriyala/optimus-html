@@ -30,6 +30,7 @@ ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)
     .alt-feature-svg{right: -30px; top: 85px; width: 80px; transform: rotate(-180deg);}
     .row-reverse .alt-feature-svg{left: -30px; right: auto; height: 161px; transform:none;}
     .alt-feature-section:nth-of-type(2n) .alt-feature-svg{top: 77px;}
+    .alt-feature-desc h3{font-size: 40px; line-height: 50px;}
 }
 @media only screen and (min-width: 1360px){
     .alt-feature-list{flex: 0 0 50%;}

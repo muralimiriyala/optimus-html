@@ -13,9 +13,10 @@
 .subhead-help-icon{width: 60px; height: 48px; font-size: 48px; color: var(--Light-Blue); margin-bottom: 32px;}
 
 .service-detail-sub-default-main{padding: 80px 0;}
-.service-detail-sub-default-main ul{margin-bottom: 0;}
+.service-detail-sub-default-main ol{margin-bottom: 0;}
+.service-detail-sub-default-main ol > li:last-child{margin-bottom: 0;}
 .service-detail-sub-default-main p span{font-size: 22px; line-height: 33px;}
-.sub-detail-line-wrap{padding: 55px 0 0;}
+.sub-detail-line-wrap{padding: 30px 0 0;}
 .sub-detail-line-wrap .default-line-text { padding: 6px 0 6px 24px;}
 .sub-detail-line-wrap .default-line-in {padding: 0 50px 0 0;}
 
