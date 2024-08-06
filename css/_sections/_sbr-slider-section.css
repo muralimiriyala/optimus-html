@@ -67,7 +67,7 @@ body.page-template-industry-detail .sbr-slider-main:after{content: ""; display: 
     .sbr-slide-desktop{display: none;}
     .sbr-slide-desktop h2{font-size: 32px; line-height: 40px;}
     .sbr-for-slide{width: 97px;; cursor: pointer; transition: width 0.5s ease;}
-    .sbr-for-slide.sbr-active{width: 324px;}
+    .sbr-for-slide.sbr-active{width: calc(100% - 340px);}
     .sbr-slide-image img{min-height: 224px; max-height: 224px; overflow: hidden;}
     .sbr-slider-author{gap: 40px;}
     .sbr-author-image{flex: 0 0 160px;}

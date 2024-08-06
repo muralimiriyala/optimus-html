@@ -125,7 +125,6 @@
     .post-array-btn {
         width: fit-content;
         gap: 16px;
-        align-items: flex-end;
     }
 
     .post-array-btn div.slick-arrow {
@@ -136,7 +135,9 @@
         order: 2;
     }
 }
-
+@media only screen and (min-width: 1440px) {
+    .post-array-btn {align-items: flex-end;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 744px) {
     .post-array-main {
         padding: 40px 0 40px;
