@@ -13,6 +13,7 @@
 .home-banner-iframe{z-index: 1 !important;}
 .home-banner-iframe .home-banner-bg{z-index: 1;}
 .home-banner-iframe iframe{max-width: inherit;}
+.home-banner-iframe video{width: 100%; height: 100%; object-fit: cover;}
 
 .home-banner-main .start-managing-block{padding-bottom: 0;}
 
