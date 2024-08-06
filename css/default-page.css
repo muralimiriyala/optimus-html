@@ -27,7 +27,7 @@ ul.breadcrumbs li a{width: fit-content;}
 .default-article .default-image-caption > h3{padding-top: 5px;}
 .default-article h4{padding-top: 25px;}
 
-.default-line-wrap{padding: 38px 0 50px; }
+.default-line-wrap{padding: 38px 0 55px; }
 .default-line-in{border-left: 8px solid var(--Orange); padding: 0 32px 0 0;}
 .default-line-text { padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0; flex: 1;}
 .default-line-arrow{flex: 0 0 80px;}
