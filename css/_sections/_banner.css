@@ -37,11 +37,15 @@
     .banner-text {
         z-index: 2;
         flex: 0 0 50%;
-        padding: 251px 0 171px;
+        padding: 181px 0 101px;
     }
+    
+    body.page-template-career .banner-text {
+        padding: 251px 0 171px;
 
+    }
     .banner-circle {
-        top: -251px;
+        top: -183px;
         left: -225px;
         opacity: 0.3;
         width: 638px;
@@ -97,7 +101,6 @@
         margin-left: -120px;
     }
 }
-
 @media only screen and (max-width: 1359px) and (min-width: 1024px) {
     .banner-desc {
         padding: 0 40px;
