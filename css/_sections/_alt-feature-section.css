@@ -47,9 +47,10 @@ ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)
     .alt-feature-desc{max-width: 640px; padding: 64px;}
     .row-reverse .alt-feature-desc{ padding: 64px;}
 }
+
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .no_alt_feature_image .alt-feature-desc{padding: 40px 40px 50px;}
-    .alt-feature-image{max-height: 496px;}
+    .alt-feature-image{ min-height: 496px; max-height: 496px;}
     .alt-feature-thumb img{object-position: top;}
     .alt-feature-svg{left: 104px; transform: rotate(-90deg); bottom: -71px; width: 80px; height: 160px;}
     .alt-feature-desc{padding: 64px;}
@@ -66,6 +67,10 @@ ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)
     ul.alt-order{margin: 28px 0;}
     .alt-feature-btns{padding-top: 2px;}
 }
+@media only screen and (max-width: 390px) and (min-width: 200px){
+    .alt-feature-image{min-height: 260px; max-height: 260px;}
+}
+
 
 
 

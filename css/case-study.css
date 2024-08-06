@@ -22,7 +22,7 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
 
 .case-article-main{padding: 80px 0;}
 .case-article-main p:nth-child(2) span{ font-size: 22px; line-height: 2.063rem;}
-.inline-images-row{gap: 40px; padding: 40px 0;}
+.inline-images-row{gap: 40px; padding: 40px 0; justify-content: center;}
 .inline-images-caption{width: 100%;}
 .inline-caption-text{padding: 0 32px; color: var(--Gray);}
 .inline-caption-desc{border-left: 1px solid var(--Light-Blue); padding: 24px 40px 8px 24px;}
