@@ -203,7 +203,7 @@ li.no_link > a:hover{color: inherit;}
     .humburger-btn.open span:nth-child(2) { transform: scale(0); }
     .humburger-btn.open span:nth-child(3) {top: 24px; transform:rotate(-45deg) }
 
-    .header_right{padding: 0; top: 100%; transform: translateX(100%); width: 100vw; height: auto; position: absolute; transition: transform 0.5s ease;}
+    .header_right{padding: 0; top: 100%; transform: translateX(100%); left: -40px; width: 100vw; height: auto; position: absolute; transition: transform 0.5s ease;}
     .header_right.open{transform: translateX(0);}
     
     ul.main_menu{margin: 0; display: block;background-color: var(--White); border-radius: 0 0 24px 24px; }
