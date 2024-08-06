@@ -1,5 +1,5 @@
 
-.social-proof-bg{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); }
+.social-proof-bg{mix-blend-mode: multiply; background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); }
 .social-proof-title{z-index: 2;}
 .social-proof-title h1{font-size: 64px; font-weight: 400; color: var(--White); line-height: 80px; margin-bottom: 0;}
 .social-proof-title h1 strong{font-weight: 600; color: var(--Light-Blue);}
@@ -15,25 +15,51 @@
     z-index: -1;
     position: absolute; 
 }
-
 .s-blue-gradient span {
-    width: 100px;
-    height: 100px;
+    width: 20px;
+    height: 20px;
     top: 50%;
     left: 50%;
-    filter: opacity(0.5);
-    -webkit-filter: opacity(0.5);
+
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     transform: translate(-50%, -50%) scale(1);
     animation-duration: 2s;
     border-radius: 50%;
-    background-image: linear-gradient(to left, rgba(25, 35, 76, 0), #19234c), linear-gradient(to bottom, #004c97, #004c97);
     display: block;
+    animation-name: ripple;
+    animation-duration: 10s;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation-iteration-count: infinite;
 
-    
+    mix-blend-mode: multiply;
+    filter: blur(1px);
+    background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);
 }
-.social-proof-circle{top: 50%; left: 50%; width: 100vw; height: 100vh; transform: translate(-50%, -50%);}
+.ripple-delay-1{animation-delay: 1s;}
+.ripple-delay-2{animation-delay: 2s;}
+.ripple-delay-3{animation-delay: 3s;}
+.ripple-delay-4{animation-delay: 4s;}
+.ripple-delay-5{animation-delay: 5s;}
+.ripple-delay-6{animation-delay: 6s;}
+.ripple-delay-7{animation-delay: 7s;}
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 .5rem rgba(255, 255, 255, 0.1);
+    }
+    100% {
+        box-shadow: 0 0 0 50rem rgba(2, 0, 0, 0);
+    }
+}
+
+
+
+
+
+
+
+
+
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
