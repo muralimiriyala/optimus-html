@@ -32,7 +32,6 @@
     animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
     animation-iteration-count: infinite;
 
-    mix-blend-mode: multiply;
     filter: blur(1px);
     background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue);
 }
