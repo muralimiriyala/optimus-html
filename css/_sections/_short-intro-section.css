@@ -96,7 +96,7 @@ body.page-template-services-detail-sub-page .short-intro-main::after {
     width: 100%;
     height: 1px;
     opacity: .5;
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 body.page-template-services-detail-sub-page .intro-second-section .short-intro-main::after {
@@ -129,7 +129,7 @@ body.page-template-services-detail-sub-page .intro-second-section .short-intro-m
     body.page-template-marketing .short-intro-main{padding: 80px 0 40px;}
     body.page-template-marketing .short-intro-row{padding-bottom: 0;}
 
-    .intro-second-section .short-intro-main {
+    body.page-template-services-detail-sub-page .intro-second-section .short-intro-main {
         padding: 87px 0 0;
         margin-top: 7px;
     }
@@ -206,7 +206,7 @@ body.page-template-services-detail-sub-page .intro-second-section .short-intro-m
     }
 
     .short-intro-row {
-        gap: 32px;
+        gap: 64px 32px;
         padding: 0;
     }
 
