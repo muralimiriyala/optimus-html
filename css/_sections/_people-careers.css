@@ -12,6 +12,9 @@ div.no_careers_images{display: block;}
 div.no_careers_text{display: block; padding: 80px 0;}
 div.no_careers_text .people-careers-desc{max-width: 100%;}
 .people-careers-main::before{width: 100%; height: 1px; position: relative; background-color: rgba(112,115,114,.5); display: block; content: "";}
+div.no_people_careers_image{margin: 0;}
+.no_people_careers_image .people-careers-row{display: block;}
+div.no_people_careers_image .people-careers-desc{max-width: 100%;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

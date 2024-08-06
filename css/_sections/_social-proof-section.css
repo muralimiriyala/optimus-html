@@ -7,7 +7,7 @@
 .counter-desc{font-size: 16px; line-height: 24px; color: rgba(255, 255, 255, 0.6); padding-top: 20px; border-top: 1px solid var(--Light-Blue); margin-top: 20px;}
 .social-dot-circle {width: 100px; height: 100px;}
 .s-blue-circle{width: 40px; height: 40px; display: block; border: 9px solid var(--Light-Blue); border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%);}
-.s-blue-gradient{ width: 0px; height: 0px; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; }
+.s-blue-gradient{ top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; }
 .s-blue-gradient > span {
     transition-duration: .75s;
     transition-property: all;
@@ -30,67 +30,12 @@
     border-radius: 50%;
     background-image: linear-gradient(to left, rgba(25, 35, 76, 0), #19234c), linear-gradient(to bottom, #004c97, #004c97);
     display: block;
-}
 
-.s-blue-gradient span:nth-child(1) {
-    animation-name: socialZooming1;
+    
 }
-.s-blue-gradient span:nth-child(2) {
-    animation-name: socialZooming2;
-}
-/* .s-blue-gradient span:nth-child(3) {
-    animation-duration: 5s;
-    animation-name: socialZooming3;
-}
-.s-blue-gradient span:nth-child(4) {
-    animation-duration: 4s;
-    animation-name: socialZooming4;
-}
-.s-blue-gradient span:nth-child(5) {
-    animation-duration: 3s;
-    animation-name: socialZooming5;
-}
-.s-blue-gradient span:nth-child(6) {
-    animation-duration: 2s;
-    animation-name: socialZooming6;
-}
-.s-blue-gradient span:nth-child(7) {
-    animation-duration: 1s;
-    animation-name: socialZooming7;
-} */
+.social-proof-circle{top: 50%; left: 50%; width: 100vw; height: 100vh; transform: translate(-50%, -50%);}
 
-/* @keyframes socialZooming1 {
-    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
-    100% { transform: translate(-50%, -50%) scale(7); opacity: 0; }
-}
-@keyframes socialZooming2 {
-    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
-    100% { transform: translate(-50%, -50%) scale(6); opacity: 0; }
-}
-@keyframes socialZooming3 {
-    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
-    100% { transform: translate(-50%, -50%) scale(5); opacity: 0; }
-}
-@keyframes socialZooming4 {
-    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
-    100% { transform: translate(-50%, -50%) scale(4); opacity: 0; }
-}
-@keyframes socialZooming5 {
-    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
-    100% { transform: translate(-50%, -50%) scale(3); opacity: 0; }
-}
-@keyframes socialZooming6 {
-    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
-    100% { transform: translate(-50%, -50%) scale(2); opacity: 0; }
-}
-@keyframes socialZooming7 {
-    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
-    100% { transform: translate(-50%, -50%) scale(1); opacity: 0; }
-} */
-
-
-
-
+/*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .social-proof-main{padding: 80px 0;}
     .social-proof-dot{order: 2; padding: 192px 0 180px; margin: 0 auto;}
@@ -103,13 +48,11 @@
     [data-count-to="4500"]{min-width: 145px;}
     [data-count-to="300"]{min-width: 100px;}
 }
-
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .social-proof-dot{padding: 140px 0 188px;}
     .social-proof-counter{gap: 40px;}
     .social-proof-counter-list{flex: 0 0 calc(25% - 30px);}
 }
-
 @media screen and (max-width: 1023px) and (min-width: 744px) {
     .social-proof-main{padding: 80px 0;}
     .social-proof-dot{padding: 199px 0 91px; margin: 0 auto; order: 2;}
