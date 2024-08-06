@@ -58,7 +58,7 @@
         .sub-detail-line-wrap .default-line-text { padding: 6px 0 18px 24px; line-height: 30px;}
         .service-detail-sub-default::after {width: calc(100% - 40px);}
 
-        
-
+        .subhead-help-lt h2{font-size: 40px; line-height: 46px;}
+        .short-intro-section.intro-second-section .short-intro-head{padding: 0 0 95px;}
 
     }

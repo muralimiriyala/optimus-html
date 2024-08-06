@@ -64,6 +64,7 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
     .case-study-head{border-bottom: 2px solid var(--Light-Blue-Tint); padding-bottom: 40px;}
     .case-study-text{padding-top: 40px;}
     .case-article-main .fluid-container{padding: 0}
+    .case-study-text ul > li strong {border-bottom: none;}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .case-study-main { padding: 40px 0; }
