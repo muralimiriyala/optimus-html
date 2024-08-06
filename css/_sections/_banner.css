@@ -91,7 +91,7 @@
     .no_banner_image .banner-desc {
         max-width: 1360px;
         margin: 0 auto;
-        padding: 0 40px;
+        padding: 0 40px; width: 100%;
     }
 }
 

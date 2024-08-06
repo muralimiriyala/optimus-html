@@ -13,7 +13,7 @@
 .home-banner-iframe{z-index: 1 !important;}
 .home-banner-iframe .home-banner-bg{z-index: 1;}
 .home-banner-iframe iframe{max-width: inherit;}
-.home-banner-iframe video{width: 100%; height: 100%; object-fit: cover;}
+.home-banner-iframe video{width: 100%; height: 100%; object-fit: cover; display: none;}
 
 .home-banner-main .start-managing-block{padding-bottom: 0;}
 
@@ -24,6 +24,7 @@
     .home-banner-desc{max-width: 370px;}
     .home-banner-svg{top: 0; left: -644px; right: 0; opacity: .28; mix-blend-mode: multiply;}
     .home-banner-svg svg{margin: auto;}
+    .home-banner-iframe video{display: block;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
     .home-banner-iframe{position: relative !important;}

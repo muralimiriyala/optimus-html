@@ -23,7 +23,7 @@ ul.sub-service-menu > li > a.open span::after{background-color: var(--Orange); w
 .sub-service-slide{display: none;}
 .sub-service-slide[data-sub-service="1"]{display: block;}
 
-body.page-template-industry-detail  .sub-service-main::before{top: 0;} 
+body.page-template-industries-detail  .sub-service-main::before{top: 0;} 
 
 @media screen and (min-width: 1024px) {
   .sub-service-main{padding: 80px 0 88px; gap: 80px;}
@@ -87,5 +87,5 @@ body.page-template-industry-detail  .sub-service-main::before{top: 0;}
   ul.sub-service-menu > li > a span::after{content: ""; position: absolute; top: 4px; left: 4px; width: 8px; height: 8px; opacity: 1; background-color: var(--Light-Blue); border-radius: 50%; z-index: 1; transition: var(--b-transition);}
   ul.sub-service-menu > li > a:hover span::after{transform: none;}
 
-  body.page-template-industry-detail  .sub-service-main {padding: 48px 0 40px;}
+  body.page-template-industries-detail  .sub-service-main {padding: 48px 0 40px;}
 }
