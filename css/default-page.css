@@ -35,13 +35,13 @@ ul.breadcrumbs li:not(i){color: var(--Gray-50);}
 body.page-template-default .default-line-text {
     padding: 7px 0 7px 24px;}
 
-.asidebar-nav h3{margin-bottom: 5px;}
+.asidebar-nav h3{margin-bottom: 10px;}
 .asidebar-nav hr{margin-bottom: 9px;}
 
 ul.aside-links{margin:  0 0 20px; }
 ul.aside-links > li::before{display: none;}
 ul.aside-links > li{margin: 0;}
-ul.aside-links > li > a{gap: 10px; border-bottom: 1px solid var(--Light-Blue); padding: 16px 0 16px; font-weight: 600; }
+ul.aside-links > li > a{gap: 10px; border-bottom: 1px solid var(--Light-Blue-Tint); padding: 16px 0 16px; font-weight: 600; }
 ul.aside-links > li:last-child > a{border-bottom: none;}
 ul.aside-links > li > a i{left: 0; top: 2px; color: var(--Light-Blue); font-size: 20px; line-height: 25px; position: relative;} 
 ul.aside-links > li > a:hover i{left: 8px;}
@@ -108,7 +108,7 @@ body.single-post .sidebar-block p{margin-bottom: 15px;}
 
     .sidebar-list{flex-direction: row;}
     .sidebar-info{flex: 1;}
-
+    .sidebar-link {padding-right: 54px;}
 
     .default-line-arrow{padding-left: 24px; opacity: 1;}
     .default-line-arrow svg{width: 32px; height: 32px;}

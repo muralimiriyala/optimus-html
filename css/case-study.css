@@ -10,7 +10,7 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
 .no_case_study_text .case-study-head{border: none; padding: 0;}
 
 
-.case-study-main h2{font-size: 28px; line-height: 35px;}
+.case-study-main h2{font-size: 28px; line-height: 35px; margin-bottom: 23px;}
 .case-study-main ul{margin: 0 0 0 45px;}
 .case-study-main ul > li{margin-bottom: 20px;}
 .case-study-main ul > li:after{content:"\f058"; font-family: "Font Awesome 6 Sharp"; color: var(--Orange); position: absolute; left: -46px; top: 0; font-size: 32px; font-weight: 300;}
@@ -40,6 +40,7 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
 .case-article-main hr { width: calc(100% + 120px); height: 2px; background: var(--Light-Blue-Tint); left: -60px; position: relative; margin-bottom: 64px; }
 .case-study-image{padding: 45px 0 70px;}
 .case-article-main ol{margin-bottom: 0;}
+.case-article-main ol > li:last-child{margin-bottom: 0;}
 
 .case-article-main .insights-post-block{padding: 40px 0 65px;}
 
