@@ -13,6 +13,7 @@ body.page-template-services-detail-sub-page .sbr-slider-main{padding: 88px 0; bo
 .sbr-active .sbr-block::after{ top: -68px; transform: rotate(-120deg); left: -28px; }
 
 .sbr-active .sbr-icon{height: auto; top: 50%; transform: translate(-50%,-50%); left: auto; z-index: 2; color: var(--Light-Blue); object-fit: contain; font-size: 24px; display: flex; align-items: center; right: 4px; }
+.sbr-active .sbr-icon img{width: 24px; height: 24px; object-fit: contain;}
 
 .sbr-block{display: none;}
 .sbr-icon{display: none;}
