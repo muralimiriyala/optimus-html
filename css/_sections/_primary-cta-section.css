@@ -3,8 +3,7 @@
 
 .primary-cta-main{padding: 32px;}
 .primary-cta-text span.optional-text{margin-bottom: 15px;}
-.primary-cta-text h2{margin-bottom: 16px; }
-.primary-cta-text h2{font-size: 48px; line-height: 55px; margin-bottom: 16px;}
+.primary-cta-text h2{font-size: 48px; line-height: 55px; font-weight: 700; margin-bottom: 16px;}
 .primary-cta-decs{z-index: 2;}
 .primary-cta-chevron{ height: 100%; opacity: .5; background-color: var(--Blue); }
 .no_primary_cta_image{display: block;}

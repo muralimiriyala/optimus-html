@@ -11,7 +11,7 @@
 
 
 .industries-tail-list{padding: 40px; color: var(--Gray);}
-.industries-tail-list h2{font-size: 24px; font-weight: 600; margin-bottom: 9px;}
+.industries-tail-list h2{font-size: 24px; font-weight: 600; margin-bottom: 16px;}
 .industries-tail-icon{margin-bottom: 17px;}
 .industries-tail-icon figure, .industries-tail-icon i.fa-industries{transition: var(--b-transition);}
 .industries-tail-icon i.fa-industries{color: var(--Light-Blue); font-size: 40px; line-height: 40px;}
@@ -68,6 +68,8 @@
     .industries-tail-main{display: block;}
     .industries-tail-text{margin-bottom: 40px;}
     .industries-tail-text h1{margin-bottom: 30px; font-size: 40px; line-height: 46px;}
+    .industries-tail-icon figure{width: 40px; height: 40px;}
+    .industries-tail-content{padding: 24px 32px;}
     .industries-tail-desc{margin-bottom: 20px;}
     .industries-tail-row{display: block; padding: 40px 0 40px;}
     .industries-tail-list:not(:last-child){margin-bottom: 32px;}

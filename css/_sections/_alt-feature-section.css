@@ -37,6 +37,9 @@ ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)
     .alt-feature-desc{max-width: 640px; padding: 80px; margin-right: auto;}
     .row-reverse .alt-feature-desc{margin-left: auto; margin-right: 0;}
 }
+@media screen and (max-width: 1440px) and (min-width: 1024px){
+    .alt-feature-image{min-height: 576px; max-height: 576px;}
+}
 @media screen and (max-width: 1359px) and (min-width: 1024px){
     .no_alt_feature_image .alt-feature-desc{padding: 80px 40px;}
     .alt-feature-list{flex: 0 0 50%;}
