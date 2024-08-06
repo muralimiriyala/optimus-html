@@ -20,6 +20,9 @@ body.page-template-home .header .header-btn-link{display: none;}
 .header-overlay, .h-mobile-overlay{top: 0; visibility: hidden; opacity: 0; background: rgba(25, 35, 76, 0.75); backdrop-filter: blur(10px); width: 100vw; height: 100vh; position: fixed; z-index: -2; transition: all 0.3s ease;}
 .header-overlay.open, .h-mobile-overlay.open{visibility: visible; opacity: 1;}
 
+li.no_link > a{pointer-events: none; color: var(--Blue);}
+li.no_link > a:hover{color: inherit;}
+
 /* media css starts here */
 @media screen and (min-width: 1024px) {
     body.page-template-service-landing header.site-header:not(.sticky-header)::after,
@@ -103,6 +106,7 @@ body.page-template-home .header .header-btn-link{display: none;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li > a img{width: 24px;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li > a span{flex: 1;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li:nth-last-child(-n+2){flex: 1;}
+    ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li:nth-last-child(1) > a img{width: 18px;}
     ul.main_menu > li.nav-industries > ul > li > ul > li > a{gap: 13px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue); font-family: var(--base-font); font-size: 16px; font-weight: 600; line-height: 1.5rem; cursor: pointer;} 
     ul.main_menu > li.nav-industries > ul > li > ul > li > a:hover{color: var(--Orange);}
     ul.main_menu > li.nav-industries > ul > li > ul > li > ul{margin: 0; padding-top: 24px;}
@@ -147,6 +151,8 @@ body.page-template-home .header .header-btn-link{display: none;}
     ul.main_menu > li.nav-insights > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a svg{width: 24px;}
     ul.main_menu > li.nav-insights > ul > li > ul > li > ul > li > a img.menu-image{width: 24px; padding: 0;}
     ul.main_menu > li.nav-insights > ul > li > ul > li > ul > li > a span.menu-image-title{padding: 0;}   
+
+    
    
     .header_btn{width: fit-content; gap: 16px;}
     .header_btn button{padding: 4px 12px; border: 6px solid var(--Orange); border-radius: 25px; font-weight: 600;}
