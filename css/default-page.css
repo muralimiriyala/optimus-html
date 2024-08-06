@@ -7,7 +7,7 @@ ul.breadcrumbs li:first-child i.fa-chevron-right{display: none;}
 ul.breadcrumbs li > i.fa-chevron-right{opacity: 0.5; width: fit-content;}
 ul.breadcrumbs li a i.fa-house-icon{color: var(--Light-Blue);}
 ul.breadcrumbs li a{width: fit-content;}
-
+ul.breadcrumbs li:not(i){color: var(--Gray-50);}
 .default-block-con{margin-bottom: 60px; color: var(--Navy);}
 .default-block-con span{margin-bottom: 30px;}
 .default-block-con .h1{margin-bottom: 32px;}
@@ -73,7 +73,7 @@ body.single-post .sidebar-block p{margin-bottom: 15px;}
     .default-aside{flex: 0 0 300px;}
 }
 @media screen and (max-width:1023px) and (min-width:744px) {
-    .default-main{display: block; padding: 80px 0 40px;}
+    .default-main{display: block; padding: 40px 0 40px;}
     .default-article{margin-bottom: 40px;}
     .sidebar-list:last-child{margin-bottom: 0;}
     .sidebar-block{width: 100%; gap: 80px; align-items: center; display: flex; flex-wrap: wrap;}
