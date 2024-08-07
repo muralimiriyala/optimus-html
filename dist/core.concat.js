@@ -6514,30 +6514,26 @@ jQuery(document).ready(function($) {
     let $sib = $(this).parent().siblings();
     $($sib).filter('.sbr-active').toggleClass("sbr-hover-active")
   });
-
-  // let sbrimages = $(".sbr-slider-images");
-  // let sbrslide = sbrimages.children(".sbr-for-slide");
-  // let sbrtotalHeight = 10;
-  // sbrslide.each(function(sbrIndex, sbrItem) {
-  //   let sbrHeight = $(sbrItem).outerHeight(true);
-  //   sbrtotalHeight += sbrHeight; 
-  // });
-  // sbrimages.css({ 'height': sbrtotalHeight + 'px' });
-  
-  
-
-
-
-
-
-
-
-
-
-
 });
 
 
+document.addEventListener("DOMContentLoaded", () => {
+    const orange1 = document.querySelector(".orange-anim-1");
+    const orangec1 = orange1.querySelector("circle");
+    let currentY = parseFloat(orangec1.getAttribute("cy"));
+    const targetY = 313.146;
+    const step = 2.5; // Adjust the step for smoothness and speed
+    const interval = 1; // Interval in milliseconds
+
+    const animate = setInterval(() => {
+        if (currentY < targetY) {
+            currentY += step;
+            orangec1.setAttribute("cy", currentY);
+        } else {
+            clearInterval(animate);
+        }
+    }, interval);
+});
 jQuery(document).ready(function ($) {
     
     $('a.subtitle-link').on("click", function(e) {

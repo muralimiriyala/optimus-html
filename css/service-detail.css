@@ -5,7 +5,7 @@
 
 .service-details-article ul{margin-bottom: 10px;}
 
-body.page-template-industry-detail .primary-cta-main::after{position: absolute; content: ""; width: 100%; opacity: 0.5; background-color: var(--body-text); display: block; height: 1px; top: -80px;} 
+body.page-template-industries-detail .primary-cta-main::after{position: absolute; content: ""; width: 100%; opacity: 0.5; background-color: var(--body-text); display: block; height: 1px; top: -80px;} 
 @media screen and (min-width: 1024px) {
     .service-details-article{padding: 88px 0;}
     body.page-template-services-detail-sub-page .video-main{padding: 64px 0;}
@@ -21,7 +21,7 @@ body.page-template-industry-detail .primary-cta-main::after{position: absolute; 
     .blue-line{ margin: 56px 0;}
     body.page-template-services-detail-sub-page .inline-images-row{margin: 56px 0; padding: 0;}
 
-     body.page-template-industry-detail .primary-cta-main::after{ top: -48px; left: 0;} 
-     body.page-template-industry-detail .service-details-article {padding: 48px 0 56px;}
+     body.page-template-industries-detail .primary-cta-main::after{ top: -48px; left: 0;} 
+     body.page-template-industries-detail .service-details-article {padding: 48px 0 56px;}
     
 }
