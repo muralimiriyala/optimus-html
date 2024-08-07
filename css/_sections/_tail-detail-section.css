@@ -39,7 +39,7 @@
 }
 
 .tail-detail-arrow a:hover {
-    color: var(--Blue);
+    color: var(--Orange);
 }
 
 .tail-detail-list:hover .tail-detail-arrow {
