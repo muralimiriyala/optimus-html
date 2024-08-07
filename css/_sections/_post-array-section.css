@@ -69,6 +69,8 @@
 .post-array-section.post-color{background-color: var(--Dim-Blue);} 
 .post-array-section.post-color .post-array-main{padding-top: 80px;}
 
+.post-array-section.no-primary-cta{padding-top: 80px;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px) {
     .post-array-row .slick-track {
@@ -225,6 +227,8 @@
         color: var(--White);
     }
     .post-array-blog h2{margin-bottom: 0;}
+
+    .post-array-section.no-primary-cta{padding-top: 40px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     .post-array-list.slick-slide{width: 273px; margin-right: 24px;}
