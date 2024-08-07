@@ -8,12 +8,11 @@ body.single-post .insights-post-main{z-index: 810;}
 .insights-post-main { gap: 80px; padding: 80px 0 88px; }
 .insights-row{gap: 14px; flex: 0 0 60%;}
 .insights-rt{gap: 20px; flex: 0 0 calc(100% - 63%);}
-.insights-list{flex: 0 0 33%;  }
 .insights-icon{color: var(--Light-Blue); font-size: 20px;}
 .insights-txt{color: var(--Blue); flex: 1;
 
 }
-.insights-list{gap: 8px; align-items: flex-start;}
+.insights-list{gap: 8px; width: fit-content;}
 .insights-block-con{margin-bottom: 45px; color: var(--Navy);}
 .insights-post-main .sidebar-block{padding: 24px;}
 

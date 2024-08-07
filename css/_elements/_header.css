@@ -27,7 +27,8 @@ li.no_link > a:hover{color: inherit;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-    body.page-template-service-landing header.site-header:not(.sticky-header)::after,
+    /* body.page-template-service-landing header.site-header:not(.sticky-header)::after, */
+    body.page-template-services header.site-header:not(.sticky-header)::after,
      body.page-template-industries header.site-header:not(.sticky-header)::after, body.home header.site-header:not(.sticky-header)::after, body.page-template-marketing header.site-header:not(.sticky-header)::after{background-color: transparent;}
     body.category-insights header.site-header:not(.sticky-header)::after{background-color: transparent;}
     body.home .site-main-cover, body.page-template-marketing .site-main-cover,
@@ -163,7 +164,8 @@ li.no_link > a:hover{color: inherit;}
     ul.main_menu > li.nav-services > ul > li > ul > li.hide-menu-item {display: none;}
 
     .site-main-cover{padding-top: 84px;}
-    body.page-template-service-landing .site-main-cover, body.page-template-industries .site-main-cover{padding-top: 0;}
+    /* body.page-template-service-landing .site-main-cover, body.page-template-industries .site-main-cover{padding-top: 0;} */
+    body.page-template-services .site-main-cover, body.page-template-industries .site-main-cover{padding-top: 0;}
 }
 @media screen and (min-width: 1200px){
     body.home ul.main_menu > li.nav-services{position: static;}

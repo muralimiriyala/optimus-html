@@ -36,8 +36,8 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
 .case-study-data-block{padding: 64px 0;}
 .case-study-data-wrap{padding: 24px;}
 .case-study-data-main{gap: 24px; padding: 24px; background: var(--Light-Blue-Tint); border-radius: 8px;}
-.case-study-icon{flex: 0 0 80px;}
-.case-study-data-main h3{flex: 0 0 calc(100% - 104px); margin-bottom: 0; font-size: 24px; line-height: 30px;}
+.case-study-icon{flex: 0 0 91px;}
+.case-study-data-main h3{flex: 0 0 calc(100% - 115px); margin-bottom: 0; font-size: 24px; line-height: 30px;}
 .case-article-main hr { width: calc(100% + 120px); height: 2px; background: var(--Light-Blue-Tint); left: -60px; position: relative; margin-bottom: 64px; }
 .case-study-image{padding: 45px 0 70px;}
 .case-article-main ol{margin-bottom: 0;}
