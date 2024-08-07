@@ -43,13 +43,3 @@ span.ui-plus::after { width: 2px; height: 24px; }
     body.page-template-services-detail-sub-page .accordion-main{padding: 24px 0;}
     body.page-template-services-detail .accordion-main{padding-bottom: 0;}
 }
-@media screen and (max-width: 743px) and (min-width: 200px) {
-    .accordion-main { padding: 40px 0 57px; }
-    .accordion-header { padding: 27px 24px 22px 23px; }
-    .accordion-header span.ui-plus { left: 0; margin-bottom: 20px; display: block; position: relative; }
-    .accordion-desc { padding: 1px 24px 24px 23px; } 
-    .accordion-wrap { padding: 50px 0 20px; } 
-    .accordion-head-lt h3 { font-size: 32px; } 
-    body.page-template-services-detail-sub-page .accordion-main { padding: 28px 0 22px; } 
-    body.page-template-services-detail-sub-page .accordion-wrap { padding: 50px 0 48px; }
-}

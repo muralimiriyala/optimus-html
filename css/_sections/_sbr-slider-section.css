@@ -120,4 +120,5 @@ body.page-template-industries-detail .sbr-slider-main:after{content: ""; display
 
     body.page-template-industries-detail .sbr-slider-main::after {margin-top: 48px;}
     body.page-template-industries-detail .sbr-slider-main{padding:40px 0 0;}
+    body.page-template-services-detail  .sbr-slider-main{padding: 48px 0;}
 }
