@@ -14,5 +14,6 @@
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .play-btn-bg i{font-size: 29px;}
     body.page-template-industries-detail .video-main{padding: 40px 0 55px;} 
+    body.page-template-services-detail .video-main{padding: 34px 0 58px;} 
 }
 

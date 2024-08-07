@@ -82,6 +82,7 @@ body.page-template-industries-detail .sbr-slider-main:after{content: ""; display
    
     .sbr-slide-image::before {left: 28px; right: auto; top: inherit;  bottom: -12px; }
     .sbr-slide-image::after {left: 28px; right: auto; top: inherit;  bottom: 0;}
+    body.page-template-services-detail  .sbr-slider-main{padding: 88px 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     body.home .sbr-slider-main{padding: 48px 0;}
@@ -120,4 +121,5 @@ body.page-template-industries-detail .sbr-slider-main:after{content: ""; display
 
     body.page-template-industries-detail .sbr-slider-main::after {margin-top: 48px;}
     body.page-template-industries-detail .sbr-slider-main{padding:40px 0 0;}
+    body.page-template-services-detail  .sbr-slider-main{padding: 48px 0;}
 }
