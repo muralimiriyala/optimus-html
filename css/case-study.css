@@ -39,7 +39,7 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
 .case-study-icon{flex: 0 0 91px;}
 .case-study-data-main h3{flex: 0 0 calc(100% - 115px); margin-bottom: 0; font-size: 24px; line-height: 30px;}
 .case-article-main hr { width: calc(100% + 120px); height: 2px; background: var(--Light-Blue-Tint); left: -60px; position: relative; margin-bottom: 64px; }
-.case-study-image{padding: 45px 0 70px;}
+.case-article p img.wp-image-1790{padding: 45px 0 70px; margin: 0;}
 .case-article-main ol{margin-bottom: 0;}
 .case-article-main ol > li:last-child{margin-bottom: 0;}
 
@@ -89,6 +89,6 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
     .case-study-data-main{display: block;}
     .case-study-icon{margin-bottom: 24px;}
     .case-article-main hr{margin-bottom: 40px; width: 100%; left: 0}
-    .case-study-image{padding: 20px 0 40px;}
+    .case-article p img.wp-image-1790{padding: 20px 0 40px; margin: 0;}
     .case-article-main .insights-post-block {padding: 20px 0 40px;}
 }
