@@ -27,7 +27,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .service-tail-wrap{padding: 55px 0 0;}
+    .service-tail-wrap{padding: 23px 0 0;}
     .service-tail-main{padding: 0 0 39px;}
 
     .service-tail-rt{flex: 1;}
