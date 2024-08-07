@@ -31,16 +31,16 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
 .inline-images-list:nth-child(even) .inline-caption-text{padding: 0 32px;}
 .case-article-main .fluid-container{padding: 40px 0 55px;}
 
-.case-article-main ul{margin-bottom: 0;}
+/* .case-article-main ul{margin-bottom: 0;} */
 .case-article-main ul > li:last-child{margin-bottom: 0;}
-.case-study-data-block{padding: 64px 0;}
+.case-study-data-block{padding: 38px 0 64px;}
 .case-study-data-wrap{padding: 24px;}
 .case-study-data-main{gap: 24px; padding: 24px; background: var(--Light-Blue-Tint); border-radius: 8px;}
 .case-study-icon{flex: 0 0 91px;}
 .case-study-data-main h3{flex: 0 0 calc(100% - 115px); margin-bottom: 0; font-size: 24px; line-height: 30px;}
 .case-article-main hr { width: calc(100% + 120px); height: 2px; background: var(--Light-Blue-Tint); left: -60px; position: relative; margin-bottom: 64px; }
 .case-article p img.wp-image-1790{padding: 45px 0 70px; margin: 0;}
-.case-article-main ol{margin-bottom: 0;}
+/* .case-article-main ol{margin-bottom: 0;} */
 .case-article-main ol > li:last-child{margin-bottom: 0;}
 
 .case-article-main .insights-post-block{padding: 40px 0 65px;}
