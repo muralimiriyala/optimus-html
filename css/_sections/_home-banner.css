@@ -41,6 +41,7 @@
     body.page-template-marketing .home-banner-text{margin-bottom:40px;}
     .home-banner-text h1{font-size: 40px; line-height: 52px; margin-top: -7px;}
     .home-banner-text h1 > span {line-height: 33px;}
+    .home-banner-text h1 > span::after{bottom: 6px;}
     .home-banner-text h1 > br{display: none;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
@@ -53,5 +54,6 @@
     body.page-template-marketing .home-banner-text{margin:-10px 0 40px; }
     .home-banner-text h1{font-size: 40px; line-height: 52px; margin-top: -7px;}
     .home-banner-text h1 > span {line-height: 33px;}
+    .home-banner-text h1 > span::after{bottom: 6px;}
     .home-banner-text h1 > br{display: none;}
 }
