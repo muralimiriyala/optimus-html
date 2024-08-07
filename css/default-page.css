@@ -32,7 +32,8 @@ ul.breadcrumbs li:not(i){color: var(--Gray-50);}
 .default-line-text { padding: 12px 0 12px 24px; font-weight: 600; color: var(--Blue); margin-bottom: 0; flex: 1;}
 .default-line-arrow{flex: 0 0 80px;}
 
-body.page-template-default, body.single-post .default-line-text {
+body.page-template-default .default-line-text{padding: 7px 0 7px 24px;}
+body.single-post .default-line-text {
     padding: 7px 0 7px 24px;}
 
 .asidebar-nav h3{margin-bottom: 10px;}
@@ -65,7 +66,7 @@ body.single-post .sidebar-block p{margin-bottom: 15px;}
 .sidebar-info p{color: var(--Gray); opacity: 0.5; margin-bottom: 4px;}
 .sidebar-con{gap: 8px; color: var(--Blue); font-weight: 700;}
 .sidebar-con i{color: var(--Orange); font-size: 16px;}
-.sidebar-block-lt{margin-bottom: 24px;}
+-lt{margin-bottom: 24px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .default-main{gap: 80px; padding: 80px 0 40px;}
@@ -108,6 +109,7 @@ body.single-post .sidebar-block p{margin-bottom: 15px;}
     .sidebar-block{margin-bottom: 43px;}
     .sidebar-block-lt { margin-bottom: 22px; }
 
+    body.single-post .sidebar-block{margin-bottom: 32px;}
     .sidebar-list{flex-direction: row;}
     .sidebar-info{flex: 1;}
     .sidebar-link {padding-right: 54px;}
@@ -115,6 +117,8 @@ body.single-post .sidebar-block p{margin-bottom: 15px;}
     .default-line-arrow{padding-left: 24px; opacity: 1;}
     .default-line-arrow svg{width: 32px; height: 32px;}
     .default-line-arrow svg:not(:first-child){width: 20px;}
+
+    body.single-post .sidebar-row{gap: 32px 0;}
 
 }
 
