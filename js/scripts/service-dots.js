@@ -195,10 +195,7 @@ document.addEventListener("DOMContentLoaded", () => {
     animateToTargetPurple();
     /*-- purple dot ends animation --*/
 
-
-
-
-    /*-- blut dot starts animation --*/
+    /*-- blue dot starts animation --*/
     const blue1 = document.querySelector(".blue-dot-1");
     const bluec1 = blue1.querySelector("circle");
     const blue2 = document.querySelector(".blue-dot-2");
@@ -207,63 +204,259 @@ document.addEventListener("DOMContentLoaded", () => {
     const bluec3 = blue3.querySelector("circle");
     const blue4 = document.querySelector(".blue-dot-4");
     const bluec4 = blue4.querySelector("circle");
+    const blue5 = document.querySelector(".blue-dot-5");
+    const bluec5 = blue5.querySelector("circle");
+    const blue6 = document.querySelector(".blue-dot-6");
+    const bluec6 = blue6.querySelector("circle");
+
+    // Initial and target positions
     const initialBY1 = parseFloat(bluec1.getAttribute("cy"));
     const initialBY2 = parseFloat(bluec2.getAttribute("cy"));
     const initialBY3 = parseFloat(bluec3.getAttribute("cy"));
     const initialBY4 = parseFloat(bluec4.getAttribute("cy"));
-    const targetBY1 = 245.891;
-    const targetBY2 = 190.96;
+    const initialBY5 = parseFloat(bluec5.getAttribute("cy"));
+    const initialBY6 = parseFloat(bluec6.getAttribute("cy"));
+    const targetBY1 = 190.8027;
+    const targetBY2 = 252.047;
     const targetBY3 = 441.777;
     const targetBY4 = 374.786;
+    const targetBY5 = 218.746;
+    const targetBY6 = 222.746;
     const stepB1 = 4;
     const stepB2 = 4;
     const stepB3 = 2.5;
     const stepB4 = 2.5;
-    /*-- blue 3 & 4 --*/
-    const animateB3 = () => {
+    const stepB5 = 2.5;
+    const stepB6 = 2.5;
+    const blueinterval = 10; // Animation blueinterval in milliseconds
+    const bluedelay = 2000; // Delay in milliseconds
+
+    // Animation to target function
+    const animateToTargetBlue = (callback) => {
+        let currentBY1 = initialBY1;
+        let currentBY2 = initialBY2;
         let currentBY3 = initialBY3;
-        let currentBY4 = initialBY3;
-        const interval = setInterval(() => {
+        let currentBY4 = initialBY4;
+        let currentBY5 = initialBY5;
+        let currentBY6 = initialBY6;
+
+        const animateInterval = setInterval(() => {
             let allReached = true;
+
+            // Move to target position
+            if (currentBY1 < targetBY1) {
+                currentBY1 += stepB1;
+                if (currentBY1 > targetBY1) currentBY1 = targetBY1;
+                bluec1.setAttribute("cy", currentBY1);
+                allReached = false;
+            }
+
+            if (currentBY2 < targetBY2) {
+                currentBY2 += stepB2;
+                if (currentBY2 > targetBY2) currentBY2 = targetBY2;
+                bluec2.setAttribute("cy", currentBY2);
+                allReached = false;
+            }
+
             if (currentBY3 < targetBY3) {
                 currentBY3 += stepB3;
                 if (currentBY3 > targetBY3) currentBY3 = targetBY3;
                 bluec3.setAttribute("cy", currentBY3);
                 allReached = false;
             }
+
             if (currentBY4 < targetBY4) {
                 currentBY4 += stepB4;
                 if (currentBY4 > targetBY4) currentBY4 = targetBY4;
                 bluec4.setAttribute("cy", currentBY4);
                 allReached = false;
             }
-            if (allReached) {
-                clearInterval(interval);
-                setTimeout(animateB3, 5000);
-            }
-        }, 3);
-    };
-    animateB3();
 
-    const animateB4 = () => {
-        let currentBY4 = initialBY4;
-        const interval = setInterval(() => {
+            if (currentBY5 < targetBY5) {
+                currentBY5 += stepB5;
+                if (currentBY5 > targetBY5) currentBY5 = targetBY5;
+                bluec5.setAttribute("cy", currentBY5);
+                allReached = false;
+            }
+
+            if (currentBY6 < targetBY6) {
+                currentBY6 += stepB6;
+                if (currentBY6 > targetBY6) currentBY6 = targetBY6;
+                bluec6.setAttribute("cy", currentBY6);
+                allReached = false;
+            }
+
+            if (allReached) {
+                clearInterval(animateInterval);
+                setTimeout(() => {
+                    animateToInitialBlue(callback);
+                }, bluedelay);
+            }
+        }, blueinterval);
+    };
+
+    // Animation to initial function
+    const animateToInitialBlue = (callback) => {
+        let currentBY1 = targetBY1;
+        let currentBY2 = targetBY2;
+        let currentBY3 = targetBY3;
+        let currentBY4 = targetBY4;
+        let currentBY5 = targetBY5;
+        let currentBY6 = targetBY6;
+
+        const animateInterval = setInterval(() => {
             let allReached = true;
-            if (currentBY4 < targetBY4) {
-                currentBY4 += stepB4;
-                if (currentBY4 > targetBY4) currentBY4 = targetBY4;
+
+            // Move back to initial position
+            if (currentBY1 > initialBY1) {
+                currentBY1 -= stepB1;
+                if (currentBY1 < initialBY1) currentBY1 = initialBY1;
+                bluec1.setAttribute("cy", currentBY1);
+                allReached = false;
+            }
+
+            if (currentBY2 > initialBY2) {
+                currentBY2 -= stepB2;
+                if (currentBY2 < initialBY2) currentBY2 = initialBY2;
+                bluec2.setAttribute("cy", currentBY2);
+                allReached = false;
+            }
+
+            if (currentBY3 > initialBY3) {
+                currentBY3 -= stepB3;
+                if (currentBY3 < initialBY3) currentBY3 = initialBY3;
+                bluec3.setAttribute("cy", currentBY3);
+                allReached = false;
+            }
+
+            if (currentBY4 > initialBY4) {
+                currentBY4 -= stepB4;
+                if (currentBY4 < initialBY4) currentBY4 = initialBY4;
                 bluec4.setAttribute("cy", currentBY4);
                 allReached = false;
             }
-            if (allReached) {
-                clearInterval(interval);
-                setTimeout(animateB4, 6000);
-            }
-        }, 2);
-    };
-    animateB4();
 
-    /*-- blut dot ends animation --*/
+            if (currentBY5 > initialBY5) {
+                currentBY5 -= stepB5;
+                if (currentBY5 < initialBY5) currentBY5 = initialBY5;
+                bluec5.setAttribute("cy", currentBY5);
+                allReached = false;
+            }
+
+            if (currentBY6 > initialBY6) {
+                currentBY6 -= stepB6;
+                if (currentBY6 < initialBY6) currentBY6 = initialBY6;
+                bluec6.setAttribute("cy", currentBY6);
+                allReached = false;
+            }
+
+            if (allReached) {
+                clearInterval(animateInterval);
+                setTimeout(() => {
+                    animateToTargetBlue(callback); // Restart the animation cycle
+                }, bluedelay);
+            }
+        }, blueinterval);
+    };
+    animateToTargetBlue();
+    /*-- blue dot ends animation --*/
+
+
+    /*-- pink dot starts animation --*/
+    const pink1 = document.querySelector(".pink-dot-1");
+    const pinkc1 = pink1.querySelector("circle");
+    const pink2 = document.querySelector(".pink-dot-2");
+    const pinkc2 = pink2.querySelector("circle");
+    const pink3 = document.querySelector(".pink-dot-3");
+    const pinkc3 = pink3.querySelector("circle");
+
+    // Initial and target positions
+    const initialPinkY1 = parseFloat(pinkc1.getAttribute("cy"));
+    const initialPinkY2 = parseFloat(pinkc2.getAttribute("cy"));
+    const initialPinkY3 = parseFloat(pinkc3.getAttribute("cy"));
+    const targetPinkY1 = 313.146;
+    const targetPinkY2 = 223.205;
+    const targetPinkY3 = 220.746;
+    const stepPink1 = 3.5;
+    const stepPink2 = 2.5;
+    const stepPink3 = 2.5;
+    const stepPinkInterval = 10;
+    const stepPinkDelay = 1000;
+
+    const animateToPinkMain = (callback) => {
+    let currentY1 = initialPinkY1;
+    let currentY2 = initialPinkY2;
+    let currentY3 = initialPinkY3;
+    let animating = true;
+
+    const animateToPinkTarget = setInterval(() => {
+        let allReached = true;
+        // Move to target position
+        if (currentY1 < targetPinkY1) {
+            currentY1 += stepPink1;
+            if (currentY1 > targetPinkY1) currentY1 = targetPinkY1;
+            pinkc1.setAttribute("cy", currentY1);
+            allReached = false;
+        }
+        if (currentY2 < targetPinkY2) {
+            currentY2 += stepPink2;
+            if (currentY2 > targetPinkY2) currentY2 = targetPinkY2;
+            pinkc2.setAttribute("cy", currentY2);
+            allReached = false;
+        }
+        if (currentY3 < targetPinkY3) {
+            currentY3 += stepPink3;
+            if (currentY3 > targetPinkY3) currentY3 = targetPinkY3;
+            pinkc3.setAttribute("cy", currentY3);
+            allReached = false;
+        }
+        if (allReached) {
+            clearInterval(animateToPinkTarget);
+            setTimeout(() => {
+                animateToPinkIntial(callback);
+            }, stepPinkDelay);
+        }
+    }, stepPinkInterval);
+    };
+    const animateToPinkIntial = (callback) => {
+    let currentY1 = targetPinkY1;
+    let currentY2 = targetPinkY2;
+    let currentY3 = targetPinkY3;
+
+    const animateToPinkTarget = setInterval(() => {
+        let allReached = true;
+        // Move back to initial position
+        if (currentY1 > initialPinkY1) {
+            currentY1 -= stepPink1;
+            if (currentY1 < initialPinkY1) currentY1 = initialPinkY1;
+            pinkc1.setAttribute("cy", currentY1);
+            allReached = false;
+        }
+
+        if (currentY2 > initialPinkY2) {
+            currentY2 -= stepPink2;
+            if (currentY2 < initialPinkY2) currentY2 = initialPinkY2;
+            pinkc2.setAttribute("cy", currentY2);
+            allReached = false;
+        }
+
+        if (currentY3 > initialPinkY3) {
+            currentY3 -= stepPink3;
+            if (currentY3 < initialPinkY3) currentY3 = initialPinkY3;
+            pinkc3.setAttribute("cy", currentY3);
+            allReached = false;
+        }
+
+        if (allReached) {
+            clearInterval(animateToPinkTarget);
+            setTimeout(() => {
+                animateToPinkMain(); // Restart the animation cycle
+            }, 2000); // Wait 2 seconds before starting the animation again
+        }
+    }, stepPinkInterval);
+    };
+    animateToPinkMain();
+    /*-- pink dot ends animation --*/
 
 
 

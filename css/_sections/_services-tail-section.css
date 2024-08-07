@@ -63,11 +63,12 @@
     .services-tail-decor{width: 428px; height: 260px; left: -24px; opacity: 0.125;}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
-    .service-tail-wrap{padding: 40px 0 0;}
+    .service-tail-wrap{padding: 23px 0 0;}
     .service-tail-main{display: block; padding: 0 0 36px;}
     .service-tail-rt{margin-bottom: 20px;}
+    .service-tail-text{position: relative;}
     .service-tail-text h1{margin-bottom: 30px; font-size: 28px; line-height: 35px;}
     .service-tail-row{display: block; padding: 40px 0 40px;}
     .service-tail-list:not(:last-child){margin-bottom: 32px;}
-    .services-tail-decor{width: 428px; height: 260px; left: -24px; opacity: 0.125;}
+    .services-tail-decor{width: 428px; height: 260px; left: -44px; opacity: .3; top: 20px;}
 }
