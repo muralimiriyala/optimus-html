@@ -14,7 +14,9 @@ header.sticky-header{z-index: 850;}
 .header-btn-link{gap: 2px;}
 .header-btn-link span{padding: 8px 13px 8px; border-radius: 22.4px; border: 6.4px solid var(--Orange);color: var(--White); font-size: 16px; line-height: 16px; position: relative; display: inline-block;}
 .header-btn-link:hover{color: var(--White);}
+.header-btn-link:hover span{border-width: 8px; font-size: 18px; line-height: 18px;}
 .header-btn-link svg{width: 23px; height: 43px;}
+.header-btn-link:hover svg{width: 29px; height: 52px;}
 
 body.page-template-home .header .header-btn-link{display: none;}
 .header-overlay, .h-mobile-overlay{top: 0; visibility: hidden; opacity: 0; background: rgba(25, 35, 76, 0.75); backdrop-filter: blur(10px); width: 100vw; height: 100vh; position: fixed; z-index: -2; transition: all 0.3s ease;}
@@ -47,7 +49,7 @@ li.no_link > a:hover{color: inherit;}
     ul.main_menu > li > a{padding: 34px 0 35px; display: block; color: var(--White); font-size: 15px; font-weight: 700; line-height: 100%; letter-spacing: 1.2px; position: relative; text-transform: uppercase;}
     ul.main_menu > li > a::after{width: 0%; height: 8px; bottom: -4px; left: 0; right: 0; opacity: 0; position: absolute; content: ""; display: block; border-radius: 0; background: var(--Orange); transition: var(--b-transition); margin-left: auto; margin-right: auto; z-index: 12;}
     ul.main_menu > li.current-menu-item > a::after, ul.main_menu > li:hover > a::after{opacity: 1; width: 64px;}
-    ul.main_menu > li.current-page-ancestor > a, ul.main_menu > li.current-menu-item > a, ul.main_menu > li > a:hover{color: var(--Orange);}
+    ul.main_menu > li.current-page-ancestor > a, ul.main_menu > li.current-menu-item > a, ul.main_menu > li > a:hover{color: var(--White);}
     ul.main_menu > li > ul{margin: 0; padding: 21px 32px 15px; min-width: 300px; border-radius: 0 0 8px 8px; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: var(--b-transition); box-shadow: 0 6px 12px 0 rgba(24,42,84,.1);}
     ul.main_menu > li:hover > ul{opacity: 1; visibility: visible;}
     ul.main_menu > li > ul > li{margin: 0 0 11px;}
