@@ -5,6 +5,7 @@
 @media only screen and (min-width: 1024px){
     body.page-template-our-culture .video-main{padding: 40px 0;}  
     body.page-template-industries-detail .video-main{padding: 40px 0 65px;}  
+    body.page-template-services-detail .video-main{padding: 41px 0 64px;}  
 }
 @media screen and (max-width: 1023px) and (min-width: 744px) {
 .video-main{padding: 40px 0;}
