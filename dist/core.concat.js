@@ -6518,115 +6518,101 @@ jQuery(document).ready(function($) {
 
 
 document.addEventListener("DOMContentLoaded", () => {
+    /*-- orange dot starts animation --*/
+    const orange1 = document.querySelector(".orange-dot-1");
+    const orangec1 = orange1.querySelector("circle");
+    const orange2 = document.querySelector(".orange-dot-2");
+    const orangec2 = orange2.querySelector("circle");
+    const orange3 = document.querySelector(".orange-dot-3");
+    const orangec3 = orange3.querySelector("circle");
 
+    // Initial and target positions
+    const initialY1 = parseFloat(orangec1.getAttribute("cy"));
+    const initialY2 = parseFloat(orangec2.getAttribute("cy"));
+    const initialY3 = parseFloat(orangec3.getAttribute("cy"));
+    const targetY1 = 313.146;
+    const targetY2 = 92.223;
+    const targetY3 = 220.746;
+    const step1 = 3.5;
+    const step2 = 2.5;
+    const step3 = 2.5;
+    const interval = 10;
+    const delay = 1000;
 
-/*-- orange dot starts animation --*/
-const orange1 = document.querySelector(".orange-dot-1");
-const orangec1 = orange1.querySelector("circle");
-const orange2 = document.querySelector(".orange-dot-2");
-const orangec2 = orange2.querySelector("circle");
-const orange3 = document.querySelector(".orange-dot-3");
-const orangec3 = orange3.querySelector("circle");
+    const animateToTarget = (callback) => {
+        let currentY1 = initialY1;
+        let currentY2 = initialY2;
+        let currentY3 = initialY3;
+        let animating = true;
 
-// Initial and target positions
-const initialY1 = parseFloat(orangec1.getAttribute("cy"));
-const initialY2 = parseFloat(orangec2.getAttribute("cy"));
-const initialY3 = parseFloat(orangec3.getAttribute("cy"));
-const targetY1 = 313.146;
-const targetY2 = 92.223;
-const targetY3 = 220.746;
-const step1 = 3.5;
-const step2 = 2.5;
-const step3 = 2.5;
-const interval = 10; // Animation interval in milliseconds
-const delay = 1000; // Delay at the target position in milliseconds
+        const animateInterval = setInterval(() => {
+            let allReached = true;
+            // Move to target position
+            if (currentY1 < targetY1) {
+                currentY1 += step1;
+                if (currentY1 > targetY1) currentY1 = targetY1;
+                orangec1.setAttribute("cy", currentY1);
+                allReached = false;
+            }
+            if (currentY2 < targetY2) {
+                currentY2 += step2;
+                if (currentY2 > targetY2) currentY2 = targetY2;
+                orangec2.setAttribute("cy", currentY2);
+                allReached = false;
+            }
+            if (currentY3 < targetY3) {
+                currentY3 += step3;
+                if (currentY3 > targetY3) currentY3 = targetY3;
+                orangec3.setAttribute("cy", currentY3);
+                allReached = false;
+            }
+            if (allReached) {
+                clearInterval(animateInterval);
+                setTimeout(() => {
+                    animateToInitial(callback);
+                }, delay);
+            }
+        }, interval);
+    };
+    const animateToInitial = (callback) => {
+        let currentY1 = targetY1;
+        let currentY2 = targetY2;
+        let currentY3 = targetY3;
 
-const animateToTarget = (callback) => {
-    let currentY1 = initialY1;
-    let currentY2 = initialY2;
-    let currentY3 = initialY3;
-    let animating = true;
+        const animateInterval = setInterval(() => {
+            let allReached = true;
+            // Move back to initial position
+            if (currentY1 > initialY1) {
+                currentY1 -= step1;
+                if (currentY1 < initialY1) currentY1 = initialY1;
+                orangec1.setAttribute("cy", currentY1);
+                allReached = false;
+            }
 
-    const animateInterval = setInterval(() => {
-        let allReached = true;
+            if (currentY2 > initialY2) {
+                currentY2 -= step2;
+                if (currentY2 < initialY2) currentY2 = initialY2;
+                orangec2.setAttribute("cy", currentY2);
+                allReached = false;
+            }
 
-        // Move to target position
-        if (currentY1 < targetY1) {
-            currentY1 += step1;
-            if (currentY1 > targetY1) currentY1 = targetY1;
-            orangec1.setAttribute("cy", currentY1);
-            allReached = false;
-        }
+            if (currentY3 > initialY3) {
+                currentY3 -= step3;
+                if (currentY3 < initialY3) currentY3 = initialY3;
+                orangec3.setAttribute("cy", currentY3);
+                allReached = false;
+            }
 
-        if (currentY2 < targetY2) {
-            currentY2 += step2;
-            if (currentY2 > targetY2) currentY2 = targetY2;
-            orangec2.setAttribute("cy", currentY2);
-            allReached = false;
-        }
-
-        if (currentY3 < targetY3) {
-            currentY3 += step3;
-            if (currentY3 > targetY3) currentY3 = targetY3;
-            orangec3.setAttribute("cy", currentY3);
-            allReached = false;
-        }
-
-        if (allReached) {
-            clearInterval(animateInterval);
-            setTimeout(() => {
-                animateToInitial(callback);
-            }, delay); // Delay before starting to move back
-        }
-    }, interval);
-};
-
-const animateToInitial = (callback) => {
-    let currentY1 = targetY1;
-    let currentY2 = targetY2;
-    let currentY3 = targetY3;
-
-    const animateInterval = setInterval(() => {
-        let allReached = true;
-
-        // Move back to initial position
-        if (currentY1 > initialY1) {
-            currentY1 -= step1;
-            if (currentY1 < initialY1) currentY1 = initialY1;
-            orangec1.setAttribute("cy", currentY1);
-            allReached = false;
-        }
-
-        if (currentY2 > initialY2) {
-            currentY2 -= step2;
-            if (currentY2 < initialY2) currentY2 = initialY2;
-            orangec2.setAttribute("cy", currentY2);
-            allReached = false;
-        }
-
-        if (currentY3 > initialY3) {
-            currentY3 -= step3;
-            if (currentY3 < initialY3) currentY3 = initialY3;
-            orangec3.setAttribute("cy", currentY3);
-            allReached = false;
-        }
-
-        if (allReached) {
-            clearInterval(animateInterval);
-            setTimeout(() => {
-                animateToTarget(); // Restart the animation cycle
-            }, 2000); // Wait 2 seconds before starting the animation again
-        }
-    }, interval);
-};
-
-// Start the animation
-animateToTarget();
-/*-- orange dot ends animation --*/
-
-
-
-
+            if (allReached) {
+                clearInterval(animateInterval);
+                setTimeout(() => {
+                    animateToTarget(); // Restart the animation cycle
+                }, 2000); // Wait 2 seconds before starting the animation again
+            }
+        }, interval);
+    };
+    animateToTarget();
+    /*-- orange dot ends animation --*/
 
     /*-- purple dot starts animation --*/
     const purple1 = document.querySelector(".purple-dot-1");
@@ -6635,6 +6621,7 @@ animateToTarget();
     const purplec2 = purple2.querySelector("circle");
     const purple3 = document.querySelector(".purple-dot-3");
     const purplec3 = purple3.querySelector("circle");
+
     const initialPY1 = parseFloat(purplec1.getAttribute("cy"));
     const initialPY2 = parseFloat(purplec2.getAttribute("cy"));
     const initialPY3 = parseFloat(purplec3.getAttribute("cy"));
@@ -6644,14 +6631,18 @@ animateToTarget();
     const stepP1 = 4;
     const stepP2 = 4;
     const stepP3 = 2.5;
+    const pinterval = 10; // Animation interval in milliseconds
+    const pdelay = 1000; // Delay in milliseconds
 
-    const animateP = () => {
+    const animateToTargetPurple = () => {
         let currentPY1 = initialPY1;
         let currentPY2 = initialPY2;
         let currentPY3 = initialPY3;
-        const interval = setInterval(() => {
+
+        const animateInterval = setInterval(() => {
             let allReached = true;
 
+            // Move to target position
             if (currentPY1 < targetPY1) {
                 currentPY1 += stepP1;
                 if (currentPY1 > targetPY1) currentPY1 = targetPY1;
@@ -6674,13 +6665,56 @@ animateToTarget();
             }
 
             if (allReached) {
-                clearInterval(interval);
-                setTimeout(animateP, 4000);
+                clearInterval(animateInterval);
+                setTimeout(() => {
+                    animateToInitialPurple();
+                }, pdelay);
             }
-        }, 2);
+        }, pinterval);
     };
-    animateP();
+
+    const animateToInitialPurple = () => {
+        let currentPY1 = targetPY1;
+        let currentPY2 = targetPY2;
+        let currentPY3 = targetPY3;
+
+        const animateInterval = setInterval(() => {
+            let allReached = true;
+
+            // Move back to initial position
+            if (currentPY1 > initialPY1) {
+                currentPY1 -= stepP1;
+                if (currentPY1 < initialPY1) currentPY1 = initialPY1;
+                purplec1.setAttribute("cy", currentPY1);
+                allReached = false;
+            }
+
+            if (currentPY2 > initialPY2) {
+                currentPY2 -= stepP2;
+                if (currentPY2 < initialPY2) currentPY2 = initialPY2;
+                purplec2.setAttribute("cy", currentPY2);
+                allReached = false;
+            }
+
+            if (currentPY3 > initialPY3) {
+                currentPY3 -= stepP3;
+                if (currentPY3 < initialPY3) currentPY3 = initialPY3;
+                purplec3.setAttribute("cy", currentPY3);
+                allReached = false;
+            }
+
+            if (allReached) {
+                clearInterval(animateInterval);
+                setTimeout(() => {
+                    animateToTargetPurple(); // Restart the animation cycle after delay
+                }, pdelay);
+            }
+        }, pinterval);
+    };
+    animateToTargetPurple();
     /*-- purple dot ends animation --*/
+
+
 
 
     /*-- blut dot starts animation --*/
@@ -6716,14 +6750,12 @@ animateToTarget();
                 bluec3.setAttribute("cy", currentBY3);
                 allReached = false;
             }
-
             if (currentBY4 < targetBY4) {
                 currentBY4 += stepB4;
                 if (currentBY4 > targetBY4) currentBY4 = targetBY4;
                 bluec4.setAttribute("cy", currentBY4);
                 allReached = false;
             }
-
             if (allReached) {
                 clearInterval(interval);
                 setTimeout(animateB3, 5000);

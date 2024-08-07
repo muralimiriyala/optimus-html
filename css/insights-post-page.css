@@ -10,7 +10,9 @@ body.single-post .insights-post-main{z-index: 810;}
 .insights-rt{gap: 20px; flex: 0 0 calc(100% - 63%);}
 .insights-list{flex: 0 0 33%;  }
 .insights-icon{color: var(--Light-Blue); font-size: 20px;}
-.insights-txt{color: var(--Blue); flex: 1;}
+.insights-txt{color: var(--Blue); flex: 1;
+
+}
 .insights-list{gap: 8px; align-items: flex-start;}
 .insights-block-con{margin-bottom: 45px; color: var(--Navy);}
 .insights-post-main .sidebar-block{padding: 24px;}
@@ -46,6 +48,7 @@ body.single-post .insights-post-main{z-index: 810;}
   .insights-post-bracket.left{ left: 0; border-right: none; border-top-right-radius: 0; border-bottom-right-radius: 0;}
   .insights-post-bracket.right {right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
   .blog-post-row ul.slick-dots{height: 0; opacity: 0; margin: 0;}
+  .insights-post-main::after {margin-top: 7px;}
 }
 @media screen and (max-width: 1350px) and (min-width: 1024px) {
   .insights-post-main .share-icons{display: block;}
