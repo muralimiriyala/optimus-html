@@ -41,5 +41,5 @@ span.ui-plus::after { width: 2px; height: 24px; }
     body.page-template-services-detail-sub-page-sub .accordion-main { padding: 28px 0 22px; }
     body.page-template-services-detail-sub-page-sub .accordion-wrap { padding: 50px 0 48px; }
     body.page-template-services-detail-sub-page .accordion-main{padding: 24px 0;}
-    body.page-template-services-detail .accordion-main{padding-bottom: 0;}
+    body.page-template-services-detail .accordion-main{padding-bottom: 21px;}
 }
