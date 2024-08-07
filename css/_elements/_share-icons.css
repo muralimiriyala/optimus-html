@@ -36,10 +36,13 @@ body.single-post .share-inline-arrow{padding: 35px 0 0 ;}
     .share-icons{display: block;}
     .share-inline-arrow{flex: 1;}
     .share-icons #st-1.st-animated{justify-content: flex-start; margin-bottom: 40px;}
-
+    body.single-post .share-icons #st-1.st-animated{margin-bottom: 0;}
     .share-icons #st-1.st-animated .st-btn[data-network="sharethis"]  {  width: 42px;  margin-right: 7px;}
     body.page-template-default .share-icons {margin-top: 55px;}
+    body.single-post   .share-icons #st-1.st-animated .st-btn[data-network="sharethis"] {margin-right: 0;}
+
 }
+
 @media screen and (max-width: 389px) and (min-width: 200px){
     /* .share-icons #st-1.st-animated { justify-content: space-between; } */
     .share-icons #st-1.st-animated .st-btn[data-network="sharethis"] { font-size: 42px; line-height: 48px; }
