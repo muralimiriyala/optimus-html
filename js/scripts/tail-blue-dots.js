@@ -40,7 +40,7 @@ const blueDot10 = document.querySelector('.t-b-dot-10');
 const blueDot11 = document.querySelector('.t-b-dot-11');
 const blueDot12 = document.querySelector('.t-b-dot-12');
 const blueDot13 = document.querySelector('.t-b-dot-13');
-
+// const blueDot1Value = Number(blueDot1.getAttribute("cy"));
 setTimeout(function(){
     animateCY(blueDot1, 140.023, 208.023, 1000, 2000);
     animateCY(blueDot2, 197.439, 277.439, 1000, 1000);
