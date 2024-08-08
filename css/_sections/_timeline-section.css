@@ -20,6 +20,7 @@
 .timeline-row .slick-list{overflow: inherit;}
 .slick-slider .timeline-slide{width: 296px; margin-right: 32px;}
 
+body.page-template-about .timeline-section hr { margin: 40px 0; background: var(--Gray-50); height: 1px; width: 100%; }
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px){
@@ -39,7 +40,6 @@
     .timeline-row.no-head {padding: 84px 0 0;}
     .timeline-section.no-section hr{display: none} 
     .timeline-section.no-section .timeline-main{padding: 55px 0 52px;}
- body.page-template-about .timeline-section hr { margin: 40px 0; background: var(--Gray-50); height: 1px; width: 100%; }
 
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
