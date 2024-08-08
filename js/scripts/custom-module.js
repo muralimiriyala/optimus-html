@@ -65,20 +65,14 @@ document.addEventListener("DOMContentLoaded", function () {
     ".h-mobile-overlay"
   );
 
-  const mql = window.matchMedia("(min-width: 1024px)");
-  mobileResize = (e) =>{
-    console.log("ev", e)
+  mobileResize = () =>{
     let myoverlay = document.querySelector(".h-mobile-overlay");
     if(myoverlay){
       myoverlay.classList.remove("open");
     }
-    if(e.matches){
-        document.querySelector("ul.main_menu > li > ul").removeAttribute("style");
-    }
   }
   window.addEventListener("resize", mobileResize);
   window.addEventListener("orientationchange", mobileResize);
-  mql.addEventListener("change", mobileResize);
   /*-- menu ends here --*/
 
   /*-- accordions starts here --*/

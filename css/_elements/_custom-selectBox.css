@@ -21,8 +21,8 @@ ul.selectBox-dropdown-menu li:hover{background-color: transparent; }
 body.page-template-faq ul.selectBox-dropdown-menu{border: 1px solid var(--Blue-Tint,#d9dff2); border-top: none;}
 
 body .res-dropdown-pos .selectBox-dropdown{ padding: 0; border: none; color: var(--Navy); font-family: var(--base-font); font-size: 28px; font-weight: 600; line-height: 38px; background: transparent;}
-body .res-dropdown-pos .selectBox-dropdown .selectBox-arrow { top: calc(50% + 2px); right: 0; width: auto; height: auto; color: var(--Blue); font-size: 1.25rem; line-height: 1.25rem; position: static; font-family: "Font Awesome 6 Pro"; font-weight: 900; background: none; }
-body .res-dropdown-pos .selectBox-dropdown span.selectBox-label{padding-right: 13px;}
+body .res-dropdown-pos .selectBox-dropdown .selectBox-arrow { top: calc(50% + 2px); right: 0; width: auto; height: auto; color: var(--Blue); font-size: 1.25rem; line-height: 1.25rem; position: absolute; font-family: "Font Awesome 6 Pro"; font-weight: 900; background: none; }
+body .res-dropdown-pos .selectBox-dropdown span.selectBox-label{ padding-right: 30px; width: 100%; display: block; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
 body .res-dropdown-pos .selectBox-menuShowing .selectBox-arrow{ top: calc(50% + 5px); transform: translateY(-50%) rotate(180deg); }
 body .res-dropdown-pos .selectBox-dropdown .selectBox-arrow::before{ content: "\f078"; }
 body .res-dropdown-pos .selectBox-dropdown::after { width: 100%; height: 2px; bottom: 0; opacity: 0; position: absolute; content: ""; display: block; background-color: var(--Orange); transition: all .5s ease; }
