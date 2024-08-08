@@ -23,16 +23,13 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px){
-<<<<<<< HEAD
     .timeline-main { padding: 46px 0 80px; }
     .timeline-head { padding: 0 118px 54px 0;}
     .timeline-head h2{margin-bottom: 0;}
     .timeline-appends{right: -9px; top: 43px; max-width: 128px; justify-content: space-between; position: absolute;}
-=======
     .timeline-main { padding: 40px 0;}
     .timeline-head { padding: 0 138px 54px 0;}
     .timeline-appends{right: 0; top: 32px; max-width: 128px; justify-content: space-between; position: absolute;}
->>>>>>> 21bb6edb379edbd6ed9f47ea250554d596883bdb
     .timeline-appends ul.slick-dots{width: 0; height: 0;}
 }
 @media only screen and (min-width: 1024px){
