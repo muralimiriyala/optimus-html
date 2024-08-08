@@ -50,6 +50,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 .solutions_sub.button.active{opacity: 1; color: var(--Blue);}
 .service-subtitle-toggle .solutions_sub:first-child{order: 1;}
 .service-subtitle-toggle .solutions_sub:not(:first-child){order: 3;}
+.service-svg svg{width: 100%; height: 100%;}
 
 @media screen and (min-width: 1024px) {
     .service-wrapper{padding: 80px 0 90px;}
@@ -68,7 +69,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 }
 @media screen and (max-width: 1023px) and (min-width: 744px) {
     .service-wrapper{padding: 80px 0 60px;}
-    .service-svg{right: -40px; top: 0; z-index: 0;}
+    .service-svg{right: -40px; top: 0; z-index: 0; width: 312px; height: 185px;}
     .service-head{max-width: 531px; margin-bottom: 56px;}
     .service-head h2{font-size: 32px; line-height: 40px;}
     .service-main{margin-bottom: 56px;}
@@ -85,7 +86,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .service-wrapper{padding: 96px 0 48px;}
-    .service-svg{top: -39px; right: -24px; z-index: 0;}
+    .service-svg{top: -39px; right: -24px; z-index: 0; width: 355px; height: 204px;}
     .service-head{margin-bottom: 24px; padding-right: 31px;}
     .service-head h2{font-size: 28px; line-height: 34px;}
     .service-main{margin-bottom: 75px;}

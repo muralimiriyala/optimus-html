@@ -464,7 +464,4 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     animateToPinkMain();
     /*-- pink dot ends animation --*/
-
-
-
 });
