@@ -6517,12 +6517,6 @@ jQuery(document).ready(function($) {
 });
 
 
-
-"use strict";
-
-document.addEventListener("DOMContentLoaded", () => {
-
-});
 "use strict";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -7283,17 +7277,17 @@ function animateCY(element, start, end, duration, hold) {
     if(!element) return;
     let startTime = null;
     let forward = true;
-
+    
     function animate(time) {
         if (!startTime) startTime = time;
         const progress = time - startTime;
         const normalizedProgress = Math.min(progress / duration, 1);
         const cyValue = forward 
-            ? start + (end - start) * normalizedProgress 
-            : end - (end - start) * normalizedProgress;
-
+        ? start + (end - start) * normalizedProgress 
+        : end - (end - start) * normalizedProgress;
+        
+  
         element.setAttribute('cy', cyValue);
-
         if (progress < duration) {
             requestAnimationFrame(animate);
         } else {
