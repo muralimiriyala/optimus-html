@@ -100,7 +100,7 @@ body.page-template-industries-detail .sbr-slider-main:after{content: ""; display
     body.page-template-marketing .sbr-slider-main{padding: 40px 0;}
     .sbr-slider-row{display: block; min-height: inherit !important;}
     body.page-template-services-detail-sub-page .sbr-slider-main{padding: 48px 0;}
-    .sbr-slider-images{gap: 16px; flex-direction: column;}
+    .sbr-slider-images{gap: 8px; flex-direction: column;}
     .sbr-slide-mobile h2{font-size: 24px; line-height: 30px; margin-bottom: 18px;}
     .sbr-slider-author{padding-top: 0;}
     .sbr-author-inf {margin-bottom: 15px;}

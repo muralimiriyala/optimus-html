@@ -1,11 +1,18 @@
+"use strict";
+
 document.addEventListener("DOMContentLoaded", () => {
     /*-- orange dot starts animation --*/
     const orange1 = document.querySelector(".orange-dot-1");
-    const orangec1 = orange1.querySelector("circle");
     const orange2 = document.querySelector(".orange-dot-2");
-    const orangec2 = orange2.querySelector("circle");
     const orange3 = document.querySelector(".orange-dot-3");
+    
+    if (!orange1 || !orange2 || !orange3) {
+        return;
+    }
+    const orangec1 = orange1.querySelector("circle");
+    const orangec2 = orange2.querySelector("circle");
     const orangec3 = orange3.querySelector("circle");
+
 
     // Initial and target positions
     const initialY1 = parseFloat(orangec1.getAttribute("cy"));
