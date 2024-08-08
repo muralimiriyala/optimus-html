@@ -41,6 +41,7 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
 .data-tab-row{max-height: 0; overflow: hidden;}
 .data-tab-row.open{max-height: inherit;}
 
+.tab-section.no-about-intro .tabs-main{padding: 80px 0;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1200px){
     .tabs-row{gap: 48px;}
@@ -68,4 +69,5 @@ ul.tab-address > li > a i{color: var(--Light-Blue);}
     .tab-list{margin-bottom: 24px;}
     .tab-list:hover .tab-text::after {font-size: 30px; line-height: 300;}
     .tabs-main{padding: 0 0 15px;}
+    .tab-section.no-about-intro .tabs-main{padding: 40px 0 15px;}
 }

@@ -5,8 +5,10 @@
 .secondary-icon { display: block; margin-bottom: 16px; color: var(--Orange); max-width: 40px; }
 .secondary-icon img { object-fit: contain; margin-top: -10px; }
 .secondary-list p { color: var(--Gray); }
-body.page-template-our-people hr, body.page-template-about .secondary-section hr { margin: 40px 0; background: var(--Gray-50); height: 1px; width: 100%; }
-body.page-template-our-people hr {margin: 40px 0 88px;}
+body.page-template-our-people .secondary-section hr { margin: 40px 0; background: var(--Gray-50); height: 1px; width: 100%; }
+ body.page-template-about .secondary-section hr { margin: 40px 0; background: var(--Gray-50); height: 1px; width: 100%; }
+
+ body.page-template-our-people hr {margin: 40px 0 88px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
     .secondary-row {
@@ -24,6 +26,7 @@ body.page-template-our-people hr {margin: 40px 0 88px;}
 
     body.page-template-our-culture  .secondary-section.no-repeater .secondary-main{padding: 80px 0 40px;} 
     body.page-template-about .secondary-section.no-repeater .secondary-main{padding: 80px 0 40px;} 
+    body.page-template-about .secondary-section.no_journey .secondary-main{padding: 40px 0 80px;} 
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 744px) {
