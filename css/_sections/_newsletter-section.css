@@ -29,7 +29,7 @@ body .newsletter-signup .frm_style_formidable-style.with_frm_style .frm_error_st
 body .newsletter-signup .with_frm_style .frm_message p{color: var(--White); letter-spacing: inherit; margin: 0; padding: 0;}
 body .insights-signup .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 body .insights-signup .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
-body .insights-signup .with_frm_style .frm_message p{color: var(--White); font-style: italic;}
+body .insights-signup .with_frm_style .frm_message p{color: var(--White); padding-left: 16px; font-size: 15px; }
 
 
 /* media css starts here */
