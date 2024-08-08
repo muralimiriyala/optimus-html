@@ -48,6 +48,7 @@ body.page-template-about .timeline-section hr { margin: 40px 0; background: var(
     .timeline-head{padding-bottom: 21px;}
     .slick-slider .timeline-slide{width: 296px; margin-right: 32px 31px 32px;}
     .timeline-appends { margin: 16px 0 36px; }
+    body.page-template-about .timeline-section hr{margin-top: 5px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     .timeline-slide{padding: 24px;}
