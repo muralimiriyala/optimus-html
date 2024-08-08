@@ -24,6 +24,7 @@ body.page-template-home .header .header-btn-link{display: none;}
 
 li.no_link > a{pointer-events: none; color: var(--Blue);}
 li.no_link > a:hover{color: inherit;}
+li.hide-li-text > a{display: none !important;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
@@ -68,9 +69,9 @@ li.no_link > a:hover{color: inherit;}
     ul.main_menu > li.nav-services > ul > li > a svg{width: 35px;}
     ul.main_menu > li.nav-services > ul > li:first-child > ul{margin: 0; padding: 40px 0 29px; gap: 0 120px; display: flex; align-items: center; border-bottom: 1px solid var(--Light-Blue-50);}
     ul.main_menu > li.nav-services > ul > li:not(:first-child){flex: 0 0 100%; padding: 0 40px 30px;}
-    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul{margin: 0; padding: 0; gap: 0 72px; left: 0; top: auto;  position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; }
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul{margin: 0; padding: 0; gap: 0 71px; left: 0; top: auto;  position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; }
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:first-child{flex: 0 0 286px;}
-    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:nth-child(2){flex: 0 0 224px;}
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:nth-child(2){flex: 0 0 225px;}
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li{margin: 0; flex: 1;}
     ul.main_menu > li.nav-services > ul > li:first-child > ul > li:first-child{margin: 0; flex: 1;}
     ul.main_menu > li.nav-services > ul > li:first-child > ul > li:first-child > a{font-size: 24px; line-height: 30px; font-weight: 600;}
