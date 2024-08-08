@@ -20,6 +20,8 @@
     .intro-second-section .about-intro-main { padding: 87px 0 0; margin-top: 7px; }
     .no_intro_head .about-intro-desc { padding-left: 0; }
 
+    body.page-template-about .about-intro-main{padding: 80px 0 40px;}
+    body.page-template-about .about-intro-head{margin-bottom: 0;}
 }
 
 @media screen and (min-width:1200px) {

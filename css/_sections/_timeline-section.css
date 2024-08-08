@@ -31,6 +31,7 @@
 @media only screen and (min-width: 1024px){
     .timeline-row { gap: 32px; flex-wrap: nowrap;} 
     .timeline-slide { flex: 0 0 calc(25% - 24px);} 
+    .timeline-row.no-head {padding: 104px 0 0;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
     .timeline-main { padding: 11px 0 40px; }
