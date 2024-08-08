@@ -42,7 +42,6 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
 .case-article p img.wp-image-1790{padding: 45px 0 70px; margin: 0;}
 /* .case-article-main ol{margin-bottom: 0;} */
 .case-article-main ol > li:last-child{margin-bottom: 0;}
-
 .case-article-main .insights-post-block{padding: 40px 0 65px;}
 
 .case-study-data-bracket{ width: 48px; height: 100%; top: 0; border: 1px solid var(--Light-Blue); z-index: -1;}
@@ -72,7 +71,7 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
     .case-study-text{padding-top: 32px;}
     .case-study-main ul > li::after {top: 50%; transform: translate(-50%, -50%); left: -28px;}
 
-    .case-article-main{padding: 40px 0;}
+    .case-article-main{padding: 48px 0 40px;}
     .case-article-main .fluid-container{padding: 0}
     .inline-images-row {display: block; padding: 20px 0 40px;}
     .inline-images-list:nth-child(even){flex-direction: inherit;}
