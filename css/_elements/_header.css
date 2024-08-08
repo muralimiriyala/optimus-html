@@ -52,14 +52,14 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li > a::after{width: 0%; height: 8px; bottom: -4px; left: 0; right: 0; opacity: 0; position: absolute; content: ""; display: block; border-radius: 0; background: var(--Orange); transition: var(--b-transition); margin-left: auto; margin-right: auto; z-index: 12;}
     ul.main_menu > li.current-menu-parent > a::after,  ul.main_menu > li.current-page-ancestor > a::after, .main_menu > li.current-menu-item > a::after, ul.main_menu > li:hover > a::after{opacity: 1; width: 64px;}
     ul.main_menu > li.current-menu-parent > a, ul.main_menu > li.current-page-ancestor > a, ul.main_menu > li.current-menu-item > a, ul.main_menu > li > a:hover{color: var(--White);}
-    ul.main_menu > li > ul{margin: 0; padding: 21px 32px 15px; min-width: 300px; border-radius: 0 0 8px 8px; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: var(--b-transition); box-shadow: 0 6px 12px 0 rgba(24,42,84,.1);}
+    ul.main_menu > li > ul{margin: 0; padding: 21px 32px 15px; min-width: 300px; border-radius: 0 0 8px 8px; background-color: var(--White); position: absolute; visibility: hidden; opacity: 0; transition: var(--b-transition); box-shadow: 0 6px 12px 0 rgba(24,42,84,.1); z-index: 820;}
     ul.main_menu > li:hover > ul{opacity: 1; visibility: visible;}
     ul.main_menu > li > ul > li{margin: 0 0 11px;}
     ul.main_menu > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 500; display: block;}
 
 
     
-    ul.main_menu > li.nav-services > ul {width: 100vw; max-height: 0; overflow: hidden; padding: 0; max-width: 1031px; left: -227px; gap: 32px; display: flex; flex-wrap: wrap; z-index: 10; border-radius: 0 0 24px 24px; box-shadow: none;}
+    ul.main_menu > li.nav-services > ul {width: 100vw; max-height: 0; overflow: hidden; padding: 0; max-width: 1031px; left: -227px; gap: 32px; display: flex; flex-wrap: wrap; border-radius: 0 0 24px 24px; box-shadow: none;}
     ul.main_menu > li.nav-services:hover > ul{max-height: inherit;}
     ul.main_menu > li.nav-services > ul > li:first-child{margin: 0; padding: 0 40px; width: 100%; flex: 0 0 100%;  display: flex; flex-wrap: wrap; align-items: center;}
     ul.main_menu > li.nav-services > ul > li > a:not(.button){padding: 24px 32px; gap: 20px; flex: 1; display: flex; flex-wrap: wrap; align-items: center; background: transparent; color: var(--Blue); font-size: 1.25rem; font-weight: 700; line-height: 1.563rem; font-family: var(--base-font); }
@@ -79,6 +79,7 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-services > ul > li > ul > li.button > a{color: var(--White);}
     ul.main_menu > li.nav-services > ul > li > ul > li.button > a:hover{color: var(--White);}
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a{gap: 16px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue); font-family: var(--base-font); font-size: 16px; font-weight: 600; line-height: 24px; cursor: pointer;} 
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a:hover, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a:hover{color: var(--Orange);}
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a img, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a img{width: 24px; height: auto; object-fit: contain;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul{margin: 0; padding-top: 17px;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li{margin: 0 0 24px;}

@@ -16,7 +16,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .open-position-wrap{padding: 40px 0 79px;}
-    .open-position-main{gap: 80px;}
+    .open-position-main{gap: 80px; align-items: center;}
     .open-position-text{flex: 0 0 350px;}
     .open-position-rt{flex: 1; gap: 16px; padding: 24px;}
     .open-position-list{gap: 24px;}
