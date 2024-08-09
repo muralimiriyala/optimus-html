@@ -26,6 +26,7 @@ body.single-post .share-inline-arrow{padding: 35px 0 0 ;}
 @media screen and (min-width: 1024px){
     .post-video-aside .share-icons{padding-top: 21px;}
     .share-icons #st-1.st-animated .st-btn[data-network="sharethis"]  {  width: 42px;  margin-right: 7px;}
+    body.page-template-default .share-icons{margin: 55px 0 0;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .share-icons #st-1.st-animated{justify-content: flex-start;}
