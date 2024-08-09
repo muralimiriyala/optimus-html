@@ -49,7 +49,6 @@
 .post-array-blog h2 a {
     color: var(--White);
 }
-
 .post-array-card:hover .post-array-blog h2 a {
     color: var(--Navy);
 }

@@ -142,7 +142,7 @@ li.hide-li-text > a{display: none !important;}
 
     ul.main_menu > li.nav-insights > ul > li > ul > li > a{gap: 16px; align-items: center; flex-wrap: wrap; display: flex; color: var(--Blue); font-family: var(--base-font); font-size: 16px; font-weight: 600; line-height: 24px; cursor: pointer;} 
     ul.main_menu > li.nav-insights > ul > li > ul > li > a:hover{color: var(--Orange);}
-    ul.main_menu > li.nav-insights > ul > li > ul > li > a img{width: 24px;}
+    ul.main_menu > li.nav-insights > ul > li > ul > li > a img, ul.main_menu > li.nav-insights > ul > li > ul > li > a i[aria-hidden]{width: 24px;}
     ul.main_menu > li.nav-insights > ul > li > ul > li > a span{flex: 1;}
 
     ul.main_menu > li.nav-insights > ul > li:not(:first-child) > ul > li > a{gap: 12px; font-weight: 400;}
