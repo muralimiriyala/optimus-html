@@ -37,6 +37,9 @@ body .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder, bo
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 36px; padding-bottom: 0; cursor: pointer; display: block; font-size: 1rem; line-height: 1.5rem; letter-spacing: normal; text-indent: 0; color: var(--Foreground); position: relative;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{width: 26px; height: 26px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 0; border: none; border-radius: 50%; color: var(--Light-Blue-Tint, rgba(65, 180, 255, 0.15)); border: 1px solid var(--Blue); opacity: 1;}
 
+body.page-template-marketing-lp .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 32px;}
+body.page-template-marketing-lp .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{width: 24px; height: 24px;}
+
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 12px; left: 8px; width: 20px; height: 20px; margin: 0; border-radius: 2px; background-color: transparent; background-image: none; border: solid 1px var(--foreground-light); background-color: var(--White); background-image: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked{border-width: 8px;}
