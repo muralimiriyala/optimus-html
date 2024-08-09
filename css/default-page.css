@@ -66,6 +66,7 @@ body.single-post .sidebar-block p{margin-bottom: 15px;}
 .sidebar-con{gap: 8px; color: var(--Blue); font-weight: 700;}
 .sidebar-con i{color: var(--Orange); font-size: 16px;}
 .sidebar-block-lt{margin-bottom: 20px;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .default-main{gap: 80px; padding: 80px 0 40px;}
