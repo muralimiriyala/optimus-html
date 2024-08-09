@@ -106,7 +106,7 @@ body.single-post .sidebar-row{gap: 32px 0;}
     .default-lin-lt{padding: 0 0 24px;}
 
     body.page-template-default .default-line-text {margin-bottom: 16px;}
-
+    body.single-post .default-line-text {margin-bottom: 16px;}
     .sidebar-block{margin-bottom: 43px;}
     .sidebar-block-lt { margin-bottom: 22px; }
 
