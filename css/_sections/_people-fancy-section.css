@@ -7,6 +7,8 @@
 .people-fancy-row.no_fancy_images{display: block;}
 .people-fancy-row.no_fancy_text{justify-content: center;}
 
+.people-fancy-icon img { width: 22px; }
+
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .people-fancy-main{padding: 40px 0 90px;}

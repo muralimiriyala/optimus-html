@@ -69,7 +69,7 @@
   .insights-post-main .insights-rt{flex: inherit;}
 
   .insights-post-main .share-icons #st-1.st-animated { gap: 18px;}
-  .insights-post-main  .default-article h1 {font-size: 2.5rem; line-height: 3.125rem;}
+  .insights-post-main  .default-article h1 {font-size: 2.5rem; line-height: 3.125rem; margin-bottom: 22px;}
   .insights-post-main  .default-article h2{font-size: 2rem!important; line-height: 2.5rem!important;}
   .insights-post-main  .default-article h3{font-size: 1.75rem; line-height: 2.18rem;}
   .insights-post-main  .default-line-in{line-height: 1.875rem;}

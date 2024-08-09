@@ -87,6 +87,7 @@
 .repeater-icon img {
   object-fit: contain;
   max-width: 50px;
+  border-radius: 0;
 }
 
 .repeater-row.no_repeater_image {
@@ -119,6 +120,8 @@ body.page-template-industries-detail .repeater-main::after {
   opacity: .5;
   margin-top: 80px;
 }
+
+
 
 /* media css starts here */
 @media screen and (min-width:1200px) {
