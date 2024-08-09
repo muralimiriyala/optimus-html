@@ -116,6 +116,10 @@ body.page-template-services-detail-sub-page .intro-second-section .short-intro-m
 @media only screen and (min-width: 1024px) {
     .short-intro-section.intro-second-section.no_accordion .short-intro-main{border-top: 0;}
     body.page-template-career .wrap-section { padding: 40px 0 0; }
+    body.page-template-marketing-lp .short-intro-main{padding: 80px 0 40px;}
+    body.page-template-marketing-lp .short-intro-row{padding: 40px 0 0;}
+    body.page-template-marketing-lp .sub-service-main{padding: 40px 0 88px;}
+    
     .short-intro-head {
         gap: 48px;
         margin-bottom: 40px;
