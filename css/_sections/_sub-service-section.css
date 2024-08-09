@@ -3,7 +3,7 @@
 body.page-template-marketing-lp .sub-service-main::before{display: none;}
 .no_help .sub-service-main::before{display: none;}
 .sub-service-inner{background: var(--Light-Blue-Tint); padding: 64px 0 64px 48px; border-radius: 24px;}
-.sub-service-inner span.optional-text{color: var(--Navy); opacity: 0.5;}
+.sub-service-inner span.optional-text{color: var(--Navy); opacity: 0.5; margin-bottom: 19px;}
 
 ul.sub-service-menu{margin: 0;}
 ul.sub-service-menu > li{margin-bottom: 12px; font-size: 18px; line-height: 18px; font-weight: 600;}
@@ -62,6 +62,8 @@ body.page-template-industries-detail  .sub-service-main::before{top: 0;}
   ul.sub-service-menu > li > a::after{top: auto; transform: rotate(-140deg); left: auto; right: -50px; bottom: -15px;}
   ul.sub-service-menu > li > a.open::after, ul.sub-service-menu > li > a.open::before{opacity: 1; }
 
+  body.page-template-industries-detail .no_help .sub-service-main{padding-top: 40px;}
+
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
   .sub-service-main{padding: 40px 0 48px; gap: 32px;}
@@ -95,4 +97,6 @@ body.page-template-industries-detail  .sub-service-main::before{top: 0;}
   ul.sub-service-menu > li > a:hover span::after{transform: none;}
 
   body.page-template-industries-detail  .sub-service-main {padding: 48px 0 40px;}
+
+  body.page-template-industries-detail .no_help .sub-service-main{padding-top: 10px;}
 }
