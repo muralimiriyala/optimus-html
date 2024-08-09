@@ -230,7 +230,7 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li > ul > li.menu-item-has-children > a.active::after{transform: translateY(-50%) scaleY(-1);}
     ul.main_menu > li > ul > li > ul{margin: 0; padding: 0 0 8px;}
     ul.main_menu > li > ul > li > ul > li{margin-bottom: 12px;}
-    ul.main_menu > li > ul > li > ul > li > a{color: var(--Blue); font-family: var(--base-font); font-size: 1rem; font-weight: 600; line-height: 1.5rem; gap: 12px; display: flex; flex-wrap: wrap; width: 100%;}
+    ul.main_menu > li > ul > li > ul > li > a{align-items: center; color: var(--Blue); font-family: var(--base-font); font-size: 1rem; font-weight: 600; line-height: 1.5rem; gap: 12px; display: flex; flex-wrap: wrap; width: 100%;}
     ul.main_menu > li > ul > li > ul > li > a:hover{color: var(--Orange);}
 
     ul.main_menu > li.nav-services > ul > li:first-child{display: none;}
@@ -253,7 +253,7 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul{margin: 0; padding: 20px 0 0;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li{margin: 0 0 20px;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a{gap: 11px; font-size: 1rem; font-weight: 600; line-height: 1.5rem; color: var(--Blue); display: flex; flex-wrap: wrap; position: relative; align-items: center; }
-    ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a img.menu-image,  ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a svg, ul.main_menu > li > ul > li > ul > li > a img.menu-image{width: 24px; padding: 0; top: 0px; position: relative;}
+    ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a img.menu-image,  ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a svg, ul.main_menu > li > ul > li > ul > li > a img.menu-image,  ul.main_menu > li > ul > li > ul > li > a i[aria-hidden]{width: 24px; padding: 0; top: 0px; position: relative;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a span.menu-image-title, ul.main_menu > li > ul > li > ul > li > a span.menu-image-title{padding: 0;}
     
     ul.main_menu > li.nav-industries > ul > li:first-child{display: none;}
