@@ -10,6 +10,7 @@ ul.sub-service-menu > li:last-child{margin-bottom: 0;}
 ul.sub-service-menu > li::before{display: none;}
 ul.sub-service-menu > li > a span{position: absolute; top: 12px; left: 12px; width: 16px; height: 16px; border-radius: 16px; background-color: var(--White); transition: var(--b-transition);}
 ul.sub-service-menu > li > a span::after{content: ""; position: absolute; top: 6px; left: 6px; width: 4px; height: 4px; opacity: 1; background-color: var(--Light-Blue); border-radius: 50%; z-index: 1; transition: var(--b-transition);}
+ul.sub-service-menu > li > a.open span::before{content: ""; position: absolute; top: 6px; left: 6px; width: 24px; height: 24px; opacity: 1; background-color: rgba(241, 124, 35, 0.2); border-radius: 50%; z-index: 1; transition: var(--b-transition);}
 ul.sub-service-menu > li > a:hover span{background-color: #41B4FF3B;}
 ul.sub-service-menu > li > a:hover span::after{transform: scale(1.9);}
 ul.sub-service-menu > li > a.open span::after{transform: none}
