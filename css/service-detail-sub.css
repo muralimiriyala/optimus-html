@@ -29,6 +29,7 @@
         .subhead-help-rt { flex: 1; }
         .subhead-help-grid:nth-child(2n){border-right: none;}
         .subhead-help-grid:nth-child(2){border-top:none}
+        body.page-template-services-detail .sub-detail-line-wrap{padding: 54px 0 0;}
     }
 
     @media screen and (max-width: 1199px) and (min-width: 1024px){
@@ -37,7 +38,7 @@
         .subhead-help-rt { display: block; flex: 1; }
         
         .subhead-help-grid{border-right: none;}
-
+        body.page-template-services-detail .sub-detail-line-wrap{padding: 54px 0 0;}
     }
 
     @media screen and (max-width: 1023px) and (min-width: 744px){

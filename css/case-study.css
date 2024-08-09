@@ -57,6 +57,8 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
     .case-study-text{flex: 1}
     .inline-images-list{flex: 0 0 calc(50% - 20px);}
     .inline-images-list.inline-images-list-1{flex:  0 0 calc(100% - 20px);}
+
+    body.page-template-services-detail .inline-images-row{padding: 80px 0 104px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .case-study-row{ display: block;}
