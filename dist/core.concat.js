@@ -6496,6 +6496,7 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function($) {
   let sbrsplideImage = $(".sbr-slide-image");
+  $(".sbr-slide-desktop[data-sbr-text='1']").fadeIn(1000);
   sbrsplideImage.on("click", function (e) {
     e.preventDefault();
     let $this = $(this);
