@@ -6,7 +6,7 @@ body .selectBox-dropdown.selectBox-menuShowing{border-radius: 8px 8px 0 0;}
 body .selectBox-dropdown .selectBox-arrow{width: 15px; height: 10px; right: 13px; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; background-image: url("images/angle-down.svg"); background-repeat: no-repeat; background-size: contain;}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow{transform: translateY(-100%) rotate(180deg); top: calc(50% + 4px); }
 
-body.page-template-marketing ul.selectBox-dropdown-menu, body.page-template-demo ul.selectBox-dropdown-menu{border: 1px solid var(--Blue-Tint); box-shadow: none;}
+body.page-template-marketing-lp ul.selectBox-dropdown-menu, body.page-template-demo ul.selectBox-dropdown-menu{border: 1px solid var(--Blue-Tint); box-shadow: none;}
 ul.selectBox-dropdown-menu{margin: 0; padding: 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; display: block; border-radius: 0 0 5px 5px; background-color: var( --White); border: 1px solid var(--White); position: absolute; z-index: 99999; white-space: nowrap; text-overflow: ellipsis; overflow: auto; box-shadow: 0 2px 2px #dadbdf;}
 ul.selectBox-dropdown-menu li.selectBox-selected a{color: var(--Blue);}
 ul.selectBox-dropdown-menu li:first-child{padding-top: 10px;}

@@ -28,12 +28,12 @@ li.hide-li-text > a{display: none !important;}
 @media screen and (min-width: 1024px) {
     /* body.page-template-service-landing header.site-header:not(.sticky-header)::after, */
     body.page-template-services header.site-header:not(.sticky-header)::after,
-     body.page-template-industries header.site-header:not(.sticky-header)::after, body.home header.site-header:not(.sticky-header)::after, body.page-template-marketing header.site-header:not(.sticky-header)::after{background-color: transparent;}
+     body.page-template-industries header.site-header:not(.sticky-header)::after, body.home header.site-header:not(.sticky-header)::after, body.page-template-marketing-lp header.site-header:not(.sticky-header)::after{background-color: transparent;}
     body.category-insights header.site-header:not(.sticky-header)::after{background-color: transparent;}
-    body.home .site-main-cover, body.page-template-marketing .site-main-cover,
+    body.home .site-main-cover, body.page-template-marketing-lp .site-main-cover,
     body.category-insights .site-main-cover{padding-top: 0;}
     body.home .header_btn{display: none;}
-    body.page-template-marketing .header_btn{display: none;}
+    body.page-template-marketing-lp .header_btn{display: none;}
 
     .header{ gap: 16px;  }
     .logo{flex: 0 0 198px;}
@@ -41,8 +41,8 @@ li.hide-li-text > a{display: none !important;}
     .mobile_header_btns{display: none;}
 
     .header_right{flex: 1; padding-right: 10px;}
-    body.home .header_right, body.page-template-marketing .header_right{padding-right: 0;}
-    body.home ul.main_menu, body.page-template-marketing ul.main_menu{gap: 0 40px; justify-content: flex-end;}
+    body.home .header_right, body.page-template-marketing-lp .header_right{padding-right: 0;}
+    body.home ul.main_menu, body.page-template-marketing-lp ul.main_menu{gap: 0 40px; justify-content: flex-end;}
     ul.main_menu{margin: 0; gap: 0 45px; padding-right: 18px; flex: 1; width: fit-content; position: relative; justify-content: center;}
     ul.main_menu li::before{display: none;}
     ul.main_menu > li{margin: 0;}
@@ -177,10 +177,10 @@ li.hide-li-text > a{display: none !important;}
     body.home ul.main_menu > li.nav-insights{position: static;}
     body.home ul.main_menu > li.nav-insights > ul{left: 224px;}
 
-    body.page-template-marketing ul.main_menu > li.nav-services{position: static;}
-    body.page-template-marketing ul.main_menu > li.nav-services > ul{left: 24px;}
-    body.page-template-marketing ul.main_menu > li.nav-insights{position: static;}
-    body.page-template-marketing ul.main_menu > li.nav-insights > ul{left: 224px;}
+    body.page-template-marketing-lp ul.main_menu > li.nav-services{position: static;}
+    body.page-template-marketing-lp ul.main_menu > li.nav-services > ul{left: 24px;}
+    body.page-template-marketing-lp ul.main_menu > li.nav-insights{position: static;}
+    body.page-template-marketing-lp ul.main_menu > li.nav-insights > ul{left: 224px;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .header{position: relative;}
