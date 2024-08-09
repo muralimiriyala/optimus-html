@@ -46,7 +46,7 @@ body.page-template-industries-detail .sbr-slider-main:after{content: ""; display
     .sbr-slider-author{gap: 40px;}
     .sbr-author-image{flex: 0 0 216px;}
     .sbr-author-text{flex: 1;}
-    [data-sbr-text="1"]{display: block;}
+    /* [data-sbr-text="1"]{display: block;} */
     .sbr-slide-mobile{max-height: 0 !important;}
 
     body.page-template-industries-detail .sbr-slider-main { padding:  80px 0 0 ; }
