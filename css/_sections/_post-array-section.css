@@ -53,7 +53,9 @@
 .post-array-card:hover .post-array-blog h2 a {
     color: var(--Navy);
 }
-
+.post-array-card:hover .post-array-blog h2 a:hover{
+    opacity: 0.75;
+}
 .post-array-card:hover .post-array-icon i {
     color: var(--Navy);
 }
