@@ -21,7 +21,7 @@ ul.footer-links > li > a figure{width: 32px; height: 32px; top: -2px; position: 
 .f-hr-text strong{color: var(--White);}
 .f-hr-line{flex: 1; width: 100%; height: 1px; background: var(--Light-Blue); display: block;}
 
-.footer-list{padding: 16px; gap: 12px; background: rgba(25, 35, 76, 0.40);}
+.footer-list{padding: 16px 16px 18px; gap: 12px; background: rgba(25, 35, 76, 0.40);}
 .footer-list i{color: var(--Light-Blue);}
 .footer-list figure{width: 24px; height: 24px;}
 .footer-list figure img{object-fit: contain;}
