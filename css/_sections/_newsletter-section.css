@@ -54,6 +54,9 @@ body .insights-signup .with_frm_style .frm_message p{color: var(--White); font-s
     .comments-type-icon{flex: 0 0 auto;}
     .comments-type-text{flex: 1;}
 }
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+    body .insights-signup .with_frm_style .frm_message p{padding-left: 0;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 744px){
     .newsletter-main{padding: 40px 0; display: block;}
     .newsletter-lt{margin-bottom: 32px;}
