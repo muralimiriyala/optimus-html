@@ -204,6 +204,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertica
     body .frm_forms .frm_form_fields .frm_form_field textarea{height: 154px;}
     body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 32px;}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 24px;}
+    body.page-template-marketing-lp .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 30px;}
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{padding: 0 0 8px;}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_primary_label{padding: 0 0 5px;}
     
