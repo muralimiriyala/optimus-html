@@ -26,10 +26,10 @@
     max-width: 250px;
     margin-bottom: 16px;
 }
-
+.short-intro-list p{margin-bottom: 17px;}
 .short-intro-icon {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: var(--Orange);
     max-width: 40px;
 }
@@ -119,7 +119,7 @@ body.page-template-services-detail-sub-page .intro-second-section .short-intro-m
     body.page-template-marketing-lp .short-intro-main{padding: 80px 0 40px;}
     body.page-template-marketing-lp .short-intro-row{padding: 40px 0 0;}
     body.page-template-marketing-lp .sub-service-main{padding: 40px 0 88px;}
-    
+
     .short-intro-head {
         gap: 48px;
         margin-bottom: 40px;
