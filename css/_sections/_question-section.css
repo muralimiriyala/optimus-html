@@ -10,9 +10,10 @@
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
-    .question-wrap{gap: 80px; padding: 88px 0;}
+    .question-wrap{gap: 80px; padding: 93px 0 88px;}
     .question-lt{flex: 0 0 900px;}
     .question-rt{flex: 0 0 calc(100% - 980px); padding-top: 80px;}
+    .question-head{align-items: end;}
 }
 @media screen and (max-width: 1329px) and (min-width: 1200px){
     .question-lt{flex: 0 0 800px;}
