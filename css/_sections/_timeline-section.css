@@ -43,6 +43,11 @@ body.page-template-about .timeline-section hr { margin: 40px 0; background: var(
     .timeline-section.no-section .timeline-main{padding: 55px 0 52px;}
 
 }
+@media screen and (max-width: 1023px) and (min-width: 744px){
+    .timeline-main { padding: 40px 0 79px;}
+    
+}
+
 @media screen and (max-width: 743px) and (min-width: 200px){
     .timeline-main { padding: 11px 0 40px; }
     .timeline-head{padding-bottom: 21px;}
