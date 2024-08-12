@@ -321,6 +321,8 @@ body.page-template-services-detail-sub-page .intro-second-section .short-intro-m
         padding: 40px 0 0;
     }
 
+    body.page-template-services-detail .short-intro-main{padding: 48px 0 0;}
+
     body.page-template-services-detail-sub-page .short-intro-main:after {
         margin-top: 48px;
     }
