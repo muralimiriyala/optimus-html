@@ -6,6 +6,8 @@
 .post-array-cat-main{ gap: 8px; margin-bottom: 25px; display: flex; flex-wrap: wrap; }
 .post-array-cat { gap: 8px; width: fit-content;}
 .post-array-cat span.fs-15{flex: 1;}
+.post-array-cat span.fs-15 a{color: var(--White);}
+.post-array-cat span.fs-15 a:hover{color: var(--Orange);}
 
 .post-array-icon { font-size: 20px; line-height: 20px; max-width: 24px; }
 .post-array-icon i { top: -2px; position: relative; color: var(--Light-Blue); }
