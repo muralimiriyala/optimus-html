@@ -25,7 +25,7 @@ body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_butto
 
 .newsletter-bulb img{object-fit: contain;}
 
-body .newsletter-signup .frm_style_formidable-style.with_frm_style .frm_error_style{margin: 0; border: none; background: none; color: var(--White); padding: 0;}
+body .newsletter-signup .frm_style_formidable-style.with_frm_style .frm_error_style{margin: 0; border: none; background: none; color: var(--White); padding: 0; display: none;}
 body .newsletter-signup .with_frm_style .frm_message p{color: var(--White); letter-spacing: inherit; margin: 0; padding: 0;}
 body .insights-signup .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 body .insights-signup .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
