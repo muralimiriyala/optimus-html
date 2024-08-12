@@ -108,6 +108,7 @@ figure.array-icon-normal{top: -2px; position: relative;}
 }
 
 @media only screen and (min-width: 1024px) {
+    .no-contact .post-array-main{padding-top: 60px;}
     body.page-template-our-culture .people-future-section.no-people .people-future-main{padding-bottom: 80px;}
     .post-array-main {
         padding: 0 0 40px;
