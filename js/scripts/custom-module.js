@@ -60,9 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const mediaQuery = window.matchMedia('(max-width: 1023px)');
   const screenTest = (e) => {
-    console.log(e, ':event');
     if (e.matches) {
-      console.log("mediaQuery", mediaQuery)
       mobileMenu(
         ".humburger-btn",
         ".header_right",
@@ -71,9 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
       );
     }
     else{
-      
-      console.log("mediaQuery", mediaQuery)
-
     }
   }
   screenTest(mediaQuery);
@@ -157,3 +152,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 });
+

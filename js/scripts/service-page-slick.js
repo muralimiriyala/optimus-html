@@ -2,7 +2,6 @@ jQuery(document).ready(function ($) {
     
     $('a.subtitle-link').on("click", function(e) {
         e.preventDefault();
-        console.log("clickes")
         $(this).siblings().removeClass("active");
         $(this).addClass("active");
         let index = $(this).data("index");

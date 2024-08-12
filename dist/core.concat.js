@@ -5907,7 +5907,6 @@ const $quoteicon = jQuery(".quote-icon");
 $quoteicon.each(function(){
     var $self = jQuery(this)
     var $qpath = $self.find('svg path');
-    console.log($qpath)
     var tl = gsap.timeline({ paused: true })
     tl.fromTo($qpath[0], {opacity: '0', }, {opacity: '1', duration: 2, ease: 'power1.out'}, 'start')
     tl.fromTo($qpath[2], { scale: '0', opacity: '0', }, {scale: '1', opacity: '1', duration: 0.75, ease: 'power1.out'}, 'start')
@@ -6127,9 +6126,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const mediaQuery = window.matchMedia('(max-width: 1023px)');
   const screenTest = (e) => {
-    console.log(e, ':event');
     if (e.matches) {
-      console.log("mediaQuery", mediaQuery)
       mobileMenu(
         ".humburger-btn",
         ".header_right",
@@ -6138,9 +6135,6 @@ document.addEventListener("DOMContentLoaded", function () {
       );
     }
     else{
-      
-      console.log("mediaQuery", mediaQuery)
-
     }
   }
   screenTest(mediaQuery);
@@ -6224,6 +6218,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 });
+
 
 jQuery(function(){
     jQuery('select').selectBox({
@@ -7008,7 +7003,6 @@ jQuery(document).ready(function ($) {
     
     $('a.subtitle-link').on("click", function(e) {
         e.preventDefault();
-        console.log("clickes")
         $(this).siblings().removeClass("active");
         $(this).addClass("active");
         let index = $(this).data("index");
