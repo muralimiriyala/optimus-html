@@ -181,6 +181,8 @@ figure.array-icon-normal{top: -2px; position: relative;}
         margin: 0;
     }
     div.no_post_array_heading .post-array-btn{padding: 24px 0;}
+    body.page-template-services-detail-sub-page .post-array-section.no-sec .post-array-main{padding: 70px 0 40px;}
+
 }
 
 @media only screen and (max-width: 743px) and (min-width: 200px) {
