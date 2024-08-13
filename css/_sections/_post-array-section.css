@@ -148,6 +148,8 @@ figure.array-icon-normal{top: -2px; position: relative;}
         order: 2;
     }
     .no_post_array_heading{justify-content: flex-end;}
+
+    body.page-template-services-detail-sub-page .post-array-section.no-sec .post-array-main{padding: 65px 0 40px;}
 }
 @media only screen and (min-width: 1440px) {
     .post-array-btn {align-items: flex-end;}
