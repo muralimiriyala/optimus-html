@@ -7,7 +7,7 @@
 .insights-row{gap: 14px; flex: 0 0 60%;}
 .insights-rt{gap: 20px; flex: 0 0 calc(100% - 63%);}
 .insights-icon{color: var(--Light-Blue); font-size: 20px;}
-.insights-txt{color: var(--Blue); flex: 1; }
+.insights-txt{color: var(--Blue); flex: 1; text-transform: uppercase;}
 .insights-list{gap: 8px; width: fit-content;}
 .insights-block-con{margin-bottom: 45px; color: var(--Navy);}
 .insights-post-main .sidebar-block{padding: 24px;}
