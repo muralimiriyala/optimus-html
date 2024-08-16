@@ -59,6 +59,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
     .service-main{margin-bottom: 56px;}
     .service-lists{flex-wrap: nowrap;}
     .service-item{width: 264px; min-width: 264px; margin-right: 32px;}
+    .service-main.no-heading { padding: 255px 0 0; }
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .service-wrapper{padding: 64px 0;}
