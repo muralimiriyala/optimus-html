@@ -355,6 +355,9 @@ body.page-template-industries-detail .repeater-main::after {
   body.page-template-services-detail-sub-page .repeater-main {
     padding: 48px 0 40px;
   }
+  body.page-template-services-detail .repeater-main {
+    padding: 48px 0 40px;
+  }
 
   body.page-template-services-detail-sub-page .repeater-row:first-child {
     margin-bottom: 80px;
