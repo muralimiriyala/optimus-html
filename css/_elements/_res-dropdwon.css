@@ -61,6 +61,8 @@ ul.blog_list{margin: 0; width: 100%;}
     body.page-template-integrations .res-srch-main{margin-bottom: 83px;}
     .load-more-resources{margin-top: 62px;}
     #more-blog:not(:first-child){margin-top: 40px;}
+    .res-dropdown-pos{max-width: 230px;}
+    ul.res-tags-selectBox-dropdown-menu.selectBox-dropdown-menu{min-width: 230px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .resources-row{gap: 32px;}

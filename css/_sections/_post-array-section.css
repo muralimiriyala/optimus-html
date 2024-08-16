@@ -1,3 +1,5 @@
+
+.post-array-section { position: relative; z-index: 1; }
 .post-array-card { height: 100%; overflow: hidden; background-color: var(--Navy); }
 .post-array-bg { top: 296px; left: -100vw; width: 1000vw; height: 100%; z-index: -1; }
 .post-array-text { opacity: 0; }
@@ -6,6 +8,8 @@
 .post-array-cat-main{ gap: 8px; margin-bottom: 25px; display: flex; flex-wrap: wrap; }
 .post-array-cat { gap: 8px; width: fit-content;}
 .post-array-cat span.fs-15{flex: 1;}
+.post-array-cat span.fs-15 a{color: var(--White);}
+.post-array-cat span.fs-15 a:hover{color: var(--Orange);}
 
 .post-array-icon { font-size: 20px; line-height: 20px; max-width: 24px; }
 .post-array-icon i { top: -2px; position: relative; color: var(--Light-Blue); }
@@ -59,6 +63,9 @@ figure.array-icon-normal{top: -2px; position: relative;}
 .post-array-card:hover .post-array-blog h2 a:hover{
     opacity: 0.75;
 }
+.post-array-card:hover .post-array-cat span.fs-15 a{    color: var(--Navy);}
+.post-array-card:hover .post-array-cat span.fs-15 a:hover5{opacity: 0.7;}
+
 .post-array-card:hover .post-array-icon i {
     color: var(--Navy);
 }
@@ -103,6 +110,7 @@ figure.array-icon-normal{top: -2px; position: relative;}
 }
 
 @media only screen and (min-width: 1024px) {
+    .no-contact .post-array-main{padding-top: 60px;}
     body.page-template-our-culture .people-future-section.no-people .people-future-main{padding-bottom: 80px;}
     .post-array-main {
         padding: 0 0 40px;
@@ -141,6 +149,9 @@ figure.array-icon-normal{top: -2px; position: relative;}
         transform: none;
         order: 2;
     }
+    .no_post_array_heading{justify-content: flex-end;}
+
+    body.page-template-services-detail-sub-page .post-array-section.no-sec .post-array-main{padding: 65px 0 40px;}
 }
 @media only screen and (min-width: 1440px) {
     .post-array-btn {align-items: flex-end;}
@@ -171,6 +182,9 @@ figure.array-icon-normal{top: -2px; position: relative;}
     .post-array-title h2 {
         margin: 0;
     }
+    div.no_post_array_heading .post-array-btn{padding: 24px 0;}
+    body.page-template-services-detail-sub-page .post-array-section.no-sec .post-array-main{padding: 70px 0 40px;}
+
 }
 
 @media only screen and (max-width: 743px) and (min-width: 200px) {

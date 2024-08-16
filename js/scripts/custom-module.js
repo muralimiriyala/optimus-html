@@ -14,8 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const mobileMenu = (humburger, headerRight, ulMenu, moverlay) => {
     const humburgerBtn = document.querySelector(humburger);
     const hRight = document.querySelector(headerRight);
-    const ul = document.querySelector(ulMenu);
-    const liitems = ul.querySelectorAll("li.menu-item-has-children");
+    const liitems = document.querySelectorAll("ul.main_menu > li.menu-item-has-children");
     const overly = document.querySelector(moverlay);
     humburgerBtn.addEventListener("click", function (e) {
       e.preventDefault();
@@ -58,12 +57,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
   };
-  mobileMenu(
-    ".humburger-btn",
-    ".header_right",
-    "ul.main_menu",
-    ".h-mobile-overlay"
-  );
+
+  const mediaQuery = window.matchMedia('(max-width: 1023px)');
+  const screenTest = (e) => {
+    if (e.matches) {
+      mobileMenu(
+        ".humburger-btn",
+        ".header_right",
+        "ul.main_menu",
+        ".h-mobile-overlay"
+      );
+    }
+    else{
+    }
+  }
+  screenTest(mediaQuery);
+
+  // Add listener for changes in viewport width
+  mediaQuery.addEventListener('change', screenTest);
+  mediaQuery.addEventListener('load', screenTest);
+  mediaQuery.addEventListener('resize', screenTest);
 
   mobileResize = () =>{
     let myoverlay = document.querySelector(".h-mobile-overlay");
@@ -139,3 +152,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 });
+

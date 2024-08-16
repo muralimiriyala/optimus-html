@@ -57,6 +57,7 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
     .case-study-text{flex: 1}
     .inline-images-list{flex: 0 0 calc(50% - 20px);}
     .inline-images-list.inline-images-list-1{flex:  0 0 calc(100% - 20px);}
+    .case-article p img.wp-image-1790{padding: 65px 0 46px;}
 
     body.page-template-services-detail .inline-images-row{padding: 80px 0 104px;}
 }
@@ -75,7 +76,7 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
 
     .case-article-main{padding: 48px 0 40px;}
     .case-article-main .fluid-container{padding: 0}
-    .inline-images-row {display: block; padding: 20px 0 40px;}
+    .inline-images-row {display: block; padding: 30px 0 40px;}
     .inline-images-list:nth-child(even){flex-direction: inherit;}
     .inline-images-list:nth-child(even) .inline-caption-desc{ padding: 24px 0 8px 24px; border-left: 1px solid var(--Light-Blue); border-right: inherit;}
     .inline-images-list{margin-bottom: 40px;}
@@ -90,6 +91,6 @@ ul.case-alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-
     .case-study-data-main{display: block;}
     .case-study-icon{margin-bottom: 24px;}
     .case-article-main hr{margin-bottom: 40px; width: 100%; left: 0}
-    .case-article p img.wp-image-1790{padding: 20px 0 40px; margin: 0;}
+    .case-article p img.wp-image-1790{padding: 40px 0 20px; margin: 0;}
     .case-article-main .insights-post-block {padding: 20px 0 40px;}
 }

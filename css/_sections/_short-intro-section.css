@@ -112,6 +112,10 @@ body.page-template-services-detail-sub-page .intro-second-section .short-intro-m
     gap: 16px
 }
 
+body.page-template-services-detail .short-intro-main.no-head .short-intro-row {
+    padding: 0;}
+
+    
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
     .short-intro-section.intro-second-section.no_accordion .short-intro-main{border-top: 0;}

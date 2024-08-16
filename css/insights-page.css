@@ -13,6 +13,8 @@
 .blog-post-head{gap: 8px; margin-bottom: 21px;}
 .blog-post-icon{color: var(--Light-Blue); font-size: 20px; max-width: 20px;}
 .blog-post-head span{font-weight: 300;}
+.blog-post-head span a{color: var(--White);}
+.blog-post-head span a:hover{color: var(--Orange);}
 .blog-lt-text{padding-bottom: 24px; font-weight: 300;}
 .insights-signup span.never-sp{margin-bottom: 13px; display: block;}
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field input { padding: 15px 120px 16px 24px; font-size: 16px; line-height: 24px; font-weight: 400; background-color: var(--Dark-Blue-50); color: var(--White); border-radius: 28px; border: none; }
