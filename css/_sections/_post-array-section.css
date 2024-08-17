@@ -64,7 +64,7 @@ figure.array-icon-normal{top: -2px; position: relative;}
     opacity: 0.75;
 }
 .post-array-card:hover .post-array-cat span.fs-15 a{    color: var(--Navy);}
-.post-array-card:hover .post-array-cat span.fs-15 a:hover5{opacity: 0.7;}
+.post-array-card:hover .post-array-cat span.fs-15 a:hover{opacity: 0.7;}
 
 .post-array-card:hover .post-array-icon i {
     color: var(--Navy);
