@@ -7,6 +7,7 @@ ul.alt-order li::before{display: none;}
 ul.alt-order li{margin: 0;}
 ul.alt-order li a{gap: 8px;}
 ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)}
+ul.alt-order li a img{max-width: 20px;}
 .alt-feature-btns{gap: 16px; padding-top: 10px;}
 
 .alt-white .alt-feature-desc{color: var(--Gray);}
