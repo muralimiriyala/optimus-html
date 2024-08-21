@@ -3,8 +3,12 @@
 .industry-detail-main h3{font-size: 40px; line-height: 50px;}
 .industry-detail-main p span{font-size: 22px; line-height: 33px;}
 
+body.page-template-industries-detail  .post-array-section.no-sec .post-array-main { padding: 80px 0 40px; }
+
 
 @media screen and (max-width: 743px) and (min-width: 200px) {
 .industry-detail-main { padding: 10px 0 48px; }
 
+
+body.page-template-industries-detail  .post-array-section.no-sec .post-array-main { padding: 40px 0 40px; }
 }
