@@ -164,12 +164,12 @@ li.hide-li-text > a{display: none !important;}
     .menu-icon{width: 40px; height: 40px;}
     ul.main_menu > li.nav-services > ul > li > ul > li.hide-menu-item {display: none;}
 
-    .header-btn-link:hover span{border-width: 8px; font-size: 18px; line-height: 18px;}
-    .header-btn-link svg{width: 23px; height: 43px;}
-    .header-btn-link:hover svg{width: 29px; height: 52px;}
+    .header-btn-link span{transition: all 0.8s ease;}
+    .header-btn-link:hover span{border-width: 6.8px; }
+    .header-btn-link svg{width: 23px; height: 43px; transition: all 0.8s ease;}
+    .header-btn-link:hover svg{transform: translateX(6px);}
 
     .site-main-cover{padding-top: 84px;}
-    /* body.page-template-service-landing .site-main-cover, body.page-template-industries .site-main-cover{padding-top: 0;} */
     body.page-template-services .site-main-cover, body.page-template-industries .site-main-cover{padding-top: 0;}
 }
 @media screen and (min-width: 1340px){
