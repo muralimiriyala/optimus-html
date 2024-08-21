@@ -165,7 +165,7 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-services > ul > li > ul > li.hide-menu-item {display: none;}
 
     .header-btn-link span{transition: all 0.8s ease;}
-    .header-btn-link:hover span{border-width: 6.8px; }
+    .header-btn-link:hover span{border-width: 6.8px; background-color: var(--Orange); }
     .header-btn-link svg{width: 23px; height: 43px; transition: all 0.8s ease;}
     .header-btn-link:hover svg{transform: translateX(6px);}
 
