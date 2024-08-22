@@ -167,7 +167,7 @@ li.hide-li-text > a{display: none !important;}
     .header-btn-link span{transition: all 0.8s ease;}
     .header-btn-link:hover span{border-width: 6.8px; background-color: var(--Orange); }
     .header-btn-link svg{width: 23px; height: 43px; transition: all 0.8s ease;}
-    /* .header-btn-link:hover svg{transform: translateX(6px);} */
+    .header-btn-link:hover svg{transform: translateX(6px);}
 
     .site-main-cover{padding-top: 84px;}
     body.page-template-services .site-main-cover, body.page-template-industries .site-main-cover{padding-top: 0;}
