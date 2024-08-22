@@ -26,12 +26,11 @@ li.hide-li-text > a{display: none !important;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-    /* body.page-template-service-landing header.site-header:not(.sticky-header)::after, */
     body.page-template-services header.site-header:not(.sticky-header)::after,
-     body.page-template-industries header.site-header:not(.sticky-header)::after, body.home header.site-header:not(.sticky-header)::after, body.page-template-marketing-lp header.site-header:not(.sticky-header)::after{background-color: transparent;}
-    body.category-insights header.site-header:not(.sticky-header)::after{background-color: transparent;}
+    body.page-template-industries header.site-header:not(.sticky-header)::after, body.home header.site-header:not(.sticky-header)::after, body.page-template-marketing-lp header.site-header:not(.sticky-header)::after{background-color: transparent;}
+    body.category.archive header.site-header:not(.sticky-header)::after{background-color: transparent;}
     body.home .site-main-cover, body.page-template-marketing-lp .site-main-cover,
-    body.category-insights .site-main-cover{padding-top: 0;}
+    body.category.archive .site-main-cover{padding-top: 0;}
     body.home .header_btn{display: none;}
     body.page-template-marketing-lp .header_btn{display: none;}
 
@@ -138,7 +137,8 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-insights > ul > li:not(:first-child){flex: 1; margin: 0; padding: 40px 40px 40px 56px;}
     ul.main_menu > li.nav-insights > ul > li:not(:first-child) > ul{padding-top: 31px; gap: 32px; display: flex; flex-wrap: wrap;}
     ul.main_menu > li.nav-insights > ul > li > ul > li.button{padding: 12px 16px; margin-top: 16px;}
-    ul.main_menu > li.nav-insights > ul > li > ul > li.button > a{color: var(--White);}
+    ul.main_menu > li.nav-insights > ul > li > ul > li.button > a,
+    ul.main_menu > li.nav-insights > ul > li > ul > li.button.current-menu-item > a{color: var(--White);}
     ul.main_menu > li.nav-insights > ul > li > ul > li.button > a:hover{color: var(--White);}
 
     ul.main_menu > li.nav-insights > ul > li > ul > li > a{gap: 16px; align-items: center; flex-wrap: wrap; display: flex; color: var(--Blue); font-family: var(--base-font); font-size: 16px; font-weight: 600; line-height: 24px; cursor: pointer;} 
@@ -230,6 +230,8 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li > ul > li{margin: 0 0 20px;}
     ul.main_menu > li > ul > li:last-child{padding-bottom: 20px; margin-bottom: 0;}
     ul.main_menu > li > ul > li > a{color: var(--Blue); font-family: var(--base-font); font-size: 1rem; font-weight: 600; line-height: 1.5rem; display: block; position: relative;}
+    ul.main_menu > li > ul > li.current_page_item > a{color: var(--Orange);}
+    ul.main_menu > li > ul > li.current_page_item > a:hover{color: var(--Blue);}
     ul.main_menu > li > ul > li.menu-item-has-children > a::after{top: calc(50% + 1px); transform: translateY(-50%); right: 0; width: 15px; height: 9px; background-image: url("./images/caret-down.svg"); background-repeat: no-repeat; content: ""; display: block; position: absolute;}
     ul.main_menu > li > ul > li.menu-item-has-children > a.active::after{transform: translateY(-50%) scaleY(-1);}
     ul.main_menu > li > ul > li > ul{margin: 0; padding: 0 0 8px;}

@@ -6219,7 +6219,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-
 jQuery(function(){
     jQuery('select').selectBox({
         keepInViewport: false,
