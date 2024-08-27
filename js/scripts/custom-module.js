@@ -61,12 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const mediaQuery = window.matchMedia('(max-width: 1023px)');
   const screenTest = (e) => {
     if (e.matches) {
-      mobileMenu(
-        ".humburger-btn",
-        ".header_right",
-        "ul.main_menu",
-        ".h-mobile-overlay"
-      );
+      mobileMenu( ".humburger-btn", ".header_right", "ul.main_menu", ".h-mobile-overlay" );
     }
     else{
     }
