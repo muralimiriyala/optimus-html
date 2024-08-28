@@ -14,4 +14,4 @@ $quoteicon.each(function(){
     tl.fromTo($qpath[2], { scale: '0', opacity: '0', }, {scale: '1', opacity: '1', duration: 0.75, ease: 'power1.out'}, 'start')
     tl.fromTo($qpath[3], { scale: '0', opacity: '0', }, {scale: '1', opacity: '1', duration: 0.75, ease: 'power1.out'}, 'start')
     $self[0].tl = tl;
-})
+});

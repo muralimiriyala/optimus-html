@@ -53,6 +53,10 @@ figure.array-icon-normal{top: -2px; position: relative;}
 	text-overflow: ellipsis;
 	overflow: hidden;
 	-webkit-box-orient: vertical;
+    color: var(--White);
+}
+.post-array-card:hover .post-array-hover h2{
+    color: var(--Navy);
 }
 .post-array-blog h2 a {
     color: var(--White);
