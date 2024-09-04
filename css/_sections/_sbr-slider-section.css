@@ -37,6 +37,7 @@ body.page-template-industries-detail .sbr-slider-main:after{content: ""; display
     .sbr-slide-desktop{display: none;}
     .sbr-slide-desktop div.h1{line-height: 60px;}
     .sbr-slide-image{cursor: pointer;}
+    .sbr-for-slide{width: 100%;}
     .sbr-for-slide.sbr-active{pointer-events: none;}
     .sbr-hover-active{transition: height 0.25s ease;}
     .sbr-slide-image img{height: 50px; cursor: pointer; transform-origin: 50% 50%; transition: height 0.25s ease;}

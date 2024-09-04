@@ -5,7 +5,7 @@
 
 .service-details-article ul{margin-bottom: 10px;}
 
-body.page-template-industries-detail .primary-cta-main::after{position: absolute; content: ""; width: 100%; opacity: 0.5; background-color: var(--body-text); display: block; height: 1px; top: -80px;} 
+/* body.page-template-industries-detail .primary-cta-main::after{position: absolute; content: ""; width: 100%; opacity: 0.5; background-color: var(--body-text); display: block; height: 1px; top: -80px;}  */
 
 body.page-template-services-detail .service-details-section.no-sbr .service-details-article{padding: 75px 0 88px;}
 

@@ -75,9 +75,9 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-services > ul > li:first-child > ul > li.button{width: fit-content;}
     ul.main_menu > li.nav-services > ul > li > ul > li.button > a{color: var(--White);}
     ul.main_menu > li.nav-services > ul > li > ul > li.button > a:hover{color: var(--White);}
-    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a{gap: 16px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue); font-family: var(--base-font); font-size: 16px; font-weight: 600; line-height: 24px; cursor: pointer;} 
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a{gap: 16px; padding-left: 40px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue); font-family: var(--base-font); font-size: 16px; font-weight: 600; line-height: 24px; cursor: pointer;} 
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a:hover, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a:hover{color: var(--Orange);}
-    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a img, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a img{width: 24px; height: auto; object-fit: contain;}
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li > a img, ul.main_menu > li.nav-services > ul > li > ul > li:not(:first-child, .button) > a img{width: 24px; height: auto; object-fit: contain; top: 4px; left: 0; position: absolute;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul{margin: 0; padding-top: 17px;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li{margin: 0 0 24px;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li:last-child{margin-bottom: 0;}

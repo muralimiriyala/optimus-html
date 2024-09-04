@@ -137,7 +137,7 @@ body.page-template-industries-detail .repeater-main::after {
   .repeater-image {
     flex: 0 0 50%;
   }
-  body.page-template-services-detail .repeater-main{padding: 40px 0 80px;}
+  body.page-template-services-detail .repeater-main{padding: 80px 0 80px;}
 
   .repeater-row.row-reverse .repeater-block {
     right: -54px;
