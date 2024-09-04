@@ -74,12 +74,23 @@ hr.light-blue-line{margin: 0; flex: 1; width: 100%; height: 1px; background-colo
 ::selection {background-color: var(--Foreground); color: var(--White);}
 ::-moz-selection {background-color: var(--Foreground); color: var(--White);}
 
+
+
 /* Buttons */
 .button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 17px 16px 18px; font-size: 1rem; font-weight: 600; line-height: 100%; font-family: var(--base-font); display: inline-block; background: var(--Blue); color: var(--White); border: none; border-radius: 24px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0; }
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{ background: var(--Orange); color: var(--White); }
 
 .button.btn-transparent{padding: 12px 13px 12px 12px; border-radius: 24px; border: 4px solid var(--Orange); background: transparent;}
 .button.btn-transparent:hover{background: var(--Orange); border-color: var(--Orange);}
+
+span.text-link{gap: 8px; font-size: 16px; line-height: 24px; font-family: var(--base-font);}
+span.text-link i{top: 3px; left: 0; position: relative; color: var(--Light-Blue); font-size: 20px; line-height: 20px; overflow: hidden;}
+span.text-link.white{color: var(--White);}
+span.text-link.blue{color: var(--Blue);}
+span.text-link:hover i{left: 8px;}
+span.text-link.navy{color: var(--Navy);}
+span.text-link.navy i{color: var(--Navy);}
+
 
 a.text-link{gap: 8px; font-size: 16px; line-height: 24px; font-family: var(--base-font);}
 a.text-link i{top: 3px; left: 0; position: relative; color: var(--Light-Blue); font-size: 20px; line-height: 20px; overflow: hidden;}

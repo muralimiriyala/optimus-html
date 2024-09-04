@@ -157,7 +157,6 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-insights > ul > li > ul > li > ul > li > a span.menu-image-title{padding: 0;}   
 
     
-   
     .header_btn{width: fit-content; gap: 16px;}
     .header_btn button{padding: 4px 12px; border: 6px solid var(--Orange); border-radius: 25px; font-weight: 600;}
     .header_btn button:hover{font-size: 1.25rem; background-color: transparent; padding: 8px 10px;} 
@@ -165,9 +164,9 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-services > ul > li > ul > li.hide-menu-item {display: none;}
 
     .header-btn-link span{transition: all 0.8s ease;}
-    .header-btn-link:hover span{border-width: 6.8px; background-color: var(--Orange); }
+    .header-btn-link:hover span{background-color: var(--Orange); }
     .header-btn-link svg{width: 23px; height: 43px; transition: all 0.8s ease;}
-    .header-btn-link:hover svg{transform: translateX(6px);}
+    .header-btn-link:hover svg{transform: translate(12px,-.15px);}
 
     .site-main-cover{padding-top: 84px;}
     body.page-template-services .site-main-cover, body.page-template-industries .site-main-cover{padding-top: 0;}
