@@ -49,6 +49,10 @@ ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
 ol > li:before{color: var(--Foreground); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -20px; position: absolute; font-size: 1.125rem; line-height: 1.688rem;}
 li > ol {margin: 25px 0 26px 25px;}
+ol[style='list-style-type: upper-roman;']{margin-left: 22px;}
+ol[style='list-style-type: upper-roman;'] > li::before{display: none;}
+ol[style='list-style-type: lower-roman;']{margin-left: 22px;}
+ol[style='list-style-type: lower-roman;'] > li::before{display: none;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}
 fieldset {border: none; margin: 0; padding: 0;}
