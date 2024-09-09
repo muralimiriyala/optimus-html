@@ -6,10 +6,12 @@
 .blog-post-lt h1{color: var(--White);}
 .blog-post-lt span{font-weight: 900;}
 .blog-post-lt hr{margin-bottom: 23px;}
+a.blog-post-rt:hover .blog-post-rt-text h2{color: var(--Orange);}
+a.blog-post-rt:hover span.text-link i{left: 8px;}
 .blog-post-rt{background-color: var(--Navy); flex: 1;}
 .blog-post-rt-text{padding: 59px 45px 40px 40px;}
 .blog-post-rt-image img{border-radius: 0 24px 24px 0;}
-.blog-post-rt-text h2{font-size: 28px; color: var(--White); line-height: 35px;}
+.blog-post-rt-text h2{font-size: 28px; color: var(--White); line-height: 35px;transition: var(--b-transition);}
 .blog-post-head{gap: 8px; margin-bottom: 21px;}
 .blog-post-icon{color: var(--Light-Blue); font-size: 20px; max-width: 20px;}
 .blog-post-head span{font-weight: 300;}

@@ -120,7 +120,7 @@ body.page-template-services-detail .short-intro-main.no-head .short-intro-row {
 @media only screen and (min-width: 1024px) {
     .short-intro-section.intro-second-section.no_accordion .short-intro-main{border-top: 0;}
     body.page-template-career .wrap-section { padding: 40px 0 0; }
-    body.page-template-marketing-lp .short-intro-main, body.page-template-services-detail .short-intro-main{padding: 80px 0 40px;}
+    body.page-template-marketing-lp .short-intro-main, body.page-template-services-detail .short-intro-main{padding: 80px 0 60px;}
     body.page-template-marketing-lp .short-intro-row, body.page-template-services-detail .short-intro-row{padding: 40px 0 0;}
     body.page-template-services-detail .intro-second-section .short-intro-main{padding:86px 0 0;}
 
@@ -325,7 +325,7 @@ body.page-template-services-detail .short-intro-main.no-head .short-intro-row {
         padding: 40px 0 0;
     }
 
-    body.page-template-services-detail .short-intro-main{padding: 48px 0 0;}
+    body.page-template-services-detail .short-intro-main{padding: 48px 0 40px;}
 
     body.page-template-services-detail-sub-page .short-intro-main:after {
         margin-top: 48px;

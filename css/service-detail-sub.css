@@ -1,4 +1,4 @@
-.subhead-help-main{padding: 10px 0 80px;}
+.subhead-help-main{padding: 80px 0 80px;}
 .subhead-help-row { gap: 78px; }
 
 .subhead-help-lt h2{font-size: 48px; margin-bottom: 32px;}
@@ -54,7 +54,7 @@
         .subhead-help-rt{display: block;}
         .subhead-help-grid{padding: 24px 0; border-right: none;}
         .subhead-help-grid:last-child{padding-bottom: 0;}
-        .subhead-help-main { padding: 10px 0 60px; }
+        .subhead-help-main { padding: 60px 0 60px; }
         .service-detail-sub-default-main { padding: 40px 0 48px; }
         .sub-detail-line-wrap .default-line-in { padding: 0 }
         .sub-detail-line-wrap .default-line-text { padding: 6px 0 18px 24px; line-height: 30px;}
@@ -62,5 +62,5 @@
 
         .subhead-help-lt h2{font-size: 40px; line-height: 46px;}
         .short-intro-section.intro-second-section .short-intro-head{padding: 0 0 95px;}
-
+        body.page-template-services-detail-sub-page .short-intro-list h3{max-width: 100%;}
     }
