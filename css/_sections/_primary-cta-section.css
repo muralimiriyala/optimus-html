@@ -3,7 +3,7 @@
 
 .primary-cta-main{padding: 32px;}
 .primary-cta-text span.optional-text{margin-bottom: 15px;}
-.primary-cta-text h2{font-size: 48px; line-height: 55px; font-weight: 700; margin-bottom: 16px;}
+.primary-cta-text h2{font-size: 2.813rem; line-height: 3.438rem; font-weight: 700; margin-bottom: 16px;}
 .primary-cta-decs{z-index: 2;}
 .primary-cta-chevron{ height: 100%; opacity: .5; background-color: var(--Blue); }
 .no_primary_cta_image{display: block;}
@@ -19,7 +19,7 @@ body.single-post .primary-cta-section hr{width: 100%; height: 1px; background: v
     .primary-cta-text{flex: 0 0 480px; padding: 71px 0 71px 64px; z-index: 2;}
     .primary-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
     .primary-cta-circle svg{width: 499px; height: 500px;}
-    .primary-cta-text h2{font-size: 48px; line-height: 55px;}
+    .primary-cta-text h2{font-size: 2.813rem; line-height: 3.438rem;}
 
     
     body.page-template-marketing-lp .primary-cta-wrap{padding: 40px 0;}
@@ -73,8 +73,8 @@ body.single-post .primary-cta-section hr{width: 100%; height: 1px; background: v
     .primary-cta-wrap{padding: 40px 0;}
     .primary-cta-row{display: block; text-align: center;}
     .primary-cta-main{padding: 18px 16px;}
-    .primary-cta-text{padding: 28px 20px 20px; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 16px; line-height: 24px;}
-    .primary-cta-text h2{font-size: 40px; line-height: 46px;}
+    .primary-cta-text{padding: 28px 20px 20px; z-index: 2; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 1rem; line-height: 1.5rem;}
+    .primary-cta-text h2{font-size: 2.5rem; line-height: 46px;}
     .primary-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
     .primary-cta-circle svg{width: 499px; height: 500px;}
     
@@ -96,7 +96,7 @@ body.single-post .primary-cta-section hr{width: 100%; height: 1px; background: v
     .primary-cta-section .container{padding: 0 20px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
-    .primary-cta-text h2{font-size: 32px; line-height: 40px;}
+    .primary-cta-text h2{font-size: 2rem; line-height: 2.5rem;}
 }
 @media screen and (max-width: 374px) and (min-width: 200px){
     .primary-cta-btns .text-btn-link{font-size: 14px;}

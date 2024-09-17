@@ -27,8 +27,8 @@
 }
 
 .tail-detail-arrow {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
     transform: translateX(calc(-100% - 10px));
     left: 0;
     opacity: 0;

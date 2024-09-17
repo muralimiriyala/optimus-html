@@ -9,12 +9,12 @@ a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--Orange);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Blue); font-weight: 600; font-family: var(--heading-font); text-transform: none;}
-.h1, h1{font-size: 48px; line-height: 55px; margin-bottom: 25px; font-weight: 700;}
-.h2, h2{font-size: 40px; line-height: 50px; margin-bottom: 20px;}
-.h3, h3{font-size: 32px; line-height: 40px; margin-bottom: 19px;}
-.h4, h4{font-size: 28px; line-height: 35px; margin-bottom: 20px;}
-.h5, h5{font-size: 24px; line-height: 30px; margin-bottom: 19px;}
-.h6, h6{font-size: 20px; line-height: 25px; margin-bottom: 18px;}
+.h1, h1{font-size: 2.813rem; line-height: 3.438rem; margin-bottom: 25px; font-weight: 700;}
+.h2, h2{font-size: 2.5rem; line-height: 3.125rem; margin-bottom: 20px;}
+.h3, h3{font-size: 2rem; line-height: 2.5rem; margin-bottom: 19px;}
+.h4, h4{font-size: 1.75rem; line-height: 2.188rem; margin-bottom: 20px;}
+.h5, h5{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 19px;}
+.h6, h6{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 18px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Blue);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--Orange);}
 address{font-size: 1.125rem; line-height: 1.5rem; margin-bottom: 24px;}
@@ -43,12 +43,13 @@ blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 29px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before{top: 12px; left: -19px; width: 5px; height: 5px; opacity: 1; background-color: var(--Foreground); content: ""; position: absolute;} 
+ul > li:before{top: 9px; left: -14px; width: 5px; height: 5px; opacity: 1; border: 1px solid var(--Foreground); border-radius: 50%; content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
 ol > li:before{color: var(--Foreground); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -20px; position: absolute; font-size: 1.125rem; line-height: 1.688rem;}
 li > ol {margin: 25px 0 26px 25px;}
+ul[style='list-style-type: circle;']{list-style: none !important;}
 ol[style='list-style-type: upper-roman;']{margin-left: 22px;}
 ol[style='list-style-type: upper-roman;'] > li::before{display: none;}
 ol[style='list-style-type: lower-roman;']{margin-left: 22px;}
@@ -87,8 +88,8 @@ hr.light-blue-line{margin: 0; flex: 1; width: 100%; height: 1px; background-colo
 .button.btn-transparent{padding: 12px 13px 12px 12px; border-radius: 24px; border: 4px solid var(--Orange); background: transparent;}
 .button.btn-transparent:hover{background: var(--Orange); border-color: var(--Orange);}
 
-span.text-link{gap: 8px; font-size: 16px; line-height: 24px; font-family: var(--base-font);}
-span.text-link i{top: 3px; left: 0; position: relative; color: var(--Light-Blue); font-size: 20px; line-height: 20px; overflow: hidden;}
+span.text-link{gap: 8px; font-size: 1rem; line-height: 1.5rem; font-family: var(--base-font);}
+span.text-link i{top: 3px; left: 0; position: relative; color: var(--Light-Blue); font-size: 1.25rem; line-height: 1.25rem; overflow: hidden;}
 span.text-link.white{color: var(--White);}
 span.text-link.blue{color: var(--Blue);}
 span.text-link:hover i{left: 8px;}
@@ -96,20 +97,20 @@ span.text-link.navy{color: var(--Navy);}
 span.text-link.navy i{color: var(--Navy);}
 
 
-a.text-link{gap: 8px; font-size: 16px; line-height: 24px; font-family: var(--base-font);}
-a.text-link i{top: 3px; left: 0; position: relative; color: var(--Light-Blue); font-size: 20px; line-height: 20px; overflow: hidden;}
+a.text-link{gap: 8px; font-size: 1rem; line-height: 1.5rem; font-family: var(--base-font);}
+a.text-link i{top: 3px; left: 0; position: relative; color: var(--Light-Blue); font-size: 1.25rem; line-height: 1.25rem; overflow: hidden;}
 a.text-link.white{color: var(--White);}
 a.text-link.blue{color: var(--Blue);}
 a.text-link:hover i{left: 8px;}
 a.text-link.navy{color: var(--Navy);}
 a.text-link.navy i{color: var(--Navy);}
 
-.text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 20px; line-height: 100%;}
+.text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 1.25rem; line-height: 100%;}
 .text-btn-link:hover{color: var(--White);}
 .text-btn-link > span{padding: 10px 16px 10px; flex: 1; border-radius: 28px; border: 8px solid var(--Orange); display: inline-block;}
 .text-btn-link svg{ transform: translate(0, 0); transition: var(--b-transition); }
 .text-btn-link:hover svg{ transform: translate(12px, -0.15px); }
-.text-btn-link.sm{font-size: 16px; line-height: 16px; }
+.text-btn-link.sm{font-size: 1rem; line-height: 1rem; }
 .text-btn-link.sm span{border-width: 6px;}
 .text-btn-link.sm svg{width: 23px;}
 
@@ -149,7 +150,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 /*-- custom css starts here --*/
 body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--base-font); position: relative; color: var(--Foreground); background-color: transparent; overflow-x: hidden;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 24px; font-size: 20px; line-height: 25px; font-weight: 600; color: var(--Gray); display: block; text-transform: none;}
+span.optional-text{margin-bottom: 24px; font-size: 1.25rem; line-height: 1.563rem; font-weight: 600; color: var(--Gray); display: block; text-transform: none;}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.light-blue{color: var(--Light-Blue); }
 span.optional-text.grey{color: var(--Gray);-webkit-text-fill-color: var(--Gray); opacity: 0.5; background: none; margin-bottom: 4px;}
@@ -173,11 +174,11 @@ span.optional-text.navy-50{color: rgb(25 35 76 / 50%);}
 .fs-15{font-size: 0.938rem; line-height: 19px;}
 .fs-16{font-size: 1rem; line-height: 1.5rem;}
 .fs-18{font-size: 1.125rem; line-height: 1.688rem;}
-.fs-20{font-size: 20px; line-height: 30px;}
-.fs-22{font-size: 22px; line-height: 33px;}
+.fs-20{font-size: 1.25rem; line-height: 1.875rem;}
+.fs-22{font-size: 1.375rem; line-height: 33px;}
 .fs-24{font-size: 1.5rem; line-height: 2.25rem;}
-.fs-32{ font-size: 32px; line-height: 32px; }
-.fs-40{ font-size: 40px; line-height: 40px;}
+.fs-32{ font-size: 2rem; line-height: 32px; }
+.fs-40{ font-size: 2.5rem; line-height: 2.5rem;}
 
 .radius-4, .radius-img-4 img{border-radius: 4px;}
 .radius-6, .radius-img-6 img{border-radius: 6px;}
@@ -211,7 +212,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .play-btn-bg::before { width: calc(100% + 24px); height: calc(100% + 24px); background-color: var(--Blue); content: ""; position: absolute; border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.5; z-index: -1; }
 .play-btn-bg{width: 100%; height: 100%; color: var(--Light-Blue); font-size: 0; line-height: 0; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), var(--Blue); }
 .play-btn-bg:hover{color: var(--White);}
-.play-btn-bg i{font-size: 48px; line-height: 48px; margin-left: 5px; }
+.play-btn-bg i{font-size: 2.813rem; line-height: 3rem; margin-left: 5px; }
 .play-btn-bg > span.btn-circle{background-color: var(--Blue); z-index: 1; }
 .play-btn-bg > span.btn-circle > svg{left: 2px; position: relative;}
 .play-btn-bg > span {transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border-radius: 50%; bottom: 0; content: ""; left: 0; position: absolute; right: 0; top: 0; z-index: -1;}
@@ -271,7 +272,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .light-blue-bg{background: #E3F4FF;}
 
 
-div.slick-arrow{width: 56px; height: 56px; padding: 0; font-size: 24px; line-height: 24px; position: relative; z-index: 1; cursor: pointer; transition: var(--b-transition); background: var(--Blue); color: var(--White);}
+div.slick-arrow{width: 56px; height: 56px; padding: 0; font-size: 1.5rem; line-height: 1.5rem; position: relative; z-index: 1; cursor: pointer; transition: var(--b-transition); background: var(--Blue); color: var(--White);}
 div.slick-arrow:hover{background-color: var(--Orange);}
 div.slick-arrow.slick-disabled{opacity: 0.2; background-color: var(--Gray); pointer-events: none;}
 span.slick-prev-arrow{ transform: scaleX(-1); }
@@ -322,7 +323,7 @@ ul.slick-dots li button{display: none; padding: 0;}
 
     .h1, h1{font-size: 2.5rem; line-height: 3.125rem;}
     .h2, h2{font-size: 2rem; line-height: 2.5rem;}
-    .h4, h4{font-size: 28px; line-height: 35px;}
+    .h4, h4{font-size: 1.75rem; line-height: 2.188rem;}
 
     span.optional-text.md{margin-bottom: 6px;}
 
@@ -352,6 +353,6 @@ ul.slick-dots li button{display: none; padding: 0;}
 
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
-    caption, td, th{font-size: 13px; line-height: 16px;}
+    caption, td, th{font-size: 0.813rem; line-height: 1rem;}
     td{padding: 13px 10px 11px;}
 }

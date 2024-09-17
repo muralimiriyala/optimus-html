@@ -6,7 +6,7 @@ ul.alt-order{margin: 35px 0 36px; gap: 16px 30px;}
 ul.alt-order li::before{display: none;}
 ul.alt-order li{margin: 0;}
 ul.alt-order li a{gap: 8px;}
-ul.alt-order li a i{font-size: 20px; line-height: 20px; color: var(--Light-Blue)}
+ul.alt-order li a i{font-size: 1.25rem; line-height: 1.25rem; color: var(--Light-Blue)}
 ul.alt-order li a figure{max-width: 20px; top: -2px; position: relative;}
 
 .alt-feature-section.no-repeater{margin-top: 80px;}
@@ -53,7 +53,7 @@ ul.alt-order li a figure{max-width: 20px; top: -2px; position: relative;}
     .alt-feature-thumb img{object-position: top;}
     .alt-feature-svg{left: 104px; transform: rotate(-90deg); bottom: -71px; width: 80px; height: 160px;}
     .alt-feature-desc{padding: 64px;}
-    .alt-feature-desc h3{font-size: 34px; line-height: 40px;}
+    .alt-feature-desc h3{font-size: 34px; line-height: 2.5rem;}
     ul.alt-order{margin: 37px 0;}
     .alt-feature-btns{padding-top: 10px;}
 }
@@ -62,7 +62,7 @@ ul.alt-order li a figure{max-width: 20px; top: -2px; position: relative;}
     .alt-feature-svg{left: 48px; transform: rotate(-90deg); bottom: -47px; width: 40px;}
     .alt-feature-svg svg path{stroke-width: 3;}
     .alt-feature-desc{padding: 40px 24px;}
-    .alt-feature-desc h3{font-size: 24px; line-height: 30px;}
+    .alt-feature-desc h3{font-size: 1.5rem; line-height: 1.875rem;}
     ul.alt-order{margin: 28px 0;}
     .alt-feature-btns{padding-top: 2px;}
 }

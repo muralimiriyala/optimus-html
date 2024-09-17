@@ -5,7 +5,7 @@
 .service-head h2 strong{font-weight: 600;}
 
 .service-subtitle{margin: 0 0 40px 0; gap: 12px;}
-a.subtitle-link{color: var(--Gray); font-size: 24px; line-height: 24px; font-weight: 600; margin-bottom: 0;}
+a.subtitle-link{color: var(--Gray); font-size: 1.5rem; line-height: 1.5rem; font-weight: 600; margin-bottom: 0;}
 a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 
 
@@ -17,15 +17,15 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 .service-sub-page{display: none;}
 .service-sub-page[data-pages="566"]{display: block;}
 
-.service-item{font-size: 16px; line-height: 24px; font-weight: 400; color: var(--Gray); padding: 32px 32px 39px; background-color: var(--White); border: 1px solid #DBF5FF; border-radius: 24px; transition: all .5s ease;}
+.service-item{font-size: 1rem; line-height: 1.5rem; font-weight: 400; color: var(--Gray); padding: 32px 32px 39px; background-color: var(--White); border: 1px solid #DBF5FF; border-radius: 24px; transition: all .5s ease;}
 .service-item:hover{box-shadow: 0px 15px 20px #dbf5ff; border-color: transparent; transform: translateY(-20px);}
 .service-item:hover .service-icon-arrow{left:40px; opacity: 1;}
 .service-item:hover figure, .service-item:hover i.icon{ transform: translateX(calc(100% + 10px)); opacity: 0;}
 .service-icon{margin-bottom: 14px;}
-.service-icon > i, .service-icon > a > i{font-size: 32px; color: var(--Light-Blue); line-height: 32px; position: relative; transition: all .5s ease;}
+.service-icon > i, .service-icon > a > i{font-size: 2rem; color: var(--Light-Blue); line-height: 32px; position: relative; transition: all .5s ease;}
 .service-icon figure, .service-icon i{ transition: var(--b-transition); }
 .service-icon .service-icon-arrow{position: absolute; left: 0; opacity: 0; transform: translateX(calc(-100% - 10px));}
-.service-icon .service-icon-arrow a{color: var(--Orange); font-size: 32px; }
+.service-icon .service-icon-arrow a{color: var(--Orange); font-size: 2rem; }
 .service-item span.h6{margin-bottom: 15px;}
 .service-icon figure{max-width: 40px;}
 
@@ -46,7 +46,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 .take-action-btn{width: fit-content;}
 .take-action-btn .text-btn-link > span{color: var(--Blue);}
 
-.solutions_sub.button{font-size: 24px; line-height: 24px; padding: 0; opacity: .6; font-weight: 600; background: transparent; color: var(--Foreground); border-radius: 0;}
+.solutions_sub.button{font-size: 1.5rem; line-height: 1.5rem; padding: 0; opacity: .6; font-weight: 600; background: transparent; color: var(--Foreground); border-radius: 0;}
 .solutions_sub.button.active{opacity: 1; color: var(--Blue);}
 .service-subtitle-toggle .solutions_sub:first-child{order: 1;}
 .service-subtitle-toggle .solutions_sub:not(:first-child){order: 3;}
@@ -64,7 +64,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .service-wrapper{padding: 64px 0;}
     .service-head{max-width: 614px;}
-    .service-head h2{font-size: 32px; line-height: 40px;}
+    .service-head h2{font-size: 2rem; line-height: 2.5rem;}
     .service-svg{top: -16px; right: -63px;}
     .service-svg svg{width: 434px; height: 249px;}
 }
@@ -72,7 +72,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
     .service-wrapper{padding: 80px 0 60px;}
     .service-svg{right: -40px; top: 0; z-index: 0; width: 312px; height: 185px;}
     .service-head{max-width: 531px; margin-bottom: 56px;}
-    .service-head h2{font-size: 32px; line-height: 40px;}
+    .service-head h2{font-size: 2rem; line-height: 2.5rem;}
     .service-main{margin-bottom: 56px;}
     .service-subtitle{margin: 0 0 40px 0; gap: 20px;}
     .service-item{width: 264px; margin-right: 24px;}
@@ -89,7 +89,7 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
     .service-wrapper{padding: 96px 0 48px;}
     .service-svg{top: -39px; right: -24px; z-index: 0; width: 355px; height: 204px;}
     .service-head{margin-bottom: 24px; padding-right: 31px;}
-    .service-head h2{font-size: 28px; line-height: 34px;}
+    .service-head h2{font-size: 1.75rem; line-height: 34px;}
     .service-main{margin-bottom: 75px;}
     .service-subtitle{margin: 0 0 24px 0; gap: 13px;}
     .service-item{width: 288px; margin-right: 24px;}

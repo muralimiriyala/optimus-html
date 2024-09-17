@@ -11,7 +11,7 @@
 .open-bracket.right{right: 0; border-left: none; border-top-left-radius: 0; border-bottom-left-radius: 0;}
 .open-position-btns{padding-top: 2px;}
 .open-position-btn a i{display: none;}
-.open-position-text h2 {font-size: 32px; line-height: 40px;}
+.open-position-text h2 {font-size: 2rem; line-height: 2.5rem;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -46,10 +46,10 @@
     .open-position-rt{padding: 24px; gap: 16px;}
     .open-position-list{gap: 8px;}
     .open-position-left{flex: 1; gap: 5px;}
-    .open-position-title h2{font-size: 18px; line-height: 22px;}
+    .open-position-title h2{font-size: 1.125rem; line-height: 1.375rem;}
     .open-position-btn{width: 27px;  display: flex;}
     .open-position-btn span{display: none;}
-    .open-position-btn a{width: 100%; min-height: 71px; padding: 5px; border-radius: 4px; background: var(--Light-Blue-15); color: var(--Blue); font-size: 24px; line-height: 24px; display: flex; align-items: center; }
+    .open-position-btn a{width: 100%; min-height: 71px; padding: 5px; border-radius: 4px; background: var(--Light-Blue-15); color: var(--Blue); font-size: 1.5rem; line-height: 1.5rem; display: flex; align-items: center; }
     .open-position-btn a i{display: block;}
 
 }

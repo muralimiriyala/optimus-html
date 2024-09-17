@@ -11,26 +11,26 @@ a.blog-post-rt:hover span.text-link i{left: 8px;}
 .blog-post-rt{background-color: var(--Navy); flex: 1;}
 .blog-post-rt-text{padding: 59px 45px 40px 40px;}
 .blog-post-rt-image img{border-radius: 0 24px 24px 0;}
-.blog-post-rt-text h2{font-size: 28px; color: var(--White); line-height: 35px;transition: var(--b-transition);}
+.blog-post-rt-text h2{font-size: 1.75rem; color: var(--White); line-height: 2.188rem;transition: var(--b-transition);}
 .blog-post-head{gap: 8px; margin-bottom: 21px;}
-.blog-post-icon{color: var(--Light-Blue); font-size: 20px; max-width: 20px;}
+.blog-post-icon{color: var(--Light-Blue); font-size: 1.25rem; max-width: 20px;}
 .blog-post-head span{font-weight: 300;}
 .blog-post-head span a{color: var(--White);}
 .blog-post-head span a:hover{color: var(--Orange);}
 .blog-lt-text{padding-bottom: 24px; font-weight: 300;}
 .insights-signup span.never-sp{margin-bottom: 13px; display: block;}
-body .insights-signup .frm_forms .frm_form_fields .frm_form_field input { padding: 15px 120px 16px 24px; font-size: 16px; line-height: 24px; font-weight: 400; background-color: var(--Dark-Blue-50); color: var(--White); border-radius: 28px; border: none; }
+body .insights-signup .frm_forms .frm_form_fields .frm_form_field input { padding: 15px 120px 16px 24px; font-size: 1rem; line-height: 1.5rem; font-weight: 400; background-color: var(--Dark-Blue-50); color: var(--White); border-radius: 28px; border: none; }
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field input:focus{color: var(--White); background-color: var(--Navy);}
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field.field_submit {min-width: 106px; right: 2px; top: -0.65px; height: 56px; margin: 0; display: block; position: absolute; align-items: center; display: flex; }
 body .insights-signup .frm_forms .frm_form_fields .frm_submit { display: block; }
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field label { display: none; }
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field.field_submit .frm_submit{width: 100%;}
-body .insights-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit { width: 100%; height: 100%; margin: 0; padding: 10px 14px 10px; font-size: 16px; line-height: 20px; border-radius: 28px; border: 4px solid var(--Orange); background: 0 0; }
+body .insights-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit { width: 100%; height: 100%; margin: 0; padding: 10px 14px 10px; font-size: 1rem; line-height: 1.25rem; border-radius: 28px; border: 4px solid var(--Orange); background: 0 0; }
 body .insights-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--Orange);}
 body .insights-signup .frm_forms .frm_form_fields .frm_form_field{margin: 0;}
-body .insights-signup .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder{font-size: 16px; color: var(--White); font-family: "Blackbird", sans-serif; }
-body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder {font-size: 16px; color: var(--White); font-family: "Blackbird", sans-serif;}
-body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{font-size: 16px; color: var(--White); font-family: "Blackbird", sans-serif; opacity: 1;}
+body .insights-signup .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder{font-size: 1rem; color: var(--White); font-family: "Blackbird", sans-serif; }
+body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder {font-size: 1rem; color: var(--White); font-family: "Blackbird", sans-serif;}
+body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{font-size: 1rem; color: var(--White); font-family: "Blackbird", sans-serif; opacity: 1;}
 
 
 .blog-append-arrows{ margin: 24px 0; gap: 8px; align-items: center; }
@@ -104,7 +104,7 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     .blog-post-banner{padding: 40px 0 24px;}
     .blog-post-lt hr{margin: 0 0 24px;}
     .blog-post-rt{display: none;}
-    .blog-post-lt h1{font-size: 48px; line-height: 55px;}
+    .blog-post-lt h1{font-size: 2.813rem; line-height: 3.438rem;}
     
     
     .resources-blog-main{padding: 24px 0 40px;}

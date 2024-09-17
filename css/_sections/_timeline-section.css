@@ -2,7 +2,7 @@
 
 .timeline-slide { border: 1px solid var(--Light-Blue-Tint); padding: 32px; border-radius: 24px; } 
 .t-circle-wrap{ margin-bottom: 16px;}
-.t-number{ font-size: 48px; color: var(--Blue); display: inline-block; line-height: 55px; }
+.t-number{ font-size: 2.813rem; color: var(--Blue); display: inline-block; line-height: 3.438rem; }
 .t-circle-main{left: 143px; top: 50%; transform: translateY(-50%);}
 .t-circle-main svg{left: -5px; top: 0.25px; position: relative;}
 .t-circle-left{top: 50%; transform: translateY(-50%);}

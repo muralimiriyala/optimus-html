@@ -7,16 +7,16 @@
 .comments-type-list figure img{object-fit: contain;}
 
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 0;}
-body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field.newsletter_at::before{left: 24px; top: 50%; transform: translateY(-50%); font-size: 24px; line-height: 24px; font-weight: 300; color: var(--Light-Blue); content: "\40";font-family: "Font Awesome 6 Sharp"; position: absolute;}
+body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field.newsletter_at::before{left: 24px; top: 50%; transform: translateY(-50%); font-size: 1.5rem; line-height: 1.5rem; font-weight: 300; color: var(--Light-Blue); content: "\40";font-family: "Font Awesome 6 Sharp"; position: absolute;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field label{display: none;}
-body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{padding: 15px 140px 12px 56px; font-size: 18px; line-height: 27px; font-weight: 400; background-color: var(--Dark-Blue-50, rgb(25 35 76 / 50%)); color: var(--White); border-radius: 28px; border: none;}
+body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input{padding: 15px 140px 12px 56px; font-size: 1.125rem; line-height: 27px; font-weight: 400; background-color: var(--Dark-Blue-50, rgb(25 35 76 / 50%)); color: var(--White); border-radius: 28px; border: none;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input:focus{background-color: var(--Dark-Blue); color: var(--White); border-color: var(--Dark-Blue);}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder{color: var(--White); font-family: "Blackbird", sans-serif;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder{color: var(--White); font-family: "Blackbird", sans-serif; opacity: 0.8;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{color: var(--White); font-family: "Blackbird", sans-serif; opacity: 0.8;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field.field_submit {min-width: 120px; height: auto; right: 0; top: 0; height: 56px; margin: 0; display: block; position: absolute; }
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit{ display: block; }
-body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; height: 100%; margin: 0; padding: 10px 14px 10px; font-size: 20px; line-height: 20px; border-radius: 28px; border: 8px solid var(--Orange); background: transparent;}
+body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; height: 100%; margin: 0; padding: 10px 14px 10px; font-size: 1.25rem; line-height: 1.25rem; border-radius: 28px; border: 8px solid var(--Orange); background: transparent;}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--Orange);}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover svg{transform: translateX(4px);}
 body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit svg, body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button.frm_button_submit svg path{transition: var(--b-transition);}
@@ -29,7 +29,7 @@ body .newsletter-signup .frm_style_formidable-style.with_frm_style .frm_error_st
 body .newsletter-signup .with_frm_style .frm_message p{color: var(--White); letter-spacing: inherit; margin: 0; padding: 0;}
 body .insights-signup .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 body .insights-signup .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
-body .insights-signup .with_frm_style .frm_message p{color: var(--White); font-size: 15px; }
+body .insights-signup .with_frm_style .frm_message p{color: var(--White); font-size: 0.938rem; }
 
 
 /* media css starts here */
@@ -66,7 +66,7 @@ body .insights-signup .with_frm_style .frm_message p{color: var(--White); font-s
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .newsletter-main{display: block; padding: 40px 0 40px;}
-    .newsletter-main h2{font-size: 28px; line-height: 32px;}
+    .newsletter-main h2{font-size: 1.75rem; line-height: 32px;}
     .comments-type-row{gap: 8px;}
     .comments-type-list{flex: 0 0 calc(50% - 8px); padding-right: 40px;}
     .comments-type-icon{flex: 0 0 auto;}

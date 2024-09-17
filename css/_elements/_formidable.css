@@ -21,7 +21,7 @@ body .frm_forms .frm_required{display: none;}
 body .contact-form .frm_forms .frm_required{display: inline;}
 body .frm_forms .frm_required{font-size: 1rem; line-height: 1; letter-spacing: -0.32px; font-weight: 800; color: var(--black-md); font-family: 'VisbyCF', sans-serif;}
 body .frm_forms .frm_form_fields .frm_fields_container{display: block; position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 18px; line-height: 18px; font-weight: 600; font-family: var(--base-font); color: var(--Blue); text-transform: none; padding: 0 0 8px; visibility: visible;}
+body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 1.125rem; line-height: 1.125rem; font-weight: 600; font-family: var(--base-font); color: var(--Blue); text-transform: none; padding: 0 0 8px; visibility: visible;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label:empty{display: none;}
@@ -49,7 +49,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin:
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_checkbox::after{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox::after{margin-top: 28px; width: 100%; height: 1px; content: ""; display: block; opacity: 0.25; background: var(--Light-Blue);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container{display: flex; gap: 20px 8px; margin-top: 13px; flex-wrap: wrap;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_checkbox label { gap: 8px; display: flex; padding: 0; cursor: pointer; font-size: 1rem; line-height: 20px; letter-spacing: normal; text-indent: 0; color: var(--Foreground); }
+body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_checkbox label { gap: 8px; display: flex; padding: 0; cursor: pointer; font-size: 1rem; line-height: 1.25rem; letter-spacing: normal; text-indent: 0; color: var(--Foreground); }
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]{width: 24px; height: 24px; margin: 0; padding: 0; top: -2px; left: 0; border-radius: 0; border: 1px solid var(--Blue); background: var(--Light-Blue-Tint); position: relative; opacity: 1; cursor: pointer;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]:checked{background-color: var(--Blue); border-color: var(--navy); box-shadow: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 5px 0 0 5px; box-shadow: inset 8px 8px var(--White); top: auto; left: auto; transform: none;}

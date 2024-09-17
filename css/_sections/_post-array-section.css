@@ -11,7 +11,7 @@
 .post-array-cat span.fs-15 a{color: var(--White);}
 .post-array-cat span.fs-15 a:hover{color: var(--Orange);}
 
-.post-array-icon { font-size: 20px; line-height: 20px; max-width: 24px; }
+.post-array-icon { font-size: 1.25rem; line-height: 1.25rem; max-width: 24px; }
 .post-array-icon i { top: -2px; position: relative; color: var(--Light-Blue); }
 figure.array-icon-normal{top: -2px; position: relative;}
 .array-icon-hover { top: -2px; left: 0; opacity: 0; width: 100%; position: absolute; }
@@ -52,15 +52,11 @@ figure.array-icon-normal{top: -2px; position: relative;}
 	-webkit-line-clamp: 6;
 	text-overflow: ellipsis;
 	overflow: hidden;
-<<<<<<< HEAD
-	-webkit-box-orient: vertical; color: var(--White);
-=======
-	-webkit-box-orient: vertical;
+	-webkit-box-orient: vertical; 
     color: var(--White);
 }
 .post-array-card:hover .post-array-hover h2{
     color: var(--Navy);
->>>>>>> af4cc9ccecd12cdd1cc430cb65f554ddcf1dc724
 }
 .post-array-blog h2 a {
     color: var(--White);

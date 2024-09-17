@@ -1,13 +1,13 @@
 
 
 .contact-text span.optional-text{margin-bottom: 32px;}
-.contact-text h1{margin-bottom: 32px; font-size: 40px; line-height: 125%; font-weight: 600;}
+.contact-text h1{margin-bottom: 32px; font-size: 2.5rem; line-height: 125%; font-weight: 600;}
 .contact-text hr{margin-bottom: 31px;}
 ul.contact-links{margin: 0; padding-top: 11px; gap: 8px; flex-direction: column;}
 ul.contact-links > li{margin: 0;}
 ul.contact-links > li:before{display: none;}
-ul.contact-links > li > a{font-size: 16px; line-height: 24px; font-weight: 700; color: var(--Blue); gap: 8px; display: flex; align-items: center; position: relative;}
-ul.contact-links > li > a > span{top: 2px; position: relative; font-size: 20px; line-height: 100%; color: var(--Light-Blue);}
+ul.contact-links > li > a{font-size: 1rem; line-height: 1.5rem; font-weight: 700; color: var(--Blue); gap: 8px; display: flex; align-items: center; position: relative;}
+ul.contact-links > li > a > span{top: 2px; position: relative; font-size: 1.25rem; line-height: 100%; color: var(--Light-Blue);}
 ul.contact-links > li > a > figure{max-width: 24px; min-width: 24px; top: -2px; position: relative;}
 ul.contact-links > li > a:hover{color: var(--Orange);}
 
@@ -29,7 +29,7 @@ ul.contact-links > li > a:hover{color: var(--Orange);}
 }
 @media only screen and (max-width: 743px) and (min-width: 200px){
     .contact-main{padding: 40px 0 40px; display: block;}
-    .contact-text h1{font-size: 32px; line-height: 40px;}
+    .contact-text h1{font-size: 2rem; line-height: 2.5rem;}
     ul.contact-links{gap: 19px;}
     .contact-form{margin-top: 64px; padding: 23px 23px 23px;}
 }

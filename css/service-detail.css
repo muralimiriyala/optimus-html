@@ -1,7 +1,7 @@
 
 .blue-line{width: 100%; height: 1px; margin: 64px 0; background-color: var(--Light-Blue); opacity: 0.5;}
 
-.service-details-article p span{font-size: 22px; line-height: 33px;}
+.service-details-article p span{font-size: 1.375rem; line-height: 33px;}
 
 .service-details-article ul{margin-bottom: 10px;}
 
@@ -19,7 +19,7 @@ body.page-template-services-detail .primary-cta-section.no-faq .primary-cta-wrap
 
 @media screen and (max-width: 1023px)  and (min-width: 200px){
     .service-details-article{padding: 48px 0;}
-    .service-details-article h2{font-size: 40px; line-height: 50px;}
+    .service-details-article h2{font-size: 2.5rem; line-height: 3.125rem;}
     body.page-template-services-detail-sub-page .video-main{margin: 56px 0;}
     body.page-template-services-detail-sub-page .sub-detail-line-wrap{padding: 30px 0 0;}
     .blue-line{ margin: 56px 0;}

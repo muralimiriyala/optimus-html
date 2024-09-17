@@ -1,8 +1,8 @@
 
 
 
-.micro-cta-text span.optional-text{margin-bottom: 19px; font-size: 16px; line-height: 20px;}
-.micro-cta-text h2{margin-bottom: 16px; font-size: 28px; line-height: 32px;}
+.micro-cta-text span.optional-text{margin-bottom: 19px; font-size: 1rem; line-height: 1.25rem;}
+.micro-cta-text h2{margin-bottom: 16px; font-size: 1.75rem; line-height: 32px;}
 .micro-cta-decs{z-index: 2;}
 .micro-cta-chevron{ height: 100%; opacity: .5; background-color: var(--Blue); }
 .no_micro_cta_image{display: block;}
@@ -32,7 +32,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .micro-cta-image{margin-bottom: -1px; z-index: 2;}
-    .micro-cta-btns .text-btn-link.sm{font-size: 20px; line-height: 20px;}
+    .micro-cta-btns .text-btn-link.sm{font-size: 1.25rem; line-height: 1.25rem;}
     .micro-cta-btns .text-btn-link.sm span{border-width: 8px;}
     .micro-cta-btns .text-btn-link.sm svg{width: 29px;}
 }
@@ -40,7 +40,7 @@
     .micro-cta-main{padding: 40px 0;}
     .micro-cta-row{display: block; text-align: center;}
     .no_micro_cta_image  .micro-cta-text{padding-top: 40px;}
-    .micro-cta-text{padding: 0 40px 40px; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 16px; line-height: 24px;}
+    .micro-cta-text{padding: 0 40px 40px; background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 1rem; line-height: 1.5rem;}
     .micro-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
     .micro-cta-circle svg{width: 499px; height: 500px;}
     
@@ -55,7 +55,7 @@
     .micro-cta-main{padding: 40px 0;}
     .micro-cta-row{display: block; text-align: center;}
     .no_micro_cta_image  .micro-cta-text{padding-top: 20px;}
-    .micro-cta-text{padding: 0 20px 28px;  background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 16px; line-height: 24px;}
+    .micro-cta-text{padding: 0 20px 28px;  background: linear-gradient(0deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); font-size: 1rem; line-height: 1.5rem;}
     .micro-cta-circle{top: 0; left: -50px; z-index: -1; opacity: 0.4;}
     .micro-cta-circle svg{width: 499px; height: 500px;}
     
@@ -67,5 +67,5 @@
 
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
-    .micro-cta-btns .text-btn-link.sm{font-size: 16px; line-height: 20px;}
+    .micro-cta-btns .text-btn-link.sm{font-size: 1rem; line-height: 1.25rem;}
 }

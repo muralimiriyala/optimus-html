@@ -2,7 +2,7 @@
 .home-banner-section{overflow: hidden;}
 .home-banner-bg{top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), rgba(0, 76, 151, 0.75); z-index: 0;}
 .home-banner-text{color: var(--White); line-height: 29px;}
-.home-banner-text h1{font-size: 64px; line-height: 75px; color: var(--White); margin-bottom: 18px;}
+.home-banner-text h1{font-size: 4rem; line-height: 75px; color: var(--White); margin-bottom: 18px;}
 [data-animation="banner-line"]{visibility: visible;}
 .home-banner-text h1 > span {position: relative; z-index: 0;}
 .home-banner-text h1 > span::after{width: 0%; height: 4px; bottom: 10px; left: 0; content: ""; display: inline-block; background-color: var(--Orange); position: absolute; z-index: -1; transition: width 2s ease;}
@@ -37,9 +37,9 @@
     .home-banner-image picture::after{content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 99%, 100% 100%, 0% 100%); }
     .home-banner-image picture::before{content: ""; position: absolute; top: auto; bottom: 0; left: 0; width: 100%; height: 133px; background: var(--Blue); opacity: 0.3; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 75%, 100% 100%, 0% 100%); }
     .home-banner-mob-svg{z-index: -1; top: -46px; left: -24px;}
-    .home-banner-text{line-height: 30px; font-size: 20px; font-weight: 400; margin-bottom:24px; z-index: 0;}
+    .home-banner-text{line-height: 1.875rem; font-size: 1.25rem; font-weight: 400; margin-bottom:24px; z-index: 0;}
     body.page-template-marketing-lp .home-banner-text{margin-bottom:40px;}
-    .home-banner-text h1{font-size: 40px; line-height: 52px; margin-top: -7px;}
+    .home-banner-text h1{font-size: 2.5rem; line-height: 52px; margin-top: -7px;}
     .home-banner-text h1 > span {line-height: 33px;}
     .home-banner-text h1 > span::after{bottom: 6px;}
     .home-banner-text h1 > br{display: none;}
@@ -50,9 +50,9 @@
     .home-banner-image picture::after{content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; background: linear-gradient(270deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.50) 100%), var(--Blue); filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 99%, 100% 100%, 0% 100%); }
     .home-banner-image picture::before{content: ""; position: absolute; top: auto; bottom: 0; left: 0; width: 100%; height: 133px; background: var(--Blue); opacity: 0.3; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); clip-path: polygon(0 0, 100% 75%, 100% 100%, 0% 100%); }
     .home-banner-mob-svg{z-index: -1; top: -46px; left: -24px;}
-    .home-banner-text{line-height: 30px; font-size: 20px; font-weight: 400; margin:0 0 24px; z-index: 0;}
+    .home-banner-text{line-height: 1.875rem; font-size: 1.25rem; font-weight: 400; margin:0 0 24px; z-index: 0;}
     body.page-template-marketing-lp .home-banner-text{margin:-10px 0 40px; }
-    .home-banner-text h1{font-size: 40px; line-height: 52px; margin-top: -7px;}
+    .home-banner-text h1{font-size: 2.5rem; line-height: 52px; margin-top: -7px;}
     .home-banner-text h1 > span {line-height: 33px;}
     .home-banner-text h1 > span::after{bottom: 6px;}
     .home-banner-text h1 > br{display: none;}

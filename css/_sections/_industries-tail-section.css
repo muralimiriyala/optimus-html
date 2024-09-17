@@ -11,13 +11,13 @@
 
 
 .industries-tail-list{padding: 40px; color: var(--Gray);}
-.industries-tail-list h2{font-size: 24px; font-weight: 600; margin-bottom: 16px;}
+.industries-tail-list h2{font-size: 1.5rem; font-weight: 600; margin-bottom: 16px;}
 .industries-tail-icon{margin-bottom: 17px;}
 .industries-tail-icon figure, .industries-tail-icon i.fa-industries{transition: var(--b-transition);}
-.industries-tail-icon i.fa-industries{color: var(--Light-Blue); font-size: 40px; line-height: 40px;}
+.industries-tail-icon i.fa-industries{color: var(--Light-Blue); font-size: 2.5rem; line-height: 2.5rem;}
 .industries-tail-icon figure{width: 40px; height: 40px;}
 .industries-tail-icon figure img{object-fit: contain;}
-.industries-tail-arrow { font-size: 40px; line-height: 40px; transform: translateX(calc(-100% - 10px)); left: 0; opacity: 0;}
+.industries-tail-arrow { font-size: 2.5rem; line-height: 2.5rem; transform: translateX(calc(-100% - 10px)); left: 0; opacity: 0;}
 .industries-tail-list:hover .industries-tail-arrow{transform: translateX(0); opacity: 1;}
 .industries-tail-arrow a{color: var(--Orange);}
 .industries-tail-arrow a:hover{color: var(--Blue);}
@@ -67,7 +67,7 @@
     .industries-tail-wrap{padding: 40px 0 0;}
     .industries-tail-main{display: block;}
     .industries-tail-text{margin-bottom: 40px;}
-    .industries-tail-text h1{margin-bottom: 30px; font-size: 40px; line-height: 46px;}
+    .industries-tail-text h1{margin-bottom: 30px; font-size: 2.5rem; line-height: 46px;}
     .industries-tail-icon figure{width: 40px; height: 40px;}
     .industries-tail-content{padding: 24px 32px;}
     .industries-tail-desc{margin-bottom: 20px;}

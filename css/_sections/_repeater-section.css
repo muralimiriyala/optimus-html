@@ -74,7 +74,7 @@
   z-index: 2;
   color: var(--Light-Blue);
   object-fit: contain;
-  font-size: 40px;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
 }
@@ -125,8 +125,8 @@ body.page-template-industries-detail .repeater-main::after {
 /* media css starts here */
 @media screen and (min-width:1200px) {
   .repeater-txt h2 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 2.5rem;
+    line-height: 3.125rem;
   }
 }
 
@@ -191,8 +191,8 @@ body.page-template-industries-detail .repeater-main::after {
 
   
   body.page-template-services-detail-sub-page .repeater-txt h2 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
   body.page-template-industries-detail .repeater-main{padding-top: 80px;}
   body.page-template-industries-detail .repeater-row:not(:first-child){margin-top: 160px;}
@@ -202,7 +202,7 @@ body.page-template-industries-detail .repeater-main::after {
 
 @media screen and (max-width:1199px) and (min-width:1024px) {
   .repeater-txt h2 {
-    line-height: 40px;
+    line-height: 2.5rem;
     margin-bottom: 24px;
   }
 
@@ -312,8 +312,8 @@ body.page-template-industries-detail .repeater-main::after {
   }
 
   .repeater-txt h2 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
     margin-bottom: 22px;
   }
 
@@ -343,8 +343,8 @@ body.page-template-industries-detail .repeater-main::after {
   }
 
   .repeater-txt h2 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
     margin-bottom: 22px;
   }
 

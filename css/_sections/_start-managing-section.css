@@ -31,8 +31,8 @@ body.page-template-marketing-lp .start-managing-main{background-color: var(--Lig
   border-radius: 28px;
   border: 8px solid var(--Orange);
   color: var(--White);
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
   position: relative;
   display: inline-block;
 }
@@ -41,7 +41,7 @@ body.page-template-marketing-lp .start-managing-main{background-color: var(--Lig
   width: 60px;
   height: 48px;
   color: var(--Light-Blue);
-  font-size: 48px;
+  font-size: 2.813rem;
 }
 
 .start-managing-bracket {
@@ -109,8 +109,8 @@ body.page-template-our-people .start-managing-section hr {
   }
 
   .start-managing-text h2 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
     margin-bottom: 24px;
   }
 

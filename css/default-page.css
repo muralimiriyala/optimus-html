@@ -13,8 +13,8 @@ ul.breadcrumbs li:not(i){color: var(--Gray-50);}
 .default-block-con .h1{margin-bottom: 32px;}
 
 .default-article h2:not(.micro-cta-text h2){padding-top: 32px;}
-.default-article p:nth-child(4) span:not(.fs-16){font-size: 22px; line-height: 33px;}
-.default-article p span:not(.fs-16){font-size: 20px; line-height: 30px}
+.default-article p:nth-child(4) span:not(.fs-16){font-size: 1.375rem; line-height: 33px;}
+.default-article p span:not(.fs-16){font-size: 1.25rem; line-height: 30px}
 .default-article h3{padding-top: 34px;}
 .default-article h6{padding-top: 33px;}
 
@@ -43,7 +43,7 @@ ul.aside-links > li::before{display: none;}
 ul.aside-links > li{margin: 0;}
 ul.aside-links > li > a{gap: 10px; border-bottom: 1px solid var(--Light-Blue-Tint); padding: 16px 0 16px; font-weight: 600; }
 ul.aside-links > li:last-child > a{border-bottom: none;}
-ul.aside-links > li > a i{left: 0; top: 2px; color: var(--Light-Blue); font-size: 20px; line-height: 25px; position: relative; overflow: hidden;} 
+ul.aside-links > li > a i{left: 0; top: 2px; color: var(--Light-Blue); font-size: 1.25rem; line-height: 1.563rem; position: relative; overflow: hidden;} 
 ul.aside-links > li > a:hover i{left: 8px;}
 
 .sidebar-link{gap: 8px; margin-bottom: 20px; padding-right: 16px;}
@@ -51,7 +51,7 @@ ul.aside-links > li > a:hover i{left: 8px;}
 
 .sidebar-block{background: linear-gradient(180deg, rgba(25, 35, 76, 0.00) 0%, rgba(25, 35, 76, 0.75) 100%), var(--Blue); color: var(--White); border-radius: 24px;padding: 32px; margin-bottom: 40px;}
 .sidebar-block h5{color: var(--White);}
-.sidebar-icon{font-size: 40px; width: 40px; margin-bottom: 20px; color: var(--Light-Blue);}
+.sidebar-icon{font-size: 2.5rem; width: 40px; margin-bottom: 20px; color: var(--Light-Blue);}
 .sidebar-block .button{width: 100%;}
 body.single-post .sidebar-icon{margin-bottom: 16px;}
 body.single-post .sidebar-k h5{margin-bottom: 16px;}
@@ -61,17 +61,20 @@ body.single-post .sidebar-block p{margin-bottom: 15px;}
 .sidebar-row{gap: 38px 0;}
 .sidebar-list{gap: 15px;}
 .sidebar-img {width: 80px; height: 80px;}
-.sidebar-info span{display: block; font-size: 18px; font-weight: 700; color: var(--Navy); margin-bottom: 0; line-height: 22px;}
+.sidebar-info span{display: block; font-size: 1.125rem; font-weight: 700; color: var(--Navy); margin-bottom: 0; line-height: 1.375rem;}
 .sidebar-info p{color: var(--Gray); opacity: 0.5; margin-bottom: 4px;}
 .sidebar-con{gap: 8px; color: var(--Blue); font-weight: 700;}
-.sidebar-con i{color: var(--Orange); font-size: 16px;}
+.sidebar-con i{color: var(--Orange); font-size: 1rem;}
 .sidebar-block-lt{margin-bottom: 20px;}
 body.single-post .sidebar-row{gap: 32px 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 744px){
-    .default-article h2:not(.micro-cta-text h2){font-size: 32px; line-height: 40px;}
-    .default-article h3:not(.micro-cta-text h3){font-size: 26px; line-height: 34px;}
+    .default-article h2:not(.micro-cta-text h2){font-size: 2rem; line-height: 2.5rem;}
+    .default-article h3:not(.micro-cta-text h3){font-size: 1.625rem; line-height: 34px;}
+    .default-article h4:not(.micro-cta-text h4){font-size: 1.5rem; line-height: 32px;}
+    .default-article h5:not(.micro-cta-text h5){font-size: 1.25rem; line-height: 28px;}
+    .default-article h5:not(.micro-cta-text h5){font-size: 1.125rem; line-height: 1.5rem;}
 }
 @media only screen and (min-width: 1024px){
     .default-main{gap: 80px; padding: 80px 0 40px;}
@@ -92,9 +95,9 @@ body.single-post .sidebar-row{gap: 32px 0;}
 @media screen and (max-width: 743px) and (min-width: 200px) {
     .default-main{display: block; padding: 40px 0 44px;}
     .default-block-con{margin-bottom: 57px;}
-    .default-block-con .h1{font-size: 48px; line-height: 55px;}
-    .default-article h1{font-size: 48px; line-height: 60px;}
-    .default-article h2:not(.micro-cta-text h2){font-size: 40px; line-height: 50px;}
+    .default-block-con .h1{font-size: 2.813rem; line-height: 3.438rem;}
+    .default-article h1{font-size: 2.813rem; line-height: 60px;}
+    .default-article h2:not(.micro-cta-text h2){font-size: 2.5rem; line-height: 3.125rem;}
 
     
     ul.breadcrumbs{display: none;}
@@ -105,7 +108,7 @@ body.single-post .sidebar-row{gap: 32px 0;}
     .caption-desc{padding: 24px 24px 8px;}
     
     .default-line-wrap { padding: 32px 0 54px; }
-    .default-line-text{padding: 0px 0 19px 24px; line-height: 30px;}
+    .default-line-text{padding: 0px 0 19px 24px; line-height: 1.875rem;}
     .default-line-in{display: block;}
     .default-lin-lt{padding: 0 0 24px;}
 

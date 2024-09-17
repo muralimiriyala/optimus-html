@@ -13,7 +13,7 @@
 ul.footer-links{margin: 0; gap: 40px; flex: 1;}
 ul.footer-links > li{margin: 0;}
 ul.footer-links > li::before{display: none;}
-ul.footer-links > li > a{font-size: 20px; line-height: 125%; font-weight: 600; color: var(--White); gap: 8px; align-items: center; display: flex;}
+ul.footer-links > li > a{font-size: 1.25rem; line-height: 125%; font-weight: 600; color: var(--White); gap: 8px; align-items: center; display: flex;}
 ul.footer-links > li > a figure{width: 32px; height: 32px; top: -2px; position: relative;}
 
 .f-hr-main{gap: 26px;}
@@ -53,10 +53,10 @@ ul.copyright-links>li.current-menu-item>a, ul.copyright-links>li>a:hover { color
 }
 @media screen and (min-width: 1440px){
     .footer-work{padding-left: 6px;}
-    .f-fs-104{ font-size: 100px; line-height: 100px;}
+    .f-fs-104{ font-size: 6.25rem; line-height: 100px;}
 }
 @media only screen and (max-width: 1439px) and (min-width: 1200px){
-    .f-fs-104{ font-size: 86px; line-height: 86px;}
+    .f-fs-104{ font-size: 5.375rem; line-height: 86px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1200px){
     .footer-top{gap: 38px;}
@@ -70,7 +70,7 @@ ul.copyright-links>li.current-menu-item>a, ul.copyright-links>li>a:hover { color
 }
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .footer-top{gap: 38px;}
-    .f-fs-104{ font-size: 64px; line-height: 64px;}
+    .f-fs-104{ font-size: 4rem; line-height: 64px;}
     .footer-text{padding-bottom: 62px;}
     .f-hr-main{margin-bottom: 20px;}
     .footer-row{gap: 16px; align-items: center;}
@@ -85,7 +85,7 @@ ul.copyright-links>li.current-menu-item>a, ul.copyright-links>li>a:hover { color
     .footer-top{padding: 56px 0 37px; display: block;}
     .footer-logo{max-width: 257px; margin-bottom: 24px;}
     .footer-line{width: 100%; height: 1px; margin-bottom: 13px;}
-    .f-fs-104{ font-size: 80px; line-height: 8px;}
+    .f-fs-104{ font-size: 5rem; line-height: 8px;}
 
     .footer-middle{gap: 0 8px;}
     ul.footer-links{gap: 15px; flex-direction: column;}
@@ -113,7 +113,7 @@ ul.copyright-links>li.current-menu-item>a, ul.copyright-links>li>a:hover { color
     .footer-top{padding: 56px 0 37px; display: block;}
     .footer-logo{max-width: 257px; margin-bottom: 24px;}
     .footer-line{width: 100%; height: 1px; margin-bottom: 13px;}
-    .f-fs-104{ font-size: 64px; line-height: 64px;}
+    .f-fs-104{ font-size: 4rem; line-height: 64px;}
     .footer-btn .text-btn-link{width: 100%;}
     .footer-btn .text-btn-link span{flex: 1; text-align: center;}
     .footer-middle{gap: 0 8px;}

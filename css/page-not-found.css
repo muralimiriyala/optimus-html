@@ -1,4 +1,4 @@
 .page-not-main{padding: 100px 0; max-width: 490px; margin: 0 auto;}
-.page-not-text span.optional-text{text-transform: uppercase; color: var(--Light-Blue); font-size: 16px; letter-spacing: 1.5px; line-height: 20px;}
+.page-not-text span.optional-text{text-transform: uppercase; color: var(--Light-Blue); font-size: 1rem; letter-spacing: 1.5px; line-height: 1.25rem;}
 .page-not-main h1{font-size: 60px;}
 .page-not-main p{margin-bottom: 30px;}
