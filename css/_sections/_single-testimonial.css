@@ -46,7 +46,7 @@
     .single-append-arrows{margin: 32px 0 0; gap: 8px; align-items: center;}
     .single-append-arrows .slick-arrow{background-color: var(--Navy); color: var(--Light-Blue);}
     .single-append-arrows .slick-arrow:hover{color: var(--White);}
-    .single-append-arrows div.slick-arrow.slick-next{order: 3;}
+    .single-append-arrows button.slick-arrow.slick-next{order: 3;}
     .single-append-arrows ul.slick-dots{order: 2; flex: 1;}
     .single-append-arrows ul.slick-dots li{background-color: var(--Navy);}
     .single-append-arrows ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}

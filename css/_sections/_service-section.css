@@ -36,9 +36,9 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
 .service-lists .slick-list{overflow: inherit;}
 .service-lists .slick-track{display: flex;}
 .service-lists .service-item.slick-slide{height: auto;}
-.service-lists div.slick-arrow{color: var(--White); position: absolute; top: -90px;}
-.service-lists div.slick-arrow.slick-next{right: 0;}
-.service-lists  div.slick-arrow.slick-prev{left: auto; right: 72px;}
+.service-lists button.slick-arrow{color: var(--White); position: absolute; top: -90px;}
+.service-lists button.slick-arrow.slick-next{right: 0;}
+.service-lists  button.slick-arrow.slick-prev{left: auto; right: 72px;}
 
 .take-action-main{gap: 40px; align-items: center;}
 .take-action-main h3{font-weight: 400; margin-bottom: 0;}
@@ -76,8 +76,8 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
     .service-main{margin-bottom: 56px;}
     .service-subtitle{margin: 0 0 40px 0; gap: 20px;}
     .service-item{width: 264px; margin-right: 24px;}
-    .service-lists div.slick-arrow.slick-next{top: -80px;}
-    .service-lists  div.slick-arrow.slick-prev{top: -80px;}
+    .service-lists button.slick-arrow.slick-next{top: -80px;}
+    .service-lists  button.slick-arrow.slick-prev{top: -80px;}
 
     .take-action-main{gap: 20px;}
 }
@@ -95,8 +95,8 @@ a.subtitle-link.active{color: var(--Blue); pointer-events: none;}
     .service-item{width: 288px; margin-right: 24px;}
     .service-icon{left: -5px;}
     .service-append-arrows{margin: 24px 0 0; gap: 8px; align-items: center;}
-    .service-append-arrows div.slick-arrow.slick-disabled{opacity: 0.25; background: var(--Navy);}
-    .service-append-arrows div.slick-arrow.slick-next{order: 3;}
+    .service-append-arrows button.slick-arrow.slick-disabled{opacity: 0.25; background: var(--Navy);}
+    .service-append-arrows button.slick-arrow.slick-next{order: 3;}
     .service-append-arrows ul.slick-dots{order: 2; flex: 1;}
     .service-append-arrows ul.slick-dots li{background-color: rgba(25, 35, 76, .12); opacity: 1;}
     .service-append-arrows ul.slick-dots li.slick-active{background-color: var(--Light-Blue);}

@@ -9,4 +9,12 @@ jQuery(document).ready(function ($) {
     .on('mouseleave', function () {
       overly.stop(true, true).removeClass('open');
     });
+
+  $('ul.main_menu > li > a')
+    .on('mouseenter', function () {
+      $(this).attr('aria-expanded', 'true');
+    })
+    .on('mouseleave', function () {
+      $(this).attr('aria-expanded', 'false');
+    });
 });

@@ -109,7 +109,7 @@ figure.array-icon-normal{top: -2px; position: relative;}
     }
 
     .post-array-row ul.slick-dots { height: 0; opacity: 0; margin: 0; }
-    .post-array-head div.slick-arrow{position: absolute;}
+    .post-array-head button.slick-arrow{position: absolute;}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -147,7 +147,7 @@ figure.array-icon-normal{top: -2px; position: relative;}
         gap: 16px;
     }
 
-    .post-array-btn div.slick-arrow {
+    .post-array-btn button.slick-arrow {
         position: relative;
         left: auto;
         right: auto;
@@ -173,12 +173,12 @@ figure.array-icon-normal{top: -2px; position: relative;}
         position: relative;
     }
 
-    .post-array-head div.slick-arrow.slick-prev {
+    .post-array-head button.slick-arrow.slick-prev {
         left: auto;
         right: 70px;
     }
 
-    .post-array-head div.slick-arrow {
+    .post-array-head button.slick-arrow {
         top: 10px;
         bottom: auto;
         right: 0;
@@ -225,12 +225,12 @@ figure.array-icon-normal{top: -2px; position: relative;}
 
 
 
-    .post-array-appends div.slick-arrow.slick-disabled {
+    .post-array-appends button.slick-arrow.slick-disabled {
         opacity: 0.25;
         background: var(--Navy);
     }
 
-    .post-array-appends div.slick-arrow.slick-next {
+    .post-array-appends button.slick-arrow.slick-next {
         order: 3;
     }
 
@@ -244,10 +244,10 @@ figure.array-icon-normal{top: -2px; position: relative;}
     .post-array-appends ul.slick-dots li.slick-active{
         opacity: 1;
     }
-    .post-array-appends div.slick-arrow{
+    .post-array-appends button.slick-arrow{
         color: var(--Light-Blue);
     }
-    .post-array-appends div.slick-arrow:hover{
+    .post-array-appends button.slick-arrow:hover{
         color: var(--White);
     }
     .post-array-blog h2{margin-bottom: 0;}
