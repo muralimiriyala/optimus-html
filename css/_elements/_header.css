@@ -131,7 +131,7 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-insights > ul > li > a img.menu-image{padding: 0;}
     ul.main_menu > li.nav-insights > ul > li > a span.menu-image-title-after{padding: 0;}
     ul.main_menu > li.nav-insights > ul > li > a svg{width: 35px;}
-    ul.main_menu > li.nav-insights > ul > li > ul{margin: 0; padding: 0; gap: 56px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; width: 100%;}
+    ul.main_menu > li.nav-insights > ul > li > ul{margin: 0; padding: 0; gap: 56px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; width: 100%; height: 100%;}
     ul.main_menu > li.nav-insights > ul > li > ul > li{margin: 0; flex: 1;}
     ul.main_menu > li.nav-insights > ul > li > ul > li:nth-child(odd){flex: 0 0 200px;}
     ul.main_menu > li.nav-insights > ul > li:not(:first-child){flex: 1; margin: 0; padding: 40px 40px 40px 56px;}

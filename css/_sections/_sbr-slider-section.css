@@ -33,6 +33,7 @@ body.page-template-industries-detail .sbr-slider-main:after{content: ""; display
     .sbr-slide-image{cursor: pointer; width: 370px;}
     .sbr-slide-text[data-sbr-text="1"]{display: block;}    
     .sbr-slide-text{display: none; padding-left: 450px; width: 100%; height: 100%; top: 0; left: 0; position: absolute;}
+    .no_slider_image .sbr-slide-text{padding-left: 0;}
     .sbr-for-slide{width: 100%;}
     .sbr-slide-center{width: 100%; height: 100%;}
     .sbr-hover-active{transition: height 0.25s ease;}

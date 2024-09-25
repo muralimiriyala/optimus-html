@@ -64,7 +64,7 @@ ul.alt-order li a figure{max-width: 20px; top: -2px; position: relative;}
     .alt-feature-desc{padding: 40px 24px;}
     .alt-feature-desc h3{font-size: 1.5rem; line-height: 1.875rem;}
     ul.alt-order{margin: 28px 0;}
-    .alt-feature-btns{padding-top: 2px;}
+    .alt-feature-btns{padding-top: 2px; flex-direction: column; align-items: flex-start;}
 }
 @media only screen and (max-width: 390px) and (min-width: 200px){
     .alt-feature-image{min-height: 260px; max-height: 260px;}
