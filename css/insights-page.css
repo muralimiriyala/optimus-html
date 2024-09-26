@@ -112,7 +112,7 @@ body .insights-signup .frm_forms .frm_form_fields .frm_form_field input::-moz-pl
     h2.srch-results-head{margin: 0; padding-bottom: 2rem;}
 
     .resources-blog-row{display: block;}
-    .resources-blog-list{margin-bottom: 32px;}
+    .resources-blog-list{margin-bottom: 32px; display: block;}
     
     .blog-post-row .slick-track{display: flex; flex-wrap: nowrap;}
     .blog-post-row.slick-slider{width: calc(100% + 24px);}

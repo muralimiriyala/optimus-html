@@ -354,6 +354,7 @@ body.page-template-services-detail-sub-page .repeater-main::after {
     margin-bottom: 40px;
   }
 
+  .repeater-txt{padding-top: 40px;}
   .repeater-txt {
     padding: 0 24px 40px;
   }

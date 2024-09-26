@@ -215,12 +215,12 @@ body.page-template-services-detail .short-intro-main.no-head .short-intro-row {
     }
 
     .short-intro-row {
-        gap: 64px 32px;
+        gap: 64px 24px;
         padding: 0;
     }
 
     .short-intro1-of-4 {
-        flex: 0 0 calc(25% - 24px);
+        flex: 0 0 calc(25% - 27px);
     }
 
     .short-intro1-of-3 {
