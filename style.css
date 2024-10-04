@@ -1,11 +1,9 @@
 @charset "utf-8";
 /*
 Theme Name: Optimus
-Theme URI: https://parachutedesign.ca/
-Author: 
-Author URI: https://parachutedesign.ca/
+Author: Optimus
 Description: 
-Version: 2023.09.08 - 11
+Version: 2023.09.08
 Text Domain: Optimus
 */
 
@@ -53,3 +51,6 @@ Text Domain: Optimus
     font-display: swap;
 }
 @font-face { font-family: 'Graphik-Regular'; src: url('./fonts/Graphik-Regular.otf') format('opentype'), url('./fonts/Graphik-Regular.woff') format('woff'); font-style: normal; font-display: swap; }
+
+
+

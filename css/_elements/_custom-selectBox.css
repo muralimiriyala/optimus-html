@@ -29,7 +29,7 @@ body .res-dropdown-pos .selectBox-dropdown .selectBox-arrow::before{ content: "\
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
-    body.category ul.selectBox-dropdown-menu{margin-top: 10px; gap: 10px; max-height: inherit; width: auto !important; max-width: 1000px; display:flex; flex-wrap: wrap; background: none; border: none; box-shadow: none;}
+    body.category ul.selectBox-dropdown-menu{margin-top: 10px; gap: 10px; max-height: inherit; width: auto !important; max-width: 1000px; display:flex; flex-wrap: wrap; background: none; border: none; box-shadow: none; z-index: 10;}
     body.category ul.selectBox-dropdown-menu li{margin: 0; padding: 0;}
     body.category ul.selectBox-dropdown-menu li a{display: flex; align-items: center; gap: 6px; font-size: 0.75rem; line-height: 1.125rem; padding: 8px 12px 7px; border-radius: 8px; background-color: var(--Navy); color: var(--White);}
     body.category ul.selectBox-dropdown-menu li.selectBox-selected a, body.category ul.res-tags-selectBox-dropdown-menu li a:hover{ background-color: var(--Orange); color: var(--White); }

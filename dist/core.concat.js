@@ -3472,7 +3472,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
             return false;
         }
 
-        var control    = $('<a class="selectBox" />')
+        var control    = $('<a role="button" class="selectBox" />')
             , inline   = select.attr('multiple') || parseInt(select.attr('size')) > 1
             , settings = options || {}
             , tabIndex = parseInt(select.prop('tabindex')) || 0
@@ -3559,7 +3559,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
                     })
                     .show()
                     .appendTo('body');
-                tmp.find('.selectBox-options').html('<li><a>\u00A0</a></li>');
+                tmp.find('.selectBox-options').html('<li><a role="button">\u00A0</a></li>');
                 var optionHeight = parseInt(tmp.find('.selectBox-options A:first').html('&nbsp;').outerHeight());
                 tmp.remove();
                 control.height(optionHeight * size);
@@ -3567,8 +3567,8 @@ $.magnificPopup.registerModule(RETINA_NS, {
             this.disableSelection(control);
         } else {
             // Dropdown controls
-            var label = $('<span class="selectBox-label" />'),
-                arrow = $('<span class="selectBox-arrow" />');
+            var label = $('<span aria-hidden="true" class="selectBox-label" />'),
+                arrow = $('<span aria-hidden="true" class="selectBox-arrow" />');
 
             // Update label
             label.attr('class', this.getLabelClass()).html(this.getLabelHtml());
@@ -6286,7 +6286,7 @@ jQuery(document).ready(function ($) {
             prevArrow:
               '<button aria-label="previous" aria-disabled="false" tabindex="0" class="slick-arrow slick-prev flex flex-center radius-50"><span class="slick-arrows slick-prev-arrow fa-light fa-sharp fa-arrow-right"></span></button>',
             nextArrow:
-              '<buttonria-label="next" aria-disabled="false" tabindex="0" class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></button>',
+              '<button aria-label="next" aria-disabled="false" tabindex="0" class="slick-arrow slick-next flex flex-center radius-50"><span class="slick-arrows slick-next-arrow fa-light fa-sharp fa-arrow-right"></span></button>',
             dots: true,
             speed: 1000,
             infinite: false,
