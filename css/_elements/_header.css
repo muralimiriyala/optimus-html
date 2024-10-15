@@ -51,8 +51,11 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li:hover > ul{opacity: 1; visibility: visible;}
     ul.main_menu > li > ul > li{margin: 0 0 11px;}
     ul.main_menu > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 500; display: block;}
+    ul.main_menu > li > ul > li.hide-nav-item > a{display: none !important;}
+    ul.main_menu > li > ul > li > ul > li.hide-nav-item{display: none;}
+    ul.main_menu > li.nav-insights > ul > li > ul > li.hide-nav-item{display: none;}
 
-
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li.hide-nav-item{display: none;}
     
     ul.main_menu > li.nav-services > ul {width: 100vw; max-height: 0; overflow: hidden; padding: 0; max-width: 1031px; left: -227px; transform: none; gap: 32px; display: flex; flex-wrap: wrap; border-radius: 0 0 24px 24px; box-shadow: none;}
     ul.main_menu > li.nav-services:hover > ul{max-height: inherit;}
@@ -108,7 +111,7 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li > a span{flex: 1;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li:nth-last-child(-n+2){flex: 1;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li:nth-last-child(1) > a img{width: 18px;}
-    ul.main_menu > li.nav-industries > ul > li > ul > li > a{gap: 13px; align-items: center; flex-wrap: wrap; display: inline-flex; color: var(--Blue); font-family: var(--base-font); font-size: 1rem; font-weight: 600; line-height: 1.5rem; cursor: pointer;} 
+    ul.main_menu > li.nav-industries > ul > li > ul > li > a{gap: 13px; align-items: center; flex-wrap: nowrap; display: inline-flex; color: var(--Blue); font-family: var(--base-font); font-size: 1rem; font-weight: 600; line-height: 1.5rem; cursor: pointer;} 
     ul.main_menu > li.nav-industries > ul > li > ul > li.current-menu-item > a, ul.main_menu > li.nav-industries > ul > li > ul > li.current-menu-item > a, ul.main_menu > li.nav-industries > ul > li > ul > li > a:hover{color: var(--Orange);}
     ul.main_menu > li.nav-industries > ul > li > ul > li > ul{margin: 0; padding-top: 24px;}
     ul.main_menu > li.nav-industries > ul > li > ul > li > ul > li{margin: 0 0 24px;}
@@ -272,6 +275,7 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-insights > ul > li > ul{padding: 0;}
     ul.main_menu > li.nav-insights > ul > li > ul > li{margin-bottom: 20px;}
     ul.main_menu > li.nav-insights > ul > li{margin: 0;}
+    ul.main_menu > li.nav-services > ul > li.hide-nav-item > a{display: none;}
 
     .menu-desc{flex: 1;}
     .menu-desc p{display: none;}
@@ -286,6 +290,8 @@ li.hide-li-text > a{display: none !important;}
     .header-btn-link span{border-width: 8px; font-size: 1.25rem; line-height: 1.25rem;}
     .header-btn-link svg{width: 29px; height: 52px; transition: var(--b-transition);}
     .header-btn-link:hover svg{transform: translateX(10px);}
+
+    .open .h-mobile-overlay, .open .header-overlay{opacity: 1; visibility: visible;}
 }
 @media screen and (max-width: 743px) and (min-width: 200px){
     header.site-header .container{padding-right: 8px;}
