@@ -6444,7 +6444,7 @@ jQuery(document).ready(function ($) {
 });
 
 jQuery(document).ready(function ($) {
-  const $altStickme = $('.alt-stickme123');
+  const $altStickme = $('.alt-stickme');
   $altStickme.each(function (index) {
     const $selfStick = $(this);
     if ($selfStick) {

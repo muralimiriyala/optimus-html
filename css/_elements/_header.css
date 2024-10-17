@@ -68,8 +68,8 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-services > ul > li:first-child > ul{margin: 0; padding: 40px 0 29px; gap: 0 120px; display: flex; align-items: center; border-bottom: 1px solid var(--Light-Blue-50);}
     ul.main_menu > li.nav-services > ul > li:not(:first-child){flex: 0 0 100%; padding: 0 40px 30px;}
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul{margin: 0; padding: 0; gap: 0 71px; left: 0; top: auto;  position: static; opacity: 1; visibility: visible; display: flex; flex-wrap: wrap; width: 100%; }
-    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:first-child{flex: 0 0 286px;}
-    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:nth-child(2){flex: 0 0 225px;}
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:nth-child(1){flex: 0 0 286px;}
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:nth-child(3){flex: 0 0 225px;}
     ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li{margin: 0; flex: 1;}
     ul.main_menu > li.nav-services > ul > li:first-child > ul > li:first-child{margin: 0; flex: 1;}
     ul.main_menu > li.nav-services > ul > li:first-child > ul > li:first-child > a{font-size: 1.5rem; line-height: 1.875rem; font-weight: 600;}
@@ -84,6 +84,9 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li:last-child{margin-bottom: 0;}
     ul.main_menu > li.nav-services > ul > li > ul > li:first-child > ul > li > a{font-weight: 600;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a{gap: 16px; align-items: center; display: flex; flex-wrap: nowrap; color: var(--Blue); font-family: var(--base-font); font-size: 1rem; font-weight: 400; line-height: 1.5rem; }
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:nth-child(2) > ul > li > a{font-weight: 600;}
+
+    ul.main_menu > li.nav-services > ul > li:not(:first-child) > ul > li:not(:first-child):nth-child(2) > ul > li > a img.menu-image{width: 24px; margin: 0; opacity: 1;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li.current-menu-item  > a, ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a:hover{color: var(--Orange);}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a figure,  ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a svg{width: 24px;}
     ul.main_menu > li.nav-services > ul > li > ul > li > ul > li > a img.menu-image{width: 24px; padding: 0;}
@@ -105,7 +108,7 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-industries > ul > li > a svg{width: 35px;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child){padding: 0 40px 29px; margin: 0;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul{margin: 0; padding: 0; gap: 24px 51px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; align-items: center; display: flex; flex-wrap: wrap; width: 100%; background-color: var(--White); border-radius: 0 0 16px 16px; box-shadow: none;}
-    ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li:nth-child(odd){flex: 0 0 210px;}
+    ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li:nth-child(even){flex: 0 0 210px;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li{flex: 0 0 calc(100% - 261px); margin: 0;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li > a img{width: 24px;}
     ul.main_menu > li.nav-industries > ul > li:not(:first-child) > ul > li > a span{flex: 1;}
