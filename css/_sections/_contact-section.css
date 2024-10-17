@@ -1,5 +1,4 @@
 
-
 .contact-text span.optional-text{margin-bottom: 32px;}
 .contact-text h1{margin-bottom: 32px; font-size: 2.5rem; line-height: 125%; font-weight: 600;}
 .contact-text hr{margin-bottom: 31px;}
@@ -13,6 +12,15 @@ ul.contact-links > li > a:hover{color: var(--Orange);}
 
 .contact-form{padding: 50px 48px 48px; border: 1px solid rgba(65, 180, 255, 0.25); background: var(--White);}
 .no_contact_form.flex{display: block;}
+.contact-text span p{color: var(--Blue); margin-bottom: 22px; font-weight: 700;}
+.contact-address {
+	gap: 8px;
+	align-items: flex-start;
+}
+.contact-address-icon {
+	max-width: 26px;
+}
+.contact-address-left{flex: 1;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

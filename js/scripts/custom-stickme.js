@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-  const $altStickme = $('.alt-stickme');
+  const $altStickme = $('.alt-stickme123');
   $altStickme.each(function (index) {
     const $selfStick = $(this);
     if ($selfStick) {
