@@ -3958,7 +3958,7 @@ $.magnificPopup.registerModule(RETINA_NS, {
 
         $(document).bind('mousedown.selectBox', function (event) {
             if (1 === event.which) {
-                if ($(event.target).parents().andSelf().hasClass('selectBox-options')) {
+                if ($(event.target).parents().addBack().hasClass('selectBox-options')) {
                     return;
                 }
                 self.hideMenus();
@@ -6066,6 +6066,14 @@ $cwindow.trigger("scroll load");
 
 
 jQuery(document).ready(function($){
+    console.log("111111111111111111111")
+    const spiframe = $(".social-proof-iframe");
+    console.log(spiframe, "tet123")
+    if(spiframe){
+        spiframe.youtube_background({
+            lazyloading: false,
+        });
+    }
     const iframe = $(".home-banner-iframe");
     if(iframe){
         iframe.youtube_background({
