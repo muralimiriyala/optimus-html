@@ -132,10 +132,10 @@ li.hide-li-text > a{display: none !important;}
     ul.main_menu > li.nav-insights > ul > li > a span.menu-image-title-after{padding: 0;}
     ul.main_menu > li.nav-insights > ul > li > a svg{width: 35px;}
     ul.main_menu > li.nav-insights > ul > li > ul{margin: 0; padding: 0; gap: 56px; left: 0; top: auto; position: static; opacity: 1; visibility: visible; width: 100%; height: 100%;}
-    ul.main_menu > li.nav-insights > ul > li > ul > li{margin: 0; flex: 1;}
-    ul.main_menu > li.nav-insights > ul > li > ul > li:nth-child(odd){flex: 0 0 200px;}
+    ul.main_menu > li.nav-insights > ul > li > ul > li{margin: 0; flex: 0 0 auto;}
+    ul.main_menu > li.nav-insights > ul > li > ul > li:nth-child(odd){flex: 0 0 215px;}
     ul.main_menu > li.nav-insights > ul > li:not(:first-child){flex: 1; margin: 0; padding: 40px 40px 40px 56px;}
-    ul.main_menu > li.nav-insights > ul > li:not(:first-child) > ul{padding-top: 31px; gap: 32px; display: flex; flex-wrap: wrap;}
+    ul.main_menu > li.nav-insights > ul > li:not(:first-child) > ul{padding-top: 31px; gap: 0 32px; display: flex; flex-wrap: wrap;}
     ul.main_menu > li.nav-insights > ul > li > ul > li.button{padding: 12px 16px; margin-top: 16px;}
     ul.main_menu > li.nav-insights > ul > li > ul > li.button > a,
     ul.main_menu > li.nav-insights > ul > li > ul > li.button.current-menu-item > a{color: var(--White);}
